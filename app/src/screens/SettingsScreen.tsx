@@ -129,7 +129,7 @@ export function SettingsScreen() {
         <p className="set-explain">
           Off by default. Turn this on only if your care team gave you a daily carb number to stay
           near, which is common with gestational diabetes. If you count carbs to match insulin, leave
-          it off; the day still adds up on Home and in the Log.
+          it off; the Log still totals each day either way.
         </p>
       </section>
 

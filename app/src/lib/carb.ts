@@ -50,6 +50,10 @@ export function localDate(d = new Date()): string {
   return `${y}-${m}-${day}`;
 }
 
+export function friendlyTime(iso: string): string {
+  return new Date(iso).toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" });
+}
+
 export function friendlyDate(iso: string): string {
   const [y, m, d] = iso.split("-").map(Number);
   const date = new Date(y, m - 1, d);

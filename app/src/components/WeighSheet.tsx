@@ -26,10 +26,15 @@ export function WeighSheet({
   hit,
   onClose,
   onAdd,
+  editEntry,
+  onSave,
 }: {
   hit: SearchHit | null;
   onClose: () => void;
   onAdd: (entry: LogEntry) => void;
+  /** when set, the sheet is editing an existing log entry, not adding one */
+  editEntry?: LogEntry | null;
+  onSave?: (entry: LogEntry) => void;
 }) {
   const settings = useSettings();
   const basis = settings.basis;
@@ -49,9 +54,14 @@ export function WeighSheet({
     setMode("weigh");
     setQty(1);
     const s = hit.food.serving?.grams;
-    // open on whichever entry the person used last; grams by default
-    setUnit(s && settings.portionEntry === "serving" ? "serving" : "grams");
-    setGrams(String(s ?? 100));
+    if (editEntry?.grams != null) {
+      setUnit("grams");
+      setGrams(String(editEntry.grams));
+    } else {
+      // open on whichever entry the person used last; grams by default
+      setUnit(s && settings.portionEntry === "serving" ? "serving" : "grams");
+      setGrams(String(s ?? 100));
+    }
     // deps intentionally limited to `hit`: changing the remembered
     // preference should not re-open the sheet's entry state
   }, [hit]);
@@ -100,14 +110,18 @@ export function WeighSheet({
 
   function handleAdd() {
     if (!hit) return;
-    const date = localDate();
+    const date = editEntry?.date ?? localDate();
+    const id = editEntry?.id ?? uid();
+    const timestamp = editEntry?.timestamp ?? new Date().toISOString();
+    const mealId = editEntry?.mealId;
     const loggedBasis = netFellBackToTotal ? "total" : basis;
     let entry: LogEntry;
     if (hit.kind === "restaurant") {
       entry = {
-        id: uid(),
-        timestamp: new Date().toISOString(),
+        id,
+        timestamp,
         date,
+        mealId,
         kind: "restaurant",
         refId: hit.item.id,
         name: hit.item.name,
@@ -120,9 +134,10 @@ export function WeighSheet({
       const f = hit.food;
       const solving = mode === "solve";
       entry = {
-        id: uid(),
-        timestamp: new Date().toISOString(),
+        id,
+        timestamp,
         date,
+        mealId,
         kind: hit.kind,
         refId: f.id,
         name: f.name,
@@ -133,7 +148,8 @@ export function WeighSheet({
         source: hit.kind === "custom" ? { type: "user-estimate" } : (f as Food).source,
       };
     }
-    onAdd(entry);
+    if (editEntry && onSave) onSave(entry);
+    else onAdd(entry);
   }
 
   return (
@@ -302,7 +318,7 @@ export function WeighSheet({
           <p className="set-explain">No fiber value for this one yet, so this is total carbs.</p>
         )}
 
-        {mode !== "solve" && meal.entries.length > 0 && (
+        {mode !== "solve" && !editEntry && meal.entries.length > 0 && (
           <p className="meal-running">
             Meal so far {meal.total} g <span aria-hidden="true">→</span>{" "}
             <b>{meal.total + resultCarbs} g</b> with this
@@ -310,11 +326,11 @@ export function WeighSheet({
         )}
 
         <button className="btn-primary" onClick={handleAdd}>
-          <Plus />
-          {meal.entries.length > 0 ? "Add to meal" : "Add"}
+          {!editEntry && <Plus />}
+          {editEntry ? "Save changes" : meal.entries.length > 0 ? "Add to meal" : "Add"}
         </button>
         <button className="btn-ghost" onClick={onClose}>
-          Close
+          {editEntry ? "Cancel" : "Close"}
         </button>
       </div>
     </>

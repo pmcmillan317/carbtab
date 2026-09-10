@@ -15,8 +15,13 @@ const DEFAULT_SETTINGS: Settings = {
  *  resets when the gap between adds is longer than this. */
 const MEAL_GAP_MS = 3 * 60 * 60 * 1000;
 interface Meal {
+  id: string;
   ids: string[];
   touchedAt: string;
+}
+
+function uid() {
+  return Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
 }
 
 interface State {
@@ -26,7 +31,7 @@ interface State {
   meal: Meal;
 }
 
-const emptyMeal = (): Meal => ({ ids: [], touchedAt: new Date(0).toISOString() });
+const emptyMeal = (): Meal => ({ id: uid(), ids: [], touchedAt: new Date(0).toISOString() });
 
 let state: State = {
   settings: { ...DEFAULT_SETTINGS, ...readJSON<Partial<Settings>>(KEYS.settings, {}) },
@@ -53,7 +58,7 @@ if (typeof window !== "undefined") {
       settings: { ...DEFAULT_SETTINGS, ...readJSON<Partial<Settings>>(KEYS.settings, {}) },
       log: readJSON<LogEntry[]>(KEYS.log, []),
       customFoods: readJSON<CustomFood[]>(KEYS.customFoods, []),
-      meal: readJSON<Meal>(KEYS.meal, emptyMeal()),
+      meal: { ...emptyMeal(), ...readJSON<Partial<Meal>>(KEYS.meal, {}) },
     };
     pruneMeal();
     emit();
@@ -84,18 +89,29 @@ export function updateSettings(patch: Partial<Settings>) {
 
 export function addLogEntry(entry: LogEntry) {
   const now = Date.now();
-  const cont = now - Date.parse(state.meal.touchedAt) <= MEAL_GAP_MS;
+  const cont = state.meal.ids.length > 0 && now - Date.parse(state.meal.touchedAt) <= MEAL_GAP_MS;
+  const mealId = cont ? state.meal.id : uid();
+  const stamped: LogEntry = { ...entry, mealId };
   const meal: Meal = {
-    ids: [...(cont ? state.meal.ids : []), entry.id],
+    id: mealId,
+    ids: [...(cont ? state.meal.ids : []), stamped.id],
     touchedAt: new Date(now).toISOString(),
   };
-  state = { ...state, log: [entry, ...state.log], meal };
+  state = { ...state, log: [stamped, ...state.log], meal };
   writeJSON(KEYS.log, state.log);
   writeMeal();
   // remember for quick-add
   const recent = readJSON<string[]>(KEYS.recent, []);
   const next = [entry.name, ...recent.filter((n) => n !== entry.name)].slice(0, 8);
   writeJSON(KEYS.recent, next);
+  emit();
+}
+
+/** Swap an existing entry in place (used by the Log's edit flow). Does not touch
+ *  the current meal or the recents list. */
+export function replaceLogEntry(entry: LogEntry) {
+  state = { ...state, log: state.log.map((e) => (e.id === entry.id ? entry : e)) };
+  writeJSON(KEYS.log, state.log);
   emit();
 }
 

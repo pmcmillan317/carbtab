@@ -87,6 +87,7 @@ export interface LogEntry {
   date: string; // YYYY-MM-DD (local)
   kind: "food" | "restaurant" | "custom" | "quick";
   refId?: string;
+  mealId?: string; // items added together share one; used to group the Log
   name: string;
   detail: string; // "150 g", "McDonald's · 1 serving (117 g)"
   grams?: number;
