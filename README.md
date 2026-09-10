@@ -27,8 +27,9 @@ npm run dev
 
 ## Publish it
 
-See **[DEPLOY.md](DEPLOY.md)**. Short version: `cd app && npm run build`, then
-upload the contents of `app/dist/` to any static host.
+One-time setup on Cloudflare Pages: **[docs/HOSTING.md](docs/HOSTING.md)**.
+Manual upload to any static host instead: **[DEPLOY.md](DEPLOY.md)** (`cd app &&
+npm run build`, upload the contents of `app/dist/`).
 
 ## Rebuild the bundled data
 
