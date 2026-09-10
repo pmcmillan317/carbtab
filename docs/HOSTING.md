@@ -26,22 +26,28 @@ git push -u origin main
 personal-access-token. If it's fussy, install GitHub Desktop, "Add existing
 repository", and push from there.)
 
-## 3. Connect Cloudflare Pages
+## 3. Connect Cloudflare
 
 1. https://dash.cloudflare.com/ - sign up if needed (free, no card).
-2. **Workers & Pages** -> **Create** -> **Pages** tab -> **Connect to Git**.
-3. Authorize GitHub, pick the `carbtab` repo.
-4. Build settings:
+2. **Workers & Pages** -> **Create** -> connect to Git, pick the `carbtab` repo.
+3. Cloudflare's current flow deploys via `wrangler`. The repo carries the config
+   for that (`wrangler.jsonc` + root `package.json`), so the dashboard settings
+   are just:
 
    | Field | Value |
    |---|---|
-   | Framework preset | None (or "Vite") |
+   | Root directory | `/`  (repo root - leave blank / do not set to `app`) |
    | Build command | `npm run build` |
-   | Build output directory | `dist` |
-   | Root directory (advanced) | `app` |
+   | Deploy command | `npx wrangler deploy` |
 
-5. **Save and Deploy.** First build takes ~1-2 minutes. You get a URL like
-   `carbtab.pages.dev`.
+   There is **no "Build output directory" field** in this flow - `wrangler.jsonc`
+   points at `./app/dist` itself. Ignore that field if you're looking for it.
+
+4. **Save and Deploy** (or **Retry build** if the project already exists). First
+   build takes ~1-2 minutes. You get a URL like `carbtab.<your-subdomain>.workers.dev`.
+
+`wrangler.jsonc` also sets `not_found_handling: "single-page-application"` so deep
+links / refreshes on `/foods` etc. serve the app instead of 404ing.
 
 That's it. From now on: make changes, `git push`, and the site rebuilds.
 
