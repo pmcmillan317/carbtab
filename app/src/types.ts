@@ -20,6 +20,7 @@ export interface Source {
   type: SourceType;
   url?: string;
   fdcId?: number;
+  gtinUpc?: string; // barcode, on branded/label items
   note?: string;
   retrievedAt?: string; // ISO date
 }

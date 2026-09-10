@@ -1,0 +1,71 @@
+{
+  "app": "CarbTab",
+  "version": 1,
+  "exportedAt": "2026-09-10T10:44:31.023Z",
+  "settings": {
+    "basis": "total",
+    "theme": "light",
+    "portionEntry": "grams",
+    "disclaimerAcceptedAt": "2026-09-10T03:42:04.969Z"
+  },
+  "log": [
+    {
+      "id": "mtvegmoh5ktzs",
+      "timestamp": "2026-09-10T10:43:59.825Z",
+      "date": "2026-09-10",
+      "kind": "quick",
+      "name": "Quick carb entry",
+      "detail": "15 g",
+      "grams": 15,
+      "carbs": 10,
+      "basis": "total",
+      "source": {
+        "type": "user-estimate"
+      }
+    },
+    {
+      "id": "mtveejdqdxm3n",
+      "timestamp": "2026-09-10T10:42:22.238Z",
+      "date": "2026-09-10",
+      "kind": "quick",
+      "name": "Test Protein Shake",
+      "detail": "⅓ serving (11 g)",
+      "grams": 11,
+      "carbs": 8,
+      "basis": "total",
+      "source": {
+        "type": "user-estimate"
+      }
+    },
+    {
+      "id": "mtuze4lfn1pc2",
+      "timestamp": "2026-09-10T03:42:08.835Z",
+      "date": "2026-09-09",
+      "kind": "food",
+      "refId": "white-bread-slice",
+      "name": "White Bread Slice",
+      "detail": "25 g",
+      "grams": 25,
+      "carbs": 12,
+      "basis": "total",
+      "source": {
+        "type": "USDA",
+        "fdcId": 174924,
+        "note": "USDA FoodData Central 174924 (Bread, white, commercially prepared (includes soft bread crumbs)), verified 2026-09-09.",
+        "retrievedAt": "2026-09-09"
+      }
+    }
+  ],
+  "customFoods": [
+    {
+      "id": "mtveejdpcfeef",
+      "name": "Test Protein Shake",
+      "carbFactorTotal": 0.75,
+      "serving": {
+        "label": "1 scoop",
+        "grams": 32
+      },
+      "createdAt": "2026-09-10T10:42:22.237Z"
+    }
+  ]
+}

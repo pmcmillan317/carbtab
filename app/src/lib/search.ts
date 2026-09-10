@@ -24,13 +24,18 @@ function scoreName(haystack: string, needle: string): number {
 
 export interface GroupedResults {
   custom: SearchHit[];
-  restaurant: SearchHit[];
   food: SearchHit[];
+  branded: SearchHit[];
+  restaurant: SearchHit[];
 }
 
-export function searchAll(query: string, customFoods: CustomFood[]): GroupedResults {
+export function searchAll(
+  query: string,
+  customFoods: CustomFood[],
+  branded: Food[] = [],
+): GroupedResults {
   const q = norm(query);
-  if (q.length < 1) return { custom: [], restaurant: [], food: [] };
+  if (q.length < 1) return { custom: [], food: [], branded: [], restaurant: [] };
 
   const custom: { hit: SearchHit; s: number }[] = [];
   for (const c of customFoods) {
@@ -56,13 +61,20 @@ export function searchAll(query: string, customFoods: CustomFood[]): GroupedResu
     if (s > 0) food.push({ hit: { kind: "food", food: f }, s });
   }
 
+  const brandedHits: { hit: SearchHit; s: number }[] = [];
+  for (const f of branded) {
+    const s = scoreName(f.name, q);
+    if (s > 0) brandedHits.push({ hit: { kind: "food", food: f }, s });
+  }
+
   const sort = (arr: { hit: SearchHit; s: number }[]) =>
     arr.sort((a, b) => b.s - a.s || 0).map((x) => x.hit);
 
   return {
     custom: sort(custom).slice(0, 8),
+    food: sort(food).slice(0, 24),
+    branded: sort(brandedHits).slice(0, 16),
     restaurant: sort(restaurant).slice(0, 20),
-    food: sort(food).slice(0, 30),
   };
 }
 

@@ -3,6 +3,7 @@ import { useLocation } from "wouter";
 import type { LogEntry, SearchHit } from "../types";
 import { addLogEntry, getRecentNames, useCustomFoods, useSettings } from "../lib/store";
 import { searchAll, FOODS, RESTAURANTS } from "../lib/search";
+import { useBranded } from "../lib/branded";
 import { useToast } from "../components/Toast";
 import { FoodRow } from "../components/FoodRow";
 import { WeighSheet } from "../components/WeighSheet";
@@ -16,14 +17,16 @@ export function Home() {
   const [, navigate] = useLocation();
   const settings = useSettings();
   const customFoods = useCustomFoods();
+  const branded = useBranded();
   const toast = useToast();
   const [q, setQ] = useState("");
   const [picked, setPicked] = useState<SearchHit | null>(null);
   const [showAdd, setShowAdd] = useState(false);
 
-  const results = useMemo(() => searchAll(q, customFoods), [q, customFoods]);
-  const hasResults =
-    results.custom.length + results.restaurant.length + results.food.length > 0;
+  const results = useMemo(() => searchAll(q, customFoods, branded), [q, customFoods, branded]);
+  const total =
+    results.custom.length + results.food.length + results.branded.length + results.restaurant.length;
+  const hasResults = total > 0;
 
   const quick = useMemo<SearchHit[]>(() => {
     const names = [...getRecentNames(), ...STAPLES];
@@ -92,9 +95,7 @@ export function Home() {
       {hasResults ? (
         <section className="sec">
           <div className="sechead">
-            <span className="eyebrow">
-              {results.custom.length + results.restaurant.length + results.food.length} matches
-            </span>
+            <span className="eyebrow">{total} matches</span>
             <button className="link" onClick={() => setQ("")}>
               Clear
             </button>
@@ -106,6 +107,10 @@ export function Home() {
             ))}
             {results.food.length > 0 && <div className="group-label">Whole foods</div>}
             {results.food.map((h) => (
+              <FoodRow key={(h as any).food.id} hit={h} basis={settings.basis} onPick={setPicked} />
+            ))}
+            {results.branded.length > 0 && <div className="group-label">Packaged foods</div>}
+            {results.branded.map((h) => (
               <FoodRow key={(h as any).food.id} hit={h} basis={settings.basis} onPick={setPicked} />
             ))}
             {results.restaurant.length > 0 && <div className="group-label">Restaurants</div>}

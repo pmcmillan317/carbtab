@@ -11,7 +11,7 @@ CarbPal / CarbWise) are not in here - the old GramWise source was moved to
 
 | Folder | What it is |
 |---|---|
-| `app/` | The actual PWA (React 19 + Vite 6 + TypeScript). `app/src/` is source; `app/dist/` is the built site. |
+| `app/` | The actual PWA (React 19 + Vite 6 + TypeScript). `app/src/` is source; `app/dist/` is the built site. `app/public/branded.json` is the packaged-foods dataset, loaded on demand. |
 | `pipeline/` | Zero-dependency Node scripts that build the bundled food and restaurant data. Not shipped. |
 | `docs/` | `BUILD_SPEC.md`, `OPEN_QUESTIONS.md`. |
 | `design/` | Naming study and design-review HTML artifacts. |
@@ -35,11 +35,13 @@ npm run build`, upload the contents of `app/dist/`).
 
 ```
 cd pipeline
-# foods.json
+# foods.json  (whole foods)
 node convert_seed_foods.mjs && node merge_legacy_foods.mjs && node fiber_pass.mjs
 node usda_verify.mjs && node usda_apply.mjs      # check values against USDA FoodData Central
 # restaurants.json
 node nx_extract.mjs && node build_restaurants.mjs
+# branded.json  (~2,800 packaged foods, served as an asset from app/public/)
+node branded_pull.mjs
 ```
 
 `usda_verify.mjs` needs a free FoodData Central key in `pipeline/.usda-key.local`
