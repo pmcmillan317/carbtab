@@ -1,6 +1,6 @@
 import { useSyncExternalStore } from "react";
 import type { CustomFood, LogEntry, Settings } from "../types";
-import { KEYS, readJSON, writeJSON } from "./storage";
+import { KEYS, readJSON, writeJSON, removeKey } from "./storage";
 
 // ---- module state (single source of truth, mirrored to localStorage) ----
 
@@ -10,17 +10,31 @@ const DEFAULT_SETTINGS: Settings = {
   portionEntry: "grams",
 };
 
+/** The group of items being added together right now, so the weigh sheet / Home
+ *  can show a running subtotal for one meal. Just references into `log`. Auto
+ *  resets when the gap between adds is longer than this. */
+const MEAL_GAP_MS = 3 * 60 * 60 * 1000;
+interface Meal {
+  ids: string[];
+  touchedAt: string;
+}
+
 interface State {
   settings: Settings;
   log: LogEntry[];
   customFoods: CustomFood[];
+  meal: Meal;
 }
+
+const emptyMeal = (): Meal => ({ ids: [], touchedAt: new Date(0).toISOString() });
 
 let state: State = {
   settings: { ...DEFAULT_SETTINGS, ...readJSON<Partial<Settings>>(KEYS.settings, {}) },
   log: readJSON<LogEntry[]>(KEYS.log, []),
   customFoods: readJSON<CustomFood[]>(KEYS.customFoods, []),
+  meal: readJSON<Meal>(KEYS.meal, emptyMeal()),
 };
+pruneMeal();
 
 const listeners = new Set<() => void>();
 function emit() {
@@ -39,9 +53,25 @@ if (typeof window !== "undefined") {
       settings: { ...DEFAULT_SETTINGS, ...readJSON<Partial<Settings>>(KEYS.settings, {}) },
       log: readJSON<LogEntry[]>(KEYS.log, []),
       customFoods: readJSON<CustomFood[]>(KEYS.customFoods, []),
+      meal: readJSON<Meal>(KEYS.meal, emptyMeal()),
     };
+    pruneMeal();
     emit();
   });
+}
+
+// drop meal ids whose log entry is gone, and expire a stale meal
+function pruneMeal() {
+  const have = new Set(state.log.map((e) => e.id));
+  const ids = state.meal.ids.filter((id) => have.has(id));
+  const stale = Date.now() - Date.parse(state.meal.touchedAt) > MEAL_GAP_MS;
+  const meal = stale || ids.length === 0 ? emptyMeal() : { ...state.meal, ids };
+  if (meal !== state.meal) state.meal = meal;
+}
+
+function writeMeal() {
+  if (state.meal.ids.length) writeJSON(KEYS.meal, state.meal);
+  else removeKey(KEYS.meal);
 }
 
 // ---- mutations ----
@@ -53,8 +83,15 @@ export function updateSettings(patch: Partial<Settings>) {
 }
 
 export function addLogEntry(entry: LogEntry) {
-  state = { ...state, log: [entry, ...state.log] };
+  const now = Date.now();
+  const cont = now - Date.parse(state.meal.touchedAt) <= MEAL_GAP_MS;
+  const meal: Meal = {
+    ids: [...(cont ? state.meal.ids : []), entry.id],
+    touchedAt: new Date(now).toISOString(),
+  };
+  state = { ...state, log: [entry, ...state.log], meal };
   writeJSON(KEYS.log, state.log);
+  writeMeal();
   // remember for quick-add
   const recent = readJSON<string[]>(KEYS.recent, []);
   const next = [entry.name, ...recent.filter((n) => n !== entry.name)].slice(0, 8);
@@ -63,14 +100,28 @@ export function addLogEntry(entry: LogEntry) {
 }
 
 export function removeLogEntry(id: string) {
-  state = { ...state, log: state.log.filter((e) => e.id !== id) };
+  state = {
+    ...state,
+    log: state.log.filter((e) => e.id !== id),
+    meal: { ...state.meal, ids: state.meal.ids.filter((m) => m !== id) },
+  };
   writeJSON(KEYS.log, state.log);
+  writeMeal();
   emit();
 }
 
 export function clearLogForDate(date: string) {
   state = { ...state, log: state.log.filter((e) => e.date !== date) };
+  pruneMeal();
   writeJSON(KEYS.log, state.log);
+  writeMeal();
+  emit();
+}
+
+/** "Done" on the meal tray — keeps the logged items, just stops grouping them. */
+export function endMeal() {
+  state = { ...state, meal: emptyMeal() };
+  removeKey(KEYS.meal);
   emit();
 }
 
@@ -95,7 +146,9 @@ export function importData(data: { settings?: Settings; log?: LogEntry[]; custom
     settings: { ...DEFAULT_SETTINGS, ...(data.settings || {}) },
     log: Array.isArray(data.log) ? data.log : state.log,
     customFoods: Array.isArray(data.customFoods) ? data.customFoods : state.customFoods,
+    meal: emptyMeal(),
   };
+  removeKey(KEYS.meal);
   writeJSON(KEYS.settings, state.settings);
   writeJSON(KEYS.log, state.log);
   writeJSON(KEYS.customFoods, state.customFoods);
@@ -123,4 +176,16 @@ export function useLog(): LogEntry[] {
 }
 export function useCustomFoods(): CustomFood[] {
   return useSyncExternalStore(subscribe, () => state.customFoods);
+}
+
+/** The items added together in the current meal, in the order added, with the total. */
+export function useMeal(): { entries: LogEntry[]; total: number } {
+  const meal = useSyncExternalStore(subscribe, () => state.meal);
+  const log = useSyncExternalStore(subscribe, () => state.log);
+  const byId = new Map(log.map((e) => [e.id, e]));
+  const entries = meal.ids
+    .map((id) => byId.get(id))
+    .filter((e): e is LogEntry => !!e);
+  const total = entries.reduce((t, e) => t + e.carbs, 0);
+  return { entries, total };
 }

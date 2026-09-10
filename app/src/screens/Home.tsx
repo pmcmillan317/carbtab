@@ -7,6 +7,7 @@ import { useToast } from "../components/Toast";
 import { FoodRow } from "../components/FoodRow";
 import { WeighSheet } from "../components/WeighSheet";
 import { AddFoodModal } from "../components/AddFoodModal";
+import { MealTray } from "../components/MealTray";
 import { Plus, Search, Utensils, X } from "../components/icons";
 
 const STAPLES = ["Banana", "White Rice, cooked", "White Bread Slice", "Oatmeal, cooked"];
@@ -53,6 +54,8 @@ export function Home() {
 
   return (
     <div className="screen">
+      <MealTray compact={!!q} />
+
       <div className="quicknav">
         <button onClick={() => navigate("/foods?tab=restaurants")}>
           <Utensils />

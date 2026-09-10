@@ -51,4 +51,5 @@ export const KEYS = {
   log: "log",
   customFoods: "customFoods",
   recent: "recent",
+  meal: "meal",
 } as const;

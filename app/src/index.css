@@ -181,6 +181,53 @@ img { max-width: 100%; }
 .today-sub b { color: var(--brand); font-weight: 700; }
 .today-sub.over b { color: var(--caution); }
 
+/* ---------- meal tray (running subtotal while adding a meal) ---------- */
+.mealtray {
+  margin-top: 10px;
+  background: var(--brand-wash);
+  border: 1px solid var(--brand-bright);
+  border-radius: var(--radius);
+  padding: 12px 14px 14px;
+}
+.mealtray-head { display: flex; align-items: center; justify-content: space-between; }
+.mealtray-compact {
+  display: flex; align-items: center; gap: 12px;
+  padding: 9px 14px;
+}
+.mealtray-compact .eyebrow { flex: 1; }
+.mealtray-compact strong {
+  font-family: var(--font-display); font-weight: 700; font-size: 20px;
+  letter-spacing: -0.02em; color: var(--ink); font-variant-numeric: tabular-nums;
+}
+.mealtray-compact .u { font-size: 12px; font-weight: 600; color: var(--ink-muted); font-family: var(--font-sans); }
+.mealtray-list {
+  list-style: none; margin: 6px 0 0; padding: 0;
+  max-height: 216px; overflow-y: auto;
+}
+.mealtray-list li {
+  display: flex; align-items: center; gap: 8px;
+  padding: 5px 0; font-size: 14.5px;
+}
+.mealtray-x {
+  flex: none; width: 26px; height: 26px; border-radius: 7px;
+  display: grid; place-items: center; color: var(--ink-muted);
+  background: var(--surface); border: 1px solid var(--line);
+}
+.mealtray-x svg { width: 13px; height: 13px; }
+.mealtray-name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.mealtray-g { font-variant-numeric: tabular-nums; color: var(--ink-muted); font-weight: 600; }
+.mealtray-total {
+  display: flex; align-items: baseline; justify-content: space-between;
+  margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--brand-bright);
+  font-size: 13.5px; color: var(--ink-muted);
+}
+.mealtray-total strong {
+  font-family: var(--font-display); font-weight: 700; font-size: 28px;
+  line-height: 1; letter-spacing: -0.02em; color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+.mealtray-total .u { font-size: 14px; font-weight: 600; color: var(--ink-muted); font-family: var(--font-sans); }
+
 .bar {
   margin-top: 14px; height: 10px; border-radius: 999px;
   background: var(--surface-2); overflow: hidden;
