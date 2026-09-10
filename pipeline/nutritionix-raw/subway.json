@@ -1,0 +1,1725 @@
+{
+ "chain": "Subway",
+ "slug": "subway",
+ "source": "https://www.nutritionix.com/subway/menu/premium",
+ "platform": "nutritionix",
+ "updated": "03/22/2025",
+ "pulledAt": "2026-09-10",
+ "type": "grid",
+ "columns": {
+  "cal": 1,
+  "carb": 8,
+  "fiber": 9
+ },
+ "count": 244,
+ "items": [
+  {
+   "cat": "Subway Series Sandwiches",
+   "name": "6\" #1 The Philly",
+   "carb": 43,
+   "fiber": 2,
+   "cal": 510
+  },
+  {
+   "cat": "Subway Series Sandwiches",
+   "name": "6\" #2 The Outlaw",
+   "carb": 44,
+   "fiber": 2,
+   "cal": 490
+  },
+  {
+   "cat": "Subway Series Sandwiches",
+   "name": "6\" #6 The Boss",
+   "carb": 56,
+   "fiber": 4,
+   "cal": 690
+  },
+  {
+   "cat": "Subway Series Sandwiches",
+   "name": "6\" #10 All-American Club",
+   "carb": 45,
+   "fiber": 3,
+   "cal": 540
+  },
+  {
+   "cat": "Subway Series Sandwiches",
+   "name": "6\" #11 Subway Club",
+   "carb": 43,
+   "fiber": 4,
+   "cal": 500
+  },
+  {
+   "cat": "Subway Series Sandwiches",
+   "name": "6\" #15 Titan Turkey",
+   "carb": 42,
+   "fiber": 3,
+   "cal": 500
+  },
+  {
+   "cat": "Subway Series Sandwiches",
+   "name": "6\" #16 All-Pro Sweet Onion Teriyaki",
+   "carb": 56,
+   "fiber": 4,
+   "cal": 430
+  },
+  {
+   "cat": "Subway Series Sandwiches",
+   "name": "6\" #17 Garlic Roast Beef",
+   "carb": 45,
+   "fiber": 2,
+   "cal": 490
+  },
+  {
+   "cat": "Subway Series Sandwiches",
+   "name": "6\" #18 Ultimate B.M.T.",
+   "carb": 45,
+   "fiber": 3,
+   "cal": 560
+  },
+  {
+   "cat": "Subway Series Sandwiches",
+   "name": "6\" #20 Elite Chicken & Bacon Ranch",
+   "carb": 44,
+   "fiber": 3,
+   "cal": 580
+  },
+  {
+   "cat": "Subway Series Sandwiches",
+   "name": "6\" #21 Honey Mustard BBQ Chicken",
+   "carb": 53,
+   "fiber": 3,
+   "cal": 510
+  },
+  {
+   "cat": "Subway Series Sandwiches",
+   "name": "6\" #22 Spicy Nacho Chicken on Ghost Pepper Bread",
+   "carb": 51,
+   "fiber": 3,
+   "cal": 480
+  },
+  {
+   "cat": "Subway Series Sandwiches",
+   "name": "6\" #22 Spicy Nacho Chicken on Italian Bread",
+   "carb": 49,
+   "fiber": 3,
+   "cal": 440
+  },
+  {
+   "cat": "Subway Series Sandwiches",
+   "name": "6\" #23 Hotshot Italiano",
+   "carb": 45,
+   "fiber": 3,
+   "cal": 630
+  },
+  {
+   "cat": "Subway Series Sandwiches",
+   "name": "6\" #24 Firey Meatball on Ghost Pepper Bread",
+   "carb": 57,
+   "fiber": 5,
+   "cal": 670
+  },
+  {
+   "cat": "Subway Series Sandwiches",
+   "name": "6\" #30 The Beast",
+   "carb": 47,
+   "fiber": 3,
+   "cal": 740
+  },
+  {
+   "cat": "Subway Series Sandwiches",
+   "name": "6\" #31 Cheesy Garlic Steak",
+   "carb": 49,
+   "fiber": 3,
+   "cal": 510
+  },
+  {
+   "cat": "Subway Series Sandwiches",
+   "name": "6\" #34 Spicy Nacho Steak on Ghost Pepper Bread",
+   "carb": 52,
+   "fiber": 3,
+   "cal": 500
+  },
+  {
+   "cat": "Subway Series Sandwiches",
+   "name": "6\" #42 Homestyle Chicken Salad",
+   "carb": 42,
+   "fiber": 3,
+   "cal": 410
+  },
+  {
+   "cat": "Subway Series Sandwiches",
+   "name": "6\" #99 Homerun Ham",
+   "carb": 45,
+   "fiber": 2,
+   "cal": 510
+  },
+  {
+   "cat": "6\" Sandwiches",
+   "name": "6\" B.L.T.",
+   "carb": 42,
+   "fiber": 2,
+   "cal": 370
+  },
+  {
+   "cat": "6\" Sandwiches",
+   "name": "6\" Baja Chipotle Chicken",
+   "carb": 50,
+   "fiber": 3,
+   "cal": 490
+  },
+  {
+   "cat": "6\" Sandwiches",
+   "name": "6\" Baja Chipotle Turkey",
+   "carb": 49,
+   "fiber": 3,
+   "cal": 510
+  },
+  {
+   "cat": "6\" Sandwiches",
+   "name": "6\" Big Hot Pastrami",
+   "carb": 43,
+   "fiber": 2,
+   "cal": 510
+  },
+  {
+   "cat": "6\" Sandwiches",
+   "name": "6\" Black Forest Ham",
+   "carb": 42,
+   "fiber": 4,
+   "cal": 280
+  },
+  {
+   "cat": "6\" Sandwiches",
+   "name": "6\" Buffalo Chicken with Grilled Chicken",
+   "carb": 44,
+   "fiber": 3,
+   "cal": 390
+  },
+  {
+   "cat": "6\" Sandwiches",
+   "name": "6\" Cold Cut Combo",
+   "carb": 43,
+   "fiber": 3,
+   "cal": 330
+  },
+  {
+   "cat": "6\" Sandwiches",
+   "name": "6\" Grilled Chicken",
+   "carb": 40,
+   "fiber": 4,
+   "cal": 300
+  },
+  {
+   "cat": "6\" Sandwiches",
+   "name": "6\" Meatball Marinara",
+   "carb": 52,
+   "fiber": 4,
+   "cal": 460
+  },
+  {
+   "cat": "6\" Sandwiches",
+   "name": "6\" Oven Roasted Turkey",
+   "carb": 40,
+   "fiber": 4,
+   "cal": 270
+  },
+  {
+   "cat": "6\" Sandwiches",
+   "name": "6\" Oven Roasted Turkey and Ham",
+   "carb": 41,
+   "fiber": 4,
+   "cal": 280
+  },
+  {
+   "cat": "6\" Sandwiches",
+   "name": "6\" Pizza Sub",
+   "carb": 46,
+   "fiber": 3,
+   "cal": 470
+  },
+  {
+   "cat": "6\" Sandwiches",
+   "name": "6\" Roast Beef",
+   "carb": 42,
+   "fiber": 4,
+   "cal": 300
+  },
+  {
+   "cat": "6\" Sandwiches",
+   "name": "6\" Rotisserie-Style Chicken",
+   "carb": 40,
+   "fiber": 4,
+   "cal": 310
+  },
+  {
+   "cat": "6\" Sandwiches",
+   "name": "6\" Steak with American Cheese",
+   "carb": 42,
+   "fiber": 2,
+   "cal": 370
+  },
+  {
+   "cat": "6\" Sandwiches",
+   "name": "6\" Tuna",
+   "carb": 42,
+   "fiber": 3,
+   "cal": 480
+  },
+  {
+   "cat": "6\" Sandwiches",
+   "name": "6\" Veggie Delite",
+   "carb": 40,
+   "fiber": 4,
+   "cal": 220
+  },
+  {
+   "cat": "6\" Sandwiches",
+   "name": "6\" Veggie Patty",
+   "carb": 57,
+   "fiber": 12,
+   "cal": 390
+  },
+  {
+   "cat": "Kids' Mini Subs",
+   "name": "Kids Mini Black Forest Ham",
+   "carb": 28,
+   "fiber": 3,
+   "cal": 180
+  },
+  {
+   "cat": "Kids' Mini Subs",
+   "name": "Kids Mini Oven Roasted Turkey",
+   "carb": 27,
+   "fiber": 3,
+   "cal": 170
+  },
+  {
+   "cat": "Kids' Mini Subs",
+   "name": "Kids Mini Veggie Delite",
+   "carb": 27,
+   "fiber": 3,
+   "cal": 140
+  },
+  {
+   "cat": "Subway Series Wraps",
+   "name": "#1 The Philly Wrap",
+   "carb": 55,
+   "fiber": 3,
+   "cal": 700
+  },
+  {
+   "cat": "Subway Series Wraps",
+   "name": "#10 All-American Club Wrap",
+   "carb": 57,
+   "fiber": 3,
+   "cal": 760
+  },
+  {
+   "cat": "Subway Series Wraps",
+   "name": "#11 Subway Club Wrap",
+   "carb": 58,
+   "fiber": 3,
+   "cal": 690
+  },
+  {
+   "cat": "Subway Series Wraps",
+   "name": "#16 All-Pro Sweet Onion Chicken Wrap",
+   "carb": 76,
+   "fiber": 3,
+   "cal": 620
+  },
+  {
+   "cat": "Subway Series Wraps",
+   "name": "#18 The Ultimate B.M.T. Wrap",
+   "carb": 58,
+   "fiber": 3,
+   "cal": 820
+  },
+  {
+   "cat": "Subway Series Wraps",
+   "name": "#20 Elite Chicken & Bacon Ranch Wrap",
+   "carb": 56,
+   "fiber": 3,
+   "cal": 830
+  },
+  {
+   "cat": "Subway Series Wraps",
+   "name": "#21 Honey Mustard BBQ Chicken Wrap",
+   "carb": 63,
+   "fiber": 4,
+   "cal": 680
+  },
+  {
+   "cat": "Subway Series Wraps",
+   "name": "#22 Spicy Nacho Chicken Wrap",
+   "carb": 59,
+   "fiber": 3,
+   "cal": 610
+  },
+  {
+   "cat": "Subway Series Wraps",
+   "name": "#23 The Hotshot Italiano Wrap",
+   "carb": 57,
+   "fiber": 3,
+   "cal": 950
+  },
+  {
+   "cat": "Subway Series Wraps",
+   "name": "#31 Cheesy Garlic Steak Wrap",
+   "carb": 61,
+   "fiber": 3,
+   "cal": 700
+  },
+  {
+   "cat": "Subway Series Wraps",
+   "name": "#40 Turkey, Bacon & Sliced Avocado Wrap",
+   "carb": 58,
+   "fiber": 5,
+   "cal": 790
+  },
+  {
+   "cat": "Subway Series Wraps",
+   "name": "#40 Turkey, Bacon & Smashed Avocado Wrap",
+   "carb": 59,
+   "fiber": 6,
+   "cal": 820
+  },
+  {
+   "cat": "Subway Series Wraps",
+   "name": "#42 Homestyle Chicken Salad Wrap",
+   "carb": 53,
+   "fiber": 3,
+   "cal": 670
+  },
+  {
+   "cat": "Subway Series Wraps",
+   "name": "#45 Honey Mustard Chicken Wrap",
+   "carb": 57,
+   "fiber": 3,
+   "cal": 650
+  },
+  {
+   "cat": "Wraps",
+   "name": "B.L.T. Wrap",
+   "carb": 53,
+   "fiber": 3,
+   "cal": 610
+  },
+  {
+   "cat": "Wraps",
+   "name": "Big Hot Pastrami Wrap",
+   "carb": 55,
+   "fiber": 3,
+   "cal": 850
+  },
+  {
+   "cat": "Wraps",
+   "name": "Black Forest Ham Wrap",
+   "carb": 57,
+   "fiber": 3,
+   "cal": 430
+  },
+  {
+   "cat": "Wraps",
+   "name": "Buffalo Chicken Wrap with Grilled Chicken",
+   "carb": 55,
+   "fiber": 3,
+   "cal": 540
+  },
+  {
+   "cat": "Wraps",
+   "name": "Cold Cut Combo Wrap",
+   "carb": 54,
+   "fiber": 3,
+   "cal": 520
+  },
+  {
+   "cat": "Wraps",
+   "name": "Grilled Chicken Wrap",
+   "carb": 53,
+   "fiber": 3,
+   "cal": 460
+  },
+  {
+   "cat": "Wraps",
+   "name": "Meatball Marinara Wrap",
+   "carb": 75,
+   "fiber": 7,
+   "cal": 790
+  },
+  {
+   "cat": "Wraps",
+   "name": "Oven Roasted Turkey & Ham Wrap",
+   "carb": 55,
+   "fiber": 3,
+   "cal": 420
+  },
+  {
+   "cat": "Wraps",
+   "name": "Oven Roasted Turkey Wrap",
+   "carb": 53,
+   "fiber": 4,
+   "cal": 410
+  },
+  {
+   "cat": "Wraps",
+   "name": "Pizza Sub Wrap",
+   "carb": 58,
+   "fiber": 3,
+   "cal": 710
+  },
+  {
+   "cat": "Wraps",
+   "name": "Roast Beef Wrap",
+   "carb": 57,
+   "fiber": 3,
+   "cal": 470
+  },
+  {
+   "cat": "Wraps",
+   "name": "Rotisserie-Style Chicken Wrap",
+   "carb": 53,
+   "fiber": 4,
+   "cal": 490
+  },
+  {
+   "cat": "Wraps",
+   "name": "Steak Wrap with American Cheese",
+   "carb": 54,
+   "fiber": 3,
+   "cal": 560
+  },
+  {
+   "cat": "Wraps",
+   "name": "Tuna Wrap",
+   "carb": 52,
+   "fiber": 3,
+   "cal": 800
+  },
+  {
+   "cat": "Wraps",
+   "name": "Veggie Delite Wrap",
+   "carb": 56,
+   "fiber": 4,
+   "cal": 310
+  },
+  {
+   "cat": "Wraps",
+   "name": "Veggie Patty Wrap",
+   "carb": 86,
+   "fiber": 19,
+   "cal": 640
+  },
+  {
+   "cat": "Subway Series Salads",
+   "name": "#1 The Philly Salad",
+   "carb": 13,
+   "fiber": 4,
+   "cal": 450
+  },
+  {
+   "cat": "Subway Series Salads",
+   "name": "#10 All-American Club Salad",
+   "carb": 13,
+   "fiber": 4,
+   "cal": 480
+  },
+  {
+   "cat": "Subway Series Salads",
+   "name": "#11 Subway Club Salad",
+   "carb": 14,
+   "fiber": 4,
+   "cal": 240
+  },
+  {
+   "cat": "Subway Series Salads",
+   "name": "#15 Titan Turkey Salad",
+   "carb": 11,
+   "fiber": 4,
+   "cal": 430
+  },
+  {
+   "cat": "Subway Series Salads",
+   "name": "#16 All-Pro Sweet Onion Chicken Salad",
+   "carb": 33,
+   "fiber": 4,
+   "cal": 300
+  },
+  {
+   "cat": "Subway Series Salads",
+   "name": "#18 The Ultimate B.M.T. Salad",
+   "carb": 15,
+   "fiber": 4,
+   "cal": 460
+  },
+  {
+   "cat": "Subway Series Salads",
+   "name": "#20 Elite Chicken & Bacon Ranch Salad",
+   "carb": 14,
+   "fiber": 5,
+   "cal": 490
+  },
+  {
+   "cat": "Subway Series Salads",
+   "name": "#23 The Hotshot Italiano Salad",
+   "carb": 15,
+   "fiber": 5,
+   "cal": 520
+  },
+  {
+   "cat": "Subway Series Salads",
+   "name": "#30 The Beast Salad",
+   "carb": 15,
+   "fiber": 4,
+   "cal": 570
+  },
+  {
+   "cat": "Subway Series Salads",
+   "name": "#99 Homerun Ham Salad",
+   "carb": 14,
+   "fiber": 4,
+   "cal": 440
+  },
+  {
+   "cat": "Salads",
+   "name": "B.L.T. Salad",
+   "carb": 11,
+   "fiber": 4,
+   "cal": 210
+  },
+  {
+   "cat": "Salads",
+   "name": "Big Hot Pastrami Salad",
+   "carb": 14,
+   "fiber": 5,
+   "cal": 370
+  },
+  {
+   "cat": "Salads",
+   "name": "Black Forest Ham Salad",
+   "carb": 12,
+   "fiber": 4,
+   "cal": 120
+  },
+  {
+   "cat": "Salads",
+   "name": "Buffalo Chicken with Grilled Chicken Salad",
+   "carb": 13,
+   "fiber": 5,
+   "cal": 300
+  },
+  {
+   "cat": "Salads",
+   "name": "Cold Cut Combo Salad",
+   "carb": 10,
+   "fiber": 4,
+   "cal": 160
+  },
+  {
+   "cat": "Salads",
+   "name": "Grilled Chicken Salad",
+   "carb": 10,
+   "fiber": 4,
+   "cal": 130
+  },
+  {
+   "cat": "Salads",
+   "name": "Meatball Marinara Salad",
+   "carb": 23,
+   "fiber": 6,
+   "cal": 300
+  },
+  {
+   "cat": "Salads",
+   "name": "Oven Roasted Turkey & Ham Salad",
+   "carb": 11,
+   "fiber": 4,
+   "cal": 110
+  },
+  {
+   "cat": "Salads",
+   "name": "Oven Roasted Turkey Salad",
+   "carb": 10,
+   "fiber": 4,
+   "cal": 110
+  },
+  {
+   "cat": "Salads",
+   "name": "Pizza Sub Salad",
+   "carb": 16,
+   "fiber": 5,
+   "cal": 310
+  },
+  {
+   "cat": "Salads",
+   "name": "Roast Beef Salad",
+   "carb": 12,
+   "fiber": 4,
+   "cal": 150
+  },
+  {
+   "cat": "Salads",
+   "name": "Rotisserie-Style Chicken Salad",
+   "carb": 10,
+   "fiber": 4,
+   "cal": 150
+  },
+  {
+   "cat": "Salads",
+   "name": "Steak with American Cheese Salad",
+   "carb": 12,
+   "fiber": 4,
+   "cal": 210
+  },
+  {
+   "cat": "Salads",
+   "name": "Tuna Salad",
+   "carb": 10,
+   "fiber": 4,
+   "cal": 310
+  },
+  {
+   "cat": "Salads",
+   "name": "Veggie Delite Salad",
+   "carb": 9,
+   "fiber": 4,
+   "cal": 50
+  },
+  {
+   "cat": "Salads",
+   "name": "Veggie Patty Salad",
+   "carb": 26,
+   "fiber": 12,
+   "cal": 220
+  },
+  {
+   "cat": "Subway Series Protein Bowls",
+   "name": "#1 The Philly Protein Bowl",
+   "carb": 13,
+   "fiber": 3,
+   "cal": 620
+  },
+  {
+   "cat": "Subway Series Protein Bowls",
+   "name": "#10 All-American Club Protein Bowl",
+   "carb": 15,
+   "fiber": 3,
+   "cal": 690
+  },
+  {
+   "cat": "Subway Series Protein Bowls",
+   "name": "#11 Subway Club Protein Bowl",
+   "carb": 16,
+   "fiber": 3,
+   "cal": 410
+  },
+  {
+   "cat": "Subway Series Protein Bowls",
+   "name": "#15 Titan Turkey Protein Bowl",
+   "carb": 10,
+   "fiber": 4,
+   "cal": 590
+  },
+  {
+   "cat": "Subway Series Protein Bowls",
+   "name": "#16 All-Pro Sweet Onion Chicken Protein Bowl",
+   "carb": 41,
+   "fiber": 3,
+   "cal": 480
+  },
+  {
+   "cat": "Subway Series Protein Bowls",
+   "name": "#18 The Ultimate B.M.T. Protein Bowl",
+   "carb": 16,
+   "fiber": 3,
+   "cal": 730
+  },
+  {
+   "cat": "Subway Series Protein Bowls",
+   "name": "#20 Elite Chicken & Bacon Ranch Protein Bowl",
+   "carb": 14,
+   "fiber": 4,
+   "cal": 760
+  },
+  {
+   "cat": "Subway Series Protein Bowls",
+   "name": "#23 The Hotshot Italiano Protein Bowl",
+   "carb": 15,
+   "fiber": 3,
+   "cal": 860
+  },
+  {
+   "cat": "Subway Series Protein Bowls",
+   "name": "#30 The Beast Protein Bowl",
+   "carb": 19,
+   "fiber": 3,
+   "cal": 1080
+  },
+  {
+   "cat": "Subway Series Protein Bowls",
+   "name": "#99 Homerun Ham Protein Bowl",
+   "carb": 15,
+   "fiber": 3,
+   "cal": 620
+  },
+  {
+   "cat": "Protein Bowls",
+   "name": "B.L.T. Protein Bowl",
+   "carb": 10,
+   "fiber": 3,
+   "cal": 360
+  },
+  {
+   "cat": "Protein Bowls",
+   "name": "Big Hot Pastrami Protein Bowl",
+   "carb": 15,
+   "fiber": 5,
+   "cal": 680
+  },
+  {
+   "cat": "Protein Bowls",
+   "name": "Black Forest Ham Protein Bowl",
+   "carb": 12,
+   "fiber": 3,
+   "cal": 170
+  },
+  {
+   "cat": "Protein Bowls",
+   "name": "Buffalo Chicken with Grilled Chicken Protein Bowl",
+   "carb": 13,
+   "fiber": 4,
+   "cal": 380
+  },
+  {
+   "cat": "Protein Bowls",
+   "name": "Cold Cut Combo Protein Bowl",
+   "carb": 9,
+   "fiber": 3,
+   "cal": 260
+  },
+  {
+   "cat": "Protein Bowls",
+   "name": "Grilled Chicken Protein Bowl",
+   "carb": 9,
+   "fiber": 3,
+   "cal": 200
+  },
+  {
+   "cat": "Protein Bowls",
+   "name": "Meatball Marinara Protein Bowl",
+   "carb": 34,
+   "fiber": 8,
+   "cal": 560
+  },
+  {
+   "cat": "Protein Bowls",
+   "name": "Oven Roasted Turkey & Ham Protein Bowl",
+   "carb": 10,
+   "fiber": 3,
+   "cal": 160
+  },
+  {
+   "cat": "Protein Bowls",
+   "name": "Oven Roasted Turkey Protein Bowl",
+   "carb": 8,
+   "fiber": 3,
+   "cal": 150
+  },
+  {
+   "cat": "Protein Bowls",
+   "name": "Pizza Sub Protein Bowl",
+   "carb": 18,
+   "fiber": 5,
+   "cal": 610
+  },
+  {
+   "cat": "Protein Bowls",
+   "name": "Roast Beef Protein Bowl",
+   "carb": 12,
+   "fiber": 3,
+   "cal": 210
+  },
+  {
+   "cat": "Protein Bowls",
+   "name": "Rotisserie-Style Chicken Protein Bowl",
+   "carb": 8,
+   "fiber": 3,
+   "cal": 220
+  },
+  {
+   "cat": "Protein Bowls",
+   "name": "Steak (Includes American Cheese) Protein Bowl",
+   "carb": 12,
+   "fiber": 4,
+   "cal": 380
+  },
+  {
+   "cat": "Protein Bowls",
+   "name": "Tuna Protein Bowl",
+   "carb": 8,
+   "fiber": 3,
+   "cal": 550
+  },
+  {
+   "cat": "Protein Bowls",
+   "name": "Veggie Patty Protein Bowl",
+   "carb": 41,
+   "fiber": 19,
+   "cal": 380
+  },
+  {
+   "cat": "Breakfast",
+   "name": "6\" Bacon, Egg & Cheese",
+   "carb": 42,
+   "fiber": 2,
+   "cal": 510
+  },
+  {
+   "cat": "Breakfast",
+   "name": "6\" Bacon, Egg & Cheese Flatbread",
+   "carb": 28,
+   "fiber": 1,
+   "cal": 440
+  },
+  {
+   "cat": "Breakfast",
+   "name": "6\" Black Forest Ham, Egg & Cheese",
+   "carb": 43,
+   "fiber": 2,
+   "cal": 460
+  },
+  {
+   "cat": "Breakfast",
+   "name": "6\" Black Forest Ham, Egg & Cheese Flatbread",
+   "carb": 28,
+   "fiber": 1,
+   "cal": 400
+  },
+  {
+   "cat": "Breakfast",
+   "name": "6\" Egg & Cheese",
+   "carb": 42,
+   "fiber": 2,
+   "cal": 430
+  },
+  {
+   "cat": "Breakfast",
+   "name": "6\" Egg & Cheese Flatbread",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 360
+  },
+  {
+   "cat": "Breakfast",
+   "name": "6\" Steak, Egg & Cheese",
+   "carb": 43,
+   "fiber": 2,
+   "cal": 500
+  },
+  {
+   "cat": "Breakfast",
+   "name": "6\" Steak, Egg & Cheese Flatbread",
+   "carb": 28,
+   "fiber": 1,
+   "cal": 430
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Bacon, Egg & Cheese Wrap",
+   "carb": 55,
+   "fiber": 2,
+   "cal": 850
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Black Forest Ham, Egg & Cheese Wrap",
+   "carb": 56,
+   "fiber": 2,
+   "cal": 750
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Egg & Cheese Wrap",
+   "carb": 54,
+   "fiber": 2,
+   "cal": 690
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Steak, Egg & Cheese Wrap",
+   "carb": 56,
+   "fiber": 2,
+   "cal": 800
+  },
+  {
+   "cat": "Pizza",
+   "name": "Bacon Pizza",
+   "carb": 96,
+   "fiber": 4,
+   "cal": 780
+  },
+  {
+   "cat": "Pizza",
+   "name": "Cheese Pizza",
+   "carb": 95,
+   "fiber": 4,
+   "cal": 700
+  },
+  {
+   "cat": "Pizza",
+   "name": "Meatball Pizza",
+   "carb": 98,
+   "fiber": 5,
+   "cal": 810
+  },
+  {
+   "cat": "Pizza",
+   "name": "Pepperoni Pizza",
+   "carb": 96,
+   "fiber": 5,
+   "cal": 780
+  },
+  {
+   "cat": "Sliders",
+   "name": "Ham & Jack Sliders",
+   "carb": 21,
+   "fiber": 1,
+   "cal": 160
+  },
+  {
+   "cat": "Sliders",
+   "name": "Italian Spice Sliders",
+   "carb": 21,
+   "fiber": 1,
+   "cal": 250
+  },
+  {
+   "cat": "Sliders",
+   "name": "Little Cheesesteak Sliders",
+   "carb": 21,
+   "fiber": 1,
+   "cal": 180
+  },
+  {
+   "cat": "Sliders",
+   "name": "Turkey Sliders",
+   "carb": 20,
+   "fiber": 1,
+   "cal": 210
+  },
+  {
+   "cat": "Bread",
+   "name": "6\" Artisan Italian Bread",
+   "carb": 39,
+   "fiber": 1,
+   "cal": 210
+  },
+  {
+   "cat": "Bread",
+   "name": "6\" Everything Bagel-Seasoned Bread",
+   "carb": 38,
+   "fiber": 2,
+   "cal": 210
+  },
+  {
+   "cat": "Bread",
+   "name": "6\" Ghost Pepper Bread",
+   "carb": 41,
+   "fiber": 2,
+   "cal": 240
+  },
+  {
+   "cat": "Bread",
+   "name": "6\" Hearty Multigrain Bread",
+   "carb": 36,
+   "fiber": 3,
+   "cal": 200
+  },
+  {
+   "cat": "Bread",
+   "name": "6\" Honey Oat Bread",
+   "carb": 39,
+   "fiber": 3,
+   "cal": 210
+  },
+  {
+   "cat": "Bread",
+   "name": "6\" Italian Herbs & Cheese Bread",
+   "carb": 42,
+   "fiber": 2,
+   "cal": 250
+  },
+  {
+   "cat": "Bread",
+   "name": "6\" Jalapeno Cheddar Bread",
+   "carb": 39,
+   "fiber": 2,
+   "cal": 240
+  },
+  {
+   "cat": "Bread",
+   "name": "Flatbread",
+   "carb": 24,
+   "fiber": 1,
+   "cal": 140
+  },
+  {
+   "cat": "Bread",
+   "name": "Mini Artisan Italian Bread",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 140
+  },
+  {
+   "cat": "Bread",
+   "name": "Mini Hearty Multigrain Bread",
+   "carb": 24,
+   "fiber": 2,
+   "cal": 130
+  },
+  {
+   "cat": "Bread",
+   "name": "Wrap",
+   "carb": 49,
+   "fiber": 2,
+   "cal": 280
+  },
+  {
+   "cat": "Condiments",
+   "name": "Baja Chipotle Sauce",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Condiments",
+   "name": "BBQ Sauce",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Condiments",
+   "name": "Cheddar Cheese Sauce",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 30
+  },
+  {
+   "cat": "Condiments",
+   "name": "Creamy Sriracha Sauce",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Condiments",
+   "name": "Frank's RedHot Buffalo Sauce",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Condiments",
+   "name": "Giardiniera",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Condiments",
+   "name": "Honey Mustard Sauce",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Condiments",
+   "name": "Mayonnaise",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Condiments",
+   "name": "MVP Parmesan Vinaigrette",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Condiments",
+   "name": "Olive Oil Blend",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Condiments",
+   "name": "Olive Oil Blend & Vinegar",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Condiments",
+   "name": "Peppercorn Ranch Sauce",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Condiments",
+   "name": "Roasted Garlic Aioli",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Condiments",
+   "name": "Subkrunch",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Condiments",
+   "name": "Sweet Onion Teriyaki Sauce",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 30
+  },
+  {
+   "cat": "Condiments",
+   "name": "Yellow Mustard",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Seasonings and Spices",
+   "name": "Salt",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Vegetables",
+   "name": "Avocado, Sliced",
+   "carb": 2,
+   "fiber": 2,
+   "cal": 45
+  },
+  {
+   "cat": "Vegetables",
+   "name": "Avocado, Smashed",
+   "carb": 3,
+   "fiber": 2,
+   "cal": 70
+  },
+  {
+   "cat": "Vegetables",
+   "name": "Baby Spinach",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Vegetables",
+   "name": "Banana Peppers",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Vegetables",
+   "name": "Black Olives",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Vegetables",
+   "name": "Cucumbers",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Vegetables",
+   "name": "Green Chiles",
+   "carb": 1,
+   "fiber": 1,
+   "cal": 5
+  },
+  {
+   "cat": "Vegetables",
+   "name": "Jalapeno Peppers",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Vegetables",
+   "name": "Onions",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Vegetables",
+   "name": "Pickles",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Vegetables",
+   "name": "Tomatoes",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Cheese",
+   "name": "American",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Cheese",
+   "name": "Garlic Herb Cheese Spread",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Cheese",
+   "name": "Grated Parmesan",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Cheese",
+   "name": "Pepper Jack",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Cheese",
+   "name": "Provolone",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Cheese",
+   "name": "Shredded Monterey Cheddar",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Proteins",
+   "name": "All-American Club Meats (Ham, Turkey, Bacon)",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Proteins",
+   "name": "Bacon",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Proteins",
+   "name": "Black Forest Ham",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Proteins",
+   "name": "Chicken Salad",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 380
+  },
+  {
+   "cat": "Proteins",
+   "name": "Cold Cut Combo Meats",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Proteins",
+   "name": "Egg Patty",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Proteins",
+   "name": "Genoa Salami",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Proteins",
+   "name": "Grilled Chicken",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Proteins",
+   "name": "Grilled Chicken, Buffalo",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Proteins",
+   "name": "Grilled Chicken, Sweet Onion Teriyaki Glazed",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Proteins",
+   "name": "Meatballs",
+   "carb": 13,
+   "fiber": 2,
+   "cal": 250
+  },
+  {
+   "cat": "Proteins",
+   "name": "Oven Roasted Turkey",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Proteins",
+   "name": "Pastrami",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Proteins",
+   "name": "Pepperoni",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Proteins",
+   "name": "Roast Beef",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Proteins",
+   "name": "Rotisserie-Style Chicken",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Proteins",
+   "name": "Steak",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Proteins",
+   "name": "Subway Club Meats (Turkey, Ham, Roast Beef)",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Proteins",
+   "name": "Tuna",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Proteins",
+   "name": "Veggie Patty",
+   "carb": 17,
+   "fiber": 8,
+   "cal": 170
+  },
+  {
+   "cat": "Cookies & Desserts",
+   "name": "Applesauce",
+   "carb": 16,
+   "fiber": 3,
+   "cal": 70
+  },
+  {
+   "cat": "Cookies & Desserts",
+   "name": "Chocolate Chip Cookie",
+   "carb": 30,
+   "fiber": 1,
+   "cal": 210
+  },
+  {
+   "cat": "Cookies & Desserts",
+   "name": "Double Chocolate Cookie",
+   "carb": 29,
+   "fiber": 1,
+   "cal": 210
+  },
+  {
+   "cat": "Cookies & Desserts",
+   "name": "Oatmeal Raisin Cookie",
+   "carb": 30,
+   "fiber": 1,
+   "cal": 200
+  },
+  {
+   "cat": "Cookies & Desserts",
+   "name": "Raspberry Cheesecake Cookie",
+   "carb": 29,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Cookies & Desserts",
+   "name": "White Chip Macadamia Nut Cookie",
+   "carb": 28,
+   "fiber": 1,
+   "cal": 210
+  },
+  {
+   "cat": "Sidekicks",
+   "name": "Chicken & Cheese Dipper",
+   "carb": 51,
+   "fiber": 2,
+   "cal": 400
+  },
+  {
+   "cat": "Sidekicks",
+   "name": "Churro, Footlong",
+   "carb": 28,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Sidekicks",
+   "name": "Cookie, Footlong, Oreo",
+   "carb": 182,
+   "fiber": 8,
+   "cal": 1210
+  },
+  {
+   "cat": "Sidekicks",
+   "name": "Cookie, Footlong Chocolate Chip",
+   "carb": 181,
+   "fiber": 8,
+   "cal": 1330
+  },
+  {
+   "cat": "Sidekicks",
+   "name": "Cookie, Footlong Double Chocolate Peppermint",
+   "carb": 177,
+   "fiber": 9,
+   "cal": 1330
+  },
+  {
+   "cat": "Sidekicks",
+   "name": "Doritos Footlong Nachos",
+   "carb": 38,
+   "fiber": 3,
+   "cal": 550
+  },
+  {
+   "cat": "Sidekicks",
+   "name": "Doritos Footlong Nachos with Chicken",
+   "carb": 38,
+   "fiber": 3,
+   "cal": 590
+  },
+  {
+   "cat": "Sidekicks",
+   "name": "Doritos Footlong Nachos with Sliced Avocado",
+   "carb": 40,
+   "fiber": 5,
+   "cal": 590
+  },
+  {
+   "cat": "Sidekicks",
+   "name": "Doritos Footlong Nachos with Smashed Avocado",
+   "carb": 41,
+   "fiber": 5,
+   "cal": 600
+  },
+  {
+   "cat": "Sidekicks",
+   "name": "Doritos Footlong Nachos with Steak",
+   "carb": 39,
+   "fiber": 3,
+   "cal": 600
+  },
+  {
+   "cat": "Sidekicks",
+   "name": "Double Cheese Dipper",
+   "carb": 52,
+   "fiber": 2,
+   "cal": 470
+  },
+  {
+   "cat": "Sidekicks",
+   "name": "Footlong Pretzel",
+   "carb": 53,
+   "fiber": 7,
+   "cal": 330
+  },
+  {
+   "cat": "Sidekicks",
+   "name": "Hash Browns",
+   "carb": 24,
+   "fiber": 3,
+   "cal": 190
+  },
+  {
+   "cat": "Sidekicks",
+   "name": "Pepperoni & Cheese Dipper",
+   "carb": 51,
+   "fiber": 2,
+   "cal": 470
+  },
+  {
+   "cat": "Soup",
+   "name": "Broccoli Cheddar Soup",
+   "carb": 16,
+   "fiber": 1,
+   "cal": 200
+  },
+  {
+   "cat": "Soup",
+   "name": "Chicken Noodle Soup",
+   "carb": 6,
+   "fiber": 1,
+   "cal": 70
+  },
+  {
+   "cat": "Soup",
+   "name": "Loaded Baked Potato with Bacon Soup",
+   "carb": 17,
+   "fiber": 1,
+   "cal": 200
+  },
+  {
+   "cat": "Sidekicks",
+   "name": "Chicken & Cheese Dipper",
+   "carb": 51,
+   "fiber": 2,
+   "cal": 400
+  },
+  {
+   "cat": "Sidekicks",
+   "name": "Churro, Footlong",
+   "carb": 28,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Sidekicks",
+   "name": "Cookie, Footlong, Oreo",
+   "carb": 182,
+   "fiber": 8,
+   "cal": 1210
+  },
+  {
+   "cat": "Sidekicks",
+   "name": "Cookie, Footlong Chocolate Chip",
+   "carb": 181,
+   "fiber": 8,
+   "cal": 1330
+  },
+  {
+   "cat": "Sidekicks",
+   "name": "Cookie, Footlong Double Chocolate Peppermint",
+   "carb": 177,
+   "fiber": 9,
+   "cal": 1330
+  },
+  {
+   "cat": "Sidekicks",
+   "name": "Doritos Footlong Nachos",
+   "carb": 38,
+   "fiber": 3,
+   "cal": 550
+  },
+  {
+   "cat": "Sidekicks",
+   "name": "Doritos Footlong Nachos with Chicken",
+   "carb": 38,
+   "fiber": 3,
+   "cal": 590
+  },
+  {
+   "cat": "Sidekicks",
+   "name": "Doritos Footlong Nachos with Sliced Avocado",
+   "carb": 40,
+   "fiber": 5,
+   "cal": 590
+  },
+  {
+   "cat": "Sidekicks",
+   "name": "Doritos Footlong Nachos with Smashed Avocado",
+   "carb": 41,
+   "fiber": 5,
+   "cal": 600
+  },
+  {
+   "cat": "Sidekicks",
+   "name": "Doritos Footlong Nachos with Steak",
+   "carb": 39,
+   "fiber": 3,
+   "cal": 600
+  },
+  {
+   "cat": "Sidekicks",
+   "name": "Double Cheese Dipper",
+   "carb": 52,
+   "fiber": 2,
+   "cal": 470
+  },
+  {
+   "cat": "Sidekicks",
+   "name": "Footlong Pretzel",
+   "carb": 53,
+   "fiber": 7,
+   "cal": 330
+  },
+  {
+   "cat": "Sidekicks",
+   "name": "Hash Browns",
+   "carb": 24,
+   "fiber": 3,
+   "cal": 190
+  },
+  {
+   "cat": "Sidekicks",
+   "name": "Pepperoni & Cheese Dipper",
+   "carb": 51,
+   "fiber": 2,
+   "cal": 470
+  }
+ ]
+}

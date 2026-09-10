@@ -1,0 +1,433 @@
+<title>CarbTab App Review</title>
+<meta name="description" content="The built CarbTab app run through the eleven audience panels: what works, what blocks adoption, and a prioritised punch list." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" />
+
+<style>
+  :root {
+    --paper: #f5f6f0; --card: #ffffff; --raise: #eceee3;
+    --ink: #1c201a; --ink-2: #5a6555; --line: #dee2d3;
+    --green: #497f1b; --green-bright: #7cb92c; --green-wash: #e9f2d6;
+    --blue: #3a6ea0; --blue-wash: #e2ecf4;
+    --p0: #a53f30; --p0-wash: #f5e0dc;
+    --p1: #92651a; --p1-wash: #f6ead4;
+    --p2: #4a6a52; --p2-wash: #e6efe6;
+    --focus: #2f6db0;
+    --f-display: "Bricolage Grotesque", "Trebuchet MS", sans-serif;
+    --f-sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --f-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #12140f; --card: #1a1d17; --raise: #23271e;
+      --ink: #e8ebe0; --ink-2: #97a08c; --line: #2c3327;
+      --green: #9bd25a; --green-bright: #8fcb3a; --green-wash: #1c2a10;
+      --blue: #8fb8dc; --blue-wash: #16232f;
+      --p0: #e07d6d; --p0-wash: #341d19;
+      --p1: #d9a44a; --p1-wash: #322612;
+      --p2: #8fc39c; --p2-wash: #1b2a20;
+      --focus: #7fb3e6;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #12140f; --card: #1a1d17; --raise: #23271e;
+    --ink: #e8ebe0; --ink-2: #97a08c; --line: #2c3327;
+    --green: #9bd25a; --green-bright: #8fcb3a; --green-wash: #1c2a10;
+    --blue: #8fb8dc; --blue-wash: #16232f;
+    --p0: #e07d6d; --p0-wash: #341d19;
+    --p1: #d9a44a; --p1-wash: #322612;
+    --p2: #8fc39c; --p2-wash: #1b2a20;
+    --focus: #7fb3e6;
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: var(--f-sans); line-height: 1.6; -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 76px; }
+  @media (max-width: 500px) { .wrap { padding: 22px 15px 60px; } }
+
+  h1 {
+    font-family: var(--f-display); font-weight: 700;
+    font-size: clamp(27px, 6.5vw, 38px); line-height: 1.08; letter-spacing: -0.02em;
+    margin: 0 0 10px; text-wrap: balance;
+  }
+  .dek { font-size: 15.5px; color: var(--ink-2); margin: 0 0 24px; max-width: 62ch; }
+
+  h2 {
+    font-family: var(--f-display); font-weight: 600;
+    font-size: clamp(18px, 4.5vw, 22px); letter-spacing: -0.01em;
+    margin: 42px 0 12px; text-wrap: balance;
+  }
+  p { margin: 0 0 14px; }
+  p.body { max-width: 64ch; }
+  strong { font-weight: 600; }
+  em { font-style: italic; }
+  code { font-family: var(--f-mono); font-size: 0.88em; background: var(--raise); padding: 1px 5px; border-radius: 4px; }
+
+  .verdict-top {
+    background: var(--card); border: 1px solid var(--line);
+    border-left: 3px solid var(--green-bright); border-radius: 12px;
+    padding: 18px 20px; margin-bottom: 4px;
+  }
+  .verdict-top .score {
+    display: flex; gap: 18px; flex-wrap: wrap; margin-bottom: 10px;
+    font-family: var(--f-mono); font-size: 13px;
+  }
+  .verdict-top .score b { font-family: var(--f-display); font-size: 18px; }
+  .verdict-top p:last-child { margin-bottom: 0; }
+
+  /* punch list */
+  .plist { display: flex; flex-direction: column; gap: 10px; margin-top: 6px; }
+  .fix {
+    background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+    padding: 14px 16px; display: grid; grid-template-columns: 46px 1fr; gap: 12px;
+  }
+  @media (max-width: 440px) { .fix { grid-template-columns: 1fr; gap: 4px; } }
+  .fix .pri {
+    font-family: var(--f-mono); font-size: 11px; font-weight: 700;
+    padding: 3px 0; border-radius: 6px; text-align: center; height: fit-content;
+  }
+  .fix .pri.p0 { background: var(--p0-wash); color: var(--p0); }
+  .fix .pri.p1 { background: var(--p1-wash); color: var(--p1); }
+  .fix .pri.p2 { background: var(--p2-wash); color: var(--p2); }
+  .fix h4 { font-family: var(--f-display); font-weight: 700; font-size: 15px; margin: 0 0 3px; }
+  .fix p { font-size: 13.5px; margin: 0; }
+  .fix .rooms { font-family: var(--f-mono); font-size: 10.5px; color: var(--ink-2); margin-top: 5px; }
+
+  .keep { display: flex; flex-direction: column; gap: 7px; margin-top: 4px; }
+  .keep .k {
+    display: grid; grid-template-columns: 20px 1fr; gap: 10px; align-items: start;
+    font-size: 13.5px;
+  }
+  .keep .k .tick { color: var(--green); font-weight: 700; }
+
+  /* panels */
+  .panels { display: flex; flex-direction: column; gap: 12px; margin-top: 6px; }
+  .panel { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 15px 17px; }
+  .panel-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-bottom: 3px; }
+  .panel-n { font-family: var(--f-mono); font-size: 12px; font-weight: 600; color: var(--ink-2); flex: none; }
+  .panel h3 { font-family: var(--f-display); font-weight: 700; font-size: 16px; letter-spacing: -0.01em; margin: 0; flex: 1; }
+  .panel .verd {
+    font-family: var(--f-mono); font-size: 10.5px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.04em; padding: 3px 8px; border-radius: 6px; flex: none;
+  }
+  .panel .verd.yes { background: var(--green-wash); color: var(--green); }
+  .panel .verd.prob { background: var(--blue-wash); color: var(--blue); }
+  .panel .who3 { font-size: 12px; color: var(--ink-2); margin: 2px 0 9px; }
+  .panel .said { font-size: 13.5px; margin: 0 0 9px; }
+  .panel .said .q { font-style: italic; }
+  .panel .ask {
+    display: grid; grid-template-columns: 52px 1fr; gap: 10px;
+    border-top: 1px solid var(--line); padding-top: 8px; font-size: 12.5px;
+  }
+  .panel .ask .k { font-family: var(--f-mono); font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: var(--ink-2); padding-top: 2px; }
+  @media (max-width: 440px) { .panel .ask { grid-template-columns: 1fr; gap: 2px; } }
+
+  .foot { margin-top: 38px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 12px; color: var(--ink-2); line-height: 1.7; }
+  .divider { height: 1px; background: var(--line); margin: 38px 0; border: 0; }
+
+  .done {
+    font-family: var(--f-mono); font-size: 10px; font-weight: 700; letter-spacing: 0.04em;
+    text-transform: uppercase; color: var(--green);
+    background: var(--green-wash); padding: 2px 7px; border-radius: 5px;
+    margin-left: 8px; vertical-align: 2px; white-space: nowrap;
+  }
+  .fix.shipped { opacity: 0.72; }
+  .fix.shipped h4 { text-decoration: none; }
+  .update-banner {
+    background: var(--green-wash); border: 1px solid var(--green-bright);
+    border-radius: 10px; padding: 12px 16px; margin: 0 0 4px;
+    font-size: 13.5px;
+  }
+  .update-banner b { font-family: var(--f-display); }
+</style>
+
+<div class="wrap">
+  <h1>CarbTab: the app, through the panels</h1>
+  <p class="dek">
+    The built app, not a mockup. The same eleven audience panels from the naming study were walked
+    through the home screen, a search, the weigh sheet, the day log, settings, and the new folder-tab
+    logo, then asked one question: would you keep this on your phone?
+  </p>
+
+  <h2>Verdict</h2>
+  <div class="verdict-top">
+    <div class="score">
+      <span><b>5</b> Yes</span>
+      <span><b>6</b> Probably</span>
+      <span><b>0</b> Not yet</span>
+    </div>
+    <p class="body">
+      Nobody rejected it, which is the real signal: the core is right. The home screen is finally big
+      and calm, the giant carb number in the weigh sheet is exactly what people want at a glance, and
+      the source tag on every food earns trust. The six "probably" votes clustered on the same short
+      list of fixable things, led by one that made several rooms say the app feels unfinished.
+    </p>
+  </div>
+
+  <h2>Punch list</h2>
+  <div class="update-banner">
+    <b>Update, 2026-09-09.</b> The three P0s are now shipped in the build. P1 and P2 remain open.
+  </div>
+  <div class="plist">
+
+    <div class="fix shipped">
+      <span class="pri p0">P0</span>
+      <div>
+        <h4>The Photo and Scan tiles do nothing<span class="done">Done</span></h4>
+        <p>Two of the three big buttons on the home screen show a "coming soon" toast. On a health
+        tool, a dead button reads as "this isn't finished, what else doesn't work." Either build them
+        or remove them for launch and replace the row with <em>Restaurants</em> and <em>Add a
+        food</em>.</p>
+        <p class="rooms">Fixed: the home screen now has two live tiles, Restaurants and Add a food.</p>
+      </div>
+    </div>
+
+    <div class="fix shipped">
+      <span class="pri p0">P0</span>
+      <div>
+        <h4>Whole foods are grams only<span class="done">Done</span></h4>
+        <p>Most people do not own a gram scale, and "158 g of rice" is not a picture anyone has in
+        their head. The data already carries a serving label and weight for every food ("1 cup, 158
+        g"), so offer that as a tappable unit and let people multiply it (2 slices, half a cup).
+        Grams stays for the people who weigh.</p>
+        <p class="rooms">Fixed: the weigh sheet has a By weight / By serving switch, with a
+        half-to-three quantity picker and the gram total shown. It opens on By weight and remembers
+        whichever you last used.</p>
+      </div>
+    </div>
+
+    <div class="fix shipped">
+      <span class="pri p0">P0</span>
+      <div>
+        <h4>The Net carbs toggle changes nothing<span class="done">Done</span></h4>
+        <p>There is no fiber data yet, so switching to Net silently falls back to Total. A setting
+        that does nothing when you use it is worse than no setting. Hide it until the fiber pass is
+        done, or grey it out with "coming with the next data update."</p>
+        <p class="rooms">Fixed: Net is greyed out and labelled "soon", and Settings now says the app
+        counts total carbohydrate until the fiber pass lands.</p>
+      </div>
+    </div>
+
+    <div class="fix">
+      <span class="pri p1">P1</span>
+      <div>
+        <h4>No memory of what you ate last time</h4>
+        <p>People eat the same breakfast every day. Re-typing "40 g" of the same granola every
+        morning is friction the app could remove: "you logged 40 g yesterday" as a one-tap option in
+        the weigh sheet.</p>
+        <p class="rooms">Veterans, parents, athletes</p>
+      </div>
+    </div>
+
+    <div class="fix">
+      <span class="pri p1">P1</span>
+      <div>
+        <h4>The weight field pre-fills and gets in the way</h4>
+        <p>It opens with the serving weight already typed in, so people who weigh have to clear it
+        first. Select the value on focus, or start the field empty with the serving offered as a
+        chip.</p>
+        <p class="rooms">Veterans, mixed room</p>
+      </div>
+    </div>
+
+    <div class="fix">
+      <span class="pri p1">P1</span>
+      <div>
+        <h4>"Unverified" on the restaurant seed undercuts confidence</h4>
+        <p>The honesty is right, but a parent counting for a child sees "Unverified" on McDonald's
+        fries and stops trusting the whole app. Ship a smaller set of actually-verified 2025 items
+        rather than a large seed marked unverified, and reword the tag to say what verification is
+        pending.</p>
+        <p class="rooms">Parents, the clinic</p>
+      </div>
+    </div>
+
+    <div class="fix">
+      <span class="pri p1">P1</span>
+      <div>
+        <h4>No undo after adding</h4>
+        <p>A mis-tap inflates the day's total and the only fix is to go to the Log and delete it. Add
+        an "Undo" to the confirmation toast.</p>
+        <p class="rooms">Every room</p>
+      </div>
+    </div>
+
+    <div class="fix">
+      <span class="pri p1">P1</span>
+      <div>
+        <h4>The 150 g daily goal is arbitrary and a little judgmental</h4>
+        <p>Where 150 comes from is unclear, and "122 g left before the 150 g goal" reads as a scold to
+        some people. Ask for the goal in onboarding, label it "set this with your care team," and
+        keep the running text neutral.</p>
+        <p class="rooms">Parents, low-carb counters, older adults</p>
+      </div>
+    </div>
+
+    <div class="fix">
+      <span class="pri p2">P2</span>
+      <div>
+        <h4>Nothing to see before you search</h4>
+        <p>First-timers do not know what is in the database. Show a few common foods or a category
+        row on the home screen, not only in the Foods tab.</p>
+        <p class="rooms">First ninety days, second-language, older adults</p>
+      </div>
+    </div>
+
+    <div class="fix">
+      <span class="pri p2">P2</span>
+      <div>
+        <h4>Weigh-sheet ARIA is loose</h4>
+        <p>The size toggle announces as tabs but there is no tab panel behind it, and the preset
+        chips need a clearer spoken pressed state. Make it a plain group of toggle buttons or a real
+        tablist.</p>
+        <p class="rooms">Screen reader</p>
+      </div>
+    </div>
+
+    <div class="fix">
+      <span class="pri p2">P2</span>
+      <div>
+        <h4>"tap to add" actually opens the weigh sheet</h4>
+        <p>Small wording mismatch. "Tap to log" is truer, and for restaurant items consider a genuine
+        one-tap add.</p>
+        <p class="rooms">Mixed room</p>
+      </div>
+    </div>
+
+  </div>
+
+  <h2>Keep doing</h2>
+  <div class="keep">
+    <div class="k"><span class="tick">&check;</span><span>The giant carb number in the weigh sheet. Every room noticed it, several said it is the whole reason the app feels usable in a hurry.</span></div>
+    <div class="k"><span class="tick">&check;</span><span>A source tag on every food. USDA, or the restaurant name, or Custom. The clinicians and the privacy-minded users specifically called this out.</span></div>
+    <div class="k"><span class="tick">&check;</span><span>One column, bottom nav, everything thumb-reachable. The original "too small on mobile" complaint is gone.</span></div>
+    <div class="k"><span class="tick">&check;</span><span>Offline, no account, no ads, free. Said back to us unprompted in four rooms.</span></div>
+    <div class="k"><span class="tick">&check;</span><span>Total carbs by default, and the "not a medical device, does not tell you your insulin" line up front.</span></div>
+    <div class="k"><span class="tick">&check;</span><span>The disclaimer shown once, then a quiet footer line. The anxious rooms found it reassuring rather than alarming.</span></div>
+  </div>
+
+  <h2>On the logo</h2>
+  <p class="body">
+    The folder-tab mark landed without friction. Rooms read it as "a tab, a little list," which is
+    the point, and it reads at small sizes. The designer voice in the mixed room: <span
+    class="q">"clean, the two green lines are a nice touch, maybe a touch safe but it is a real
+    mark."</span> The teen room: <span class="q">"a bit corporate, not bad."</span> Nobody disliked
+    it. Fine to ship, room to evolve later.
+  </p>
+
+  <hr class="divider" />
+
+  <h2>The eleven panels</h2>
+  <div class="panels">
+
+    <div class="panel">
+      <div class="panel-head"><span class="panel-n">01</span><h3>A mixed room</h3><span class="verd prob">Probably</span></div>
+      <p class="who3">Seven people across age, diabetes type and tech comfort.</p>
+      <p class="said">"Cleaner than anything I have tried. Search a thing, get a number, done. But a
+      camera button that just says <span class="q">coming</span> makes me wonder what else is half
+      built."</p>
+      <div class="ask"><span class="k">Ask</span><span>Hide the unbuilt tiles, or build them.</span></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><span class="panel-n">02</span><h3>The first ninety days</h3><span class="verd yes">Yes</span></div>
+      <p class="who3">Four adults three weeks to three months past a Type 1 diagnosis.</p>
+      <p class="said">"It did not overwhelm me. The big number is reassuring, it feels like the app is
+      sure. I would want a few foods to tap right away though, I do not know what to search for
+      yet."</p>
+      <div class="ask"><span class="k">Ask</span><span>Starter foods on the home screen.</span></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><span class="panel-n">03</span><h3>Counting for someone small</h3><span class="verd prob">Probably</span></div>
+      <p class="who3">Three parents of Type 1 kids, plus a grandparent on pickup duty.</p>
+      <p class="said">"The handoff works, I can tell the sitter to open CarbTab. Two problems: I can
+      not set Ellie's 45 g lunch target properly, and <span class="q">Unverified</span> on the
+      McDonald's items means I go check the real number anyway, so what did the app save me?"</p>
+      <div class="ask"><span class="k">Ask</span><span>Verified restaurant data, and a real goal setting.</span></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><span class="panel-n">04</span><h3>Twenty years in</h3><span class="verd yes">Yes</span></div>
+      <p class="who3">Four people with Type 1 for 18 to 34 years, all pump plus CGM.</p>
+      <p class="said">"Finally, one that is just fast and does not try to be my friend. Let me type the
+      weight without deleting the number that is already there, and remember that I eat 40 g of the
+      same granola every single day."</p>
+      <div class="ask"><span class="k">Ask</span><span>Repeat-last portion. Cleaner weight entry.</span></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><span class="panel-n">05</span><h3>New to insulin, later in life</h3><span class="verd prob">Probably</span></div>
+      <p class="who3">Four adults 61 to 74 with Type 2, all started insulin this year.</p>
+      <p class="said">"Big enough to read without my glasses, thank you for that. But I do not own a
+      gram scale and I could not tell you what 158 grams of anything looks like. Give me cups, or
+      slices, or small and large."</p>
+      <div class="ask"><span class="k">Ask</span><span>Household portions, not just grams.</span></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><span class="panel-n">06</span><h3>The clinic</h3><span class="verd yes">Yes</span></div>
+      <p class="who3">Five clinicians deciding whether to recommend it to patients.</p>
+      <p class="said">"The source tags and the <span class="q">not a medical device</span> line are
+      exactly right, I would put this on a handout. But turn the Net toggle off until it does
+      something. A control that silently does nothing is how patients lose trust in a tool."</p>
+      <div class="ask"><span class="k">Ask</span><span>Disable Net until fiber data exists.</span></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><span class="panel-n">07</span><h3>Nine months, then done</h3><span class="verd yes">Yes</span></div>
+      <p class="who3">Four people managing gestational diabetes, weeks 24 to 36.</p>
+      <p class="said">"Low commitment, does one thing, I will use it until August and delete it, and
+      that is fine. The grams thing is annoying without a scale, I have been guessing."</p>
+      <div class="ask"><span class="k">Ask</span><span>Non-scale portions.</span></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><span class="panel-n">08</span><h3>English as a second language</h3><span class="verd yes">Yes</span></div>
+      <p class="who3">Five adults whose first languages are Spanish, Tagalog, Arabic, Mandarin, Portuguese.</p>
+      <p class="said">"Simple words, big buttons. The little <span class="q">USDA</span> label is a
+      picture I understand without reading. Easy to use. Later, other languages would help."</p>
+      <div class="ask"><span class="k">Ask</span><span>Nothing blocking. Localisation eventually.</span></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><span class="panel-n">09</span><h3>The group chat</h3><span class="verd prob">Probably</span></div>
+      <p class="who3">Four people with Type 1, ages 16 to 23.</p>
+      <p class="said">"It is clean, I would use it and I would recommend it. But the camera icon that
+      just says coming soon looks unfinished, and first impressions are everything when someone opens
+      an app you sent them."</p>
+      <div class="ask"><span class="k">Ask</span><span>Do not ship visible dead features.</span></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><span class="panel-n">10</span><h3>Carbs for performance</h3><span class="verd prob">Probably</span></div>
+      <p class="who3">Four active people with Type 1, two runners, a cyclist, a lifter.</p>
+      <p class="said">"Good for logging after. Mid-ride I fuel by the gram and I want to log <span
+      class="q">three gels, 66 g</span> in two taps without searching each one. Right now that is a
+      lot of tapping."</p>
+      <div class="ask"><span class="k">Ask</span><span>Fast repeat and quick custom entry.</span></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><span class="panel-n">11</span><h3>Reads it aloud</h3><span class="verd prob">Probably</span></div>
+      <p class="who3">Four people who navigate by screen reader or large text, plus one with a tremor.</p>
+      <p class="said">"Reads mostly well and the targets are big, which helps the tremor. In the weigh
+      sheet the size switch announces as tabs but there is nothing behind them, and the preset
+      buttons do not clearly say which one is chosen."</p>
+      <div class="ask"><span class="k">Ask</span><span>Tighten the weigh-sheet ARIA.</span></div>
+    </div>
+
+  </div>
+
+  <div class="foot">
+    The app reviewed is the build in <code>CarbTab/app/</code> at commit-time 2026-09-09: Home, weigh
+    sheet, Log, Foods, Settings, first-run disclaimer, folder-tab logo. Panels and quotes are
+    simulated, built to represent real segments of the carb-counting audience. This is a design
+    review, not a usability test with real users.
+  </div>
+</div>

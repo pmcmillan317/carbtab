@@ -1,0 +1,2019 @@
+{
+ "chain": "Chick-fil-A",
+ "slug": "chick-fil-a",
+ "source": "https://www.nutritionix.com/chick-fil-a/menu/premium",
+ "platform": "nutritionix",
+ "updated": "07/16/2026",
+ "pulledAt": "2026-09-10",
+ "type": "grid",
+ "columns": {
+  "cal": 1,
+  "carb": 7,
+  "fiber": 8
+ },
+ "count": 286,
+ "items": [
+  {
+   "cat": "Breakfast",
+   "name": "4 Count Chick-Fil-A Chick-N-Minis",
+   "carb": 41,
+   "fiber": 2,
+   "cal": 360
+  },
+  {
+   "cat": "Breakfast",
+   "name": "4 Count Mini Yeast Rolls",
+   "carb": 36,
+   "fiber": 2,
+   "cal": 240
+  },
+  {
+   "cat": "Breakfast",
+   "name": "10 Count Chick-Fil-A Chick-N-Minis",
+   "carb": 103,
+   "fiber": 6,
+   "cal": 910
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Bacon, Egg & Cheese Biscuit",
+   "carb": 38,
+   "fiber": 2,
+   "cal": 420
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Bacon, Egg & Cheese Muffin",
+   "carb": 28,
+   "fiber": 1,
+   "cal": 300
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Berry Parfait with Cookie Crumbs",
+   "carb": 31,
+   "fiber": 1,
+   "cal": 240
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Berry Parfait with Granola",
+   "carb": 35,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Buttery Biscuits",
+   "carb": 37,
+   "fiber": 2,
+   "cal": 290
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Chick-Fil-A Chicken Biscuit",
+   "carb": 45,
+   "fiber": 2,
+   "cal": 460
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Chicken, Egg & Cheese Biscuit",
+   "carb": 48,
+   "fiber": 3,
+   "cal": 550
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Chicken, Egg & Cheese Muffin",
+   "carb": 36,
+   "fiber": 1,
+   "cal": 410
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Egg White Grill",
+   "carb": 29,
+   "fiber": 1,
+   "cal": 300
+  },
+  {
+   "cat": "Breakfast",
+   "name": "English Muffin",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 140
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hash Brown Scramble Bowl with Bacon",
+   "carb": 15,
+   "fiber": 2,
+   "cal": 450
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hash Brown Scramble Bowl with Bacon-No Hash Browns",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 300
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hash Brown Scramble Bowl with Grilled Filet",
+   "carb": 15,
+   "fiber": 2,
+   "cal": 420
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hash Brown Scramble Bowl with Grilled Filet-No Hash Browns",
+   "carb": 2,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hash Brown Scramble Bowl with No Meat",
+   "carb": 16,
+   "fiber": 3,
+   "cal": 350
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hash Brown Scramble Bowl with No Meat-No Hash Browns",
+   "carb": 3,
+   "fiber": 2,
+   "cal": 200
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hash Brown Scramble Bowl with Nuggets",
+   "carb": 19,
+   "fiber": 2,
+   "cal": 470
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hash Brown Scramble Bowl with Nuggets-No Hash Browns",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 320
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hash Brown Scramble Bowl with Sausage",
+   "carb": 15,
+   "fiber": 2,
+   "cal": 480
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hash Brown Scramble Bowl with Sausage-No Hash Browns",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 340
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hash Brown Scramble Bowl with Spicy Chicken",
+   "carb": 21,
+   "fiber": 3,
+   "cal": 500
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hash Brown Scramble Bowl with Spicy Chicken-No Hash Browns",
+   "carb": 9,
+   "fiber": 1,
+   "cal": 350
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hash Brown Scramble Burrito with Bacon",
+   "carb": 46,
+   "fiber": 3,
+   "cal": 680
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hash Brown Scramble Burrito with Bacon-No Hash Browns",
+   "carb": 34,
+   "fiber": 2,
+   "cal": 540
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hash Brown Scramble Burrito with Grilled Filet",
+   "carb": 46,
+   "fiber": 3,
+   "cal": 650
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hash Brown Scramble Burrito with Grilled Filet-No Hash Browns",
+   "carb": 34,
+   "fiber": 2,
+   "cal": 500
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hash Brown Scramble Burrito with No Meat",
+   "carb": 47,
+   "fiber": 5,
+   "cal": 580
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hash Brown Scramble Burrito with No Meat-No Hash Browns",
+   "carb": 35,
+   "fiber": 3,
+   "cal": 440
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hash Brown Scramble Burrito with Nuggets",
+   "carb": 51,
+   "fiber": 3,
+   "cal": 700
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hash Brown Scramble Burrito with Nuggets-No Hash Browns",
+   "carb": 38,
+   "fiber": 2,
+   "cal": 550
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hash Brown Scramble Burrito with Sausage",
+   "carb": 46,
+   "fiber": 3,
+   "cal": 720
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hash Brown Scramble Burrito with Sausage-No Hash Browns",
+   "carb": 34,
+   "fiber": 2,
+   "cal": 570
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hash Brown Scramble Burrito with Spicy Chicken",
+   "carb": 53,
+   "fiber": 4,
+   "cal": 740
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hash Brown Scramble Burrito with Spicy Chicken-No Hash Browns",
+   "carb": 40,
+   "fiber": 2,
+   "cal": 590
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Large Fruit Cup",
+   "carb": 28,
+   "fiber": 4,
+   "cal": 120
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Large Hash Browns",
+   "carb": 35,
+   "fiber": 4,
+   "cal": 420
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Medium Fruit Cup",
+   "carb": 16,
+   "fiber": 2,
+   "cal": 70
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage, Egg & Cheese Biscuit",
+   "carb": 38,
+   "fiber": 2,
+   "cal": 620
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage, Egg & Cheese Muffin",
+   "carb": 29,
+   "fiber": 1,
+   "cal": 490
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Small Fruit Cup",
+   "carb": 14,
+   "fiber": 2,
+   "cal": 60
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Small Hash Browns",
+   "carb": 23,
+   "fiber": 3,
+   "cal": 270
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Spicy Chicken Biscuit",
+   "carb": 44,
+   "fiber": 3,
+   "cal": 450
+  },
+  {
+   "cat": "Entrees",
+   "name": "2 Count Chick-Fil-A Chick-N-Strips",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Entrees",
+   "name": "3 Count Chick-Fil-A Chick-N-Strips",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Entrees",
+   "name": "4 Count Chick-Fil-A Chick-N-Strips",
+   "carb": 22,
+   "fiber": 0,
+   "cal": 410
+  },
+  {
+   "cat": "Entrees",
+   "name": "8 Count Chick-Fil-A Nuggets",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Entrees",
+   "name": "8 Count Grilled Nuggets",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Entrees",
+   "name": "10 Count Chick-Fil-A Chick-N-Strips",
+   "carb": 54,
+   "fiber": 0,
+   "cal": 1020
+  },
+  {
+   "cat": "Entrees",
+   "name": "12 Count Chick-Fil-A Nuggets",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 380
+  },
+  {
+   "cat": "Entrees",
+   "name": "12 Count Grilled Nuggets",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Entrees",
+   "name": "30 Count Chick-Fil-A Nuggets",
+   "carb": 41,
+   "fiber": 0,
+   "cal": 950
+  },
+  {
+   "cat": "Entrees",
+   "name": "30 Count Grilled Nuggets",
+   "carb": 4,
+   "fiber": 1,
+   "cal": 510
+  },
+  {
+   "cat": "Entrees",
+   "name": "Chick-Fil-A Chicken Sandwich",
+   "carb": 41,
+   "fiber": 1,
+   "cal": 420
+  },
+  {
+   "cat": "Entrees",
+   "name": "Chick-Fil-A Cool Wrap",
+   "carb": 32,
+   "fiber": 14,
+   "cal": 660
+  },
+  {
+   "cat": "Entrees",
+   "name": "Chick-Fil-A Deluxe Sandwich with American",
+   "carb": 43,
+   "fiber": 1,
+   "cal": 490
+  },
+  {
+   "cat": "Entrees",
+   "name": "Chick-Fil-A Deluxe Sandwich with Colby Jack",
+   "carb": 43,
+   "fiber": 1,
+   "cal": 510
+  },
+  {
+   "cat": "Entrees",
+   "name": "Chick-Fil-A Deluxe Sandwich with No Cheese",
+   "carb": 43,
+   "fiber": 1,
+   "cal": 430
+  },
+  {
+   "cat": "Entrees",
+   "name": "Chick-Fil-A Deluxe Sandwich with Pepper Jack",
+   "carb": 43,
+   "fiber": 1,
+   "cal": 520
+  },
+  {
+   "cat": "Entrees",
+   "name": "Grilled Chicken Club with American",
+   "carb": 45,
+   "fiber": 3,
+   "cal": 490
+  },
+  {
+   "cat": "Entrees",
+   "name": "Grilled Chicken Club with Colby Jack",
+   "carb": 45,
+   "fiber": 3,
+   "cal": 520
+  },
+  {
+   "cat": "Entrees",
+   "name": "Grilled Chicken Club with No Cheese",
+   "carb": 45,
+   "fiber": 3,
+   "cal": 440
+  },
+  {
+   "cat": "Entrees",
+   "name": "Grilled Chicken Club with Pepper Jack",
+   "carb": 45,
+   "fiber": 3,
+   "cal": 520
+  },
+  {
+   "cat": "Entrees",
+   "name": "Grilled Chicken Sandwich",
+   "carb": 45,
+   "fiber": 3,
+   "cal": 390
+  },
+  {
+   "cat": "Entrees",
+   "name": "Honey Pepper Pimento Sandwich with Chick-Fil-A Filet",
+   "carb": 53,
+   "fiber": 1,
+   "cal": 600
+  },
+  {
+   "cat": "Entrees",
+   "name": "Honey Pepper Pimento Sandwich with Grilled Filet",
+   "carb": 42,
+   "fiber": 1,
+   "cal": 450
+  },
+  {
+   "cat": "Entrees",
+   "name": "Honey Pepper Pimento Sandwich with Spicy Filet",
+   "carb": 56,
+   "fiber": 2,
+   "cal": 620
+  },
+  {
+   "cat": "Entrees",
+   "name": "Spicy Chicken Sandwich",
+   "carb": 45,
+   "fiber": 1,
+   "cal": 450
+  },
+  {
+   "cat": "Entrees",
+   "name": "Spicy Deluxe Sandwich with American",
+   "carb": 47,
+   "fiber": 2,
+   "cal": 510
+  },
+  {
+   "cat": "Entrees",
+   "name": "Spicy Deluxe Sandwich with Colby Jack",
+   "carb": 47,
+   "fiber": 2,
+   "cal": 540
+  },
+  {
+   "cat": "Entrees",
+   "name": "Spicy Deluxe Sandwich with No Cheese",
+   "carb": 46,
+   "fiber": 2,
+   "cal": 460
+  },
+  {
+   "cat": "Entrees",
+   "name": "Spicy Deluxe Sandwich with Pepper Jack",
+   "carb": 47,
+   "fiber": 2,
+   "cal": 540
+  },
+  {
+   "cat": "Salads",
+   "name": "Cobb Salad with Chick-Fil-A Chick-N-Strips",
+   "carb": 37,
+   "fiber": 5,
+   "cal": 890
+  },
+  {
+   "cat": "Salads",
+   "name": "Cobb Salad with Grilled Filet (Cold)",
+   "carb": 22,
+   "fiber": 5,
+   "cal": 690
+  },
+  {
+   "cat": "Salads",
+   "name": "Cobb Salad with Grilled Filet (Warm)",
+   "carb": 22,
+   "fiber": 5,
+   "cal": 690
+  },
+  {
+   "cat": "Salads",
+   "name": "Cobb Salad with Grilled Nuggets",
+   "carb": 22,
+   "fiber": 6,
+   "cal": 710
+  },
+  {
+   "cat": "Salads",
+   "name": "Cobb Salad with No Chicken",
+   "carb": 21,
+   "fiber": 5,
+   "cal": 580
+  },
+  {
+   "cat": "Salads",
+   "name": "Cobb Salad with Nuggets",
+   "carb": 31,
+   "fiber": 5,
+   "cal": 830
+  },
+  {
+   "cat": "Salads",
+   "name": "Cobb Salad with Spicy Grilled Filet (Cold)",
+   "carb": 23,
+   "fiber": 6,
+   "cal": 690
+  },
+  {
+   "cat": "Salads",
+   "name": "Market Salad with Chick-Fil-A Chick-N-Strips",
+   "carb": 57,
+   "fiber": 5,
+   "cal": 750
+  },
+  {
+   "cat": "Salads",
+   "name": "Market Salad with Grilled Filet (Cold)",
+   "carb": 42,
+   "fiber": 5,
+   "cal": 550
+  },
+  {
+   "cat": "Salads",
+   "name": "Market Salad with Grilled Filet (Warm)",
+   "carb": 42,
+   "fiber": 5,
+   "cal": 550
+  },
+  {
+   "cat": "Salads",
+   "name": "Market Salad with Grilled Nuggets",
+   "carb": 41,
+   "fiber": 6,
+   "cal": 570
+  },
+  {
+   "cat": "Salads",
+   "name": "Market Salad with No Chicken",
+   "carb": 40,
+   "fiber": 5,
+   "cal": 440
+  },
+  {
+   "cat": "Salads",
+   "name": "Market Salad with Nuggets",
+   "carb": 51,
+   "fiber": 5,
+   "cal": 700
+  },
+  {
+   "cat": "Salads",
+   "name": "Market Salad with Spicy Grilled Filet (Cold)",
+   "carb": 42,
+   "fiber": 6,
+   "cal": 540
+  },
+  {
+   "cat": "Salads",
+   "name": "Spicy Southwest Salad with Chick-Fil-A Chick-N Strips",
+   "carb": 41,
+   "fiber": 7,
+   "cal": 880
+  },
+  {
+   "cat": "Salads",
+   "name": "Spicy Southwest Salad with Grilled Filet (Cold)",
+   "carb": 26,
+   "fiber": 7,
+   "cal": 680
+  },
+  {
+   "cat": "Salads",
+   "name": "Spicy Southwest Salad with Grilled Filet (Warm)",
+   "carb": 26,
+   "fiber": 7,
+   "cal": 680
+  },
+  {
+   "cat": "Salads",
+   "name": "Spicy Southwest Salad with Grilled Nuggets",
+   "carb": 26,
+   "fiber": 7,
+   "cal": 700
+  },
+  {
+   "cat": "Salads",
+   "name": "Spicy Southwest Salad with No Chicken",
+   "carb": 25,
+   "fiber": 7,
+   "cal": 570
+  },
+  {
+   "cat": "Salads",
+   "name": "Spicy Southwest Salad with Nuggets",
+   "carb": 35,
+   "fiber": 7,
+   "cal": 800
+  },
+  {
+   "cat": "Salads",
+   "name": "Spicy Southwest Salad with Spicy Grilled Filet (Cold)",
+   "carb": 27,
+   "fiber": 7,
+   "cal": 680
+  },
+  {
+   "cat": "Sides",
+   "name": "Bowl Of Chicken Noodle Soup",
+   "carb": 42,
+   "fiber": 3,
+   "cal": 320
+  },
+  {
+   "cat": "Sides",
+   "name": "Buddy Fruits Apple Sauce",
+   "carb": 12,
+   "fiber": 1,
+   "cal": 45
+  },
+  {
+   "cat": "Sides",
+   "name": "Chick-Fil-A Sauce Flavored Waffle Potato Chips",
+   "carb": 26,
+   "fiber": 2,
+   "cal": 210
+  },
+  {
+   "cat": "Sides",
+   "name": "Chicken Tortilla Soup",
+   "carb": 31,
+   "fiber": 17,
+   "cal": 280
+  },
+  {
+   "cat": "Sides",
+   "name": "Cup Of Chicken Noodle Soup",
+   "carb": 27,
+   "fiber": 2,
+   "cal": 190
+  },
+  {
+   "cat": "Sides",
+   "name": "Kale Crunch Side",
+   "carb": 13,
+   "fiber": 4,
+   "cal": 170
+  },
+  {
+   "cat": "Sides",
+   "name": "Large Chick-Fil-A Waffle Potato Fries",
+   "carb": 65,
+   "fiber": 7,
+   "cal": 600
+  },
+  {
+   "cat": "Sides",
+   "name": "Medium Chick-Fil-A Waffle Potato Fries",
+   "carb": 45,
+   "fiber": 5,
+   "cal": 420
+  },
+  {
+   "cat": "Sides",
+   "name": "Medium Mac & Cheese",
+   "carb": 28,
+   "fiber": 3,
+   "cal": 450
+  },
+  {
+   "cat": "Sides",
+   "name": "Original Flavor Waffle Potato Chips",
+   "carb": 25,
+   "fiber": 2,
+   "cal": 220
+  },
+  {
+   "cat": "Sides",
+   "name": "Sides, Berry Parfait with Cookie Crumbs",
+   "carb": 31,
+   "fiber": 1,
+   "cal": 240
+  },
+  {
+   "cat": "Sides",
+   "name": "Sides, Berry Parfait with Granola",
+   "carb": 35,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Sides",
+   "name": "Sides, Large Fruit Cup",
+   "carb": 28,
+   "fiber": 4,
+   "cal": 120
+  },
+  {
+   "cat": "Sides",
+   "name": "Sides, Medium Fruit Cup",
+   "carb": 16,
+   "fiber": 2,
+   "cal": 70
+  },
+  {
+   "cat": "Sides",
+   "name": "Sides, Small Fruit Cup",
+   "carb": 14,
+   "fiber": 2,
+   "cal": 60
+  },
+  {
+   "cat": "Sides",
+   "name": "Side Salad",
+   "carb": 14,
+   "fiber": 4,
+   "cal": 470
+  },
+  {
+   "cat": "Sides",
+   "name": "Small Chick-Fil-A Waffle Potato Fries",
+   "carb": 35,
+   "fiber": 4,
+   "cal": 320
+  },
+  {
+   "cat": "Sides",
+   "name": "Small Mac & Cheese",
+   "carb": 17,
+   "fiber": 2,
+   "cal": 270
+  },
+  {
+   "cat": "Kid's Meals",
+   "name": "2 Count Chick-N-Strips Kid's Meal",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Kid's Meals",
+   "name": "5 Count Grilled Nuggets Kid's Meal",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Kid's Meals",
+   "name": "5 Count Nuggets Kid's Meal",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Kid's Meals",
+   "name": "Mac & Cheese Kid's Meal",
+   "carb": 28,
+   "fiber": 3,
+   "cal": 450
+  },
+  {
+   "cat": "Treats",
+   "name": "6 Pack Chocolate Chunk Cookie",
+   "carb": 49,
+   "fiber": 3,
+   "cal": 370
+  },
+  {
+   "cat": "Treats",
+   "name": "Chick-fil-A Icedream Cone",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Treats",
+   "name": "Chick-fil-A Icedream Cup",
+   "carb": 24,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Treats",
+   "name": "Chocolate Chunk Cookie",
+   "carb": 49,
+   "fiber": 3,
+   "cal": 370
+  },
+  {
+   "cat": "Treats",
+   "name": "Chocolate Fudge Brownie",
+   "carb": 47,
+   "fiber": 2,
+   "cal": 370
+  },
+  {
+   "cat": "Treats",
+   "name": "Chocolate Milkshake",
+   "carb": 93,
+   "fiber": 1,
+   "cal": 600
+  },
+  {
+   "cat": "Treats",
+   "name": "Cookies & Cream Milkshake",
+   "carb": 91,
+   "fiber": 1,
+   "cal": 630
+  },
+  {
+   "cat": "Treats",
+   "name": "Dr Pepper Float",
+   "carb": 60,
+   "fiber": 0,
+   "cal": 320
+  },
+  {
+   "cat": "Treats",
+   "name": "Frosted Coffee",
+   "carb": 45,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Treats",
+   "name": "Frosted Lemonade",
+   "carb": 67,
+   "fiber": 0,
+   "cal": 350
+  },
+  {
+   "cat": "Treats",
+   "name": "Frosted Lemonade with Diet Lemonade",
+   "carb": 50,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Treats",
+   "name": "Frosted Sodas",
+   "carb": 60,
+   "fiber": 0,
+   "cal": 320
+  },
+  {
+   "cat": "Treats",
+   "name": "Peach Frosted Lemonade",
+   "carb": 91,
+   "fiber": 1,
+   "cal": 440
+  },
+  {
+   "cat": "Treats",
+   "name": "Peach Frosted Lemonade with Diet Lemonade",
+   "carb": 91,
+   "fiber": 1,
+   "cal": 440
+  },
+  {
+   "cat": "Treats",
+   "name": "Peach Milkshake",
+   "carb": 101,
+   "fiber": 1,
+   "cal": 600
+  },
+  {
+   "cat": "Treats",
+   "name": "Pineapple Dragonfruit Frosted Lemonade",
+   "carb": 70,
+   "fiber": 0,
+   "cal": 360
+  },
+  {
+   "cat": "Treats",
+   "name": "Pineapple Dragonfruit Frosted Lemonade with Diet Lemonade",
+   "carb": 54,
+   "fiber": 0,
+   "cal": 300
+  },
+  {
+   "cat": "Treats",
+   "name": "Strawberry Milkshake",
+   "carb": 92,
+   "fiber": 1,
+   "cal": 560
+  },
+  {
+   "cat": "Treats",
+   "name": "Vanilla Milkshake",
+   "carb": 82,
+   "fiber": 1,
+   "cal": 580
+  },
+  {
+   "cat": "Drinks",
+   "name": "1% Chocolate Milk",
+   "carb": 23,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Drinks",
+   "name": "1% Milk",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gallon Chick-Fil-A Diet Lemonade",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gallon Chick-Fil-A Iced Tea (1/2 Sweet Tea, 1/2 Unsweet Tea)",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gallon Chick-Fil-A Lemonade",
+   "carb": 49,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gallon Chick-Fil-A Lemonade (1/2 Lemonade, 1/2 Diet Lemonade)",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gallon Freshly-Brewed Iced Tea Sweetened",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gallon Pineapple Dragonfruit Diet Lemonade",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gallon Pineapple Dragonfruit Lemonade",
+   "carb": 53,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gallon Pineapple Dragonfruit Sunjoy (1/2 Sweet Tea, 1/2 Diet Lemonade)",
+   "carb": 28,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gallon Pineapple Dragonfruit Sunjoy (1/2 Sweet Tea, 1/2 Lemonade)",
+   "carb": 44,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gallon Pineapple Dragonfruit Sunjoy (1/2 Unsweet Tea, 1/2 Diet Lemonade)",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gallon Pineapple Dragonfruit Sunjoy (1/2 Unsweet Tea, 1/2 Lemonade)",
+   "carb": 27,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gallon Pineapple Dragonfruit Sweet Tea",
+   "carb": 37,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gallon Pineapple Dragonfruit Unsweet Tea",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gallon Sunjoy (1/2 Sweet Tea, 1/2 Diet Lemonade)",
+   "carb": 23,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gallon Sunjoy (1/2 Sweet Tea, 1/2 Lemonade)",
+   "carb": 41,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gallon Sunjoy (1/2 Unsweet Tea, 1/2 Diet Lemonade)",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gallon Sunjoy (1/2 Unsweet Tea, 1/2 Lemonade)",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Drinks",
+   "name": "Honest Kids Apple Juice",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Drinks",
+   "name": "Iced Coffee",
+   "carb": 34,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Drinks",
+   "name": "Large Chick-Fil-A Diet Lemonade",
+   "carb": 23,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Drinks",
+   "name": "Large Chick-Fil-A Lemonade",
+   "carb": 98,
+   "fiber": 1,
+   "cal": 380
+  },
+  {
+   "cat": "Drinks",
+   "name": "Large Coca-Cola",
+   "carb": 68,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Large Dr Pepper",
+   "carb": 64,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Large Freshly-Brewed Sweetened Iced Tea",
+   "carb": 44,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Drinks",
+   "name": "Large Sunjoy (1/2 Sweet Tea, 1/2 Diet Lemonade)",
+   "carb": 40,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Drinks",
+   "name": "Large Sunjoy (1/2 Sweet Tea, 1/2 Lemonade)",
+   "carb": 91,
+   "fiber": 0,
+   "cal": 350
+  },
+  {
+   "cat": "Drinks",
+   "name": "Large Sunjoy (1/2 Unsweet Tea, 1/2 Diet Lemonade)",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Drinks",
+   "name": "Large Sunjoy (1/2 Unsweet Tea, 1/2 Lemonade)",
+   "carb": 66,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Drinks",
+   "name": "Medium Chick-Fil-A Diet Lemonade",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Drinks",
+   "name": "Medium Chick-Fil-A Lemonade",
+   "carb": 66,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Drinks",
+   "name": "Medium Coca-Cola",
+   "carb": 46,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Drinks",
+   "name": "Medium Dr Pepper",
+   "carb": 44,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Drinks",
+   "name": "Medium Freshly-Brewed Sweetened Iced Tea",
+   "carb": 31,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Drinks",
+   "name": "Medium Sunjoy (1/2 Sweet Tea, 1/2 Diet Lemonade)",
+   "carb": 29,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Drinks",
+   "name": "Medium Sunjoy (1/2 Sweet Tea, 1/2 Lemonade)",
+   "carb": 60,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Drinks",
+   "name": "Medium Sunjoy (1/2 Unsweet Tea, 1/2 Diet Lemonade)",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Drinks",
+   "name": "Medium Sunjoy (1/2 Unsweet Tea, 1/2 Lemonade)",
+   "carb": 41,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pineapple Dragonfruit & Sprite",
+   "carb": 50,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pineapple Dragonfruit Diet Lemonade",
+   "carb": 21,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pineapple Dragonfruit Lemonade",
+   "carb": 72,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pineapple Dragonfruit Sunjoy (Sweet Tea, Diet Lemonade)",
+   "carb": 34,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pineapple Dragonfruit Sunjoy (Sweet Tea, Lemonade)",
+   "carb": 59,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pineapple Dragonfruit Sunjoy (Unsweet Tea, Diet Lemonade)",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pineapple Dragonfruit Sunjoy (Unsweet Tea, Lemonade)",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pineapple Dragonfruit Sweet Tea",
+   "carb": 37,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pineapple Dragonfruit Unsweet Tea",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Drinks",
+   "name": "Simply Orange",
+   "carb": 34,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks",
+   "name": "Small Chick-Fil-A Diet Lemonade",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Drinks",
+   "name": "Small Chick-Fil-A Lemonade",
+   "carb": 49,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Drinks",
+   "name": "Small Coca-Cola",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Drinks",
+   "name": "Small Dr Pepper",
+   "carb": 34,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Drinks",
+   "name": "Small Freshly-Brewed Sweetened Iced Tea",
+   "carb": 22,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Drinks",
+   "name": "Small Sunjoy (1/2 Sweet Tea, 1/2 Diet Lemonade)",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Drinks",
+   "name": "Small Sunjoy (1/2 Sweet Tea, 1/2 Lemonade)",
+   "carb": 45,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Drinks",
+   "name": "Small Sunjoy (1/2 Unsweet Tea, 1/2 Diet Lemonade)",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 30
+  },
+  {
+   "cat": "Drinks",
+   "name": "Small Sunjoy (1/2 Unsweet Tea, 1/2 Lemonade)",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Drinks",
+   "name": "Vanilla Iced Coffee",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Dipping Sauces",
+   "name": "Barbeque Sauce",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Dipping Sauces",
+   "name": "Chick-Fil-A Sauce",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Dipping Sauces",
+   "name": "Garden Herb Ranch Sauce",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Dipping Sauces",
+   "name": "Honey Mustard Sauce",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Dipping Sauces",
+   "name": "Honey Roasted Bbq Sauce",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Dipping Sauces",
+   "name": "Polynesian Sauce",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Dipping Sauces",
+   "name": "Sweet & Spicy Sriracha Sauce",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Dipping Sauces",
+   "name": "Zesty Buffalo Sauce",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Dressings",
+   "name": "Avocado Lime Ranch Dressing",
+   "carb": 3,
+   "fiber": 1,
+   "cal": 310
+  },
+  {
+   "cat": "Dressings",
+   "name": "Creamy Salsa Dressing",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Dressings",
+   "name": "Fat-Free Honey Mustard Dressing",
+   "carb": 22,
+   "fiber": 1,
+   "cal": 90
+  },
+  {
+   "cat": "Dressings",
+   "name": "Garden Herb Ranch Dressing",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Dressings",
+   "name": "Light Balsamic Vinaigrette Dressing",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Dressings",
+   "name": "Light Italian Dressing",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Dressings",
+   "name": "Zesty Apple Cider Vinaigrette Dressing",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Buns",
+   "name": "Buttery White Bun",
+   "carb": 29,
+   "fiber": 1,
+   "cal": 180
+  },
+  {
+   "cat": "Buns",
+   "name": "Gluten Free Bun",
+   "carb": 37,
+   "fiber": 2,
+   "cal": 180
+  },
+  {
+   "cat": "Buns",
+   "name": "Multigrain Brioche Bun",
+   "carb": 38,
+   "fiber": 3,
+   "cal": 210
+  },
+  {
+   "cat": "Buns",
+   "name": "White Bun (Unbuttered)",
+   "carb": 28,
+   "fiber": 1,
+   "cal": 150
+  },
+  {
+   "cat": "Proteins",
+   "name": "Proteins, Chick-Fil-A Breakfast Filet",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Proteins",
+   "name": "Proteins, Chick-Fil-A Filet",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Proteins",
+   "name": "Proteins, Grilled Breakfast Filet",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Proteins",
+   "name": "Proteins, Grilled Filet",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Proteins",
+   "name": "Proteins, Proteins, Bacon",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Proteins",
+   "name": "Proteins, Sausage",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Proteins",
+   "name": "Proteins, Spicy Breakfast Filet",
+   "carb": 7,
+   "fiber": 1,
+   "cal": 150
+  },
+  {
+   "cat": "Proteins",
+   "name": "Proteins, Spicy Filet",
+   "carb": 16,
+   "fiber": 1,
+   "cal": 280
+  },
+  {
+   "cat": "Salad Toppings",
+   "name": "Salad Toppings, Blue Cheee Crumbles",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 30
+  },
+  {
+   "cat": "Salad Toppings",
+   "name": "Salad Toppings, Chili Lime Pepitas",
+   "carb": 2,
+   "fiber": 1,
+   "cal": 80
+  },
+  {
+   "cat": "Salad Toppings",
+   "name": "Salad Toppings, Crispy Bell Peppers",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Salad Toppings",
+   "name": "Salad Toppings, Harvest Nut Granola",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Salad Toppings",
+   "name": "Salad Toppings, Roasted Nut Blend",
+   "carb": 2,
+   "fiber": 1,
+   "cal": 70
+  },
+  {
+   "cat": "Salad Toppings",
+   "name": "Salad Toppings, Seasoned Tortilla Strips",
+   "carb": 8,
+   "fiber": 1,
+   "cal": 70
+  },
+  {
+   "cat": "Sandwich Toppings",
+   "name": "Sandwich Toppings, American Cheese",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Sandwich Toppings",
+   "name": "Sandwich Toppings, Bacon",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Sandwich Toppings",
+   "name": "Sandwich Toppings, Colby Jack Cheese",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Sandwich Toppings",
+   "name": "Sandwich Toppings, Lettuce",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Sandwich Toppings",
+   "name": "Sandwich Toppings, Pepper Jack Cheese",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Sandwich Toppings",
+   "name": "Sandwich Toppings, Tomato",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Soup Toppings",
+   "name": "Soup Toppings, Saltines",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Trays",
+   "name": "Chick-Fil-A Cool Wrap Trays",
+   "carb": 18,
+   "fiber": 7,
+   "cal": 480
+  },
+  {
+   "cat": "Trays",
+   "name": "Chick-Fil-A Nugget Trays",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 30
+  },
+  {
+   "cat": "Trays",
+   "name": "Chick-N-Strips Trays",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Trays",
+   "name": "Chilled Chick-Fil-A Nugget Trays",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 30
+  },
+  {
+   "cat": "Trays",
+   "name": "Chilled Chick-N-Strips Trays",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Trays",
+   "name": "Chilled Grilled Chicken Sub Sandwich Tray",
+   "carb": 25,
+   "fiber": 2,
+   "cal": 220
+  },
+  {
+   "cat": "Trays",
+   "name": "Chocolate Chunk Cookie Tray",
+   "carb": 49,
+   "fiber": 3,
+   "cal": 370
+  },
+  {
+   "cat": "Trays",
+   "name": "Chocolate Fudge Brownie Tray",
+   "carb": 23,
+   "fiber": 1,
+   "cal": 190
+  },
+  {
+   "cat": "Trays",
+   "name": "Cookie & Brownie Tray",
+   "carb": 36,
+   "fiber": 2,
+   "cal": 280
+  },
+  {
+   "cat": "Trays",
+   "name": "Grilled Chicken Bundle",
+   "carb": 35,
+   "fiber": 3,
+   "cal": 460
+  },
+  {
+   "cat": "Trays",
+   "name": "Large Fruit Tray",
+   "carb": 369,
+   "fiber": 58,
+   "cal": 1580
+  },
+  {
+   "cat": "Trays",
+   "name": "Large Garden Salad Tray",
+   "carb": 41,
+   "fiber": 17,
+   "cal": 630
+  },
+  {
+   "cat": "Trays",
+   "name": "Large Kale Crunch Side Tray",
+   "carb": 166,
+   "fiber": 49,
+   "cal": 2440
+  },
+  {
+   "cat": "Trays",
+   "name": "Large Mac & Cheese Tray",
+   "carb": 616,
+   "fiber": 63,
+   "cal": 9850
+  },
+  {
+   "cat": "Trays",
+   "name": "Small Fruit Tray",
+   "carb": 182,
+   "fiber": 29,
+   "cal": 780
+  },
+  {
+   "cat": "Trays",
+   "name": "Small Garden Salad Tray",
+   "carb": 20,
+   "fiber": 9,
+   "cal": 310
+  },
+  {
+   "cat": "Trays",
+   "name": "Small Kale Crunch Side Tray",
+   "carb": 77,
+   "fiber": 23,
+   "cal": 1160
+  },
+  {
+   "cat": "Trays",
+   "name": "Small Mac & Cheese Tray",
+   "carb": 308,
+   "fiber": 31,
+   "cal": 4930
+  },
+  {
+   "cat": "Trays",
+   "name": "Southwest Veggie Wrap Trays",
+   "carb": 19,
+   "fiber": 8,
+   "cal": 460
+  },
+  {
+   "cat": "Trays",
+   "name": "Spicy Chilled Grilled Chicken Sub Sandwich Tray",
+   "carb": 25,
+   "fiber": 2,
+   "cal": 220
+  },
+  {
+   "cat": "Trays",
+   "name": "Spicy Cool Wrap Trays",
+   "carb": 18,
+   "fiber": 8,
+   "cal": 480
+  },
+  {
+   "cat": "Catering Entrees",
+   "name": "Catering, 8 Count Chick-Fil-A Nuggets",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Catering Entrees",
+   "name": "Catering, 12 Count Chick-Fil-A Nuggets",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 380
+  },
+  {
+   "cat": "Catering Entrees",
+   "name": "Catering, Chick-Fil-A Chicken Sandwich",
+   "carb": 41,
+   "fiber": 1,
+   "cal": 420
+  },
+  {
+   "cat": "Catering Entrees",
+   "name": "Catering, Chilled Grilled Chicken Sub Sandwich",
+   "carb": 52,
+   "fiber": 5,
+   "cal": 500
+  },
+  {
+   "cat": "Catering Entrees",
+   "name": "Catering, Spicy Chicken Sandwich",
+   "carb": 45,
+   "fiber": 1,
+   "cal": 450
+  },
+  {
+   "cat": "Catering Entrees",
+   "name": "Catering, Spicy Chilled Grilled Chicken Sub Sandwich",
+   "carb": 53,
+   "fiber": 5,
+   "cal": 500
+  },
+  {
+   "cat": "Catering Drinks",
+   "name": "Catering, 1% Chocolate Milk",
+   "carb": 23,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Catering Drinks",
+   "name": "Catering, 1% Milk",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Catering Drinks",
+   "name": "Catering, Bottled Diet Lemonade",
+   "carb": 17,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Catering Drinks",
+   "name": "Catering, Bottled Lemonade",
+   "carb": 73,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Catering Drinks",
+   "name": "Catering, Bottled Sweet Tea",
+   "carb": 50,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Catering Drinks",
+   "name": "Catering, Gallon Chick-Fil-A Diet Lemonade",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Catering Drinks",
+   "name": "Catering, Gallon Chick-Fil-A Iced Tea (1/2 Sweet Tea, 1/2 Unsweet Tea)",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Catering Drinks",
+   "name": "Catering, Gallon Chick-Fil-A Lemonade",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Catering Drinks",
+   "name": "Catering, Gallon Chick-Fil-A Lemonade (1/2 Lemonade, 1/2 Diet Lemonade)",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Catering Drinks",
+   "name": "Catering, Gallon Freshly-Brewed Iced Tea Sweetened",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Catering Drinks",
+   "name": "Catering, Gallon Pineapple Dragonfruit Diet Lemonade",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Catering Drinks",
+   "name": "Catering, Gallon Pineapple Dragonfruit Lemonade",
+   "carb": 53,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Catering Drinks",
+   "name": "Catering, Gallon Pineapple Dragonfruit Sunjoy (1/2 Sweet Tea, 1/2 Diet Lemonade)",
+   "carb": 28,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Catering Drinks",
+   "name": "Catering, Gallon Pineapple Dragonfruit Sunjoy (1/2 Sweet Tea, 1/2 Lemonade)",
+   "carb": 44,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Catering Drinks",
+   "name": "Catering, Gallon Pineapple Dragonfruit Sunjoy (1/2 Unsweet Tea, 1/2 Diet Lemonade)",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Catering Drinks",
+   "name": "Catering, Gallon Pineapple Dragonfruit Sunjoy (1/2 Unsweet Tea, 1/2 Lemonade)",
+   "carb": 27,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Catering Drinks",
+   "name": "Catering, Gallon Pineapple Dragonfruit Sweet Tea",
+   "carb": 37,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Catering Drinks",
+   "name": "Catering, Gallon Pineapple Dragonfruit Unsweet Tea",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Catering Drinks",
+   "name": "Catering, Gallon Sunjoy (1/2 Sweet Tea, 1/2 Diet Lemonade)",
+   "carb": 23,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Catering Drinks",
+   "name": "Catering, Gallon Sunjoy (1/2 Sweet Tea, 1/2 Lemonade)",
+   "carb": 41,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Catering Drinks",
+   "name": "Catering, Gallon Sunjoy (1/2 Unsweet Tea, 1/2 Diet Lemonade)",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Catering Drinks",
+   "name": "Catering, Gallon Sunjoy (1/2 Unsweet Tea, 1/2 Lemonade)",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Catering Drinks",
+   "name": "Catering, Honest Kids Apple Juice",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Catering Drinks",
+   "name": "Catering, Simply Orange",
+   "carb": 34,
+   "fiber": 0,
+   "cal": 160
+  }
+ ]
+}

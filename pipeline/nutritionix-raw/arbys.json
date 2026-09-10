@@ -1,0 +1,1221 @@
+{
+ "chain": "Arby's",
+ "slug": "arbys",
+ "source": "https://www.nutritionix.com/arbys/menu/premium",
+ "platform": "nutritionix",
+ "updated": "09/15/2025",
+ "pulledAt": "2026-09-10",
+ "type": "grid",
+ "columns": {
+  "cal": 1,
+  "carb": 8,
+  "fiber": 9
+ },
+ "count": 172,
+ "items": [
+  {
+   "cat": "Limited Time Offers",
+   "name": "Loaded Italian",
+   "carb": 46,
+   "fiber": 3,
+   "cal": 600
+  },
+  {
+   "cat": "Slow Roasted Beef",
+   "name": "Arby's Sauce Adds",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Slow Roasted Beef",
+   "name": "Classic Beef N Cheddar",
+   "carb": 45,
+   "fiber": 2,
+   "cal": 450
+  },
+  {
+   "cat": "Slow Roasted Beef",
+   "name": "Classic Roast Beef",
+   "carb": 37,
+   "fiber": 2,
+   "cal": 360
+  },
+  {
+   "cat": "Slow Roasted Beef",
+   "name": "Double Beef N Cheddar",
+   "carb": 48,
+   "fiber": 2,
+   "cal": 630
+  },
+  {
+   "cat": "Slow Roasted Beef",
+   "name": "Double Roast Beef",
+   "carb": 38,
+   "fiber": 2,
+   "cal": 510
+  },
+  {
+   "cat": "Slow Roasted Beef",
+   "name": "Half Pound Beef N Cheddar",
+   "carb": 48,
+   "fiber": 2,
+   "cal": 740
+  },
+  {
+   "cat": "Slow Roasted Beef",
+   "name": "Half Pound Roast Beef",
+   "carb": 38,
+   "fiber": 2,
+   "cal": 610
+  },
+  {
+   "cat": "Slow Roasted Beef",
+   "name": "Horsey Sauce Adds",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Slow Roasted Beef",
+   "name": "White Cheddar Mac N Cheese",
+   "carb": 40,
+   "fiber": 1,
+   "cal": 470
+  },
+  {
+   "cat": "Burgers",
+   "name": "BBQ Bacon Burger",
+   "carb": 45,
+   "fiber": 1,
+   "cal": 710
+  },
+  {
+   "cat": "Burgers",
+   "name": "Classic French Dip & Swiss / Au Jus",
+   "carb": 50,
+   "fiber": 2,
+   "cal": 530
+  },
+  {
+   "cat": "Burgers",
+   "name": "Deluxe Burger",
+   "carb": 45,
+   "fiber": 3,
+   "cal": 600
+  },
+  {
+   "cat": "Chicken",
+   "name": "BBQ Dipping Sauce Adds",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Chicken",
+   "name": "Big Cheesy Bacon Burger",
+   "carb": 50,
+   "fiber": 0,
+   "cal": 710
+  },
+  {
+   "cat": "Chicken",
+   "name": "Buffalo Chicken",
+   "carb": 59,
+   "fiber": 4,
+   "cal": 530
+  },
+  {
+   "cat": "Chicken",
+   "name": "Buffalo Dipping Sauce Adds",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Chicken",
+   "name": "Chicken Bacon Swiss",
+   "carb": 61,
+   "fiber": 4,
+   "cal": 650
+  },
+  {
+   "cat": "Chicken",
+   "name": "Chicken Cordon Bleu",
+   "carb": 59,
+   "fiber": 4,
+   "cal": 650
+  },
+  {
+   "cat": "Chicken",
+   "name": "Chicken Tenders (3 Piece)",
+   "carb": 28,
+   "fiber": 2,
+   "cal": 370
+  },
+  {
+   "cat": "Chicken",
+   "name": "Chicken Tenders (5 Piece)",
+   "carb": 47,
+   "fiber": 3,
+   "cal": 610
+  },
+  {
+   "cat": "Chicken",
+   "name": "Crispy Chicken",
+   "carb": 59,
+   "fiber": 4,
+   "cal": 530
+  },
+  {
+   "cat": "Chicken",
+   "name": "Honey Mustard Dipping Sauce Adds",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Arby's Classics",
+   "name": "Greek Gyro",
+   "carb": 55,
+   "fiber": 4,
+   "cal": 700
+  },
+  {
+   "cat": "Arby's Classics",
+   "name": "Ranch Dipping Sauce Adds",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Arby's Classics",
+   "name": "Reuben",
+   "carb": 62,
+   "fiber": 4,
+   "cal": 680
+  },
+  {
+   "cat": "Arby's Classics",
+   "name": "Roast Beef Gyro",
+   "carb": 48,
+   "fiber": 3,
+   "cal": 540
+  },
+  {
+   "cat": "Arby's Classics",
+   "name": "Smokehouse Brisket",
+   "carb": 48,
+   "fiber": 3,
+   "cal": 590
+  },
+  {
+   "cat": "Arby's Classics",
+   "name": "Turkey Ranch & Bacon Sandwich",
+   "carb": 79,
+   "fiber": 5,
+   "cal": 810
+  },
+  {
+   "cat": "Desserts",
+   "name": "Apple Turnover",
+   "carb": 65,
+   "fiber": 2,
+   "cal": 430
+  },
+  {
+   "cat": "Desserts",
+   "name": "Chocolate Shake, Large",
+   "carb": 110,
+   "fiber": 1,
+   "cal": 680
+  },
+  {
+   "cat": "Desserts",
+   "name": "Chocolate Shake, Regular",
+   "carb": 83,
+   "fiber": 1,
+   "cal": 520
+  },
+  {
+   "cat": "Desserts",
+   "name": "Ham & Swiss Melt",
+   "carb": 40,
+   "fiber": 2,
+   "cal": 380
+  },
+  {
+   "cat": "Desserts",
+   "name": "Jamocha Shake, Large",
+   "carb": 112,
+   "fiber": 0,
+   "cal": 690
+  },
+  {
+   "cat": "Desserts",
+   "name": "Jamocha Shake, Regular",
+   "carb": 85,
+   "fiber": 0,
+   "cal": 530
+  },
+  {
+   "cat": "Desserts",
+   "name": "Salted Caramel & Chocolate Cookie",
+   "carb": 63,
+   "fiber": 1,
+   "cal": 430
+  },
+  {
+   "cat": "Desserts",
+   "name": "Vanilla Shake, Large",
+   "carb": 93,
+   "fiber": 0,
+   "cal": 620
+  },
+  {
+   "cat": "Desserts",
+   "name": "Vanilla Shake, Regular",
+   "carb": 70,
+   "fiber": 0,
+   "cal": 480
+  },
+  {
+   "cat": "Sides & Snacks",
+   "name": "Bronco Berry Sauce Adds",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Sides & Snacks",
+   "name": "Cheddar Cheese Sauce Adds",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Sides & Snacks",
+   "name": "Cherry Turnover",
+   "carb": 65,
+   "fiber": 2,
+   "cal": 390
+  },
+  {
+   "cat": "Sides & Snacks",
+   "name": "Chicken Tenders (2 Piece)",
+   "carb": 7,
+   "fiber": 1,
+   "cal": 160
+  },
+  {
+   "cat": "Sides & Snacks",
+   "name": "Crinkle Fries, Large",
+   "carb": 68,
+   "fiber": 0,
+   "cal": 530
+  },
+  {
+   "cat": "Sides & Snacks",
+   "name": "Crinkle Fries, Medium",
+   "carb": 49,
+   "fiber": 0,
+   "cal": 390
+  },
+  {
+   "cat": "Sides & Snacks",
+   "name": "Crinkle Fries, Small",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Sides & Snacks",
+   "name": "Curly Fries, Large",
+   "carb": 65,
+   "fiber": 6,
+   "cal": 550
+  },
+  {
+   "cat": "Sides & Snacks",
+   "name": "Curly Fries, Medium",
+   "carb": 49,
+   "fiber": 5,
+   "cal": 410
+  },
+  {
+   "cat": "Sides & Snacks",
+   "name": "Curly Fries, Small",
+   "carb": 29,
+   "fiber": 3,
+   "cal": 250
+  },
+  {
+   "cat": "Sides & Snacks",
+   "name": "Jalapeno Bites (5 Piece)",
+   "carb": 31,
+   "fiber": 2,
+   "cal": 290
+  },
+  {
+   "cat": "Sides & Snacks",
+   "name": "Jalapeno Bites (8 Piece)",
+   "carb": 50,
+   "fiber": 3,
+   "cal": 470
+  },
+  {
+   "cat": "Sides & Snacks",
+   "name": "Marinara Sauce Adds",
+   "carb": 4,
+   "fiber": 1,
+   "cal": 20
+  },
+  {
+   "cat": "Sides & Snacks",
+   "name": "Mozzarella Sticks (4 Piece)",
+   "carb": 37,
+   "fiber": 2,
+   "cal": 440
+  },
+  {
+   "cat": "Sides & Snacks",
+   "name": "Mozzarella Sticks (6 Piece)",
+   "carb": 56,
+   "fiber": 3,
+   "cal": 650
+  },
+  {
+   "cat": "Sides & Snacks",
+   "name": "Side, Buffalo Dipping Sauce",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Sides & Snacks",
+   "name": "Side, Honey Mustard Dipping Sauce",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Sides & Snacks",
+   "name": "Side, Ketchup",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Sides & Snacks",
+   "name": "Side, Potato Cakes (2 Piece)",
+   "carb": 23,
+   "fiber": 2,
+   "cal": 250
+  },
+  {
+   "cat": "Sides & Snacks",
+   "name": "Side, Potato Cakes (3 Piece)",
+   "carb": 35,
+   "fiber": 4,
+   "cal": 370
+  },
+  {
+   "cat": "Sides & Snacks",
+   "name": "Side, Potato Cakes (4 Piece)",
+   "carb": 46,
+   "fiber": 5,
+   "cal": 490
+  },
+  {
+   "cat": "Sides & Snacks",
+   "name": "Sides, BBQ Dipping Sauce",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Value Menu",
+   "name": "Value BBQ Chicken Wrap",
+   "carb": 36,
+   "fiber": 1,
+   "cal": 350
+  },
+  {
+   "cat": "Value Menu",
+   "name": "Value Buffalo Chicken Slider",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 260
+  },
+  {
+   "cat": "Value Menu",
+   "name": "Value Chicken Slider",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 230
+  },
+  {
+   "cat": "Value Menu",
+   "name": "Value Curly Fries, Small",
+   "carb": 29,
+   "fiber": 3,
+   "cal": 250
+  },
+  {
+   "cat": "Value Menu",
+   "name": "Value Ham Slider",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Value Menu",
+   "name": "Value Honey Mustard Chicken Wrap",
+   "carb": 33,
+   "fiber": 1,
+   "cal": 390
+  },
+  {
+   "cat": "Value Menu",
+   "name": "Value Jalapeno Roast Beef Slider",
+   "carb": 16,
+   "fiber": 1,
+   "cal": 180
+  },
+  {
+   "cat": "Value Menu",
+   "name": "Value Ranch Chicken Wrap",
+   "carb": 32,
+   "fiber": 1,
+   "cal": 400
+  },
+  {
+   "cat": "Value Menu",
+   "name": "Value Ranch Dipping Sauce",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Value Menu",
+   "name": "Value Roast Beef Slider",
+   "carb": 18,
+   "fiber": 1,
+   "cal": 180
+  },
+  {
+   "cat": "Kids Meals",
+   "name": "Kids Barbeque Dipping Sauce Adds",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Kids Meals",
+   "name": "Kids Buffalo Chicken Slider",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 260
+  },
+  {
+   "cat": "Kids Meals",
+   "name": "Kids Buffalo Dipping Sauce Adds",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Kids Meals",
+   "name": "Kids Chicken Slider",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 230
+  },
+  {
+   "cat": "Kids Meals",
+   "name": "Kids Chicken Tenders (2)",
+   "carb": 7,
+   "fiber": 1,
+   "cal": 160
+  },
+  {
+   "cat": "Kids Meals",
+   "name": "Kids Crinkle Fries, Small",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Kids Meals",
+   "name": "Kids Curly Fries, Small",
+   "carb": 29,
+   "fiber": 3,
+   "cal": 250
+  },
+  {
+   "cat": "Kids Meals",
+   "name": "Kids Ham Slider",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Kids Meals",
+   "name": "Kids Honest Kids Apple Juice Drink",
+   "carb": 12,
+   "fiber": 3,
+   "cal": 45
+  },
+  {
+   "cat": "Kids Meals",
+   "name": "Kids Honey Mustard Dipping Sauce Adds",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Kids Meals",
+   "name": "Kids Jalapeno Roast Beef Slider",
+   "carb": 16,
+   "fiber": 1,
+   "cal": 180
+  },
+  {
+   "cat": "Kids Meals",
+   "name": "Kids Potato Cakes (2)",
+   "carb": 23,
+   "fiber": 2,
+   "cal": 250
+  },
+  {
+   "cat": "Kids Meals",
+   "name": "Kids Ranch Dipping Sauce Adds",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Kids Meals",
+   "name": "Kids Roast Beef Slider",
+   "carb": 18,
+   "fiber": 1,
+   "cal": 180
+  },
+  {
+   "cat": "Kids Meals",
+   "name": "Kids Shamrock Farms Lowfat White Milk",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Kids Meals",
+   "name": "Kids Tree Top Applesauce",
+   "carb": 13,
+   "fiber": 2,
+   "cal": 45
+  },
+  {
+   "cat": "Beverages",
+   "name": "Barq's Root Beer, Large",
+   "carb": 67,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Beverages",
+   "name": "Barq's Root Beer, Medium",
+   "carb": 49,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Beverages",
+   "name": "Barq's Root Beer, Small",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Beverages",
+   "name": "Brewed Iced Tea, Large",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Beverages",
+   "name": "Brewed Iced Tea, Medium",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Beverages",
+   "name": "Brewed Iced Tea, Small",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Beverages",
+   "name": "Classic Lemonade, Large",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Beverages",
+   "name": "Classic Lemonade, Regular",
+   "carb": 29,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Beverages",
+   "name": "Coca-Cola, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Beverages",
+   "name": "Coca-Cola, Medium",
+   "carb": 44,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Beverages",
+   "name": "Coca-Cola, Small",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Beverages",
+   "name": "Coca-Cola Zero Sugar, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Beverages",
+   "name": "Coca-Cola Zero Sugar, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Beverages",
+   "name": "Coca-Cola Zero Sugar, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Beverages",
+   "name": "Diet Coke, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Beverages",
+   "name": "Diet Coke, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Beverages",
+   "name": "Diet Coke, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Beverages",
+   "name": "Diet Dr Pepper, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Beverages",
+   "name": "Diet Dr Pepper, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Beverages",
+   "name": "Diet Dr Pepper, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Beverages",
+   "name": "Dr Pepper, Large",
+   "carb": 72,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Beverages",
+   "name": "Dr Pepper, Medium",
+   "carb": 52,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Beverages",
+   "name": "Dr Pepper, Small",
+   "carb": 37,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Beverages",
+   "name": "Fanta Orange, Large",
+   "carb": 64,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Beverages",
+   "name": "Fanta Orange, Medium",
+   "carb": 46,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Beverages",
+   "name": "Fanta Orange, Small",
+   "carb": 37,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Beverages",
+   "name": "Hi-C Flashin Fruit Punch, Large",
+   "carb": 63,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Beverages",
+   "name": "Hi-C Flashin Fruit Punch, Medium",
+   "carb": 46,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Beverages",
+   "name": "Hi-C Flashin Fruit Punch, Small",
+   "carb": 40,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Beverages",
+   "name": "Honest Kids Apple Juice Drink",
+   "carb": 12,
+   "fiber": 3,
+   "cal": 45
+  },
+  {
+   "cat": "Beverages",
+   "name": "Mello Yello, Large",
+   "carb": 63,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Beverages",
+   "name": "Mello Yello, Medium",
+   "carb": 46,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Beverages",
+   "name": "Mello Yello, Small",
+   "carb": 41,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Beverages",
+   "name": "Minute Maid Zero Sugar Lemonade, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Beverages",
+   "name": "Minute Maid Zero Sugar Lemonade, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Beverages",
+   "name": "Minute Maid Zero Sugar Lemonade, Small",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Beverages",
+   "name": "Powerade Mountain Berry Blast, Large",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Beverages",
+   "name": "Powerade Mountain Berry Blast, Medium",
+   "carb": 24,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Beverages",
+   "name": "Powerade Mountain Berry Blast, Small",
+   "carb": 21,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Beverages",
+   "name": "Shamrock Farms Lowfat Chocolate Milk",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 150
+  },
+  {
+   "cat": "Beverages",
+   "name": "Shamrock Farms Lowfat White Milk",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Beverages",
+   "name": "Sprite, Large",
+   "carb": 58,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Beverages",
+   "name": "Sprite, Medium",
+   "carb": 42,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Beverages",
+   "name": "Sprite, Small",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Beverages",
+   "name": "Strawberry Lemonade, Large",
+   "carb": 52,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Beverages",
+   "name": "Strawberry Lemonade, Regular",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Bacon & Cheese Croissant",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 330
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Bacon, Egg & Cheese Biscuit",
+   "carb": 37,
+   "fiber": 1,
+   "cal": 470
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Bacon, Egg & Cheese Croissant",
+   "carb": 29,
+   "fiber": 1,
+   "cal": 430
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Bacon, Egg & Cheese Sourdough",
+   "carb": 46,
+   "fiber": 2,
+   "cal": 470
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Bacon, Egg & Cheese Wrap",
+   "carb": 29,
+   "fiber": 1,
+   "cal": 410
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Bacon Biscuit",
+   "carb": 36,
+   "fiber": 1,
+   "cal": 340
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Chicken Biscuit",
+   "carb": 44,
+   "fiber": 2,
+   "cal": 390
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Coffee, 12 oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Breakfast",
+   "name": "French Toast Sticks",
+   "carb": 82,
+   "fiber": 3,
+   "cal": 590
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Ham & Swiss Croissant",
+   "carb": 29,
+   "fiber": 1,
+   "cal": 340
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Ham, Egg & Cheese Biscuit",
+   "carb": 38,
+   "fiber": 1,
+   "cal": 460
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Ham, Egg & Cheese Croissant",
+   "carb": 30,
+   "fiber": 1,
+   "cal": 410
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Ham, Egg & Cheese Sourdough",
+   "carb": 47,
+   "fiber": 2,
+   "cal": 460
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Ham, Egg & Cheese Wrap",
+   "carb": 31,
+   "fiber": 1,
+   "cal": 400
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Ham Biscuit",
+   "carb": 37,
+   "fiber": 1,
+   "cal": 340
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Ketchup Adds",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Potato Cakes (2 Piece)",
+   "carb": 23,
+   "fiber": 2,
+   "cal": 250
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Potato Cakes (3 Piece)",
+   "carb": 35,
+   "fiber": 4,
+   "cal": 370
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Potato Cakes (4 Piece)",
+   "carb": 46,
+   "fiber": 5,
+   "cal": 490
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage & Cheese Croissant",
+   "carb": 28,
+   "fiber": 1,
+   "cal": 490
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage, Egg & Cheese Biscuit",
+   "carb": 39,
+   "fiber": 1,
+   "cal": 630
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage, Egg & Cheese Croissant",
+   "carb": 30,
+   "fiber": 1,
+   "cal": 580
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage, Egg & Cheese Sourdough",
+   "carb": 47,
+   "fiber": 2,
+   "cal": 630
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage, Egg & Cheese Wrap",
+   "carb": 30,
+   "fiber": 1,
+   "cal": 550
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage Biscuit",
+   "carb": 36,
+   "fiber": 1,
+   "cal": 500
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage Gravy Biscuit",
+   "carb": 48,
+   "fiber": 1,
+   "cal": 480
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage Gravy Biscuit, Double",
+   "carb": 95,
+   "fiber": 3,
+   "cal": 960
+  },
+  {
+   "cat": "Toppings",
+   "name": "4\" Sesame Seed Bun",
+   "carb": 36,
+   "fiber": 2,
+   "cal": 210
+  },
+  {
+   "cat": "Toppings",
+   "name": "Bacon, 3 Half Strips",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Toppings",
+   "name": "Cheddar Cheese (Mild Slice), 1 Slice",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Toppings",
+   "name": "Crispy Onions, 0.5 oz",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Toppings",
+   "name": "Processed Swiss, 1 Slice",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Toppings",
+   "name": "Red Ranch Sauce, 0.5 oz",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Toppings",
+   "name": "Simply Orange Juice",
+   "carb": 33,
+   "fiber": 1,
+   "cal": 140
+  },
+  {
+   "cat": "Toppings",
+   "name": "Tomato, 2 Slices",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Optional & Regional",
+   "name": "Arby's Melt",
+   "carb": 39,
+   "fiber": 2,
+   "cal": 330
+  },
+  {
+   "cat": "Optional & Regional",
+   "name": "Cheddar Cheese Sauce, 0.75 oz",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Optional & Regional",
+   "name": "Ham & Swiss Sandwich",
+   "carb": 81,
+   "fiber": 5,
+   "cal": 730
+  },
+  {
+   "cat": "Optional & Regional",
+   "name": "Spicy Three Pepper Sauce Adds",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Optional & Regional",
+   "name": "Super Roast Beef",
+   "carb": 43,
+   "fiber": 3,
+   "cal": 440
+  }
+ ]
+}

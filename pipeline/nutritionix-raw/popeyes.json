@@ -1,0 +1,500 @@
+{
+ "chain": "Popeyes",
+ "slug": "popeyes",
+ "source": "https://www.nutritionix.com/popeyes/menu/premium",
+ "platform": "nutritionix",
+ "updated": "09/29/2025",
+ "pulledAt": "2026-09-10",
+ "type": "grid",
+ "columns": {
+  "cal": 1,
+  "carb": 8,
+  "fiber": 9
+ },
+ "count": 69,
+ "items": [
+  {
+   "cat": "Signature Chicken",
+   "name": "Classic or Spicy, Chicken Breast",
+   "carb": 16,
+   "fiber": 2,
+   "cal": 380
+  },
+  {
+   "cat": "Signature Chicken",
+   "name": "Classic or Spicy, Chicken Leg",
+   "carb": 5,
+   "fiber": 1,
+   "cal": 160
+  },
+  {
+   "cat": "Signature Chicken",
+   "name": "Classic or Spicy, Chicken Thigh",
+   "carb": 7,
+   "fiber": 1,
+   "cal": 280
+  },
+  {
+   "cat": "Signature Chicken",
+   "name": "Classic or Spicy, Chicken Wing",
+   "carb": 8,
+   "fiber": 1,
+   "cal": 210
+  },
+  {
+   "cat": "Tenders",
+   "name": "Blackened Tenders, 3 pc",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Tenders",
+   "name": "Blackened Tenders, 5 pc",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Tenders",
+   "name": "Classic or Spicy Tenders, 3 pc",
+   "carb": 29,
+   "fiber": 2,
+   "cal": 450
+  },
+  {
+   "cat": "Tenders",
+   "name": "Classic or Spicy Tenders, 5 pc",
+   "carb": 48,
+   "fiber": 3,
+   "cal": 740
+  },
+  {
+   "cat": "Wings",
+   "name": "Classic Boneless Wings",
+   "carb": 23,
+   "fiber": 2,
+   "cal": 500
+  },
+  {
+   "cat": "Wings",
+   "name": "Honey BBQ Bone-In Wings",
+   "carb": 70,
+   "fiber": 3,
+   "cal": 880
+  },
+  {
+   "cat": "Wings",
+   "name": "Honey BBQ Boneless Wings",
+   "carb": 72,
+   "fiber": 2,
+   "cal": 700
+  },
+  {
+   "cat": "Wings",
+   "name": "Honey Lemon Pepper Bone-In Wings",
+   "carb": 83,
+   "fiber": 2,
+   "cal": 920
+  },
+  {
+   "cat": "Wings",
+   "name": "Honey Lemon Pepper Boneless Wings",
+   "carb": 85,
+   "fiber": 2,
+   "cal": 750
+  },
+  {
+   "cat": "Wings",
+   "name": "Roasted Garlic Parmesan Bone-In Wings",
+   "carb": 29,
+   "fiber": 2,
+   "cal": 1040
+  },
+  {
+   "cat": "Wings",
+   "name": "Roasted Garlic Parmesan Boneless Wings",
+   "carb": 31,
+   "fiber": 2,
+   "cal": 860
+  },
+  {
+   "cat": "Wings",
+   "name": "Signature Hot Bone-In Wings",
+   "carb": 45,
+   "fiber": 4,
+   "cal": 1190
+  },
+  {
+   "cat": "Wings",
+   "name": "Signature Hot Boneless Wings",
+   "carb": 46,
+   "fiber": 4,
+   "cal": 1020
+  },
+  {
+   "cat": "Wings",
+   "name": "Spicy Bone-In Wings",
+   "carb": 22,
+   "fiber": 2,
+   "cal": 680
+  },
+  {
+   "cat": "Wings",
+   "name": "Sweet 'N Spicy Bone-In Wings",
+   "carb": 77,
+   "fiber": 3,
+   "cal": 950
+  },
+  {
+   "cat": "Wings",
+   "name": "Sweet 'N Spicy Boneless Wings",
+   "carb": 78,
+   "fiber": 2,
+   "cal": 730
+  },
+  {
+   "cat": "Seafood",
+   "name": "Popcorn Shrimp",
+   "carb": 28,
+   "fiber": 3,
+   "cal": 390
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Chicken Sandwich, Classic",
+   "carb": 50,
+   "fiber": 2,
+   "cal": 700
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Chicken Sandwich, Spicy",
+   "carb": 50,
+   "fiber": 2,
+   "cal": 700
+  },
+  {
+   "cat": "Signature Sides",
+   "name": "Biscuit",
+   "carb": 20,
+   "fiber": 1,
+   "cal": 210
+  },
+  {
+   "cat": "Signature Sides",
+   "name": "Cajun Fries, Large",
+   "carb": 97,
+   "fiber": 9,
+   "cal": 800
+  },
+  {
+   "cat": "Signature Sides",
+   "name": "Cajun Fries, Regular",
+   "carb": 33,
+   "fiber": 3,
+   "cal": 270
+  },
+  {
+   "cat": "Signature Sides",
+   "name": "Coleslaw, Large",
+   "carb": 36,
+   "fiber": 3,
+   "cal": 420
+  },
+  {
+   "cat": "Signature Sides",
+   "name": "Coleslaw, Regular",
+   "carb": 12,
+   "fiber": 1,
+   "cal": 140
+  },
+  {
+   "cat": "Signature Sides",
+   "name": "Homestyle Mac & Cheese, Large",
+   "carb": 48,
+   "fiber": 1,
+   "cal": 850
+  },
+  {
+   "cat": "Signature Sides",
+   "name": "Homestyle Mac & Cheese, Regular",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Signature Sides",
+   "name": "Jalapeno",
+   "carb": 1,
+   "fiber": 1,
+   "cal": 5
+  },
+  {
+   "cat": "Signature Sides",
+   "name": "Mashed Potatoes with Cajun Gravy, Large",
+   "carb": 54,
+   "fiber": 3,
+   "cal": 330
+  },
+  {
+   "cat": "Signature Sides",
+   "name": "Mashed Potatoes with Cajun Gravy, Regular",
+   "carb": 18,
+   "fiber": 1,
+   "cal": 110
+  },
+  {
+   "cat": "Signature Sides",
+   "name": "Red Beans & Rice, Large",
+   "carb": 51,
+   "fiber": 15,
+   "cal": 610
+  },
+  {
+   "cat": "Signature Sides",
+   "name": "Red Beans & Rice, Regular",
+   "carb": 22,
+   "fiber": 6,
+   "cal": 250
+  },
+  {
+   "cat": "Signature Dipping Sauces",
+   "name": "Bayou Buffalo Sauce",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Signature Dipping Sauces",
+   "name": "Blackened Ranch Sauce",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Signature Dipping Sauces",
+   "name": "BoldBQ Sauce",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Signature Dipping Sauces",
+   "name": "Buttermilk Ranch Sauce",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Signature Dipping Sauces",
+   "name": "Cocktail Sauce",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Signature Dipping Sauces",
+   "name": "Mardi Gras Mustard Sauce",
+   "carb": 5,
+   "fiber": 1,
+   "cal": 100
+  },
+  {
+   "cat": "Signature Dipping Sauces",
+   "name": "Sweet Heat Sauce",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Signature Dipping Sauces",
+   "name": "Tartar Sauce",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Signature Dipping Sauces",
+   "name": "Wild Honey Mustard",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Bacon Biscuit",
+   "carb": 37,
+   "fiber": 3,
+   "cal": 400
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Chicken Biscuit",
+   "carb": 47,
+   "fiber": 1,
+   "cal": 490
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Coffee",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Egg & Sausage Biscuit",
+   "carb": 43,
+   "fiber": 1,
+   "cal": 690
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Egg Biscuit",
+   "carb": 41,
+   "fiber": 1,
+   "cal": 510
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Grits",
+   "carb": 80,
+   "fiber": 7,
+   "cal": 370
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hash Rounds",
+   "carb": 41,
+   "fiber": 4,
+   "cal": 360
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Orange Juice",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage & Gravy Biscuit",
+   "carb": 42,
+   "fiber": 3,
+   "cal": 510
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage Biscuit",
+   "carb": 41,
+   "fiber": 1,
+   "cal": 540
+  },
+  {
+   "cat": "Beverages",
+   "name": "Coke",
+   "carb": 66,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Beverages",
+   "name": "Diet Coke",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Beverages",
+   "name": "Diet Pepsi",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Beverages",
+   "name": "Dr Pepper",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Beverages",
+   "name": "Fanta Orange",
+   "carb": 70,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Beverages",
+   "name": "Fanta Strawberry",
+   "carb": 70,
+   "fiber": 0,
+   "cal": 270
+  },
+  {
+   "cat": "Beverages",
+   "name": "Minute Maid Lemonade",
+   "carb": 71,
+   "fiber": 0,
+   "cal": 270
+  },
+  {
+   "cat": "Beverages",
+   "name": "Mountain Dew",
+   "carb": 73,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Beverages",
+   "name": "Pepsi",
+   "carb": 69,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Beverages",
+   "name": "Sprite",
+   "carb": 61,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Beverages",
+   "name": "Sweet Tea",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Beverages",
+   "name": "Unsweetened Tea",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Desserts",
+   "name": "Cinnamon Apple Pie",
+   "carb": 35,
+   "fiber": 1,
+   "cal": 240
+  },
+  {
+   "cat": "Kids Meals",
+   "name": "Kids Chicken Leg, Classic",
+   "carb": 5,
+   "fiber": 1,
+   "cal": 160
+  },
+  {
+   "cat": "Kids Meals",
+   "name": "Kids Tender, Classic",
+   "carb": 12,
+   "fiber": 1,
+   "cal": 150
+  }
+ ]
+}

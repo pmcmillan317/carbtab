@@ -1,0 +1,3538 @@
+{
+ "chain": "Sonic Drive-In",
+ "slug": "sonic",
+ "source": "https://www.nutritionix.com/sonic/menu/premium",
+ "platform": "nutritionix",
+ "updated": "07/11/2025",
+ "pulledAt": "2026-09-10",
+ "type": "grid",
+ "columns": {
+  "cal": 1,
+  "carb": 8,
+  "fiber": 9
+ },
+ "count": 503,
+ "items": [
+  {
+   "cat": "Limited Time Only",
+   "name": "Bacon Ranch Queso Wrap",
+   "carb": 28,
+   "fiber": 1,
+   "cal": 340
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Barq's Root Beer Float, 16 oz",
+   "carb": 58,
+   "fiber": 0,
+   "cal": 300
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Berries & Cream, 10 oz",
+   "carb": 27,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Berries & Cream, 16 oz",
+   "carb": 37,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Berries & Cream, 20 oz",
+   "carb": 65,
+   "fiber": 1,
+   "cal": 260
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Berries & Cream, 32 oz",
+   "carb": 98,
+   "fiber": 1,
+   "cal": 390
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Berries & Cream, 44 oz",
+   "carb": 133,
+   "fiber": 1,
+   "cal": 530
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Blueberry Lavender Sweet Topped Lemonade, 20 oz",
+   "carb": 80,
+   "fiber": 0,
+   "cal": 390
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Blue Raspberry Flavor Bubbles",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Classic Sweet Topped Lemonade, 20 oz",
+   "carb": 76,
+   "fiber": 0,
+   "cal": 370
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Coke Float, 16 oz",
+   "carb": 55,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Dr Pepper Float, 16 oz",
+   "carb": 54,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Fanta Orange Float, 16 oz",
+   "carb": 57,
+   "fiber": 0,
+   "cal": 300
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Honey Chipotle Jr. Chicken Sandwich",
+   "carb": 45,
+   "fiber": 1,
+   "cal": 420
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Jr. Chicken Sandwich",
+   "carb": 42,
+   "fiber": 1,
+   "cal": 450
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Lemonade Cream Cooler, 10 oz",
+   "carb": 58,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Lemonade Cream Cooler, 16 oz",
+   "carb": 80,
+   "fiber": 0,
+   "cal": 400
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Lemonade Cream Cooler, 20 oz",
+   "carb": 115,
+   "fiber": 0,
+   "cal": 570
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Lemonade Cream Cooler, 32 oz",
+   "carb": 185,
+   "fiber": 0,
+   "cal": 930
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Lemonberry Slush, Large",
+   "carb": 123,
+   "fiber": 0,
+   "cal": 460
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Lemonberry Slush, Medium",
+   "carb": 79,
+   "fiber": 0,
+   "cal": 300
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Lemonberry Slush, Rt 44",
+   "carb": 170,
+   "fiber": 0,
+   "cal": 640
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Lemonberry Slush, Small",
+   "carb": 55,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Pepperoni Pizza Bites, 3 pc",
+   "carb": 10,
+   "fiber": 1,
+   "cal": 130
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Pepperoni Pizza Bites, 5 pc",
+   "carb": 17,
+   "fiber": 2,
+   "cal": 210
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Pepperoni Pizza Bites, 7 pc",
+   "carb": 24,
+   "fiber": 2,
+   "cal": 290
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Rainbow Slush, 20 oz",
+   "carb": 83,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Southwest Crunch Queso Wrap",
+   "carb": 32,
+   "fiber": 1,
+   "cal": 360
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Strawberry Sweet Topped Lemonade, 20 oz",
+   "carb": 88,
+   "fiber": 0,
+   "cal": 420
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Unicorn Dreams Slush",
+   "carb": 102,
+   "fiber": 0,
+   "cal": 430
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Watermelon Slush, Large",
+   "carb": 111,
+   "fiber": 0,
+   "cal": 420
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Watermelon Slush, Medium",
+   "carb": 71,
+   "fiber": 0,
+   "cal": 270
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Watermelon Slush, Rt 44",
+   "carb": 156,
+   "fiber": 0,
+   "cal": 580
+  },
+  {
+   "cat": "Limited Time Only",
+   "name": "Watermelon Slush, Small",
+   "carb": 51,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Burgers",
+   "name": "Cheesy Bacon Sonic Stack",
+   "carb": 45,
+   "fiber": 3,
+   "cal": 580
+  },
+  {
+   "cat": "Burgers",
+   "name": "Deluxe Supersonic Double Teriyaki",
+   "carb": 60,
+   "fiber": 2,
+   "cal": 1090
+  },
+  {
+   "cat": "Burgers",
+   "name": "Deluxe Teriyaki Cheeseburger",
+   "carb": 58,
+   "fiber": 2,
+   "cal": 740
+  },
+  {
+   "cat": "Burgers",
+   "name": "Double Sonic Smasher",
+   "carb": 30,
+   "fiber": 1,
+   "cal": 600
+  },
+  {
+   "cat": "Burgers",
+   "name": "Garlic Butter Bacon Cheeseburger",
+   "carb": 53,
+   "fiber": 1,
+   "cal": 920
+  },
+  {
+   "cat": "Burgers",
+   "name": "Hatch Green Chile Cheeseburger with Mustard",
+   "carb": 50,
+   "fiber": 2,
+   "cal": 660
+  },
+  {
+   "cat": "Burgers",
+   "name": "Jr. Double Cheeseburger",
+   "carb": 29,
+   "fiber": 0,
+   "cal": 500
+  },
+  {
+   "cat": "Burgers",
+   "name": "Sonic Cheeseburger with Ketchup & Mayo",
+   "carb": 53,
+   "fiber": 2,
+   "cal": 720
+  },
+  {
+   "cat": "Burgers",
+   "name": "Supersonic Bacon Double Cheeseburger with Mayo",
+   "carb": 54,
+   "fiber": 2,
+   "cal": 1130
+  },
+  {
+   "cat": "Burgers",
+   "name": "Supersonic Double Cheeseburger with Ketchup & Mayo",
+   "carb": 54,
+   "fiber": 2,
+   "cal": 1070
+  },
+  {
+   "cat": "Burgers",
+   "name": "Supersonic Jalapeno Double Cheeseburger with Mustard",
+   "carb": 52,
+   "fiber": 1,
+   "cal": 1000
+  },
+  {
+   "cat": "Burgers",
+   "name": "Triple Sonic Smasher",
+   "carb": 31,
+   "fiber": 1,
+   "cal": 780
+  },
+  {
+   "cat": "Make It Yours",
+   "name": "Add American Cheese",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Make It Yours",
+   "name": "Add Bacon",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Make It Yours",
+   "name": "Add Grilled Onions",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Make It Yours",
+   "name": "Add Hatch Green Chiles",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Make It Yours",
+   "name": "Add Hot Chili",
+   "carb": 3,
+   "fiber": 1,
+   "cal": 60
+  },
+  {
+   "cat": "Make It Yours",
+   "name": "Add Jalapenos",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Wacky Pack! Kids Meals",
+   "name": "Kids 1% Milk Jug",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Wacky Pack! Kids Meals",
+   "name": "Kids Corn Dog",
+   "carb": 23,
+   "fiber": 1,
+   "cal": 230
+  },
+  {
+   "cat": "Wacky Pack! Kids Meals",
+   "name": "Kids Crispy Tenders, 2 pc",
+   "carb": 11,
+   "fiber": 1,
+   "cal": 170
+  },
+  {
+   "cat": "Wacky Pack! Kids Meals",
+   "name": "Kids Groovy Fries, Small",
+   "carb": 28,
+   "fiber": 4,
+   "cal": 260
+  },
+  {
+   "cat": "Wacky Pack! Kids Meals",
+   "name": "Kids Jr. Burger",
+   "carb": 33,
+   "fiber": 2,
+   "cal": 330
+  },
+  {
+   "cat": "Wacky Pack! Kids Meals",
+   "name": "Kids Jr. Cheeseburger",
+   "carb": 34,
+   "fiber": 2,
+   "cal": 370
+  },
+  {
+   "cat": "Wacky Pack! Kids Meals",
+   "name": "Kids Minute Maid 100% Apple Juice Box, 6 fl oz",
+   "carb": 21,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Wacky Pack! Kids Meals",
+   "name": "Kids Tots, Small",
+   "carb": 30,
+   "fiber": 3,
+   "cal": 250
+  },
+  {
+   "cat": "Wacky Pack! Kids Meals",
+   "name": "Kids Tree Top Apple Sauce",
+   "carb": 13,
+   "fiber": 2,
+   "cal": 45
+  },
+  {
+   "cat": "Toaster Sandwiches",
+   "name": "BLT Toaster",
+   "carb": 42,
+   "fiber": 3,
+   "cal": 450
+  },
+  {
+   "cat": "Toaster Sandwiches",
+   "name": "Chicken Club Toaster",
+   "carb": 55,
+   "fiber": 5,
+   "cal": 670
+  },
+  {
+   "cat": "Chicken",
+   "name": "Crispy Tenders, 3 pc",
+   "carb": 16,
+   "fiber": 2,
+   "cal": 260
+  },
+  {
+   "cat": "Chicken",
+   "name": "Crispy Tenders, 5 pc",
+   "carb": 27,
+   "fiber": 3,
+   "cal": 430
+  },
+  {
+   "cat": "Chicken",
+   "name": "Premium Chicken Bites, Large",
+   "carb": 41,
+   "fiber": 3,
+   "cal": 510
+  },
+  {
+   "cat": "Chicken",
+   "name": "Premium Chicken Bites, Medium",
+   "carb": 28,
+   "fiber": 2,
+   "cal": 350
+  },
+  {
+   "cat": "Chicken",
+   "name": "Premium Chicken Bites, Small",
+   "carb": 19,
+   "fiber": 1,
+   "cal": 240
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Country Fried Steak Sandwich",
+   "carb": 76,
+   "fiber": 2,
+   "cal": 640
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Crispy Chicken Sandwich",
+   "carb": 52,
+   "fiber": 4,
+   "cal": 520
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Grilled Cheese Sandwich",
+   "carb": 42,
+   "fiber": 3,
+   "cal": 390
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Philly Cheesesteak Sandwich",
+   "carb": 53,
+   "fiber": 1,
+   "cal": 750
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Pork Tenderloin Sandwich",
+   "carb": 69,
+   "fiber": 2,
+   "cal": 650
+  },
+  {
+   "cat": "Hot Dogs",
+   "name": "All-American Hot Dog",
+   "carb": 42,
+   "fiber": 2,
+   "cal": 410
+  },
+  {
+   "cat": "Hot Dogs",
+   "name": "Chicago Hot Dog",
+   "carb": 42,
+   "fiber": 3,
+   "cal": 400
+  },
+  {
+   "cat": "Hot Dogs",
+   "name": "Chili Cheese Coney",
+   "carb": 34,
+   "fiber": 2,
+   "cal": 470
+  },
+  {
+   "cat": "Hot Dogs",
+   "name": "Footlong Quarter Pound Coney",
+   "carb": 54,
+   "fiber": 3,
+   "cal": 770
+  },
+  {
+   "cat": "Hot Dogs",
+   "name": "New York Hot Dog",
+   "carb": 35,
+   "fiber": 3,
+   "cal": 400
+  },
+  {
+   "cat": "Hot Dogs",
+   "name": "Regular Hot Dog",
+   "carb": 31,
+   "fiber": 2,
+   "cal": 360
+  },
+  {
+   "cat": "Breakfast Items",
+   "name": "Bagel Sandwich with Bacon",
+   "carb": 68,
+   "fiber": 2,
+   "cal": 530
+  },
+  {
+   "cat": "Breakfast Items",
+   "name": "Bagel Sandwich with Ham",
+   "carb": 70,
+   "fiber": 2,
+   "cal": 530
+  },
+  {
+   "cat": "Breakfast Items",
+   "name": "Bagel Sandwich with Sausage",
+   "carb": 68,
+   "fiber": 2,
+   "cal": 630
+  },
+  {
+   "cat": "Breakfast Items",
+   "name": "Biscuit Sandwich with Bacon",
+   "carb": 40,
+   "fiber": 1,
+   "cal": 480
+  },
+  {
+   "cat": "Breakfast Items",
+   "name": "Biscuit Sandwich with Ham",
+   "carb": 43,
+   "fiber": 1,
+   "cal": 500
+  },
+  {
+   "cat": "Breakfast Items",
+   "name": "Biscuit Sandwich with Sausage",
+   "carb": 40,
+   "fiber": 1,
+   "cal": 580
+  },
+  {
+   "cat": "Breakfast Items",
+   "name": "Breakfast Burrito with Bacon",
+   "carb": 35,
+   "fiber": 1,
+   "cal": 470
+  },
+  {
+   "cat": "Breakfast Items",
+   "name": "Breakfast Burrito with Ham",
+   "carb": 38,
+   "fiber": 1,
+   "cal": 440
+  },
+  {
+   "cat": "Breakfast Items",
+   "name": "Breakfast Burrito with Sausage",
+   "carb": 35,
+   "fiber": 1,
+   "cal": 490
+  },
+  {
+   "cat": "Breakfast Items",
+   "name": "Breakfast Toaster with Bacon",
+   "carb": 42,
+   "fiber": 3,
+   "cal": 470
+  },
+  {
+   "cat": "Breakfast Items",
+   "name": "Breakfast Toaster with Ham",
+   "carb": 45,
+   "fiber": 3,
+   "cal": 470
+  },
+  {
+   "cat": "Breakfast Items",
+   "name": "Breakfast Toaster with Sausage",
+   "carb": 42,
+   "fiber": 3,
+   "cal": 570
+  },
+  {
+   "cat": "Breakfast Items",
+   "name": "Brioche Sandwich with Bacon",
+   "carb": 38,
+   "fiber": 2,
+   "cal": 440
+  },
+  {
+   "cat": "Breakfast Items",
+   "name": "Brioche Sandwich with Ham",
+   "carb": 41,
+   "fiber": 2,
+   "cal": 450
+  },
+  {
+   "cat": "Breakfast Items",
+   "name": "Brioche Sandwich with Sausage",
+   "carb": 38,
+   "fiber": 3,
+   "cal": 530
+  },
+  {
+   "cat": "Breakfast Items",
+   "name": "Croissonic Sandwich with Bacon",
+   "carb": 29,
+   "fiber": 1,
+   "cal": 430
+  },
+  {
+   "cat": "Breakfast Items",
+   "name": "Croissonic Sandwich with Ham",
+   "carb": 31,
+   "fiber": 1,
+   "cal": 430
+  },
+  {
+   "cat": "Breakfast Items",
+   "name": "Croissonic Sandwich with Sausage",
+   "carb": 29,
+   "fiber": 1,
+   "cal": 530
+  },
+  {
+   "cat": "Breakfast Items",
+   "name": "French Toast Sticks without Syrup, 4 pc",
+   "carb": 54,
+   "fiber": 3,
+   "cal": 480
+  },
+  {
+   "cat": "Breakfast Items",
+   "name": "Jr. Breakfast Burrito with Bacon",
+   "carb": 22,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Breakfast Items",
+   "name": "Jr. Breakfast Burrito with Sausage",
+   "carb": 22,
+   "fiber": 1,
+   "cal": 280
+  },
+  {
+   "cat": "Breakfast Items",
+   "name": "Supersonic Breakfast Burrito",
+   "carb": 49,
+   "fiber": 3,
+   "cal": 590
+  },
+  {
+   "cat": "Breakfast Items",
+   "name": "Ultimate Meat & Cheese Breakfast Burrito",
+   "carb": 47,
+   "fiber": 2,
+   "cal": 820
+  },
+  {
+   "cat": "Coffee",
+   "name": "French Vanilla Cold Brew Iced Coffee, Large",
+   "carb": 73,
+   "fiber": 0,
+   "cal": 410
+  },
+  {
+   "cat": "Coffee",
+   "name": "French Vanilla Cold Brew Iced Coffee, Medium",
+   "carb": 47,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Coffee",
+   "name": "French Vanilla Cold Brew Iced Coffee, Rt 44",
+   "carb": 100,
+   "fiber": 0,
+   "cal": 570
+  },
+  {
+   "cat": "Coffee",
+   "name": "French Vanilla Cold Brew Iced Coffee, Small",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Coffee",
+   "name": "Hot Coffee Reg, 16 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Coffee",
+   "name": "Original Cold Brew Iced Coffee, Large",
+   "carb": 59,
+   "fiber": 0,
+   "cal": 360
+  },
+  {
+   "cat": "Coffee",
+   "name": "Original Cold Brew Iced Coffee, Medium",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Coffee",
+   "name": "Original Cold Brew Iced Coffee, Rt 44",
+   "carb": 82,
+   "fiber": 0,
+   "cal": 500
+  },
+  {
+   "cat": "Coffee",
+   "name": "Original Cold Brew Iced Coffee, Small",
+   "carb": 28,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Ched 'R' Bites, Large",
+   "carb": 43,
+   "fiber": 2,
+   "cal": 550
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Ched 'R' Bites, Medium",
+   "carb": 32,
+   "fiber": 2,
+   "cal": 410
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Ched 'R' Bites, Small",
+   "carb": 22,
+   "fiber": 1,
+   "cal": 280
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Ched 'R' Peppers, 4 pc, Small",
+   "carb": 36,
+   "fiber": 2,
+   "cal": 330
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Ched 'R' Peppers, 6 pc, Medium",
+   "carb": 54,
+   "fiber": 3,
+   "cal": 490
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Ched 'R' Peppers, 8 pc, Large",
+   "carb": 72,
+   "fiber": 4,
+   "cal": 660
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Cheese Groovy Fries, Large",
+   "carb": 57,
+   "fiber": 7,
+   "cal": 650
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Cheese Groovy Fries, Medium",
+   "carb": 40,
+   "fiber": 5,
+   "cal": 460
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Cheese Groovy Fries, Small",
+   "carb": 29,
+   "fiber": 4,
+   "cal": 330
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Cheese Tots, Large",
+   "carb": 86,
+   "fiber": 8,
+   "cal": 840
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Cheese Tots, Medium",
+   "carb": 43,
+   "fiber": 4,
+   "cal": 450
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Cheese Tots, Small",
+   "carb": 30,
+   "fiber": 3,
+   "cal": 310
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Chili Cheese Groovy Fries, Large",
+   "carb": 62,
+   "fiber": 9,
+   "cal": 760
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Chili Cheese Groovy Fries, Medium",
+   "carb": 44,
+   "fiber": 6,
+   "cal": 540
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Chili Cheese Groovy Fries, Small",
+   "carb": 31,
+   "fiber": 4,
+   "cal": 360
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Chili Cheese Tots, Large",
+   "carb": 77,
+   "fiber": 8,
+   "cal": 840
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Chili Cheese Tots, Medium",
+   "carb": 48,
+   "fiber": 5,
+   "cal": 540
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Chili Cheese Tots, Small",
+   "carb": 32,
+   "fiber": 3,
+   "cal": 350
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Corn Dog",
+   "carb": 23,
+   "fiber": 1,
+   "cal": 230
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Fritos Chili Cheese Jr. Wrap",
+   "carb": 39,
+   "fiber": 2,
+   "cal": 380
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Fritos Chili Cheese Wrap",
+   "carb": 62,
+   "fiber": 4,
+   "cal": 650
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Fritos Chili Pie, Large",
+   "carb": 53,
+   "fiber": 5,
+   "cal": 750
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Fritos Chili Pie, Medium",
+   "carb": 35,
+   "fiber": 3,
+   "cal": 510
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Fritos Chili Pie, Small",
+   "carb": 18,
+   "fiber": 2,
+   "cal": 270
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Groovy Fries, Large",
+   "carb": 56,
+   "fiber": 7,
+   "cal": 520
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Groovy Fries, Medium",
+   "carb": 39,
+   "fiber": 5,
+   "cal": 370
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Groovy Fries, Small",
+   "carb": 28,
+   "fiber": 4,
+   "cal": 260
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Mozzarella Sticks, 4 pc, Small",
+   "carb": 36,
+   "fiber": 2,
+   "cal": 370
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Mozzarella Sticks, 6 pc, Medium",
+   "carb": 54,
+   "fiber": 3,
+   "cal": 560
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Mozzarella Sticks, 8 pc, Large",
+   "carb": 72,
+   "fiber": 4,
+   "cal": 750
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Onion Rings, Large",
+   "carb": 101,
+   "fiber": 5,
+   "cal": 800
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Onion Rings, Medium",
+   "carb": 74,
+   "fiber": 4,
+   "cal": 580
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Onion Rings, Small",
+   "carb": 55,
+   "fiber": 3,
+   "cal": 440
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Soft Pretzel Twist",
+   "carb": 39,
+   "fiber": 2,
+   "cal": 250
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Tots, Large",
+   "carb": 69,
+   "fiber": 6,
+   "cal": 580
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Tots, Medium",
+   "carb": 43,
+   "fiber": 4,
+   "cal": 360
+  },
+  {
+   "cat": "Snacks & Sides",
+   "name": "Tots, Small",
+   "carb": 30,
+   "fiber": 3,
+   "cal": 250
+  },
+  {
+   "cat": "Sonic Blast",
+   "name": "Sonic Blast with Chocolate Chip Cookie Dough, Medium",
+   "carb": 134,
+   "fiber": 1,
+   "cal": 820
+  },
+  {
+   "cat": "Sonic Blast",
+   "name": "Sonic Blast with Chocolate Chip Cookie Dough, Small",
+   "carb": 100,
+   "fiber": 1,
+   "cal": 620
+  },
+  {
+   "cat": "Sonic Blast",
+   "name": "Sonic Blast with Chocolate Chip Cookie Dough Mini",
+   "carb": 66,
+   "fiber": 0,
+   "cal": 410
+  },
+  {
+   "cat": "Sonic Blast",
+   "name": "Sonic Blast with Chocolate Chunk Brownie, Medium",
+   "carb": 122,
+   "fiber": 0,
+   "cal": 820
+  },
+  {
+   "cat": "Sonic Blast",
+   "name": "Sonic Blast with Chocolate Chunk Brownie, Small",
+   "carb": 92,
+   "fiber": 0,
+   "cal": 620
+  },
+  {
+   "cat": "Sonic Blast",
+   "name": "Sonic Blast with Chocolate Chunk Brownie Mini",
+   "carb": 60,
+   "fiber": 0,
+   "cal": 410
+  },
+  {
+   "cat": "Sonic Blast",
+   "name": "Sonic Blast with Heath Toffee Pieces, Medium",
+   "carb": 123,
+   "fiber": 1,
+   "cal": 860
+  },
+  {
+   "cat": "Sonic Blast",
+   "name": "Sonic Blast with Heath Toffee Pieces, Small",
+   "carb": 93,
+   "fiber": 1,
+   "cal": 650
+  },
+  {
+   "cat": "Sonic Blast",
+   "name": "Sonic Blast with Heath Toffee Pieces Mini",
+   "carb": 61,
+   "fiber": 0,
+   "cal": 430
+  },
+  {
+   "cat": "Sonic Blast",
+   "name": "Sonic Blast with M&M's Minis Chocolate Candies, Medium",
+   "carb": 144,
+   "fiber": 2,
+   "cal": 960
+  },
+  {
+   "cat": "Sonic Blast",
+   "name": "Sonic Blast with M&M's Minis Chocolate Candies, Small",
+   "carb": 109,
+   "fiber": 2,
+   "cal": 730
+  },
+  {
+   "cat": "Sonic Blast",
+   "name": "Sonic Blast with M&M's Minis Chocolate Candies Mini",
+   "carb": 73,
+   "fiber": 1,
+   "cal": 490
+  },
+  {
+   "cat": "Sonic Blast",
+   "name": "Sonic Blast with Oreo Cookie Pieces, Medium",
+   "carb": 121,
+   "fiber": 2,
+   "cal": 770
+  },
+  {
+   "cat": "Sonic Blast",
+   "name": "Sonic Blast with Oreo Cookie Pieces, Small",
+   "carb": 92,
+   "fiber": 1,
+   "cal": 580
+  },
+  {
+   "cat": "Sonic Blast",
+   "name": "Sonic Blast with Oreo Cookie Pieces Mini",
+   "carb": 58,
+   "fiber": 1,
+   "cal": 370
+  },
+  {
+   "cat": "Sonic Blast",
+   "name": "Sonic Blast with Reese's Peanut Butter Cups, Medium",
+   "carb": 126,
+   "fiber": 2,
+   "cal": 890
+  },
+  {
+   "cat": "Sonic Blast",
+   "name": "Sonic Blast with Reese's Peanut Butter Cups, Small",
+   "carb": 96,
+   "fiber": 2,
+   "cal": 680
+  },
+  {
+   "cat": "Sonic Blast",
+   "name": "Sonic Blast with Reese's Peanut Butter Cups Mini",
+   "carb": 63,
+   "fiber": 1,
+   "cal": 450
+  },
+  {
+   "cat": "Sonic Blast",
+   "name": "Sonic Blast with Turtle Truffle Nut, Medium",
+   "carb": 138,
+   "fiber": 0,
+   "cal": 920
+  },
+  {
+   "cat": "Sonic Blast",
+   "name": "Sonic Blast with Turtle Truffle Nut, Small",
+   "carb": 104,
+   "fiber": 0,
+   "cal": 700
+  },
+  {
+   "cat": "Sonic Blast",
+   "name": "Sonic Blast with Turtle Truffle Nut Mini",
+   "carb": 69,
+   "fiber": 0,
+   "cal": 460
+  },
+  {
+   "cat": "Hand-Mixed Classic Shakes",
+   "name": "Banana Shake, Large",
+   "carb": 185,
+   "fiber": 5,
+   "cal": 1100
+  },
+  {
+   "cat": "Hand-Mixed Classic Shakes",
+   "name": "Banana Shake, Medium",
+   "carb": 124,
+   "fiber": 3,
+   "cal": 750
+  },
+  {
+   "cat": "Hand-Mixed Classic Shakes",
+   "name": "Banana Shake, Small",
+   "carb": 93,
+   "fiber": 2,
+   "cal": 590
+  },
+  {
+   "cat": "Hand-Mixed Classic Shakes",
+   "name": "Banana Shake Mini",
+   "carb": 62,
+   "fiber": 2,
+   "cal": 390
+  },
+  {
+   "cat": "Hand-Mixed Classic Shakes",
+   "name": "Caramel Shake, Large",
+   "carb": 166,
+   "fiber": 0,
+   "cal": 1070
+  },
+  {
+   "cat": "Hand-Mixed Classic Shakes",
+   "name": "Caramel Shake, Medium",
+   "carb": 112,
+   "fiber": 0,
+   "cal": 730
+  },
+  {
+   "cat": "Hand-Mixed Classic Shakes",
+   "name": "Caramel Shake, Small",
+   "carb": 87,
+   "fiber": 0,
+   "cal": 580
+  },
+  {
+   "cat": "Hand-Mixed Classic Shakes",
+   "name": "Caramel Shake Mini",
+   "carb": 56,
+   "fiber": 0,
+   "cal": 380
+  },
+  {
+   "cat": "Hand-Mixed Classic Shakes",
+   "name": "Chocolate Shake, Large",
+   "carb": 167,
+   "fiber": 2,
+   "cal": 1050
+  },
+  {
+   "cat": "Hand-Mixed Classic Shakes",
+   "name": "Chocolate Shake, Medium",
+   "carb": 112,
+   "fiber": 1,
+   "cal": 720
+  },
+  {
+   "cat": "Hand-Mixed Classic Shakes",
+   "name": "Chocolate Shake, Small",
+   "carb": 87,
+   "fiber": 1,
+   "cal": 570
+  },
+  {
+   "cat": "Hand-Mixed Classic Shakes",
+   "name": "Chocolate Shake Mini",
+   "carb": 56,
+   "fiber": 1,
+   "cal": 370
+  },
+  {
+   "cat": "Hand-Mixed Classic Shakes",
+   "name": "Hot Fudge Shake, Large",
+   "carb": 178,
+   "fiber": 2,
+   "cal": 1150
+  },
+  {
+   "cat": "Hand-Mixed Classic Shakes",
+   "name": "Hot Fudge Shake, Medium",
+   "carb": 119,
+   "fiber": 1,
+   "cal": 780
+  },
+  {
+   "cat": "Hand-Mixed Classic Shakes",
+   "name": "Hot Fudge Shake, Small",
+   "carb": 91,
+   "fiber": 1,
+   "cal": 600
+  },
+  {
+   "cat": "Hand-Mixed Classic Shakes",
+   "name": "Hot Fudge Shake Mini",
+   "carb": 59,
+   "fiber": 1,
+   "cal": 410
+  },
+  {
+   "cat": "Hand-Mixed Classic Shakes",
+   "name": "Peanut Butter Shake, Large",
+   "carb": 154,
+   "fiber": 3,
+   "cal": 1240
+  },
+  {
+   "cat": "Hand-Mixed Classic Shakes",
+   "name": "Peanut Butter Shake, Medium",
+   "carb": 103,
+   "fiber": 2,
+   "cal": 840
+  },
+  {
+   "cat": "Hand-Mixed Classic Shakes",
+   "name": "Peanut Butter Shake, Small",
+   "carb": 83,
+   "fiber": 1,
+   "cal": 630
+  },
+  {
+   "cat": "Hand-Mixed Classic Shakes",
+   "name": "Peanut Butter Shake Mini",
+   "carb": 51,
+   "fiber": 1,
+   "cal": 440
+  },
+  {
+   "cat": "Hand-Mixed Classic Shakes",
+   "name": "Strawberry Shake, Large",
+   "carb": 162,
+   "fiber": 1,
+   "cal": 1010
+  },
+  {
+   "cat": "Hand-Mixed Classic Shakes",
+   "name": "Strawberry Shake, Medium",
+   "carb": 108,
+   "fiber": 1,
+   "cal": 690
+  },
+  {
+   "cat": "Hand-Mixed Classic Shakes",
+   "name": "Strawberry Shake, Small",
+   "carb": 85,
+   "fiber": 0,
+   "cal": 560
+  },
+  {
+   "cat": "Hand-Mixed Classic Shakes",
+   "name": "Strawberry Shake Mini",
+   "carb": 54,
+   "fiber": 0,
+   "cal": 360
+  },
+  {
+   "cat": "Hand-Mixed Classic Shakes",
+   "name": "Vanilla Shake, Large",
+   "carb": 160,
+   "fiber": 0,
+   "cal": 1040
+  },
+  {
+   "cat": "Hand-Mixed Classic Shakes",
+   "name": "Vanilla Shake, Medium",
+   "carb": 107,
+   "fiber": 0,
+   "cal": 710
+  },
+  {
+   "cat": "Hand-Mixed Classic Shakes",
+   "name": "Vanilla Shake, Small",
+   "carb": 85,
+   "fiber": 0,
+   "cal": 570
+  },
+  {
+   "cat": "Hand-Mixed Classic Shakes",
+   "name": "Vanilla Shake Mini",
+   "carb": 53,
+   "fiber": 0,
+   "cal": 370
+  },
+  {
+   "cat": "Hand-Mixed Master Shakes",
+   "name": "Cheesecake Shake, Large",
+   "carb": 173,
+   "fiber": 0,
+   "cal": 1090
+  },
+  {
+   "cat": "Hand-Mixed Master Shakes",
+   "name": "Cheesecake Shake, Medium",
+   "carb": 117,
+   "fiber": 0,
+   "cal": 750
+  },
+  {
+   "cat": "Hand-Mixed Master Shakes",
+   "name": "Cheesecake Shake, Small",
+   "carb": 92,
+   "fiber": 0,
+   "cal": 600
+  },
+  {
+   "cat": "Hand-Mixed Master Shakes",
+   "name": "Cheesecake Shake Mini",
+   "carb": 60,
+   "fiber": 0,
+   "cal": 400
+  },
+  {
+   "cat": "Hand-Mixed Master Shakes",
+   "name": "Oreo Cheesecake Shake, Large",
+   "carb": 209,
+   "fiber": 2,
+   "cal": 1320
+  },
+  {
+   "cat": "Hand-Mixed Master Shakes",
+   "name": "Oreo Cheesecake Shake, Medium",
+   "carb": 146,
+   "fiber": 2,
+   "cal": 940
+  },
+  {
+   "cat": "Hand-Mixed Master Shakes",
+   "name": "Oreo Cheesecake Shake, Small",
+   "carb": 115,
+   "fiber": 1,
+   "cal": 750
+  },
+  {
+   "cat": "Hand-Mixed Master Shakes",
+   "name": "Oreo Cheesecake Shake Mini",
+   "carb": 77,
+   "fiber": 1,
+   "cal": 510
+  },
+  {
+   "cat": "Hand-Mixed Master Shakes",
+   "name": "Oreo Chocolate Shake, Large",
+   "carb": 203,
+   "fiber": 4,
+   "cal": 1290
+  },
+  {
+   "cat": "Hand-Mixed Master Shakes",
+   "name": "Oreo Chocolate Shake, Medium",
+   "carb": 141,
+   "fiber": 3,
+   "cal": 910
+  },
+  {
+   "cat": "Hand-Mixed Master Shakes",
+   "name": "Oreo Chocolate Shake, Small",
+   "carb": 103,
+   "fiber": 1,
+   "cal": 680
+  },
+  {
+   "cat": "Hand-Mixed Master Shakes",
+   "name": "Oreo Chocolate Shake Mini",
+   "carb": 72,
+   "fiber": 1,
+   "cal": 480
+  },
+  {
+   "cat": "Hand-Mixed Master Shakes",
+   "name": "Oreo Peanut Butter Shake, Large",
+   "carb": 190,
+   "fiber": 4,
+   "cal": 1480
+  },
+  {
+   "cat": "Hand-Mixed Master Shakes",
+   "name": "Oreo Peanut Butter Shake, Medium",
+   "carb": 133,
+   "fiber": 3,
+   "cal": 1030
+  },
+  {
+   "cat": "Hand-Mixed Master Shakes",
+   "name": "Oreo Peanut Butter Shake, Small",
+   "carb": 99,
+   "fiber": 2,
+   "cal": 740
+  },
+  {
+   "cat": "Hand-Mixed Master Shakes",
+   "name": "Oreo Peanut Butter Shake Mini",
+   "carb": 68,
+   "fiber": 2,
+   "cal": 540
+  },
+  {
+   "cat": "Hand-Mixed Master Shakes",
+   "name": "Strawberry Cheesecake Shake, Large",
+   "carb": 190,
+   "fiber": 2,
+   "cal": 1160
+  },
+  {
+   "cat": "Hand-Mixed Master Shakes",
+   "name": "Strawberry Cheesecake Shake, Medium",
+   "carb": 128,
+   "fiber": 1,
+   "cal": 790
+  },
+  {
+   "cat": "Hand-Mixed Master Shakes",
+   "name": "Strawberry Cheesecake Shake, Small",
+   "carb": 97,
+   "fiber": 1,
+   "cal": 620
+  },
+  {
+   "cat": "Hand-Mixed Master Shakes",
+   "name": "Strawberry Cheesecake Shake Mini",
+   "carb": 66,
+   "fiber": 1,
+   "cal": 420
+  },
+  {
+   "cat": "Sundaes",
+   "name": "Caramel Sundae",
+   "carb": 71,
+   "fiber": 0,
+   "cal": 430
+  },
+  {
+   "cat": "Sundaes",
+   "name": "Chocolate Sundae",
+   "carb": 76,
+   "fiber": 0,
+   "cal": 440
+  },
+  {
+   "cat": "Sundaes",
+   "name": "Hot Fudge Sundae",
+   "carb": 73,
+   "fiber": 1,
+   "cal": 460
+  },
+  {
+   "cat": "Sundaes",
+   "name": "Strawberry Sundae",
+   "carb": 62,
+   "fiber": 1,
+   "cal": 380
+  },
+  {
+   "cat": "Soft Serve Dish",
+   "name": "Vanilla Dish",
+   "carb": 47,
+   "fiber": 0,
+   "cal": 300
+  },
+  {
+   "cat": "Slushes",
+   "name": "Plain Slush Only - No Syrup, Large",
+   "carb": 103,
+   "fiber": 0,
+   "cal": 380
+  },
+  {
+   "cat": "Slushes",
+   "name": "Plain Slush Only - No Syrup, Medium",
+   "carb": 66,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Slushes",
+   "name": "Plain Slush Only - No Syrup, Rt 44",
+   "carb": 145,
+   "fiber": 0,
+   "cal": 540
+  },
+  {
+   "cat": "Slushes",
+   "name": "Plain Slush Only - No Syrup, Small",
+   "carb": 48,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Slushes",
+   "name": "Plain Slush Only - No Syrup, Wacky Pack!",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "All-Natural Lemonade",
+   "name": "All-Natural Lemonade, Large",
+   "carb": 105,
+   "fiber": 0,
+   "cal": 400
+  },
+  {
+   "cat": "All-Natural Lemonade",
+   "name": "All-Natural Lemonade, Medium",
+   "carb": 69,
+   "fiber": 0,
+   "cal": 270
+  },
+  {
+   "cat": "All-Natural Lemonade",
+   "name": "All-Natural Lemonade, Rt 44",
+   "carb": 142,
+   "fiber": 0,
+   "cal": 540
+  },
+  {
+   "cat": "All-Natural Lemonade",
+   "name": "All-Natural Lemonade, Small",
+   "carb": 42,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "All-Natural Lemonade",
+   "name": "All-Natural Lemonade, Wacky Pack!",
+   "carb": 27,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Lemonade & Limeade Slushes",
+   "name": "Lemonade Slush, Large",
+   "carb": 116,
+   "fiber": 0,
+   "cal": 430
+  },
+  {
+   "cat": "Lemonade & Limeade Slushes",
+   "name": "Lemonade Slush, Medium",
+   "carb": 74,
+   "fiber": 0,
+   "cal": 270
+  },
+  {
+   "cat": "Lemonade & Limeade Slushes",
+   "name": "Lemonade Slush, Rt 44",
+   "carb": 162,
+   "fiber": 0,
+   "cal": 600
+  },
+  {
+   "cat": "Lemonade & Limeade Slushes",
+   "name": "Lemonade Slush, Small",
+   "carb": 52,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Lemonade & Limeade Slushes",
+   "name": "Lemonade Slush, Wacky Pack!",
+   "carb": 36,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Lemonade & Limeade Slushes",
+   "name": "Limeade Slush, Large",
+   "carb": 117,
+   "fiber": 0,
+   "cal": 430
+  },
+  {
+   "cat": "Lemonade & Limeade Slushes",
+   "name": "Limeade Slush, Medium",
+   "carb": 75,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Lemonade & Limeade Slushes",
+   "name": "Limeade Slush, Rt 44",
+   "carb": 163,
+   "fiber": 0,
+   "cal": 600
+  },
+  {
+   "cat": "Lemonade & Limeade Slushes",
+   "name": "Limeade Slush, Small",
+   "carb": 53,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Lemonade & Limeade Slushes",
+   "name": "Limeade Slush, Wacky Pack!",
+   "carb": 36,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Barq's Root Beer, Large",
+   "carb": 71,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Barq's Root Beer, Medium",
+   "carb": 47,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Barq's Root Beer, Rt 44",
+   "carb": 96,
+   "fiber": 0,
+   "cal": 350
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Barq's Root Beer, Small",
+   "carb": 28,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Barq's Root Beer, Wacky Pack!",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Big Red, Large",
+   "carb": 68,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Big Red, Medium",
+   "carb": 45,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Big Red, Rt 44",
+   "carb": 92,
+   "fiber": 0,
+   "cal": 340
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Big Red, Small",
+   "carb": 31,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Big Red, Wacky Pack!",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Canada Dry Ginger Ale, Large",
+   "carb": 56,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Canada Dry Ginger Ale, Medium",
+   "carb": 37,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Canada Dry Ginger Ale, Rt 44",
+   "carb": 76,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Canada Dry Ginger Ale, Small",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Canada Dry Ginger Ale, Wacky Pack!",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Coca-Cola, Large",
+   "carb": 71,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Coca-Cola, Medium",
+   "carb": 47,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Coca-Cola, Rt 44",
+   "carb": 96,
+   "fiber": 0,
+   "cal": 350
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Coca-Cola, Small",
+   "carb": 28,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Coca-Cola, Wacky Pack!",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Coca-Cola Zero Sugar, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Coca-Cola Zero Sugar, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Coca-Cola Zero Sugar, Rt 44",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Coca-Cola Zero Sugar, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Coca-Cola Zero Sugar, Wacky Pack!",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Diet Coke, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Diet Coke, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Diet Coke, Rt 44",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Diet Coke, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Diet Coke, Wacky Pack!",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Diet Dr Pepper, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Diet Dr Pepper, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Diet Dr Pepper, Rt 44",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Diet Dr Pepper, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Diet Dr Pepper, Wacky Pack!",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Dr Pepper, Large",
+   "carb": 70,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Dr Pepper, Medium",
+   "carb": 46,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Dr Pepper, Rt 44",
+   "carb": 94,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Dr Pepper, Small",
+   "carb": 28,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Dr Pepper, Wacky Pack!",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Fanta Orange, Large",
+   "carb": 71,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Fanta Orange, Medium",
+   "carb": 47,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Fanta Orange, Rt 44",
+   "carb": 96,
+   "fiber": 0,
+   "cal": 350
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Fanta Orange, Small",
+   "carb": 28,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Fanta Orange, Wacky Pack!",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Hi-C Fruit Punch, Large",
+   "carb": 77,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Hi-C Fruit Punch, Medium",
+   "carb": 51,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Hi-C Fruit Punch, Rt 44",
+   "carb": 105,
+   "fiber": 0,
+   "cal": 390
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Hi-C Fruit Punch, Small",
+   "carb": 31,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Hi-C Fruit Punch, Wacky Pack!",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Mello Yello, Large",
+   "carb": 77,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Mello Yello, Medium",
+   "carb": 51,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Mello Yello, Rt 44",
+   "carb": 105,
+   "fiber": 0,
+   "cal": 390
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Mello Yello, Small",
+   "carb": 31,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Mello Yello, Wacky Pack!",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Powerade Mountain Blast, Large",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Powerade Mountain Blast, Medium",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Powerade Mountain Blast, Rt 44",
+   "carb": 52,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Powerade Mountain Blast, Small",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Powerade Mountain Blast, Wacky Pack!",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Red Bull, 8.4 oz Can",
+   "carb": 27,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Sprite, Large",
+   "carb": 71,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Sprite, Medium",
+   "carb": 47,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Sprite, Rt 44",
+   "carb": 96,
+   "fiber": 0,
+   "cal": 350
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Sprite, Small",
+   "carb": 28,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Sprite, Wacky Pack!",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Sprite Zero Sugar, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Sprite Zero Sugar, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Sprite Zero Sugar, Rt 44",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Sprite Zero Sugar, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Sprite Zero Sugar, Wacky Pack!",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Sun Drop, Large",
+   "carb": 73,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Sun Drop, Medium",
+   "carb": 48,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Sun Drop, Rt 44",
+   "carb": 99,
+   "fiber": 0,
+   "cal": 380
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Sun Drop, Small",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Soft Drinks",
+   "name": "Sun Drop, Wacky Pack!",
+   "carb": 21,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Sonic Rechargers with Red Bull",
+   "name": "Blood Orange, Large",
+   "carb": 90,
+   "fiber": 0,
+   "cal": 340
+  },
+  {
+   "cat": "Sonic Rechargers with Red Bull",
+   "name": "Blood Orange, Medium",
+   "carb": 59,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Sonic Rechargers with Red Bull",
+   "name": "Blood Orange, Rt 44",
+   "carb": 120,
+   "fiber": 0,
+   "cal": 450
+  },
+  {
+   "cat": "Sonic Rechargers with Red Bull",
+   "name": "Dragon Fruit, Large",
+   "carb": 91,
+   "fiber": 0,
+   "cal": 340
+  },
+  {
+   "cat": "Sonic Rechargers with Red Bull",
+   "name": "Dragon Fruit, Medium",
+   "carb": 59,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Sonic Rechargers with Red Bull",
+   "name": "Dragon Fruit, Rt 44",
+   "carb": 120,
+   "fiber": 0,
+   "cal": 450
+  },
+  {
+   "cat": "Sonic Rechargers with Red Bull",
+   "name": "Twisted Lime, Large",
+   "carb": 91,
+   "fiber": 0,
+   "cal": 340
+  },
+  {
+   "cat": "Sonic Rechargers with Red Bull",
+   "name": "Twisted Lime, Medium",
+   "carb": 59,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Sonic Rechargers with Red Bull",
+   "name": "Twisted Lime, Rt 44",
+   "carb": 125,
+   "fiber": 0,
+   "cal": 480
+  },
+  {
+   "cat": "Iced Teas",
+   "name": "Sweet Iced Tea, Large",
+   "carb": 78,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Iced Teas",
+   "name": "Sweet Iced Tea, Medium",
+   "carb": 45,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Iced Teas",
+   "name": "Sweet Iced Tea, Rt 44",
+   "carb": 96,
+   "fiber": 0,
+   "cal": 360
+  },
+  {
+   "cat": "Iced Teas",
+   "name": "Sweet Iced Tea, Small",
+   "carb": 37,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Iced Teas",
+   "name": "Sweet Iced Tea, Wacky Pack!",
+   "carb": 21,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Iced Teas",
+   "name": "Unsweet Iced Tea, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Iced Teas",
+   "name": "Unsweet Iced Tea, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Iced Teas",
+   "name": "Unsweet Iced Tea, Rt 44",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Iced Teas",
+   "name": "Unsweet Iced Tea, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Iced Teas",
+   "name": "Unsweet Iced Tea, Wacky Pack!",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Juices",
+   "name": "Minute Maid 100% Apple Juice Box, 6 fl oz",
+   "carb": 21,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Juices",
+   "name": "Simply Orange Juice Bottle, 11.5 fl oz",
+   "carb": 37,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Cherry Limeade, Large",
+   "carb": 99,
+   "fiber": 0,
+   "cal": 360
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Cherry Limeade, Medium",
+   "carb": 66,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Cherry Limeade, Rt 44",
+   "carb": 133,
+   "fiber": 0,
+   "cal": 490
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Cherry Limeade, Small",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Cherry Limeade, Wacky Pack!",
+   "carb": 29,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Cranberry Limeade, Large",
+   "carb": 98,
+   "fiber": 0,
+   "cal": 360
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Cranberry Limeade, Medium",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Cranberry Limeade, Rt 44",
+   "carb": 132,
+   "fiber": 0,
+   "cal": 480
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Cranberry Limeade, Small",
+   "carb": 37,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Cranberry Limeade, Wacky Pack!",
+   "carb": 27,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Diet Cherry Limeade, Large",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Diet Cherry Limeade, Medium",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Diet Cherry Limeade, Rt 44",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Diet Cherry Limeade, Small",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Diet Cherry Limeade, Wacky Pack!",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Diet Limeade, Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Diet Limeade, Medium",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Diet Limeade, Rt 44",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Diet Limeade, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Diet Limeade, Wacky Pack!",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Limeade, Large",
+   "carb": 72,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Limeade, Medium",
+   "carb": 48,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Limeade, Rt 44",
+   "carb": 98,
+   "fiber": 0,
+   "cal": 350
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Limeade, Small",
+   "carb": 29,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Limeade, Wacky Pack!",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Strawberry Limeade, Large",
+   "carb": 90,
+   "fiber": 1,
+   "cal": 330
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Strawberry Limeade, Medium",
+   "carb": 60,
+   "fiber": 1,
+   "cal": 220
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Strawberry Limeade, Rt 44",
+   "carb": 121,
+   "fiber": 2,
+   "cal": 450
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Strawberry Limeade, Small",
+   "carb": 35,
+   "fiber": 1,
+   "cal": 130
+  },
+  {
+   "cat": "Signature Limeades",
+   "name": "Strawberry Limeade, Wacky Pack!",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 90
+  },
+  {
+   "cat": "Ocean Water",
+   "name": "Ocean Water, Large",
+   "carb": 80,
+   "fiber": 0,
+   "cal": 300
+  },
+  {
+   "cat": "Ocean Water",
+   "name": "Ocean Water, Medium",
+   "carb": 53,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Ocean Water",
+   "name": "Ocean Water, Rt 44",
+   "carb": 108,
+   "fiber": 0,
+   "cal": 400
+  },
+  {
+   "cat": "Ocean Water",
+   "name": "Ocean Water, Small",
+   "carb": 31,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Ocean Water",
+   "name": "Ocean Water, Wacky Pack!",
+   "carb": 21,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Blackberry Sugar-Free Add-In, Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Blackberry Sugar-Free Add-In, Medium",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Blackberry Sugar-Free Add-In, Rt 44",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Blackberry Sugar-Free Add-In, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Blackberry Sugar-Free Add-In, Wacky Pack!",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Blood Orange Add-In, Large",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Blood Orange Add-In, Medium",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Blood Orange Add-In, Rt 44",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Blood Orange Add-In, Small",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Blood Orange Add-In, Wacky Pack!",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Blue Coconut Add-In, Large",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Blue Coconut Add-In, Medium",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Blue Coconut Add-In, Rt 44",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Blue Coconut Add-In, Small",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Blue Coconut Add-In, Wacky Pack!",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Blue Raspberry Add-In, Large",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Blue Raspberry Add-In, Medium",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Blue Raspberry Add-In, Rt 44",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 30
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Blue Raspberry Add-In, Small",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Blue Raspberry Add-In, Wacky Pack!",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Caramel Topping",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Cherry Add-In, Large",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Cherry Add-In, Medium",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Cherry Add-In, Rt 44",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Cherry Add-In, Small",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Cherry Add-In, Wacky Pack!",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Cherry Garnish",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Coconut Add-In, Large",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Coconut Add-In, Medium",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Coconut Add-In, Rt 44",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Coconut Add-In, Small",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Coconut Add-In, Wacky Pack!",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Cranberry Add-In, Large",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Cranberry Add-In, Medium",
+   "carb": 17,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Cranberry Add-In, Rt 44",
+   "carb": 34,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Cranberry Add-In, Small",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Cranberry Add-In, Wacky Pack!",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Diet Cherry Sugar-Free Add-In, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Diet Cherry Sugar-Free Add-In, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Diet Cherry Sugar-Free Add-In, Rt 44",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Diet Cherry Sugar-Free Add-In, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Diet Cherry Sugar-Free Add-In, Wacky Pack!",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Dragon Fruit Add-In, Large",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Dragon Fruit Add-In, Medium",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 30
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Dragon Fruit Add-In, Rt 44",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Dragon Fruit Add-In, Small",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Dragon Fruit Add-In, Wacky Pack!",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Grape Add-In, Large",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Grape Add-In, Medium",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 30
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Grape Add-In, Rt 44",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Grape Add-In, Small",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Grape Add-In, Wacky Pack!",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Hot Fudge Topping",
+   "carb": 22,
+   "fiber": 1,
+   "cal": 140
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Lemon Add-In, Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Lemon Add-In, Medium",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Lemon Add-In, Rt 44",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Lemon Add-In, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Lemon Add-In, Wacky Pack!",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Lime Add-In, Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Lime Add-In, Medium",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Lime Add-In, Rt 44",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Lime Add-In, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Lime Add-In, Wacky Pack!",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Make It Dirty Add-In, Large",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Make It Dirty Add-In, Medium",
+   "carb": 17,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Make It Dirty Add-In, Rt 44",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Make It Dirty Add-In, Small",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Make It Dirty Add-In, Wacky Pack!",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Mango Sugar-Free Add-In, Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Mango Sugar-Free Add-In, Medium",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Mango Sugar-Free Add-In, Rt 44",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Mango Sugar-Free Add-In, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Mango Sugar-Free Add-In, Wacky Pack!",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Nerds Candy Add-In, Large",
+   "carb": 56,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Nerds Candy Add-In, Medium",
+   "carb": 42,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Nerds Candy Add-In, Rt 44",
+   "carb": 70,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Nerds Candy Add-In, Small",
+   "carb": 28,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Nerds Candy Add-In, Wacky Pack!",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Peach Sugar-Free Add-In, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Peach Sugar-Free Add-In, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Peach Sugar-Free Add-In, Rt 44",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Peach Sugar-Free Add-In, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Peach Sugar-Free Add-In, Wacky Pack!",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Powerade Add-In, Large",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Powerade Add-In, Medium",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Powerade Add-In, Rt 44",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Powerade Add-In, Small",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Powerade Add-In, Wacky Pack!",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Raspberry Sugar-Free Add-In, Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Raspberry Sugar-Free Add-In, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Raspberry Sugar-Free Add-In, Rt 44",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Raspberry Sugar-Free Add-In, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Raspberry Sugar-Free Add-In, Wacky Pack!",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Strawberry Add-In, Large",
+   "carb": 18,
+   "fiber": 1,
+   "cal": 70
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Strawberry Add-In, Medium",
+   "carb": 12,
+   "fiber": 1,
+   "cal": 50
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Strawberry Add-In, Rt 44",
+   "carb": 24,
+   "fiber": 2,
+   "cal": 90
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Strawberry Add-In, Small",
+   "carb": 7,
+   "fiber": 1,
+   "cal": 25
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Strawberry Add-In, Wacky Pack!",
+   "carb": 7,
+   "fiber": 1,
+   "cal": 25
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Sweet Cream Add-In, Large",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Sweet Cream Add-In, Medium",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Sweet Cream Add-In, Rt 44",
+   "carb": 27,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Sweet Cream Add-In, Small",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Sweet Cream Add-In, Wacky Pack!",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Twisted Lime Add-In, Large",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Twisted Lime Add-In, Medium",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 30
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Twisted Lime Add-In, Rt 44",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Twisted Lime Add-In, Small",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Twisted Lime Add-In, Wacky Pack!",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Vanilla Add-In, Large",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Vanilla Add-In, Medium",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Vanilla Add-In, Rt 44",
+   "carb": 24,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Vanilla Add-In, Small",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Drink Add-Ins & Toppings",
+   "name": "Vanilla Add-In, Wacky Pack!",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Condiments & Dipping Sauces",
+   "name": "Asian-Style Sweet Chili Sauce",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Condiments & Dipping Sauces",
+   "name": "BBQ Sauce",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Condiments & Dipping Sauces",
+   "name": "Buffalo Sauce",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Condiments & Dipping Sauces",
+   "name": "Country Gravy",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Condiments & Dipping Sauces",
+   "name": "Groovy Sauce",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Condiments & Dipping Sauces",
+   "name": "Honey Mustard",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Condiments & Dipping Sauces",
+   "name": "Jalapeno Ranch",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Condiments & Dipping Sauces",
+   "name": "Ketchup",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Condiments & Dipping Sauces",
+   "name": "Light Mayo",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Condiments & Dipping Sauces",
+   "name": "Marinara Sauce",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Condiments & Dipping Sauces",
+   "name": "Mustard",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Condiments & Dipping Sauces",
+   "name": "Ranch",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Condiments & Dipping Sauces",
+   "name": "Salsa De Sonic",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Condiments & Dipping Sauces",
+   "name": "Signature Cheese Sauce",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Condiments & Dipping Sauces",
+   "name": "Sweet Relish",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Condiments & Dipping Sauces",
+   "name": "Syrup",
+   "carb": 22,
+   "fiber": 0,
+   "cal": 90
+  }
+ ]
+}

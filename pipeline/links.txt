@@ -1,0 +1,88 @@
+# CarbTab restaurant nutrition sources
+# One URL per line. Lines starting with # are comments and are skipped.
+# Rebuilt 2026-09-09 from the chain list in the original brief. Verified URLs are
+# marked [v]; the rest are the known official location and should be confirmed by
+# the extractor when it runs. See restaurant-sources.md for the annotated table.
+#
+# TYPE tag on each line:
+#   pdf   = downloadable nutrition guide (best for extraction)
+#   calc  = interactive JS calculator (needs a per-site adapter, not a PDF parser)
+#   page  = static HTML nutrition tables
+#   ltd   = chain publishes only partial nutrition
+
+# ---- burgers / American fast food ----
+https://www.mcdonalds.com/us/en-us/full-menu-explorer.html            # calc
+https://www.bk.com/menu                                                # calc
+https://www.wendys.com/nutrition-allergens                             # calc
+https://www.fiveguys.com/wp-content/uploads/2026/08/Five-Guys-US-Nutrition-Allergen-Guide-English-June-2026.pdf  # pdf [v]
+https://www.sonicdrivein.com/nutrition                                 # pdf
+https://whataburger.com/nutrition                                      # pdf
+https://www.carlsjr.com/menu/nutrition                                 # calc
+https://www.hardees.com/menu/nutritional_calculator                    # calc
+https://www.whitecastle.com/nutritional                               # pdf
+https://www.shakeshack.com/eat/#/nutrition                             # pdf
+
+# ---- chicken ----
+https://www.chick-fil-a.com/nutrition-allergens                        # calc
+https://www.popeyes.com/nutrition-info                                 # page
+https://www.raisingcanes.com/nutrition/                               # page  ltd (small menu)
+https://www.zaxbys.com/nutrition                                       # pdf
+https://www.bojangles.com/nutrition/                                  # pdf
+https://www.elpolloloco.com/nutrition/                               # pdf
+https://www.pollotropical.com/menu/nutrition                          # page
+https://www.wingstop.com/nutrition                                    # pdf
+https://www.buffalowildwings.com/en/food/nutrition/                   # pdf
+
+# ---- Mexican ----
+https://www.tacobell.com/nutrition/calculator                         # calc
+https://www.chipotle.com/nutrition-calculator                         # calc [v]
+https://www.deltaco.com/food/nutrition                                # calc
+
+# ---- pizza ----
+https://cache.dominos.com/olo/6_168_0/assets/build/market/US/_en/pdf/DominosNutritionGuide.pdf  # pdf [v] (build-versioned; check dominos.com for current)
+https://www.papajohns.com/nutritional-information                     # pdf
+https://littlecaesars.com/en-us/nutrition-allergens/                  # pdf
+https://www.marcos.com/nutritional-info                               # page
+
+# ---- sandwiches / subs / bakery-cafe ----
+https://www.subway.com/en-us/menunutrition/nutrition                  # pdf [v] (PDF linked from this page: media.subway.com/dam/.../us-nutrition-en.pdf)
+https://www.jimmyjohns.com/menu-nutrition/nutrition                   # page
+https://www.firehousesubs.com/nutrition                               # pdf
+https://www.jasonsdeli.com/nutrition                                  # calc
+https://www.mcalistersdeli.com/nutrition                              # pdf
+https://www.panerabread.com/en-us/menu/nutritious-eating/allergen-and-nutrition-information.html  # pdf [v] (guide: panerabread.com/content/dam/panerabread/documents/c6-26-nutrition-guide.pdf)
+https://www.quiznos.com/menu                                          # page  ltd
+
+# ---- coffee / breakfast ----
+https://www.starbucks.com/menu                                        # page (per-item nutrition)
+https://www.dunkindonuts.com/en/menu                                  # page
+https://www.timhortons.com/us/en/menu/nutrition.php                   # pdf
+https://www.cariboucoffee.com/menu/                                   # page
+https://www.peets.com/pages/nutritional-information                   # pdf
+https://www.einsteinbros.com/nutrition/                              # pdf
+
+# ---- smoothies ----
+https://www.jamba.com/nutrition                                       # pdf
+https://www.smoothieking.com/menu/nutritional-information             # pdf
+https://www.tropicalsmoothiecafe.com/nutrition/                       # page
+
+# ---- casual / sit-down ----
+https://media.olivegarden.com/en_us/pdf/olive_garden_nutrition.pdf    # pdf [v]
+https://www.outback.com/nutrition                                     # pdf
+https://www.thecheesecakefactory.com/nutrition                        # ltd
+https://www.yardhouse.com/nutrition                                   # ltd
+https://www.dennys.com/nutrition                                      # pdf
+https://www.perkinsrestaurants.com/menu                               # page
+https://www.goldencorral.com/menu-nutrition/                          # ltd
+https://www.fazolis.com/nutrition                                     # pdf
+https://www.noodles.com/nutrition/                                    # calc
+
+# ---- other ----
+https://thehalalguys.com/menu/                                        # ltd
+
+# ---- Western New York (Buffalo / Amherst area) ----
+https://www.timhortons.com/us/en/menu/nutrition.php                   # pdf  (huge in WNY)
+https://www.andersonscustard.com/nutrition-center                     # page [v] (custard + roast beef; per-category pages)
+https://www.tedshotdogs.com/                                          # ltd  no published nutrition; app uses component estimates
+https://www.mightytaco.com/OurFood                                    # ltd  no official nutrition; third-party data only
+https://www.duffswings.com/menus/                                     # ltd  wings ~0 carb; no full nutrition

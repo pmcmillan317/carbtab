@@ -1,0 +1,342 @@
+<title>CarbEase vs CarbTab</title>
+<meta name="description" content="A head-to-head on the two finalist names for the carb-counting app: linguist, ad exec, and eleven panels re-voting two ways." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" />
+
+<style>
+  :root {
+    --paper: #f5f6f0;
+    --card: #ffffff;
+    --raise: #eceee3;
+    --ink: #1c201a;
+    --ink-2: #5a6555;
+    --line: #dee2d3;
+    --green: #497f1b;
+    --green-bright: #7cb92c;
+    --green-wash: #e9f2d6;
+    --blue: #3a6ea0;
+    --blue-wash: #e2ecf4;
+    --flag: #92651a;
+    --flag-wash: #f6ead4;
+    --dead: #a53f30;
+    --dead-wash: #f5e0dc;
+    --focus: #2f6db0;
+    --f-display: "Bricolage Grotesque", "Trebuchet MS", sans-serif;
+    --f-sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --f-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #12140f; --card: #1a1d17; --raise: #23271e;
+      --ink: #e8ebe0; --ink-2: #97a08c; --line: #2c3327;
+      --green: #9bd25a; --green-bright: #8fcb3a; --green-wash: #1c2a10;
+      --blue: #8fb8dc; --blue-wash: #16232f;
+      --flag: #d9a44a; --flag-wash: #322612;
+      --dead: #e07d6d; --dead-wash: #341d19; --focus: #7fb3e6;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #12140f; --card: #1a1d17; --raise: #23271e;
+    --ink: #e8ebe0; --ink-2: #97a08c; --line: #2c3327;
+    --green: #9bd25a; --green-bright: #8fcb3a; --green-wash: #1c2a10;
+    --blue: #8fb8dc; --blue-wash: #16232f;
+    --flag: #d9a44a; --flag-wash: #322612;
+    --dead: #e07d6d; --dead-wash: #341d19; --focus: #7fb3e6;
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: var(--f-sans); line-height: 1.6; -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 32px 20px 72px; }
+  @media (max-width: 500px) { .wrap { padding: 22px 15px 56px; } }
+
+  h1 {
+    font-family: var(--f-display); font-weight: 700;
+    font-size: clamp(26px, 6.5vw, 38px); line-height: 1.08; letter-spacing: -0.02em;
+    margin: 0 0 10px; text-wrap: balance;
+  }
+  h1 .vs { color: var(--ink-2); font-weight: 500; }
+  .dek { font-size: 15.5px; color: var(--ink-2); margin: 0 0 24px; max-width: 62ch; }
+
+  h2 {
+    font-family: var(--f-display); font-weight: 600;
+    font-size: clamp(18px, 4.5vw, 22px); letter-spacing: -0.01em;
+    margin: 40px 0 12px; text-wrap: balance;
+  }
+  p { margin: 0 0 14px; }
+  p.body { max-width: 64ch; }
+  strong { font-weight: 600; }
+  em { font-style: italic; }
+  code {
+    font-family: var(--f-mono); font-size: 0.88em;
+    background: var(--raise); padding: 1px 5px; border-radius: 4px;
+  }
+
+  .callout {
+    background: var(--card); border: 1px solid var(--line);
+    border-left: 3px solid var(--green-bright);
+    border-radius: 10px; padding: 16px 18px; margin: 4px 0 8px;
+  }
+  .callout p:last-child { margin-bottom: 0; }
+
+  /* head to head */
+  .h2h { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 4px; }
+  @media (max-width: 560px) { .h2h { grid-template-columns: 1fr; } }
+  .col {
+    background: var(--card); border: 1px solid var(--line); border-radius: 16px;
+    padding: 18px 18px 16px; display: flex; flex-direction: column;
+  }
+  .col.win { border-color: var(--green-bright); box-shadow: 0 0 0 1px var(--green-bright); }
+  .col h3 {
+    font-family: var(--f-display); font-weight: 700; font-size: 24px;
+    letter-spacing: -0.01em; margin: 0 0 2px;
+  }
+  .col .say { font-family: var(--f-mono); font-size: 12px; color: var(--ink-2); margin-bottom: 12px; }
+  .row { border-top: 1px solid var(--line); padding-top: 10px; margin-top: 10px; }
+  .row:first-of-type { border-top: 0; padding-top: 0; margin-top: 0; }
+  .row .k {
+    font-family: var(--f-mono); font-size: 10px; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-2); margin-bottom: 3px;
+  }
+  .row .v { font-size: 13px; }
+  .verdict-chip {
+    margin-top: 14px; font-family: var(--f-mono); font-size: 11px; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.04em;
+    padding: 7px 10px; border-radius: 8px; text-align: center;
+  }
+  .verdict-chip.good { background: var(--green-wash); color: var(--green); }
+  .verdict-chip.mixed { background: var(--flag-wash); color: var(--flag); }
+
+  /* panel tally */
+  .tally { display: flex; flex-direction: column; gap: 7px; margin-top: 6px; }
+  .tally-row { display: grid; grid-template-columns: 150px 1fr 26px; gap: 10px; align-items: center; font-size: 13px; }
+  @media (max-width: 440px) { .tally-row { grid-template-columns: 120px 1fr 22px; } }
+  .tally-row .bn { font-family: var(--f-display); font-weight: 600; }
+  .tally-bar { height: 14px; border-radius: 7px; background: var(--raise); overflow: hidden; }
+  .tally-bar > i { display: block; height: 100%; border-radius: 7px; }
+  .tally-bar > i.a { background: var(--green-bright); }
+  .tally-bar > i.b { background: var(--blue); }
+  .tally-row .tc { font-family: var(--f-mono); font-weight: 700; text-align: right; font-variant-numeric: tabular-nums; }
+
+  .panelgrid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 6px 14px; margin-top: 12px;
+    font-size: 12.5px;
+  }
+  @media (max-width: 500px) { .panelgrid { grid-template-columns: 1fr; } }
+  .pg-item { display: flex; justify-content: space-between; gap: 8px; padding: 5px 0; border-bottom: 1px solid var(--line); }
+  .pg-item .pick-a { color: var(--green); font-weight: 600; font-family: var(--f-mono); font-size: 11px; }
+  .pg-item .pick-b { color: var(--blue); font-weight: 600; font-family: var(--f-mono); font-size: 11px; }
+
+  .flag-card {
+    background: var(--card); border: 1px solid var(--line);
+    border-left: 3px solid var(--dead); border-radius: 10px;
+    padding: 14px 16px; margin-bottom: 10px;
+  }
+  .flag-card.up { border-left-color: var(--green-bright); }
+  .flag-card h4 {
+    font-family: var(--f-display); font-weight: 700; font-size: 15px; margin: 0 0 4px;
+  }
+  .flag-card p { font-size: 13.5px; margin: 0; }
+
+  .final {
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 20px; margin-top: 8px;
+  }
+  .final p:last-child { margin-bottom: 0; }
+  .final .lead { font-family: var(--f-display); font-weight: 700; font-size: 17px; margin-bottom: 10px; }
+
+  .foot {
+    margin-top: 38px; padding-top: 16px; border-top: 1px solid var(--line);
+    font-size: 12px; color: var(--ink-2); line-height: 1.7;
+  }
+</style>
+
+<div class="wrap">
+  <h1>CarbEase <span class="vs">vs</span> CarbTab</h1>
+  <p class="dek">
+    CarbEase was the one name the panels proposed that is worth a real look. Here it is run through
+    the same test as the shortlist: the linguist, the ad exec, and the eleven panels re-voting, this
+    time with only two names on the table.
+  </p>
+
+  <h2>The seam, first, since that is the thing your wife flagged</h2>
+  <div class="callout">
+    <p>
+      Neither name has the CarbPal problem. <strong>CarbTab</strong> hands a hard <code>b</code> to a
+      hard <code>t</code>, two different parts of the mouth, so the join is crisp. <strong>CarbEase</strong>
+      goes one better on paper: <code>b</code> into a vowel, no consonants touching at all, nothing to
+      collide.
+    </p>
+    <p>
+      But CarbEase trades the collision for a <em>blur</em>. There is no hard sound to mark where
+      "carb" ends and "ease" begins, so said quickly it can land as <em>car-BEES</em> or
+      <em>Carbies</em>. That matters more than usual here, because <strong>Carbie</strong> and
+      <strong>Carbi</strong> are both existing carb-tracking apps. A name that a listener might spell
+      as "Carbies" can send your own word of mouth to a competitor.
+    </p>
+  </div>
+
+  <h2>Head to head</h2>
+  <div class="h2h">
+
+    <div class="col">
+      <h3>CarbEase</h3>
+      <div class="say">said carb-EEZ</div>
+      <div class="row">
+        <div class="k">Linguist</div>
+        <div class="v">Cleanest possible seam. The high "ee" vowel does feel light and quick, which
+        is on message. But the word boundary is not audible, so it drifts toward "Carbies," and
+        "ease" has several plausible spellings from hearing it (ease, eaze, E's).</div>
+      </div>
+      <div class="row">
+        <div class="k">Ad exec</div>
+        <div class="v">A promise, not a description. "It's easy" is warm and it speaks directly to
+        someone who feels behind. But benefit-claim names are a worn wellness pattern, the word paints
+        no picture for a logo, and the app now has to feel easy every single session or the name works
+        against it.</div>
+      </div>
+      <div class="row">
+        <div class="k">Best room</div>
+        <div class="v">The newly diagnosed. "That is exactly what I need to hear right now."</div>
+      </div>
+      <div class="row">
+        <div class="k">Worst room</div>
+        <div class="v">Clinicians ("I won't put a marketing promise on a handout") and second-language
+        users (five spellings around one table).</div>
+      </div>
+      <div class="verdict-chip mixed">Strong pull, soft name</div>
+    </div>
+
+    <div class="col win">
+      <h3>CarbTab</h3>
+      <div class="say">said carb-TAB</div>
+      <div class="row">
+        <div class="k">Linguist</div>
+        <div class="v">Crisp seam, one hard syllable, and the word boundary is unmistakable because
+        the <code>t</code> marks it. Spells itself from hearing it. No competitor it can be confused
+        with.</div>
+      </div>
+      <div class="row">
+        <div class="k">Ad exec</div>
+        <div class="v">A concrete noun with three on-target meanings: a running tab you settle later,
+        a tab of paper, keeping tabs on something. Makes a clean lowercase wordmark and a simple icon.
+        Stakes out "the running total," which no one in the category owns.</div>
+      </div>
+      <div class="row">
+        <div class="k">Best room</div>
+        <div class="v">Parents, on the handoff test. "Log it in CarbTab" is unambiguous over text or
+        a phone call.</div>
+      </div>
+      <div class="row">
+        <div class="k">Worst room</div>
+        <div class="v">None strongly against it. The veterans found it a touch plain but still picked
+        it.</div>
+      </div>
+      <div class="verdict-chip good">Nothing to fault</div>
+    </div>
+
+  </div>
+
+  <h2>Eleven panels, re-voting two ways</h2>
+  <div class="tally">
+    <div class="tally-row">
+      <span class="bn">CarbTab</span>
+      <span class="tally-bar"><i class="a" style="width:82%"></i></span>
+      <span class="tc">9</span>
+    </div>
+    <div class="tally-row">
+      <span class="bn">CarbEase</span>
+      <span class="tally-bar"><i class="b" style="width:18%"></i></span>
+      <span class="tc">2</span>
+    </div>
+  </div>
+
+  <div class="panelgrid">
+    <div class="pg-item"><span>1 &nbsp;Mixed room</span><span class="pick-a">CarbTab</span></div>
+    <div class="pg-item"><span>2 &nbsp;First ninety days</span><span class="pick-b">CarbEase</span></div>
+    <div class="pg-item"><span>3 &nbsp;Counting for a kid</span><span class="pick-a">CarbTab</span></div>
+    <div class="pg-item"><span>4 &nbsp;Twenty years in</span><span class="pick-a">CarbTab</span></div>
+    <div class="pg-item"><span>5 &nbsp;New to insulin, 60+</span><span class="pick-b">CarbEase</span></div>
+    <div class="pg-item"><span>6 &nbsp;The clinic</span><span class="pick-a">CarbTab</span></div>
+    <div class="pg-item"><span>7 &nbsp;Gestational, then done</span><span class="pick-a">CarbTab</span></div>
+    <div class="pg-item"><span>8 &nbsp;Second-language</span><span class="pick-a">CarbTab</span></div>
+    <div class="pg-item"><span>9 &nbsp;The group chat</span><span class="pick-a">CarbTab</span></div>
+    <div class="pg-item"><span>10 &nbsp;For performance</span><span class="pick-a">CarbTab</span></div>
+    <div class="pg-item"><span>11 &nbsp;Reads it aloud</span><span class="pick-a">CarbTab</span></div>
+  </div>
+
+  <p class="body" style="margin-top:16px">
+    CarbEase won exactly the two rooms it was built for: people in their first months, and older
+    adults just starting insulin. Both rooms said a version of <em>"if the app tells me it's easy,
+    maybe I can do this."</em> That pull is real and it is worth taking seriously.
+  </p>
+  <p class="body">
+    It lost the other nine on the same few points every time. The veterans and the athletes reject a
+    comfort promise on principle. The clinicians will not recommend a name that makes a claim. The
+    second-language panel and the screen-reader panel could not pin the spelling or the word
+    boundary. And two rooms landed on problems specific to this name.
+  </p>
+
+  <h2>Two flaws that only CarbEase has</h2>
+  <div class="flag-card">
+    <h4>It can route people to a competitor</h4>
+    <p>Heard once and typed later, "CarbEase" becomes "Carbies" for a fair number of people. That is
+    the search term for <strong>Carbie</strong> and <strong>Carbi</strong>, two carb apps that already
+    exist. No other name on the shortlist has a mishearing that lands on a rival.</p>
+  </div>
+  <div class="flag-card">
+    <h4>"Ease" plus digestion is already a thing</h4>
+    <p>"Ease" is the verb in a lot of gas and bloating relief branding. The teen panel got there in
+    about four seconds. Minor, but it is a joke the name invites and CarbTab does not.</p>
+  </div>
+  <div class="flag-card up">
+    <h4>What CarbEase gets right</h4>
+    <p>The seam genuinely cannot be slurred the way CarbPal is, so your wife's specific objection does
+    not apply. And for the single most emotionally raw moment in this whole audience, the first weeks
+    after diagnosis, no other name reaches out a hand the way this one does.</p>
+  </div>
+
+  <h2>The real question underneath</h2>
+  <p class="body">
+    This is not really CarbEase versus CarbTab. It is a question about who the app is mainly for.
+  </p>
+  <p class="body">
+    If CarbWise is aimed first at people in their <strong>first months</strong> with diabetes, when
+    counting is terrifying and a reassuring name might be the thing that gets the app opened,
+    <strong>CarbEase</strong> has an argument, and you would accept the "Carbies" tax as the cost of
+    that warmth.
+  </p>
+  <p class="body">
+    If it is aimed at the <strong>broad carb-counting population</strong>, including the people who
+    will use it for twenty years, the ones who weigh every meal, the clinicians who recommend it,
+    then a name that makes no promise and cannot be confused with a competitor is the safer
+    foundation. That is <strong>CarbTab</strong>, and everything about how the app is actually built,
+    fast, honest about its sources, friendly to power users, points at that broader audience.
+  </p>
+
+  <h2>Verdict</h2>
+  <div class="final">
+    <p class="lead">CarbTab, 9 rooms to 2.</p>
+    <p class="body">
+      CarbEase is a better name than its ninth-place finish suggests, and if your gut says the
+      newly-diagnosed are the heart of this product, it is a defensible pick. But it carries a flaw
+      none of the others do, a mishearing that leads to a competitor, and it asks the app to keep a
+      promise on every screen. CarbTab asks nothing, hides nothing, and reads clean to every room.
+    </p>
+    <p class="body">
+      If you want the warmth of CarbEase without the risk: keep <strong>CarbTab</strong> as the name
+      and let <em>"carb counting, made easy"</em> be the tagline. You get the reassurance in the
+      place where a promise belongs, under the name, not baked into it.
+    </p>
+  </div>
+
+  <div class="foot">
+    Follows the method in the main naming doc. Panels and quotes are simulated, built to represent
+    real segments of the carb-counting audience. Availability for CarbEase was web-searched with no
+    existing app found; that is a first pass, not a clearance. Prepared 2026-09-09.
+  </div>
+</div>

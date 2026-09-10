@@ -1,0 +1,3762 @@
+{
+ "chain": "Taco Bell",
+ "slug": "taco-bell",
+ "source": "https://www.nutritionix.com/taco-bell/menu/premium",
+ "platform": "nutritionix",
+ "updated": "09/09/2026",
+ "pulledAt": "2026-09-10",
+ "type": "grid",
+ "columns": {
+  "cal": 1,
+  "carb": 7,
+  "fiber": 8
+ },
+ "count": 535,
+ "items": [
+  {
+   "cat": "New",
+   "name": "Beefy Crunch Burrito",
+   "carb": 59,
+   "fiber": 5,
+   "cal": 450
+  },
+  {
+   "cat": "New",
+   "name": "Caramel Apple Empanada",
+   "carb": 38,
+   "fiber": 1,
+   "cal": 290
+  },
+  {
+   "cat": "New",
+   "name": "Chicken Enchilada Nacho Fries",
+   "carb": 47,
+   "fiber": 6,
+   "cal": 500
+  },
+  {
+   "cat": "New",
+   "name": "Dragonfruit Freeze (16 oz)",
+   "carb": 41,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "New",
+   "name": "Dragonfruit Freeze (20 oz)",
+   "carb": 52,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "New",
+   "name": "Dragonfruit Freeze with Dragonfruit Syrup (16 oz)",
+   "carb": 46,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "New",
+   "name": "Dragonfruit Freeze with Dragonfruit Syrup (20 oz)",
+   "carb": 56,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "New",
+   "name": "Meximelt",
+   "carb": 22,
+   "fiber": 4,
+   "cal": 250
+  },
+  {
+   "cat": "New",
+   "name": "Naked Chicken Chalupa",
+   "carb": 28,
+   "fiber": 5,
+   "cal": 430
+  },
+  {
+   "cat": "New",
+   "name": "Pineapple Citrus Energy Freeze (16 oz)",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "New",
+   "name": "Pineapple Citrus Energy Freeze (20 oz)",
+   "carb": 49,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "New",
+   "name": "Pineapple Citrus Fuego Energy",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "New",
+   "name": "Pineapple Dream Refresca",
+   "carb": 55,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "New",
+   "name": "Pineapple Freeze (16 oz)",
+   "carb": 41,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "New",
+   "name": "Pineapple Freeze (20 oz)",
+   "carb": 52,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "New",
+   "name": "Pretty Pink Baja Blast (16 oz)",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "New",
+   "name": "Pretty Pink Baja Blast (20 oz)",
+   "carb": 80,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "New",
+   "name": "Pretty Pink Baja Blast (30 oz)",
+   "carb": 123,
+   "fiber": 0,
+   "cal": 470
+  },
+  {
+   "cat": "New",
+   "name": "Pretty Pink Baja Blast Freeze (16 oz)",
+   "carb": 48,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "New",
+   "name": "Pretty Pink Baja Blast Freeze (20 oz)",
+   "carb": 58,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "New",
+   "name": "Salt & Straw Churro Ice Cream Taco",
+   "carb": 22,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "New",
+   "name": "Strawberry Dream Refresca",
+   "carb": 57,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "New",
+   "name": "Strawberry Tropics Fuego Energy",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "New",
+   "name": "Tajín Cheesy Gordita Crunch",
+   "carb": 45,
+   "fiber": 6,
+   "cal": 460
+  },
+  {
+   "cat": "New",
+   "name": "Tajín Pineapple Strawberry Freeze (16 oz)",
+   "carb": 47,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "New",
+   "name": "Tajín Pineapple Strawberry Freeze (20 oz)",
+   "carb": 58,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "New",
+   "name": "TajínTaco",
+   "carb": 16,
+   "fiber": 4,
+   "cal": 210
+  },
+  {
+   "cat": "Cantina Chicken Menu",
+   "name": "Avocado Salsa Verde Packet",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Cantina Chicken Menu",
+   "name": "Cantina Chicken Bowl",
+   "carb": 44,
+   "fiber": 10,
+   "cal": 480
+  },
+  {
+   "cat": "Cantina Chicken Menu",
+   "name": "Cantina Chicken Burrito",
+   "carb": 44,
+   "fiber": 5,
+   "cal": 530
+  },
+  {
+   "cat": "Cantina Chicken Menu",
+   "name": "Cantina Chicken Crispy Taco",
+   "carb": 19,
+   "fiber": 4,
+   "cal": 270
+  },
+  {
+   "cat": "Cantina Chicken Menu",
+   "name": "Cantina Chicken Rolled Quesadilla",
+   "carb": 46,
+   "fiber": 5,
+   "cal": 570
+  },
+  {
+   "cat": "Cantina Chicken Menu",
+   "name": "Cantina Chicken Soft Taco",
+   "carb": 19,
+   "fiber": 3,
+   "cal": 210
+  },
+  {
+   "cat": "Tacos",
+   "name": "Black Bean Chalupa Supreme (V)",
+   "carb": 36,
+   "fiber": 7,
+   "cal": 340
+  },
+  {
+   "cat": "Tacos",
+   "name": "Chalupa Supreme - Beef",
+   "carb": 32,
+   "fiber": 4,
+   "cal": 350
+  },
+  {
+   "cat": "Tacos",
+   "name": "Chalupa Supreme - Chicken",
+   "carb": 30,
+   "fiber": 3,
+   "cal": 330
+  },
+  {
+   "cat": "Tacos",
+   "name": "Chalupa Supreme - Steak",
+   "carb": 30,
+   "fiber": 3,
+   "cal": 340
+  },
+  {
+   "cat": "Tacos",
+   "name": "Cheesy Gordita Crunch",
+   "carb": 44,
+   "fiber": 6,
+   "cal": 480
+  },
+  {
+   "cat": "Tacos",
+   "name": "Crunchy Taco",
+   "carb": 13,
+   "fiber": 3,
+   "cal": 170
+  },
+  {
+   "cat": "Tacos",
+   "name": "Crunchy Taco Supreme",
+   "carb": 16,
+   "fiber": 3,
+   "cal": 190
+  },
+  {
+   "cat": "Tacos",
+   "name": "Doritos Cheesy Gordita Crunch - Nacho Cheese",
+   "carb": 43,
+   "fiber": 5,
+   "cal": 480
+  },
+  {
+   "cat": "Tacos",
+   "name": "Double Stacked Taco",
+   "carb": 34,
+   "fiber": 4,
+   "cal": 320
+  },
+  {
+   "cat": "Tacos",
+   "name": "Nacho Cheese Doritos Locos Taco",
+   "carb": 13,
+   "fiber": 3,
+   "cal": 170
+  },
+  {
+   "cat": "Tacos",
+   "name": "Nacho Cheese Doritos Locos Taco Supreme",
+   "carb": 15,
+   "fiber": 3,
+   "cal": 190
+  },
+  {
+   "cat": "Tacos",
+   "name": "Soft Taco - Beef",
+   "carb": 18,
+   "fiber": 3,
+   "cal": 180
+  },
+  {
+   "cat": "Tacos",
+   "name": "Soft Taco - Chicken",
+   "carb": 16,
+   "fiber": 1,
+   "cal": 160
+  },
+  {
+   "cat": "Tacos",
+   "name": "Soft Taco Supreme - Beef",
+   "carb": 21,
+   "fiber": 3,
+   "cal": 200
+  },
+  {
+   "cat": "Tacos",
+   "name": "Soft Taco Supreme - Chicken",
+   "carb": 19,
+   "fiber": 2,
+   "cal": 180
+  },
+  {
+   "cat": "Tacos",
+   "name": "Spicy Potato Soft Taco (V)",
+   "carb": 28,
+   "fiber": 2,
+   "cal": 240
+  },
+  {
+   "cat": "Burritos",
+   "name": "Bean Burrito (V)",
+   "carb": 54,
+   "fiber": 8,
+   "cal": 360
+  },
+  {
+   "cat": "Burritos",
+   "name": "Beefy 5-Layer Burrito",
+   "carb": 65,
+   "fiber": 7,
+   "cal": 490
+  },
+  {
+   "cat": "Burritos",
+   "name": "Black Bean Grilled Cheese Burrito",
+   "carb": 72,
+   "fiber": 9,
+   "cal": 680
+  },
+  {
+   "cat": "Burritos",
+   "name": "Burrito Supreme - Beef",
+   "carb": 52,
+   "fiber": 8,
+   "cal": 390
+  },
+  {
+   "cat": "Burritos",
+   "name": "Burrito Supreme - Chicken",
+   "carb": 49,
+   "fiber": 6,
+   "cal": 370
+  },
+  {
+   "cat": "Burritos",
+   "name": "Burrito Supreme - Steak",
+   "carb": 50,
+   "fiber": 6,
+   "cal": 380
+  },
+  {
+   "cat": "Burritos",
+   "name": "Cheesy Bean & Rice Burrito (V)",
+   "carb": 56,
+   "fiber": 6,
+   "cal": 400
+  },
+  {
+   "cat": "Burritos",
+   "name": "Cheesy Double Beef Burrito",
+   "carb": 64,
+   "fiber": 7,
+   "cal": 560
+  },
+  {
+   "cat": "Burritos",
+   "name": "Chicken Enchilada Burrito",
+   "carb": 50,
+   "fiber": 4,
+   "cal": 370
+  },
+  {
+   "cat": "Burritos",
+   "name": "Chili Cheese Burrito (regional)",
+   "carb": 41,
+   "fiber": 4,
+   "cal": 380
+  },
+  {
+   "cat": "Burritos",
+   "name": "Grilled Cheese Burrito",
+   "carb": 68,
+   "fiber": 7,
+   "cal": 690
+  },
+  {
+   "cat": "Burritos",
+   "name": "Grilled Cheese Burrito - Chicken",
+   "carb": 66,
+   "fiber": 6,
+   "cal": 670
+  },
+  {
+   "cat": "Burritos",
+   "name": "Grilled Cheese Burrito - Steak",
+   "carb": 66,
+   "fiber": 6,
+   "cal": 680
+  },
+  {
+   "cat": "Nachos",
+   "name": "Chips and Nacho Cheese Sauce (V)",
+   "carb": 24,
+   "fiber": 2,
+   "cal": 220
+  },
+  {
+   "cat": "Nachos",
+   "name": "Loaded Beef Nachos",
+   "carb": 45,
+   "fiber": 9,
+   "cal": 440
+  },
+  {
+   "cat": "Nachos",
+   "name": "Nachos BellGrande - Beef",
+   "carb": 81,
+   "fiber": 13,
+   "cal": 730
+  },
+  {
+   "cat": "Nachos",
+   "name": "Nachos BellGrande - Chicken",
+   "carb": 79,
+   "fiber": 12,
+   "cal": 710
+  },
+  {
+   "cat": "Nachos",
+   "name": "Nachos BellGrande - Steak",
+   "carb": 79,
+   "fiber": 12,
+   "cal": 720
+  },
+  {
+   "cat": "Quesadillas",
+   "name": "Quesadilla - Cheese (V)",
+   "carb": 43,
+   "fiber": 4,
+   "cal": 440
+  },
+  {
+   "cat": "Quesadillas",
+   "name": "Quesadilla - Chicken",
+   "carb": 44,
+   "fiber": 4,
+   "cal": 490
+  },
+  {
+   "cat": "Quesadillas",
+   "name": "Quesadilla - Steak",
+   "carb": 44,
+   "fiber": 4,
+   "cal": 500
+  },
+  {
+   "cat": "Specialties",
+   "name": "3-Cheese Chicken Flatbread Melt",
+   "carb": 30,
+   "fiber": 3,
+   "cal": 320
+  },
+  {
+   "cat": "Specialties",
+   "name": "Black Bean Crunchwrap Supreme (V)",
+   "carb": 78,
+   "fiber": 8,
+   "cal": 520
+  },
+  {
+   "cat": "Specialties",
+   "name": "Cheesy Roll Up (V)",
+   "carb": 18,
+   "fiber": 1,
+   "cal": 170
+  },
+  {
+   "cat": "Specialties",
+   "name": "Crunchwrap Supreme",
+   "carb": 74,
+   "fiber": 6,
+   "cal": 530
+  },
+  {
+   "cat": "Specialties",
+   "name": "Mexican Pizza",
+   "carb": 51,
+   "fiber": 8,
+   "cal": 530
+  },
+  {
+   "cat": "Specialties",
+   "name": "Stacker",
+   "carb": 43,
+   "fiber": 4,
+   "cal": 390
+  },
+  {
+   "cat": "Specialties",
+   "name": "Veggie Mexican Pizza (V)",
+   "carb": 48,
+   "fiber": 7,
+   "cal": 460
+  },
+  {
+   "cat": "Sides & Sweets",
+   "name": "Black Beans & Rice (V)",
+   "carb": 25,
+   "fiber": 5,
+   "cal": 160
+  },
+  {
+   "cat": "Sides & Sweets",
+   "name": "Black Beans (V)",
+   "carb": 7,
+   "fiber": 4,
+   "cal": 50
+  },
+  {
+   "cat": "Sides & Sweets",
+   "name": "Cheesy Fiesta Potatoes (V)",
+   "carb": 29,
+   "fiber": 3,
+   "cal": 240
+  },
+  {
+   "cat": "Sides & Sweets",
+   "name": "Cinnabon Delights (2 Pk) (V)",
+   "carb": 15,
+   "fiber": 1,
+   "cal": 170
+  },
+  {
+   "cat": "Sides & Sweets",
+   "name": "Cinnabon Delights (12 Pk - Serves 4) (V)",
+   "carb": 88,
+   "fiber": 5,
+   "cal": 1010
+  },
+  {
+   "cat": "Sides & Sweets",
+   "name": "Cinnamon Twists (V)",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 170
+  },
+  {
+   "cat": "Sides & Sweets",
+   "name": "Diablo Sauce Packet (V)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Sides & Sweets",
+   "name": "Fire Sauce Packet (V)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Sides & Sweets",
+   "name": "Hot Sauce Packet (V)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Sides & Sweets",
+   "name": "Large Nacho Fries",
+   "carb": 52,
+   "fiber": 5,
+   "cal": 500
+  },
+  {
+   "cat": "Sides & Sweets",
+   "name": "Mild Sauce Packet (V)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Sides & Sweets",
+   "name": "Nacho Fries",
+   "carb": 36,
+   "fiber": 3,
+   "cal": 350
+  },
+  {
+   "cat": "Sides & Sweets",
+   "name": "Pintos N Cheese (V)",
+   "carb": 19,
+   "fiber": 7,
+   "cal": 170
+  },
+  {
+   "cat": "Drinks",
+   "name": "Blue Raspberry Freeze (16 oz)",
+   "carb": 30,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Drinks",
+   "name": "Blue Raspberry Freeze (20 oz)",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Drinks",
+   "name": "Cinnabon Delights Coffee - Hot",
+   "carb": 34,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks",
+   "name": "Cinnabon Delights Coffee - Iced",
+   "carb": 34,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks",
+   "name": "Hot Coffee with Creamer",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Drinks",
+   "name": "Iced Coffee with Creamer",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Drinks",
+   "name": "Lowfat Milk - CA (Regional)",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Drinks",
+   "name": "Lowfat Milk - Federal (Regional)",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mtn Dew Baja Blast Freeze (16 oz)",
+   "carb": 41,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mtn Dew Baja Blast Freeze (20 oz)",
+   "carb": 51,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Drinks",
+   "name": "Orange Juice",
+   "carb": 33,
+   "fiber": 1,
+   "cal": 140
+  },
+  {
+   "cat": "Drinks",
+   "name": "Premium Roast Coffee - Hot",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Premium Roast Coffee - Iced",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Water",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Caramel Dulce Churro Chiller (16 oz)",
+   "carb": 86,
+   "fiber": 0,
+   "cal": 560
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Caramel Dulce Churro Chiller (20 oz)",
+   "carb": 116,
+   "fiber": 0,
+   "cal": 760
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Caramel Dulce Cream Cold Brew (16 oz)",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Caramel Dulce Cream Cold Brew (20 oz)",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Cinnabon Caramel Coffee - Hot",
+   "carb": 42,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Cinnabon Caramel Coffee - Iced (16 oz)",
+   "carb": 43,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Cinnabon Caramel Coffee - Iced (20 oz)",
+   "carb": 44,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Cinnabon Caramel Latte Chiller (16 oz)",
+   "carb": 70,
+   "fiber": 0,
+   "cal": 480
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Cinnabon Caramel Latte Chiller (19 oz)",
+   "carb": 89,
+   "fiber": 0,
+   "cal": 620
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Cold Brew - Black (16 oz)",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Cold Brew - Black (20 oz)",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Dragonfruit Berry Agua Refresca",
+   "carb": 45,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Dragonfruit Berry Limonada",
+   "carb": 57,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Dragonfruit Strawberry Limonada",
+   "carb": 56,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Mango Peach Agua Refresca",
+   "carb": 43,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Mango Peach Limonada",
+   "carb": 56,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Mexican Chocolate Churro Chiller (16 oz)",
+   "carb": 71,
+   "fiber": 0,
+   "cal": 500
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Mexican Chocolate Churro Chiller (20 oz)",
+   "carb": 94,
+   "fiber": 0,
+   "cal": 660
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Mexican Mocha Coffee - Hot",
+   "carb": 34,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Mexican Mocha Coffee - Iced (16 oz)",
+   "carb": 41,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Mexican Mocha Coffee - Iced (20 oz)",
+   "carb": 46,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Mexican Mocha Latte Chiller (16 oz)",
+   "carb": 68,
+   "fiber": 0,
+   "cal": 480
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Mexican Mocha Latte Chiller (20 oz)",
+   "carb": 87,
+   "fiber": 0,
+   "cal": 620
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Pineapple Lime Rockstar Refresca",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Pink Lemonade Frost (16 oz)",
+   "carb": 48,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Pink Lemonade Frost (20 oz)",
+   "carb": 67,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Purple Velvet Cream Cold Brew (16 oz)",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Purple Velvet Cream Cold Brew (20 oz)",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Strawberry Lime Refresca Freeze (16 oz)",
+   "carb": 51,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Strawberry Lime Refresca Freeze (20 oz)",
+   "carb": 61,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Strawberry Matcha Chiller (16 oz)",
+   "carb": 87,
+   "fiber": 0,
+   "cal": 590
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Strawberry Matcha Chiller (20 oz)",
+   "carb": 117,
+   "fiber": 0,
+   "cal": 780
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Strawberry Passionfruit Agua Refresca",
+   "carb": 43,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Strawberry Passionfruit Limonada",
+   "carb": 56,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Tropical Punch Rockstar Refresca",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Vanilla Cream Cold Brew (16 oz)",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Vanilla Cream Cold Brew (20 oz)",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Vanilla Crema Coffee - Hot",
+   "carb": 21,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Vanilla Crema Coffee - Iced (16 oz)",
+   "carb": 31,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Vanilla Crema Coffee - Iced (20 oz)",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Vanilla Crema Latte Chiller (16 oz)",
+   "carb": 59,
+   "fiber": 0,
+   "cal": 430
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Vanilla Crema Latte Chiller (20 oz)",
+   "carb": 77,
+   "fiber": 0,
+   "cal": 580
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Wild Strawberry Churro Chiller (16 oz)",
+   "carb": 77,
+   "fiber": 0,
+   "cal": 510
+  },
+  {
+   "cat": "Live Mas Cafe",
+   "name": "Wild Strawberry Churro Chiller (20 oz)",
+   "carb": 102,
+   "fiber": 0,
+   "cal": 680
+  },
+  {
+   "cat": "Luxe Value Menu",
+   "name": "3-Cheese Chicken Flatbread Melt - Value Menu",
+   "carb": 30,
+   "fiber": 3,
+   "cal": 320
+  },
+  {
+   "cat": "Luxe Value Menu",
+   "name": "Avocado Ranch Chicken Stacker",
+   "carb": 40,
+   "fiber": 3,
+   "cal": 350
+  },
+  {
+   "cat": "Luxe Value Menu",
+   "name": "Beefy Potato Loaded Griller",
+   "carb": 56,
+   "fiber": 5,
+   "cal": 480
+  },
+  {
+   "cat": "Luxe Value Menu",
+   "name": "Cheesy Bean & Rice Burrito - Value Menu",
+   "carb": 56,
+   "fiber": 6,
+   "cal": 400
+  },
+  {
+   "cat": "Luxe Value Menu",
+   "name": "Cheesy Double Beef Burrito - Value Menu",
+   "carb": 64,
+   "fiber": 7,
+   "cal": 560
+  },
+  {
+   "cat": "Luxe Value Menu",
+   "name": "Cheesy Fiesta Potatoes - Value Menu",
+   "carb": 29,
+   "fiber": 3,
+   "cal": 240
+  },
+  {
+   "cat": "Luxe Value Menu",
+   "name": "Cheesy Roll Up - Value Menu",
+   "carb": 18,
+   "fiber": 1,
+   "cal": 170
+  },
+  {
+   "cat": "Luxe Value Menu",
+   "name": "Chicken Enchilada Burrito - Value Menu",
+   "carb": 50,
+   "fiber": 4,
+   "cal": 370
+  },
+  {
+   "cat": "Luxe Value Menu",
+   "name": "Chips and Nacho Supreme Dip",
+   "carb": 37,
+   "fiber": 7,
+   "cal": 360
+  },
+  {
+   "cat": "Luxe Value Menu",
+   "name": "Double Stacked Taco - Value Menu",
+   "carb": 34,
+   "fiber": 4,
+   "cal": 320
+  },
+  {
+   "cat": "Luxe Value Menu",
+   "name": "Loaded Beef Nachos - Value Menu",
+   "carb": 45,
+   "fiber": 9,
+   "cal": 440
+  },
+  {
+   "cat": "Luxe Value Menu",
+   "name": "Mini Taco Salad",
+   "carb": 27,
+   "fiber": 6,
+   "cal": 280
+  },
+  {
+   "cat": "Luxe Value Menu",
+   "name": "Spicy Potato Soft Taco - Value Menu",
+   "carb": 28,
+   "fiber": 2,
+   "cal": 240
+  },
+  {
+   "cat": "Veggie Cravings",
+   "name": "Bean Burrito",
+   "carb": 54,
+   "fiber": 8,
+   "cal": 360
+  },
+  {
+   "cat": "Veggie Cravings",
+   "name": "Black Bean Chalupa Supreme",
+   "carb": 36,
+   "fiber": 7,
+   "cal": 340
+  },
+  {
+   "cat": "Veggie Cravings",
+   "name": "Black Bean Crunchwrap Supreme",
+   "carb": 78,
+   "fiber": 8,
+   "cal": 520
+  },
+  {
+   "cat": "Veggie Cravings",
+   "name": "Black Beans",
+   "carb": 7,
+   "fiber": 4,
+   "cal": 50
+  },
+  {
+   "cat": "Veggie Cravings",
+   "name": "Black Beans & Rice",
+   "carb": 25,
+   "fiber": 5,
+   "cal": 160
+  },
+  {
+   "cat": "Veggie Cravings",
+   "name": "Cheese Quesadilla",
+   "carb": 43,
+   "fiber": 4,
+   "cal": 440
+  },
+  {
+   "cat": "Veggie Cravings",
+   "name": "Cheesy Bean & Rice Burrito",
+   "carb": 56,
+   "fiber": 6,
+   "cal": 400
+  },
+  {
+   "cat": "Veggie Cravings",
+   "name": "Cheesy Fiesta Potatoes",
+   "carb": 29,
+   "fiber": 3,
+   "cal": 240
+  },
+  {
+   "cat": "Veggie Cravings",
+   "name": "Cheesy Roll Up",
+   "carb": 18,
+   "fiber": 1,
+   "cal": 170
+  },
+  {
+   "cat": "Veggie Cravings",
+   "name": "Chips and Nacho Cheese Sauce",
+   "carb": 24,
+   "fiber": 2,
+   "cal": 220
+  },
+  {
+   "cat": "Veggie Cravings",
+   "name": "Cinnabon Delights (2 Pack)",
+   "carb": 15,
+   "fiber": 1,
+   "cal": 170
+  },
+  {
+   "cat": "Veggie Cravings",
+   "name": "Cinnabon Delights (12 Pack - Serves 4)",
+   "carb": 88,
+   "fiber": 5,
+   "cal": 1010
+  },
+  {
+   "cat": "Veggie Cravings",
+   "name": "Cinnamon Twists",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 170
+  },
+  {
+   "cat": "Veggie Cravings",
+   "name": "Hash Brown",
+   "carb": 14,
+   "fiber": 2,
+   "cal": 170
+  },
+  {
+   "cat": "Veggie Cravings",
+   "name": "Pintos N Cheese",
+   "carb": 19,
+   "fiber": 7,
+   "cal": 170
+  },
+  {
+   "cat": "Veggie Cravings",
+   "name": "Spicy Potato Soft Taco",
+   "carb": 28,
+   "fiber": 2,
+   "cal": 240
+  },
+  {
+   "cat": "Veggie Cravings",
+   "name": "Veggie Bowl",
+   "carb": 48,
+   "fiber": 12,
+   "cal": 410
+  },
+  {
+   "cat": "Veggie Cravings",
+   "name": "Veggie Mexican Pizza",
+   "carb": 48,
+   "fiber": 7,
+   "cal": 460
+  },
+  {
+   "cat": "Breakfast (Regional)",
+   "name": "Breakfast California Crunchwrap - Bacon",
+   "carb": 54,
+   "fiber": 5,
+   "cal": 640
+  },
+  {
+   "cat": "Breakfast (Regional)",
+   "name": "Breakfast California Crunchwrap - Sausage",
+   "carb": 54,
+   "fiber": 5,
+   "cal": 700
+  },
+  {
+   "cat": "Breakfast (Regional)",
+   "name": "Breakfast Crunchwrap - Bacon",
+   "carb": 54,
+   "fiber": 5,
+   "cal": 660
+  },
+  {
+   "cat": "Breakfast (Regional)",
+   "name": "Breakfast Crunchwrap - Sausage Patty",
+   "carb": 55,
+   "fiber": 5,
+   "cal": 740
+  },
+  {
+   "cat": "Breakfast (Regional)",
+   "name": "Breakfast Crunchwrap - Steak",
+   "carb": 55,
+   "fiber": 5,
+   "cal": 650
+  },
+  {
+   "cat": "Breakfast (Regional)",
+   "name": "Breakfast Quesadilla - Bacon",
+   "carb": 42,
+   "fiber": 3,
+   "cal": 500
+  },
+  {
+   "cat": "Breakfast (Regional)",
+   "name": "Breakfast Quesadilla - Sausage",
+   "carb": 42,
+   "fiber": 3,
+   "cal": 500
+  },
+  {
+   "cat": "Breakfast (Regional)",
+   "name": "Breakfast Quesadilla - Steak",
+   "carb": 43,
+   "fiber": 3,
+   "cal": 500
+  },
+  {
+   "cat": "Breakfast (Regional)",
+   "name": "Breakfast Salsa Packet (V)",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Breakfast (Regional)",
+   "name": "Cheesy Toasted Breakfast Burrito - Bacon",
+   "carb": 38,
+   "fiber": 2,
+   "cal": 350
+  },
+  {
+   "cat": "Breakfast (Regional)",
+   "name": "Cheesy Toasted Breakfast Burrito - Fiesta Potato (V)",
+   "carb": 44,
+   "fiber": 3,
+   "cal": 340
+  },
+  {
+   "cat": "Breakfast (Regional)",
+   "name": "Cheesy Toasted Breakfast Burrito - Sausage",
+   "carb": 38,
+   "fiber": 2,
+   "cal": 350
+  },
+  {
+   "cat": "Breakfast (Regional)",
+   "name": "Cinnabon Delights (2 Pack) (V)",
+   "carb": 15,
+   "fiber": 1,
+   "cal": 170
+  },
+  {
+   "cat": "Breakfast (Regional)",
+   "name": "Cinnabon Delights (12 Pack - Serves 4) (V)",
+   "carb": 88,
+   "fiber": 5,
+   "cal": 1010
+  },
+  {
+   "cat": "Breakfast (Regional)",
+   "name": "Cinnabon Delights Coffee - Hot",
+   "carb": 34,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Breakfast (Regional)",
+   "name": "Cinnabon Delights Coffee - Iced",
+   "carb": 34,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Breakfast (Regional)",
+   "name": "Grande Toasted Breakfast Burrito - Bacon",
+   "carb": 52,
+   "fiber": 4,
+   "cal": 570
+  },
+  {
+   "cat": "Breakfast (Regional)",
+   "name": "Grande Toasted Breakfast Burrito - Sausage",
+   "carb": 52,
+   "fiber": 4,
+   "cal": 570
+  },
+  {
+   "cat": "Breakfast (Regional)",
+   "name": "Grande Toasted Breakfast Burrito - Steak",
+   "carb": 53,
+   "fiber": 4,
+   "cal": 560
+  },
+  {
+   "cat": "Breakfast (Regional)",
+   "name": "Hash Brown (V)",
+   "carb": 14,
+   "fiber": 2,
+   "cal": 170
+  },
+  {
+   "cat": "Breakfast (Regional)",
+   "name": "Hash Brown Toasted Breakfast Burrito - Bacon",
+   "carb": 53,
+   "fiber": 4,
+   "cal": 580
+  },
+  {
+   "cat": "Breakfast (Regional)",
+   "name": "Hash Brown Toasted Breakfast Burrito - Sausage",
+   "carb": 53,
+   "fiber": 4,
+   "cal": 580
+  },
+  {
+   "cat": "Breakfast (Regional)",
+   "name": "Hash Brown Toasted Breakfast Burrito - Steak",
+   "carb": 54,
+   "fiber": 4,
+   "cal": 570
+  },
+  {
+   "cat": "Breakfast (Regional)",
+   "name": "Hot Coffee with Creamer",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Breakfast (Regional)",
+   "name": "Iced Coffee with Creamer",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Breakfast (Regional)",
+   "name": "Orange Juice",
+   "carb": 33,
+   "fiber": 1,
+   "cal": 140
+  },
+  {
+   "cat": "Breakfast (Regional)",
+   "name": "Premium Roast Coffee - Hot",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Breakfast (Regional)",
+   "name": "Premium Roast Coffee - Iced",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Breakfast (Regional)",
+   "name": "Vanilla Creamer",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Cantina Menu",
+   "name": "Mad Tasty Grapefruit Sparkling Water",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Cantina Menu",
+   "name": "Mad Tasty Unicorn Tears Sparkling Water",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Cantina Menu",
+   "name": "Mad Tasty Watermelon Kiwi Sparkling Water",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Cantina Menu",
+   "name": "Mad Tasty Yuzu Citrus Sparkling Water",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Cantina Menu",
+   "name": "Mtn Dew Baja Blast Freeze (16 oz)",
+   "carb": 41,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Cantina Menu",
+   "name": "Mtn Dew Baja Blast Freeze (20 oz)",
+   "carb": 51,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Cantina Menu",
+   "name": "Prosecco Sparkling Wine (350 mL)",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Cantina Menu",
+   "name": "Red Wine (6.3 fl oz)",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Cantina Menu",
+   "name": "Rum (80 proof)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Cantina Menu",
+   "name": "Tequila (80 proof)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Cantina Menu",
+   "name": "Vodka (80 proof)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Anchor Steam (16 oz)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Angel Island IPA (12 oz)",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Angel Island IPA (16 oz)",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Angry Orchard (16 oz)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Angry Orchard - Crisp Apple (12 oz)",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Angry Orchard - Crisp Apple (16 oz)",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Barrio Blonde (12 oz)",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Barrio Blonde (16 oz)",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Beach Bell Beer (12 oz)",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Beach Bell Beer (16 oz)",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Beer - General (12 oz)",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Beer - General (16 oz)",
+   "carb": 17,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Bell's Two Hearted Ale (12 oz)",
+   "carb": 17,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Bell's Two Hearted Ale (16 oz)",
+   "carb": 22,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Bell Tower Cerveza (12 oz)",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Bell Tower Cerveza (16 oz)",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Black Abbey - The Rose (12 oz)",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Black Abbey - The Rose (16 oz)",
+   "carb": 17,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Blue Moon Belgian White (12 oz)",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Blue Moon Belgian White (16 oz)",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Blue Moon Belgian White (24 oz)",
+   "carb": 28,
+   "fiber": 0,
+   "cal": 340
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Blue Moon Belgian White Bottle (12 oz)",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Blue Moon Mango Wheat (12 oz)",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Blue Moon Mango Wheat (16 oz)",
+   "carb": 21,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Blue Point Big City Bells Pilsner (12 oz)",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Blue Point Big City Bells Pilsner (16 oz)",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Blue Point Hoptical Illusion IPA (12 oz)",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Blue Point Hoptical Illusion IPA (16 oz)",
+   "carb": 24,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Blue Point Toasted Lager (12 oz)",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Blue Point Toasted Lager (16 oz)",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Boulevard Cherry Blossom and Lime (12 oz)",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Boulevard Cherry Blossom and Lime (16 oz)",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Boulevard Space Camper Cosmic IPA (12 oz)",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Boulevard Space Camper Cosmic IPA (16 oz)",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Boulevard Unfiltered Wheat Beer (12 oz)",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Boulevard Unfiltered Wheat Beer (16 oz)",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Boulevard Unfiltered Wheat Beer 100 (12 oz)",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Boulevard Unfiltered Wheat Beer 100 (16 oz)",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Breaking Bud (12 oz)",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Breaking Bud (16 oz)",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Brooklyn Lager (12 oz)",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Brooklyn Lager (16 oz)",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Bud Light (12 oz)",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Bud Light (16 oz)",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Bud Light Bottle (16 oz)",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Budweiser (12 oz)",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Budweiser (16 oz)",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Budweiser Bottle (16 oz)",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Busch Light (16 oz)",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Calicraft Coast (12 oz)",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Calicraft Coast (16 oz)",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Captain Lawrence Hop Commander (12 oz)",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Cool Kidz IPA (16 oz)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Coors (Coors Banquet) (12 oz)",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Coors (Coors Banquet) (16 oz)",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Coors Light (12 oz)",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Coors Light (16 oz)",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Coors Light (24 oz)",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Copperhead Red (12 oz)",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Copperhead Red (16 oz)",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Corona Extra (12 oz)",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Corona Extra (16 oz)",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Corona Light (12 oz)",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Corona Light (16 oz)",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Corona Premier (12 oz)",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Corona Premier (16 oz)",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Dos Equis Lager Especial (12 oz)",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Dos Equis Lager Especial (16 oz)",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Dos Equis Mexican Pale Ale (12 oz)",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Dos Equis Mexican Pale Ale (16 oz)",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Elysian Space Dust IPA (16 oz)",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Elysian Space Dust IPA (24 oz)",
+   "carb": 23,
+   "fiber": 0,
+   "cal": 470
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Estrella Jalisco (12 oz)",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Estrella Jalisco (16 oz)",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Fair Winds Howling Gail (12 oz)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Fair Winds Howling Gail (16 oz)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 300
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Fat Tire Amber Ale (12 oz)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Fat Tire Amber Ale (16 oz)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Firestone 805 (12 oz)",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Firestone 805 (16 oz)",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Firestone 805 (24 oz)",
+   "carb": 27,
+   "fiber": 0,
+   "cal": 300
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Flybird Lime Margarita",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Flybird Lime Margarita (Can)",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Flybird Mangonada",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Flybird Mojito",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Flybird Pina Colada",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Flybird Prickly Pear Margarita",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Flybird Strawberry Margarita",
+   "carb": 17,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Flybird Strawberry Margarita (Can)",
+   "carb": 27,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Four Peaks Kilt Lifter (12 oz)",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Four Peaks Kilt Lifter (16 oz)",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Goose Island IPA (12 oz)",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Goose Island IPA (16 oz)",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Hard Mtn Dew - Baja Blast (12 oz)",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Hard Mtn Dew - Baja Blast (24 oz)",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Hard Mtn Dew - Black Cherry (12 oz)",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Hard Mtn Dew - Black Cherry (24 oz)",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Hard Mtn Dew - Original (12 oz)",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Hard Mtn Dew - Original (24 oz)",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Hard Mtn Dew - Watermelon (12 oz)",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Hard Mtn Dew - Watermelon (24 oz)",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Harpoon IPA (12 oz)",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Harpoon IPA (16 oz)",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Heineken (12 oz)",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Heineken (16 oz)",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Heineken 0.0 (12 oz)",
+   "carb": 17,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Heineken 0.0 (16 oz)",
+   "carb": 23,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Heineken Bottle (12 oz)",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Heineken Light (12 oz)",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Heineken Light (16 oz)",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Hop Commander IPA (12 oz)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Hop Commander IPA (16 oz)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Kansas City Dunkel (12 oz)",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Kansas City Dunkel (16 oz)",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Kansas City Helles (12 oz)",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Kansas City Helles (16 oz)",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Kona Big Wave Golden Ale (12 oz)",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Kona Big Wave Golden Ale (16 oz)",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Lagunitas IPA (12 oz)",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Lagunitas IPA (16 oz)",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Landshark Lager (12 oz)",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Landshark Lager (16 oz)",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Loose Cannon IPA (12 oz)",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Loose Cannon IPA (16 oz)",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Michelob Original Lager (12 oz)",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Michelob Original Lager (16 oz)",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Michelob Ultra (12 oz)",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Michelob Ultra (16 oz)",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Michelob Ultra Bottle (16 oz)",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Miller Genuine Draft (12 oz)",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Miller Genuine Draft (16 oz)",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Miller High Life (12 oz)",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Miller High Life (16 oz)",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Miller Lite (12 oz)",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Miller Lite (16 oz)",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Modelo Chelada (16 oz)",
+   "carb": 24,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Modelo Especial (12 oz)",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Modelo Especial (16 oz)",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Modelo Especial (24 oz)",
+   "carb": 28,
+   "fiber": 0,
+   "cal": 300
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Modelo Negra (12 oz)",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Modelo Negra (16 oz)",
+   "carb": 21,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Motorworks Intellectual Property IPA (12 oz)",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Motorworks Intellectual Property IPA (16 oz)",
+   "carb": 24,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Motorworks Pulp Fiction IPA (12 oz)",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Motorworks Pulp Fiction IPA (16 oz)",
+   "carb": 24,
+   "fiber": 0,
+   "cal": 300
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Newcastle Brown Ale (12 oz)",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Newcastle Brown Ale (16 oz)",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Old Elephant IPA (12 oz)",
+   "carb": 17,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Old Elephant IPA (16 oz)",
+   "carb": 22,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Pabst Blue Ribbon Original (12 oz)",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Pabst Blue Ribbon Original (16 oz)",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Pacifico (12 oz)",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Pacifico (16 oz)",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Patriot Ale (12 oz)",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Patriot Ale (16 oz)",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Revolution Anti Hero (12 oz)",
+   "carb": 20,
+   "fiber": 1,
+   "cal": 220
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Revolution Anti Hero (16 oz)",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 290
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Road 2 Ruin Double IPA (12 oz)",
+   "carb": 14,
+   "fiber": 1,
+   "cal": 220
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Road 2 Ruin Double IPA (16 oz)",
+   "carb": 19,
+   "fiber": 1,
+   "cal": 290
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Samuel Adams '76 (12 oz)",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Samuel Adams Winter Lager (12 oz)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Samuel Adams Winter Lager (16 oz)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Sea Hag IPA (12 oz)",
+   "carb": 15,
+   "fiber": 1,
+   "cal": 190
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Sea Hag IPA (16 oz)",
+   "carb": 20,
+   "fiber": 1,
+   "cal": 250
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Shock Top Belgian White (12 oz)",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Shock Top Belgian White (16 oz)",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Sierra Nevada Hazy Little Thing IPA (12 oz)",
+   "carb": 21,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Sierra Nevada Hazy Little Thing IPA (16 oz)",
+   "carb": 27,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Sol Cervesa (12 oz)",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Sol Cervesa (16 oz)",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "St. Archer (16 oz)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Stella Artois (12 oz)",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Stella Artois (16 oz)",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Stella Artois (24 oz)",
+   "carb": 22,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Sweetwater 420 Extra Pale Ale (12 oz)",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Sweetwater 420 Extra Pale Ale (16 oz)",
+   "carb": 17,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Tampa Bay Reef Donkey (16 oz)",
+   "carb": 14,
+   "fiber": 1,
+   "cal": 240
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Tecate Light (12 oz)",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Tecate Light (16 oz)",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Tecate Original (12 oz)",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Tecate Original (16 oz)",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Victoria (12 oz)",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Victoria (16 oz)",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Voodoo Ranger Juicy Haze IPA (12 oz)",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Voodoo Ranger Juicy Haze IPA (16 oz)",
+   "carb": 21,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "White Claw Hard Seltzer (12 oz)",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Yuengling - Black and Tan (12 oz)",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Yuengling - Black and Tan (16 oz)",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Yuengling - Golden Pilsner (12 oz)",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Yuengling - Golden Pilsner (16 oz)",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Yuengling - Lager (12 oz)",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Yuengling - Lager (16 oz)",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Yuengling - Light Lager (12 oz)",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Yuengling - Light Lager (16 oz)",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Yuengling - Porter (12 oz)",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Yuengling - Porter (16 oz)",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Yuengling - Premium (12 oz)",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Yuengling - Premium (16 oz)",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Yuengling - Premium Light (12 oz)",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Cantina Beer, Wine and Spirits",
+   "name": "Yuengling - Premium Light (16 oz)",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Las Vegas Cantina Menu",
+   "name": "Mtn Dew Baja Blast Freeze (16 oz)",
+   "carb": 41,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Las Vegas Cantina Menu",
+   "name": "Mtn Dew Baja Blast Freeze (20 oz)",
+   "carb": 51,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Las Vegas Cantina Menu",
+   "name": "Mtn Dew Baja Blast Freeze (32 oz)",
+   "carb": 82,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Las Vegas Cantina Menu",
+   "name": "Red Sangria - LV",
+   "carb": 28,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Las Vegas Cantina Menu",
+   "name": "Rum (80 proof) - Double - LV",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Las Vegas Cantina Menu",
+   "name": "Rum (80 proof) - Single - LV",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Las Vegas Cantina Menu",
+   "name": "Tequila (80 proof) - Double - LV",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Las Vegas Cantina Menu",
+   "name": "Tequila (80 proof) - Single - LV",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Las Vegas Cantina Menu",
+   "name": "Vodka (80 proof) - Double - LV",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Las Vegas Cantina Menu",
+   "name": "Vodka (80 proof) - Single - LV",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Las Vegas Cantina Menu",
+   "name": "Whiskey (80 proof) - Double - LV",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Las Vegas Cantina Menu",
+   "name": "Whiskey (80 proof) - Single - LV",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Brisk Dragon Paradise Sparkling Dirty Iced Tea (16 oz)",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Brisk Dragon Paradise Sparkling Dirty Iced Tea (20 oz)",
+   "carb": 29,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Brisk Dragon Paradise Sparkling Dirty Iced Tea (30 oz)",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Brisk Mango Fiesta Dirty Iced Tea (16 oz)",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Brisk Mango Fiesta Dirty Iced Tea (20 oz)",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Brisk Mango Fiesta Dirty Iced Tea (30 oz)",
+   "carb": 54,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Diet Dr Pepper Dirty Soda (16 oz)",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Diet Dr Pepper Dirty Soda (20 oz)",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Diet Dr Pepper Dirty Soda (30 oz)",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Diet Pepsi Dirty Soda (16 oz)",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Diet Pepsi Dirty Soda (20 oz)",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Diet Pepsi Dirty Soda (30 oz)",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Dr Pepper Dirty Soda (16 oz)",
+   "carb": 61,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Dr Pepper Dirty Soda (20 oz)",
+   "carb": 74,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Dr Pepper Dirty Soda (30 oz)",
+   "carb": 107,
+   "fiber": 0,
+   "cal": 400
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Mtn Dew Baja Blast Dirty Soda (16 oz)",
+   "carb": 68,
+   "fiber": 0,
+   "cal": 270
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Mtn Dew Baja Blast Dirty Soda (20 oz)",
+   "carb": 83,
+   "fiber": 0,
+   "cal": 320
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Mtn Dew Baja Blast Dirty Soda (30 oz)",
+   "carb": 120,
+   "fiber": 0,
+   "cal": 460
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Mtn Dew Baja Blast Dirty Soda Freeze (16 oz)",
+   "carb": 48,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Mtn Dew Baja Blast Dirty Soda Freeze (20 oz)",
+   "carb": 59,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Mtn Dew Baja Blast Zero Sugar Dirty Soda (16 oz)",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Mtn Dew Baja Blast Zero Sugar Dirty Soda (20 oz)",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Mtn Dew Baja Blast Zero Sugar Dirty Soda (30 oz)",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Mtn Dew Baja Midnight Dirty Soda (16 oz)",
+   "carb": 68,
+   "fiber": 0,
+   "cal": 270
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Mtn Dew Baja Midnight Dirty Soda (20 oz)",
+   "carb": 83,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Mtn Dew Baja Midnight Dirty Soda (30 oz)",
+   "carb": 120,
+   "fiber": 0,
+   "cal": 470
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Mtn Dew Dirty Soda (16 oz)",
+   "carb": 68,
+   "fiber": 0,
+   "cal": 270
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Mtn Dew Dirty Soda (20 oz)",
+   "carb": 82,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Mtn Dew Dirty Soda (30 oz)",
+   "carb": 119,
+   "fiber": 0,
+   "cal": 470
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Mtn Dew Zero Sugar Dirty Soda (16 oz)",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Mtn Dew Zero Sugar Dirty Soda (20 oz)",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Mtn Dew Zero Sugar Dirty Soda (30 oz)",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Mug Root Beer Dirty Soda (16 oz)",
+   "carb": 60,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Mug Root Beer Dirty Soda (20 oz)",
+   "carb": 73,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Mug Root Beer Dirty Soda (30 oz)",
+   "carb": 105,
+   "fiber": 0,
+   "cal": 410
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Pepsi Dirty Soda (16 oz)",
+   "carb": 64,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Pepsi Dirty Soda (20 oz)",
+   "carb": 78,
+   "fiber": 0,
+   "cal": 300
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Pepsi Dirty Soda (30 oz)",
+   "carb": 113,
+   "fiber": 0,
+   "cal": 430
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Pepsi Wild Cherry Dirty Soda (16 oz)",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Pepsi Wild Cherry Dirty Soda (20 oz)",
+   "carb": 80,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Pepsi Wild Cherry Dirty Soda (30 oz)",
+   "carb": 115,
+   "fiber": 0,
+   "cal": 440
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Pepsi Zero Sugar Dirty Soda (16 oz)",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Pepsi Zero Sugar Dirty Soda (20 oz)",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Pepsi Zero Sugar Dirty Soda (30 oz)",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Starry Dirty Soda (16 oz)",
+   "carb": 61,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Starry Dirty Soda (20 oz)",
+   "carb": 74,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Starry Dirty Soda (30 oz)",
+   "carb": 106,
+   "fiber": 0,
+   "cal": 410
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Tropicana Dirty Lemonade (16 oz)",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Tropicana Dirty Lemonade (20 oz)",
+   "carb": 30,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Dirty Sodas",
+   "name": "Tropicana Dirty Lemonade (30 oz)",
+   "carb": 40,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Fountain Beverages (16 oz)",
+   "name": "Brisk Dragon Paradise Sparkling Iced Tea (16 fl oz)",
+   "carb": 17,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Fountain Beverages (16 oz)",
+   "name": "Brisk Mango Iced Tea (16 fl oz)",
+   "carb": 24,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Fountain Beverages (16 oz)",
+   "name": "Diet Dr Pepper (16 fl oz)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Fountain Beverages (16 oz)",
+   "name": "Diet Pepsi (16 fl oz)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Fountain Beverages (16 oz)",
+   "name": "Dr Pepper (16 fl oz)",
+   "carb": 52,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Fountain Beverages (16 oz)",
+   "name": "G2 - Fruit Punch (16 fl oz)",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Fountain Beverages (16 oz)",
+   "name": "Lipton Unsweetened Iced Tea (16 fl oz)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Fountain Beverages (16 oz)",
+   "name": "Midnight Mtn Dew Baja Blast (16 fl oz)",
+   "carb": 59,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Fountain Beverages (16 oz)",
+   "name": "Mtn Dew (16 fl oz)",
+   "carb": 59,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Fountain Beverages (16 oz)",
+   "name": "Mtn Dew Baja Blast (16 fl oz)",
+   "carb": 59,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Fountain Beverages (16 oz)",
+   "name": "Mtn Dew Baja Blast Zero Sugar (16 fl oz)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Fountain Beverages (16 oz)",
+   "name": "Mtn Dew Zero Sugar (16 fl oz)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Fountain Beverages (16 oz)",
+   "name": "Mug Root Beer (16 fl oz)",
+   "carb": 51,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Fountain Beverages (16 oz)",
+   "name": "Pepsi (16 fl oz)",
+   "carb": 55,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Fountain Beverages (16 oz)",
+   "name": "Pepsi Wild Cherry (16 fl oz)",
+   "carb": 56,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Fountain Beverages (16 oz)",
+   "name": "Pepsi Zero Sugar (16 fl oz)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Fountain Beverages (16 oz)",
+   "name": "Starry (16 fl oz)",
+   "carb": 52,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Fountain Beverages (16 oz)",
+   "name": "Tropicana Original Lemonade (16 oz)",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Fountain Beverages (20 oz)",
+   "name": "Brisk Dragon Paradise Sparkling Iced Tea (20 fl oz)",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Fountain Beverages (20 oz)",
+   "name": "Brisk Mango Iced Tea (20 fl oz)",
+   "carb": 30,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Fountain Beverages (20 oz)",
+   "name": "Diet Dr Pepper (20 fl oz)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Fountain Beverages (20 oz)",
+   "name": "Diet Pepsi (20 fl oz)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Fountain Beverages (20 oz)",
+   "name": "Dr Pepper (20 fl oz)",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Fountain Beverages (20 oz)",
+   "name": "G2 - Fruit Punch (20 fl oz)",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Fountain Beverages (20 oz)",
+   "name": "Lipton Unsweetened Iced Tea (20 fl oz)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Fountain Beverages (20 oz)",
+   "name": "Midnight Mtn Dew Baja Blast (20 fl oz)",
+   "carb": 74,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Fountain Beverages (20 oz)",
+   "name": "Mtn Dew (20 fl oz)",
+   "carb": 73,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Fountain Beverages (20 oz)",
+   "name": "Mtn Dew Baja Blast (20 fl oz)",
+   "carb": 74,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Fountain Beverages (20 oz)",
+   "name": "Mtn Dew Baja Blast Zero Sugar (20 fl oz)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Fountain Beverages (20 oz)",
+   "name": "Mtn Dew Zero Sugar (20 fl oz)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Fountain Beverages (20 oz)",
+   "name": "Mug Root Beer (20 fl oz)",
+   "carb": 64,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Fountain Beverages (20 oz)",
+   "name": "Pepsi (20 fl oz)",
+   "carb": 69,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Fountain Beverages (20 oz)",
+   "name": "Pepsi Wild Cherry (20 fl oz)",
+   "carb": 70,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Fountain Beverages (20 oz)",
+   "name": "Pepsi Zero Sugar (20 fl oz)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Fountain Beverages (20 oz)",
+   "name": "Starry (20 fl oz)",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Fountain Beverages (20 oz)",
+   "name": "Tropicana Original Lemonade (20 oz)",
+   "carb": 21,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Fountain Beverages (30 oz)",
+   "name": "Brisk Dragon Paradise Sparkling Iced Tea (30 fl oz)",
+   "carb": 30,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Fountain Beverages (30 oz)",
+   "name": "Brisk Mango Iced Tea (30 fl oz)",
+   "carb": 45,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Fountain Beverages (30 oz)",
+   "name": "Diet Dr Pepper (30 fl oz)",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Fountain Beverages (30 oz)",
+   "name": "Diet Pepsi (30 fl oz)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Fountain Beverages (30 oz)",
+   "name": "Dr Pepper (30 fl oz)",
+   "carb": 98,
+   "fiber": 0,
+   "cal": 360
+  },
+  {
+   "cat": "Fountain Beverages (30 oz)",
+   "name": "G2 - Fruit Punch (30 fl oz)",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Fountain Beverages (30 oz)",
+   "name": "Lipton Unsweetened Iced Tea (30 fl oz)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Fountain Beverages (30 oz)",
+   "name": "Midnight Mtn Dew Baja Blast (30 fl oz)",
+   "carb": 111,
+   "fiber": 0,
+   "cal": 420
+  },
+  {
+   "cat": "Fountain Beverages (30 oz)",
+   "name": "Mtn Dew (30 fl oz)",
+   "carb": 110,
+   "fiber": 0,
+   "cal": 420
+  },
+  {
+   "cat": "Fountain Beverages (30 oz)",
+   "name": "Mtn Dew Baja Blast (30 fl oz)",
+   "carb": 111,
+   "fiber": 0,
+   "cal": 420
+  },
+  {
+   "cat": "Fountain Beverages (30 oz)",
+   "name": "Mtn Dew Baja Blast Zero Sugar (30 fl oz)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Fountain Beverages (30 oz)",
+   "name": "Mtn Dew Zero Sugar (30 fl oz)",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Fountain Beverages (30 oz)",
+   "name": "Mug Root Beer (30 fl oz)",
+   "carb": 96,
+   "fiber": 0,
+   "cal": 360
+  },
+  {
+   "cat": "Fountain Beverages (30 oz)",
+   "name": "Pepsi (30 fl oz)",
+   "carb": 103,
+   "fiber": 0,
+   "cal": 380
+  },
+  {
+   "cat": "Fountain Beverages (30 oz)",
+   "name": "Pepsi Wild Cherry (30 fl oz)",
+   "carb": 106,
+   "fiber": 0,
+   "cal": 390
+  },
+  {
+   "cat": "Fountain Beverages (30 oz)",
+   "name": "Pepsi Zero Sugar (30 fl oz)",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Fountain Beverages (30 oz)",
+   "name": "Starry (30 fl oz)",
+   "carb": 97,
+   "fiber": 0,
+   "cal": 370
+  },
+  {
+   "cat": "Fountain Beverages (30 oz)",
+   "name": "Tropicana Original Lemonade (30oz)",
+   "carb": 31,
+   "fiber": 0,
+   "cal": 120
+  }
+ ]
+}

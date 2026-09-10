@@ -1,0 +1,5134 @@
+{
+ "chain": "Papa Johns",
+ "slug": "papa-johns",
+ "source": "https://www.nutritionix.com/papa-johns/menu/premium",
+ "platform": "nutritionix",
+ "updated": "12/18/2024",
+ "pulledAt": "2026-09-10",
+ "type": "grid",
+ "columns": {
+  "cal": 1,
+  "carb": 8,
+  "fiber": 9
+ },
+ "count": 731,
+ "items": [
+  {
+   "cat": "Specialty Pizzas",
+   "name": "BBQ Chicken Bacon Pizza, Epic Stuffed Crust",
+   "carb": 45,
+   "fiber": 2,
+   "cal": 400
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "BBQ Chicken Bacon Pizza, Gluten Free",
+   "carb": 42,
+   "fiber": 2,
+   "cal": 340
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "BBQ Chicken Bacon Pizza, Original Crust, Extra Large",
+   "carb": 48,
+   "fiber": 2,
+   "cal": 360
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "BBQ Chicken Bacon Pizza, Original Crust, Large",
+   "carb": 45,
+   "fiber": 2,
+   "cal": 340
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "BBQ Chicken Bacon Pizza, Original Crust, Medium",
+   "carb": 32,
+   "fiber": 1,
+   "cal": 240
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "BBQ Chicken Bacon Pizza, Original Crust, Pizza for One",
+   "carb": 30,
+   "fiber": 1,
+   "cal": 240
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "BBQ Chicken Bacon Pizza, Original Crust, Small",
+   "carb": 30,
+   "fiber": 1,
+   "cal": 230
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "BBQ Chicken Bacon Pizza, Thin Crust",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Butter Chicken Pizza, Epic Stuffed Crust",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 370
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Butter Chicken Pizza, Gluten Free",
+   "carb": 14,
+   "fiber": 1,
+   "cal": 130
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Butter Chicken Pizza, Original Crust, Extra Large",
+   "carb": 41,
+   "fiber": 1,
+   "cal": 310
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Butter Chicken Pizza, Original Crust, Large",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 300
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Butter Chicken Pizza, Original Crust, Medium",
+   "carb": 36,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Butter Chicken Pizza, Original Crust, Pizza for One",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Butter Chicken Pizza, Original Crust, Small",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Butter Chicken Pizza, Thin Crust",
+   "carb": 20,
+   "fiber": 1,
+   "cal": 220
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Cheese Pizza, Epic Stuffed Crust",
+   "carb": 40,
+   "fiber": 2,
+   "cal": 360
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Cheese Pizza, Gluten Free",
+   "carb": 36,
+   "fiber": 2,
+   "cal": 290
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Cheese Pizza, Original Crust, Extra Large",
+   "carb": 40,
+   "fiber": 2,
+   "cal": 300
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Cheese Pizza, Original Crust, Large",
+   "carb": 38,
+   "fiber": 2,
+   "cal": 290
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Cheese Pizza, Original Crust, Medium",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 210
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Cheese Pizza, Original Crust, Pizza for One",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 200
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Cheese Pizza, Original Crust, Small",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 180
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Cheese Pizza, Thin Crust",
+   "carb": 20,
+   "fiber": 1,
+   "cal": 210
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Cheesy Burger Pizza, Original Crust, Large",
+   "carb": 39,
+   "fiber": 2,
+   "cal": 360
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Cheesy Calzone Epic Stuffed Crust Pizza, Large",
+   "carb": 41,
+   "fiber": 0,
+   "cal": 350
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Create Your Own Crispy Parm Pizza, Crispy Parm Crust, Large",
+   "carb": 16,
+   "fiber": 1,
+   "cal": 140
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Extra Cheesy Alfredo Pizza, Epic Stuffed Crust",
+   "carb": 39,
+   "fiber": 1,
+   "cal": 390
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Extra Cheesy Alfredo Pizza, Gluten Free",
+   "carb": 18,
+   "fiber": 1,
+   "cal": 180
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Extra Cheesy Alfredo Pizza, Original Crust, Extra Large",
+   "carb": 39,
+   "fiber": 1,
+   "cal": 330
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Extra Cheesy Alfredo Pizza, Original Crust, Large",
+   "carb": 37,
+   "fiber": 1,
+   "cal": 320
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Extra Cheesy Alfredo Pizza, Original Crust, Medium",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 230
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Extra Cheesy Alfredo Pizza, Original Crust, Pizza for One",
+   "carb": 24,
+   "fiber": 1,
+   "cal": 220
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Extra Cheesy Alfredo Pizza, Original Crust, Small",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 210
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Extra Cheesy Alfredo Pizza, Thin Crust",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Fiery Buffalo Chicken Pizza, Epic Stuffed Crust",
+   "carb": 40,
+   "fiber": 2,
+   "cal": 390
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Fiery Buffalo Chicken Pizza, Gluten Free",
+   "carb": 16,
+   "fiber": 1,
+   "cal": 160
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Fiery Buffalo Chicken Pizza, Original Crust, Extra Large",
+   "carb": 40,
+   "fiber": 2,
+   "cal": 350
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Fiery Buffalo Chicken Pizza, Original Crust, Large",
+   "carb": 38,
+   "fiber": 2,
+   "cal": 330
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Fiery Buffalo Chicken Pizza, Original Crust, Medium",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 230
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Fiery Buffalo Chicken Pizza, Original Crust, Pizza for One",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 230
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Fiery Buffalo Chicken Pizza, Original Crust, Small",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 220
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Fiery Buffalo Chicken Pizza, Thin Crust",
+   "carb": 20,
+   "fiber": 1,
+   "cal": 260
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Fresh Spinach & Tomato Alfredo Pizza, Epic Stuffed Crust",
+   "carb": 39,
+   "fiber": 2,
+   "cal": 350
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Fresh Spinach & Tomato Alfredo Pizza, Gluten Free",
+   "carb": 37,
+   "fiber": 2,
+   "cal": 280
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Fresh Spinach & Tomato Alfredo Pizza, Original Crust, Extra Large",
+   "carb": 41,
+   "fiber": 2,
+   "cal": 300
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Fresh Spinach & Tomato Alfredo Pizza, Original Crust, Large",
+   "carb": 39,
+   "fiber": 2,
+   "cal": 280
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Fresh Spinach & Tomato Alfredo Pizza, Original Crust, Medium",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 200
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Fresh Spinach & Tomato Alfredo Pizza, Original Crust, Pizza for One",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 190
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Fresh Spinach & Tomato Alfredo Pizza, Original Crust, Small",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 190
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Fresh Spinach & Tomato Alfredo Pizza, Thin Crust",
+   "carb": 21,
+   "fiber": 1,
+   "cal": 210
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Garden Fresh Pizza, Epic Stuffed Crust",
+   "carb": 41,
+   "fiber": 2,
+   "cal": 350
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Garden Fresh Pizza, Gluten Free",
+   "carb": 37,
+   "fiber": 2,
+   "cal": 280
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Garden Fresh Pizza, Original Crust, Extra Large",
+   "carb": 41,
+   "fiber": 2,
+   "cal": 300
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Garden Fresh Pizza, Original Crust, Large",
+   "carb": 39,
+   "fiber": 2,
+   "cal": 280
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Garden Fresh Pizza, Original Crust, Medium",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 200
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Garden Fresh Pizza, Original Crust, Pizza for One",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 190
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Garden Fresh Pizza, Original Crust, Small",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 190
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Garden Fresh Pizza, Thin Crust",
+   "carb": 21,
+   "fiber": 1,
+   "cal": 210
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Garlic Epic Stuffed Crust Pizza, Large",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 370
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Meatball Pepperoni Pizza, Epic Stuffed Crust",
+   "carb": 41,
+   "fiber": 2,
+   "cal": 430
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Meatball Pepperoni Pizza, Gluten Free",
+   "carb": 16,
+   "fiber": 1,
+   "cal": 180
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Meatball Pepperoni Pizza, Original Crust, Extra Large",
+   "carb": 41,
+   "fiber": 2,
+   "cal": 370
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Meatball Pepperoni Pizza, Original Crust, Large",
+   "carb": 38,
+   "fiber": 2,
+   "cal": 360
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Meatball Pepperoni Pizza, Original Crust, Medium",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 240
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Meatball Pepperoni Pizza, Original Crust, Pizza for One",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 240
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Meatball Pepperoni Pizza, Original Crust, Small",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 230
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Meatball Pepperoni Pizza, Thin Crust",
+   "carb": 20,
+   "fiber": 1,
+   "cal": 280
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "NY Style Crispy Cuppy 'Roni Pizza, Large",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 390
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Pepperoni, Sausage & Six Cheese Pizza, Epic Stuffed Crust",
+   "carb": 40,
+   "fiber": 2,
+   "cal": 480
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Pepperoni, Sausage & Six Cheese Pizza, Original Crust, Extra Large",
+   "carb": 38,
+   "fiber": 1,
+   "cal": 410
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Pepperoni, Sausage & Six Cheese Pizza, Original Crust, Large",
+   "carb": 36,
+   "fiber": 1,
+   "cal": 390
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Pepperoni, Sausage & Six Cheese Pizza, Original Crust, Medium",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 280
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Pepperoni, Sausage & Six Cheese Pizza, Original Crust, Pizza for One",
+   "carb": 24,
+   "fiber": 1,
+   "cal": 280
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Pepperoni, Sausage & Six Cheese Pizza, Original Crust, Small",
+   "carb": 24,
+   "fiber": 1,
+   "cal": 260
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Pepperoni, Sausage & Six Cheese Pizza, Thin Crust",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 320
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Pepperoni Pizza, Epic Stuffed Crust",
+   "carb": 40,
+   "fiber": 2,
+   "cal": 390
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Pepperoni Pizza, Gluten Free",
+   "carb": 36,
+   "fiber": 2,
+   "cal": 340
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Pepperoni Pizza, Original Crust, Extra Large",
+   "carb": 40,
+   "fiber": 2,
+   "cal": 330
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Pepperoni Pizza, Original Crust, Large",
+   "carb": 38,
+   "fiber": 2,
+   "cal": 320
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Pepperoni Pizza, Original Crust, Medium",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 230
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Pepperoni Pizza, Original Crust, Pizza for One",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 220
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Pepperoni Pizza, Original Crust, Small",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 210
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Pepperoni Pizza, Thin Crust",
+   "carb": 20,
+   "fiber": 1,
+   "cal": 250
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Philly Cheesesteak Pizza, Epic Stuffed Crust",
+   "carb": 40,
+   "fiber": 2,
+   "cal": 430
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Philly Cheesesteak Pizza, Gluten Free",
+   "carb": 16,
+   "fiber": 1,
+   "cal": 160
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Philly Cheesesteak Pizza, Original Crust, Extra Large",
+   "carb": 40,
+   "fiber": 2,
+   "cal": 350
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Philly Cheesesteak Pizza, Original Crust, Large",
+   "carb": 38,
+   "fiber": 2,
+   "cal": 330
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Philly Cheesesteak Pizza, Original Crust, Medium",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 230
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Philly Cheesesteak Pizza, Original Crust, Pizza for One",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 230
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Philly Cheesesteak Pizza, Original Crust, Small",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 220
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Philly Cheesesteak Pizza, Thin Crust",
+   "carb": 20,
+   "fiber": 1,
+   "cal": 260
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Sausage Pizza, Epic Stuffed Crust",
+   "carb": 40,
+   "fiber": 2,
+   "cal": 400
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Sausage Pizza, Gluten Free",
+   "carb": 36,
+   "fiber": 2,
+   "cal": 340
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Sausage Pizza, Original Crust, Extra Large",
+   "carb": 40,
+   "fiber": 2,
+   "cal": 340
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Sausage Pizza, Original Crust, Large",
+   "carb": 38,
+   "fiber": 2,
+   "cal": 330
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Sausage Pizza, Original Crust, Medium",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 240
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Sausage Pizza, Original Crust, Pizza for One",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 230
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Sausage Pizza, Original Crust, Small",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 220
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Sausage Pizza, Thin Crust",
+   "carb": 20,
+   "fiber": 1,
+   "cal": 260
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Shaq-A-Roni Pizza, Original Crust, Large",
+   "carb": 39,
+   "fiber": 2,
+   "cal": 390
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Spicy Garlic Epic Stuffed Crust Pizza, Large",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 370
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Super Hawaiian Pizza, Epic Stuffed Crust",
+   "carb": 42,
+   "fiber": 2,
+   "cal": 400
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Super Hawaiian Pizza, Gluten Free",
+   "carb": 17,
+   "fiber": 1,
+   "cal": 170
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Super Hawaiian Pizza, Original Crust, Extra Large",
+   "carb": 42,
+   "fiber": 2,
+   "cal": 360
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Super Hawaiian Pizza, Original Crust, Large",
+   "carb": 40,
+   "fiber": 2,
+   "cal": 340
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Super Hawaiian Pizza, Original Crust, Medium",
+   "carb": 28,
+   "fiber": 1,
+   "cal": 230
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Super Hawaiian Pizza, Original Crust, Pizza for One",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 230
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Super Hawaiian Pizza, Original Crust, Small",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 230
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Super Hawaiian Pizza, Thin Crust",
+   "carb": 22,
+   "fiber": 1,
+   "cal": 260
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "The Meats Pizza, Epic Stuffed Crust",
+   "carb": 40,
+   "fiber": 2,
+   "cal": 440
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "The Meats Pizza, Gluten Free",
+   "carb": 36,
+   "fiber": 2,
+   "cal": 340
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "The Meats Pizza, Original Crust, Extra Large",
+   "carb": 41,
+   "fiber": 2,
+   "cal": 410
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "The Meats Pizza, Original Crust, Large",
+   "carb": 38,
+   "fiber": 2,
+   "cal": 380
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "The Meats Pizza, Original Crust, Medium",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 260
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "The Meats Pizza, Original Crust, Pizza for One",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 260
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "The Meats Pizza, Original Crust, Small",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 250
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "The Meats Pizza, Thin Crust",
+   "carb": 20,
+   "fiber": 1,
+   "cal": 300
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "The Works Pizza, Epic Stuffed Crust",
+   "carb": 41,
+   "fiber": 2,
+   "cal": 410
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "The Works Pizza, Gluten Free",
+   "carb": 37,
+   "fiber": 2,
+   "cal": 320
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "The Works Pizza, Original Crust, Extra Large",
+   "carb": 41,
+   "fiber": 2,
+   "cal": 360
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "The Works Pizza, Original Crust, Large",
+   "carb": 39,
+   "fiber": 2,
+   "cal": 340
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "The Works Pizza, Original Crust, Medium",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 230
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "The Works Pizza, Original Crust, Pizza for One",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 230
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "The Works Pizza, Original Crust, Small",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 230
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "The Works Pizza, Thin Crust",
+   "carb": 21,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Tuscan Six Cheese Pizza, Epic Stuffed Crust",
+   "carb": 40,
+   "fiber": 2,
+   "cal": 390
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Tuscan Six Cheese Pizza, Gluten Free",
+   "carb": 36,
+   "fiber": 2,
+   "cal": 310
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Tuscan Six Cheese Pizza, Original Crust, Extra Large",
+   "carb": 40,
+   "fiber": 2,
+   "cal": 330
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Tuscan Six Cheese Pizza, Original Crust, Large",
+   "carb": 38,
+   "fiber": 2,
+   "cal": 320
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Tuscan Six Cheese Pizza, Original Crust, Medium",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 230
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Tuscan Six Cheese Pizza, Original Crust, Pizza for One",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 220
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Tuscan Six Cheese Pizza, Original Crust, Small",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 220
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Tuscan Six Cheese Pizza, Thin Crust",
+   "carb": 20,
+   "fiber": 1,
+   "cal": 250
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Ultimate Pepperoni Pizza, Epic Stuffed Crust",
+   "carb": 40,
+   "fiber": 2,
+   "cal": 410
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Ultimate Pepperoni Pizza, Gluten Free",
+   "carb": 16,
+   "fiber": 1,
+   "cal": 180
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Ultimate Pepperoni Pizza, Original Crust, Extra Large",
+   "carb": 40,
+   "fiber": 2,
+   "cal": 370
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Ultimate Pepperoni Pizza, Original Crust, Large",
+   "carb": 38,
+   "fiber": 2,
+   "cal": 360
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Ultimate Pepperoni Pizza, Original Crust, Medium",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 250
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Ultimate Pepperoni Pizza, Original Crust, Pizza for One",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 250
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Ultimate Pepperoni Pizza, Original Crust, Small",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 240
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Ultimate Pepperoni Pizza, Thin Crust",
+   "carb": 20,
+   "fiber": 1,
+   "cal": 290
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Zesty Italian Trio Pizza, Epic Stuffed Crust",
+   "carb": 41,
+   "fiber": 2,
+   "cal": 440
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Zesty Italian Trio Pizza, Gluten Free",
+   "carb": 16,
+   "fiber": 1,
+   "cal": 180
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Zesty Italian Trio Pizza, Original Crust, Extra Large",
+   "carb": 40,
+   "fiber": 2,
+   "cal": 390
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Zesty Italian Trio Pizza, Original Crust, Large",
+   "carb": 38,
+   "fiber": 2,
+   "cal": 370
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Zesty Italian Trio Pizza, Original Crust, Medium",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 260
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Zesty Italian Trio Pizza, Original Crust, Pizza for One",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 250
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Zesty Italian Trio Pizza, Original Crust, Small",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 240
+  },
+  {
+   "cat": "Specialty Pizzas",
+   "name": "Zesty Italian Trio Pizza, Thin Crust",
+   "carb": 20,
+   "fiber": 1,
+   "cal": 300
+  },
+  {
+   "cat": "Papa Bowls",
+   "name": "Chicken Alfredo Papa Bowl",
+   "carb": 15,
+   "fiber": 3,
+   "cal": 570
+  },
+  {
+   "cat": "Papa Bowls",
+   "name": "Garden Veggie Papa Bowl",
+   "carb": 21,
+   "fiber": 6,
+   "cal": 380
+  },
+  {
+   "cat": "Papa Bowls",
+   "name": "Italian Meats Trio Papa Bowl",
+   "carb": 24,
+   "fiber": 6,
+   "cal": 880
+  },
+  {
+   "cat": "Papadias",
+   "name": "Cheesy Burger Papadia",
+   "carb": 79,
+   "fiber": 4,
+   "cal": 840
+  },
+  {
+   "cat": "Papadias",
+   "name": "Doritos Cool Ranch Beef Papadia",
+   "carb": 82,
+   "fiber": 0,
+   "cal": 870
+  },
+  {
+   "cat": "Papadias",
+   "name": "Doritos Cool Ranch Chicken Papadia",
+   "carb": 82,
+   "fiber": 0,
+   "cal": 840
+  },
+  {
+   "cat": "Papadias",
+   "name": "Doritos Cool Ranch Create Your Own Papadia",
+   "carb": 75,
+   "fiber": 0,
+   "cal": 490
+  },
+  {
+   "cat": "Papadias",
+   "name": "Doritos Cool Ranch Steak Papadia",
+   "carb": 84,
+   "fiber": 0,
+   "cal": 860
+  },
+  {
+   "cat": "Papadias",
+   "name": "Grilled BBQ Chicken & Bacon Papadia",
+   "carb": 85,
+   "fiber": 4,
+   "cal": 840
+  },
+  {
+   "cat": "Papadias",
+   "name": "Grilled Buffalo Chicken Papadia",
+   "carb": 80,
+   "fiber": 4,
+   "cal": 920
+  },
+  {
+   "cat": "Papadias",
+   "name": "Italian Papadia",
+   "carb": 76,
+   "fiber": 4,
+   "cal": 940
+  },
+  {
+   "cat": "Papadias",
+   "name": "Meatball Pepperoni Papadia",
+   "carb": 79,
+   "fiber": 4,
+   "cal": 940
+  },
+  {
+   "cat": "Papadias",
+   "name": "Parmesan Crusted BBQ Chicken Bacon Papadia",
+   "carb": 83,
+   "fiber": 4,
+   "cal": 960
+  },
+  {
+   "cat": "Papadias",
+   "name": "Parmesan Crusted Grilled Buffalo Chicken Papadia",
+   "carb": 80,
+   "fiber": 4,
+   "cal": 1050
+  },
+  {
+   "cat": "Papadias",
+   "name": "Parmesan Crusted Italian Papadia",
+   "carb": 76,
+   "fiber": 4,
+   "cal": 1070
+  },
+  {
+   "cat": "Papadias",
+   "name": "Parmesan Crusted Meatball Pepperoni Papadia",
+   "carb": 79,
+   "fiber": 4,
+   "cal": 1060
+  },
+  {
+   "cat": "Papadias",
+   "name": "Philly Cheesesteak Papadia",
+   "carb": 80,
+   "fiber": 4,
+   "cal": 810
+  },
+  {
+   "cat": "Wings",
+   "name": "BBQ Boneless Wings, 10 wings",
+   "carb": 54,
+   "fiber": 1,
+   "cal": 640
+  },
+  {
+   "cat": "Wings",
+   "name": "BBQ Boneless Wings, 15 wings",
+   "carb": 99,
+   "fiber": 3,
+   "cal": 1130
+  },
+  {
+   "cat": "Wings",
+   "name": "BBQ Boneless Wings, 30 wings",
+   "carb": 160,
+   "fiber": 5,
+   "cal": 1920
+  },
+  {
+   "cat": "Wings",
+   "name": "BBQ Wings, 8 wings",
+   "carb": 20,
+   "fiber": 1,
+   "cal": 880
+  },
+  {
+   "cat": "Wings",
+   "name": "BBQ Wings, 16 wings",
+   "carb": 40,
+   "fiber": 1,
+   "cal": 1750
+  },
+  {
+   "cat": "Wings",
+   "name": "BBQ Wings, 24 wings",
+   "carb": 60,
+   "fiber": 2,
+   "cal": 2630
+  },
+  {
+   "cat": "Wings",
+   "name": "BBQ Wings, 32 wings",
+   "carb": 80,
+   "fiber": 2,
+   "cal": 3500
+  },
+  {
+   "cat": "Wings",
+   "name": "BBQ Wings, 50 wings",
+   "carb": 125,
+   "fiber": 4,
+   "cal": 5470
+  },
+  {
+   "cat": "Wings",
+   "name": "Buffalo Boneless Wings, 10 wings",
+   "carb": 44,
+   "fiber": 2,
+   "cal": 630
+  },
+  {
+   "cat": "Wings",
+   "name": "Buffalo Boneless Wings, 15 wings",
+   "carb": 77,
+   "fiber": 3,
+   "cal": 1110
+  },
+  {
+   "cat": "Wings",
+   "name": "Buffalo Boneless Wings, 30 wings",
+   "carb": 132,
+   "fiber": 1,
+   "cal": 1890
+  },
+  {
+   "cat": "Wings",
+   "name": "Buffalo Wings, 8 wings",
+   "carb": 8,
+   "fiber": 1,
+   "cal": 840
+  },
+  {
+   "cat": "Wings",
+   "name": "Buffalo Wings, 16 wings",
+   "carb": 16,
+   "fiber": 2,
+   "cal": 1670
+  },
+  {
+   "cat": "Wings",
+   "name": "Buffalo Wings, 24 wings",
+   "carb": 24,
+   "fiber": 3,
+   "cal": 2510
+  },
+  {
+   "cat": "Wings",
+   "name": "Buffalo Wings, 32 wings",
+   "carb": 33,
+   "fiber": 4,
+   "cal": 3340
+  },
+  {
+   "cat": "Wings",
+   "name": "Buffalo Wings, 50 wings",
+   "carb": 51,
+   "fiber": 6,
+   "cal": 5220
+  },
+  {
+   "cat": "Wings",
+   "name": "Garlic Parmesan Boneless Wings, 10 wings",
+   "carb": 42,
+   "fiber": 2,
+   "cal": 680
+  },
+  {
+   "cat": "Wings",
+   "name": "Garlic Parmesan Boneless Wings, 15 wings",
+   "carb": 63,
+   "fiber": 2,
+   "cal": 1070
+  },
+  {
+   "cat": "Wings",
+   "name": "Garlic Parmesan Boneless Wings, 30 wings",
+   "carb": 126,
+   "fiber": 5,
+   "cal": 2170
+  },
+  {
+   "cat": "Wings",
+   "name": "Garlic Parmesan Wings, 8 wings",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 1040
+  },
+  {
+   "cat": "Wings",
+   "name": "Garlic Parmesan Wings, 16 wings",
+   "carb": 11,
+   "fiber": 1,
+   "cal": 2080
+  },
+  {
+   "cat": "Wings",
+   "name": "Garlic Parmesan Wings, 24 wings",
+   "carb": 17,
+   "fiber": 1,
+   "cal": 3120
+  },
+  {
+   "cat": "Wings",
+   "name": "Garlic Parmesan Wings, 32 wings",
+   "carb": 23,
+   "fiber": 1,
+   "cal": 4160
+  },
+  {
+   "cat": "Wings",
+   "name": "Garlic Parmesan Wings, 50 wings",
+   "carb": 35,
+   "fiber": 2,
+   "cal": 6500
+  },
+  {
+   "cat": "Wings",
+   "name": "Honey Chipotle Boneless Wings, 10 wings",
+   "carb": 52,
+   "fiber": 2,
+   "cal": 630
+  },
+  {
+   "cat": "Wings",
+   "name": "Honey Chipotle Boneless Wings, 15 wings",
+   "carb": 86,
+   "fiber": 2,
+   "cal": 990
+  },
+  {
+   "cat": "Wings",
+   "name": "Honey Chipotle Boneless Wings, 30 wings",
+   "carb": 164,
+   "fiber": 5,
+   "cal": 1940
+  },
+  {
+   "cat": "Wings",
+   "name": "Honey Chipotle Wings, 8 wings",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 900
+  },
+  {
+   "cat": "Wings",
+   "name": "Honey Chipotle Wings, 16 wings",
+   "carb": 55,
+   "fiber": 1,
+   "cal": 1800
+  },
+  {
+   "cat": "Wings",
+   "name": "Honey Chipotle Wings, 24 wings",
+   "carb": 82,
+   "fiber": 2,
+   "cal": 2710
+  },
+  {
+   "cat": "Wings",
+   "name": "Honey Chipotle Wings, 32 wings",
+   "carb": 109,
+   "fiber": 2,
+   "cal": 3610
+  },
+  {
+   "cat": "Wings",
+   "name": "Honey Chipotle Wings, 50 wings",
+   "carb": 171,
+   "fiber": 4,
+   "cal": 5640
+  },
+  {
+   "cat": "Wings",
+   "name": "Hot Lemon Pepper Boneless Wings, 10 wings",
+   "carb": 43,
+   "fiber": 2,
+   "cal": 600
+  },
+  {
+   "cat": "Wings",
+   "name": "Hot Lemon Pepper Boneless Wings, 15 wings",
+   "carb": 68,
+   "fiber": 2,
+   "cal": 950
+  },
+  {
+   "cat": "Wings",
+   "name": "Hot Lemon Pepper Boneless Wings, 30 wings",
+   "carb": 128,
+   "fiber": 5,
+   "cal": 1810
+  },
+  {
+   "cat": "Wings",
+   "name": "Hot Lemon Pepper Wings, 8 wings",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 960
+  },
+  {
+   "cat": "Wings",
+   "name": "Hot Lemon Pepper Wings, 16 wings",
+   "carb": 17,
+   "fiber": 0,
+   "cal": 1910
+  },
+  {
+   "cat": "Wings",
+   "name": "Hot Lemon Pepper Wings, 24 wings",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 2870
+  },
+  {
+   "cat": "Wings",
+   "name": "Hot Lemon Pepper Wings, 32 wings",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 3830
+  },
+  {
+   "cat": "Wings",
+   "name": "Hot Lemon Pepper Wings, 50 wings",
+   "carb": 52,
+   "fiber": 0,
+   "cal": 5980
+  },
+  {
+   "cat": "Wings",
+   "name": "Unsauced Boneless Wings, 10 wings",
+   "carb": 41,
+   "fiber": 2,
+   "cal": 590
+  },
+  {
+   "cat": "Wings",
+   "name": "Unsauced Boneless Wings, 15 wings",
+   "carb": 62,
+   "fiber": 2,
+   "cal": 890
+  },
+  {
+   "cat": "Wings",
+   "name": "Unsauced Boneless Wings, 30 wings",
+   "carb": 133,
+   "fiber": 5,
+   "cal": 1910
+  },
+  {
+   "cat": "Wings",
+   "name": "Unsauced Roasted Wings, 8 wings",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 810
+  },
+  {
+   "cat": "Wings",
+   "name": "Unsauced Roasted Wings, 16 wings",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 1620
+  },
+  {
+   "cat": "Wings",
+   "name": "Unsauced Roasted Wings, 24 wings",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 2430
+  },
+  {
+   "cat": "Wings",
+   "name": "Unsauced Roasted Wings, 32 wings",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 3240
+  },
+  {
+   "cat": "Wings",
+   "name": "Unsauced Roasted Wings, 50 wings",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 5060
+  },
+  {
+   "cat": "Sides",
+   "name": "Bacon Cheesesticks, 10\"",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Sides",
+   "name": "Bacon Cheesesticks, 12\"",
+   "carb": 13,
+   "fiber": 1,
+   "cal": 130
+  },
+  {
+   "cat": "Sides",
+   "name": "Bacon Cheesy Burger Papa Bites, 8 Pieces",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Sides",
+   "name": "Breadsticks, 12\"",
+   "carb": 24,
+   "fiber": 1,
+   "cal": 130
+  },
+  {
+   "cat": "Sides",
+   "name": "Breadsticks, 14\"",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 150
+  },
+  {
+   "cat": "Sides",
+   "name": "Calzones Papa Bites, 8 Pieces",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Sides",
+   "name": "Cheesesticks, 10\"",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Sides",
+   "name": "Cheesesticks, 12\"",
+   "carb": 13,
+   "fiber": 1,
+   "cal": 110
+  },
+  {
+   "cat": "Sides",
+   "name": "Chicken Parmesan Papa Bites, 8 Pieces",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Sides",
+   "name": "Garlic Knots",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Sides",
+   "name": "Garlic Parmesan Breadsticks, 12\"",
+   "carb": 24,
+   "fiber": 1,
+   "cal": 160
+  },
+  {
+   "cat": "Sides",
+   "name": "Garlic Parmesan Breadsticks, 14\"",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 170
+  },
+  {
+   "cat": "Sides",
+   "name": "Jalapeno Papa Bites, 8 Pieces",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Sides",
+   "name": "Tuscan 6-Cheese Cheesesticks, 10\"",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Sides",
+   "name": "Tuscan 6-Cheese Cheesesticks, 12\"",
+   "carb": 13,
+   "fiber": 1,
+   "cal": 130
+  },
+  {
+   "cat": "Desserts",
+   "name": "Chocolate Chip Cookie",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 190
+  },
+  {
+   "cat": "Desserts",
+   "name": "Cinnamon Pullaparts",
+   "carb": 264,
+   "fiber": 8,
+   "cal": 1960
+  },
+  {
+   "cat": "Desserts",
+   "name": "Double Chocolate Chip Brownie",
+   "carb": 34,
+   "fiber": 1,
+   "cal": 240
+  },
+  {
+   "cat": "Desserts",
+   "name": "Oreo Cookie Papa Bites",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Desserts",
+   "name": "Twix Papa Bites",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Dipping Sauces",
+   "name": "Dipping Sauce, BBQ Sauce",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Dipping Sauces",
+   "name": "Dipping Sauce, Blue Cheese",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Dipping Sauces",
+   "name": "Dipping Sauce, Buffalo Sauce",
+   "carb": 3,
+   "fiber": 1,
+   "cal": 15
+  },
+  {
+   "cat": "Dipping Sauces",
+   "name": "Dipping Sauce, Cheese Sauce",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Dipping Sauces",
+   "name": "Dipping Sauce, Cheesy Burger Sauce",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Dipping Sauces",
+   "name": "Dipping Sauce, Cream Cheese Icing",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Dipping Sauces",
+   "name": "Dipping Sauce, Doritos Cool Ranch Sauce",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Dipping Sauces",
+   "name": "Dipping Sauce, Honey Mustard",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Dipping Sauces",
+   "name": "Dipping Sauce, Pizza Sauce",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Dipping Sauces",
+   "name": "Dipping Sauce, Ranch Sauce",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Dipping Sauces",
+   "name": "Dipping Sauce, Special Garlic",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Dipping Sauces",
+   "name": "Dipping Sauce, Special Zesty Sauce",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Extras",
+   "name": "Extra Anchovies",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 30
+  },
+  {
+   "cat": "Extras",
+   "name": "Extra Banana Peppers",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Extras",
+   "name": "Extra Crushed Red Pepper",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Extras",
+   "name": "Extra Jalapeno Peppers",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Extras",
+   "name": "Extra Parmesan Cheese",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 190
+  },
+  {
+   "cat": "Extras",
+   "name": "Extra Pepperoncinis",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Extras",
+   "name": "Extra Special Seasonings",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "A&W Cream Soda, 2 Liter",
+   "carb": 262,
+   "fiber": 0,
+   "cal": 1010
+  },
+  {
+   "cat": "Drinks",
+   "name": "A&W Cream Soda, 20 Oz",
+   "carb": 78,
+   "fiber": 0,
+   "cal": 300
+  },
+  {
+   "cat": "Drinks",
+   "name": "A&W Root Beer, 2 Liter",
+   "carb": 262,
+   "fiber": 0,
+   "cal": 1010
+  },
+  {
+   "cat": "Drinks",
+   "name": "A&W Root Beer, 20 Oz",
+   "carb": 78,
+   "fiber": 0,
+   "cal": 300
+  },
+  {
+   "cat": "Drinks",
+   "name": "AMP, 16 Oz",
+   "carb": 58,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Drinks",
+   "name": "Aquafina Raspberry, 20 Oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Barq's Root Beer, 20 Oz",
+   "carb": 75,
+   "fiber": 0,
+   "cal": 270
+  },
+  {
+   "cat": "Drinks",
+   "name": "Blueberry Pomegranate, 16 Oz",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Drinks",
+   "name": "Brisk Fruit Punch, 20 Oz",
+   "carb": 48,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Drinks",
+   "name": "Brisk Lemonade, 2 Liter",
+   "carb": 159,
+   "fiber": 0,
+   "cal": 610
+  },
+  {
+   "cat": "Drinks",
+   "name": "Brisk Lemonade, 20 Oz",
+   "carb": 47,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Drinks",
+   "name": "Brisk Pink Lemonade, 20 Oz",
+   "carb": 45,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Drinks",
+   "name": "Brisk Strawberry Melon, 20 Oz",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Drinks",
+   "name": "Brisk Sweet Tea Lemon, 2 Liter",
+   "carb": 182,
+   "fiber": 0,
+   "cal": 720
+  },
+  {
+   "cat": "Drinks",
+   "name": "Brisk Sweet Tea Lemon, 12 Oz",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Drinks",
+   "name": "Brisk Sweet Tea Lemon, 20 Oz",
+   "carb": 54,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Drinks",
+   "name": "Brisk Tea Raspberry, 20 Oz",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Drinks",
+   "name": "Canada Dry, 2 Liter",
+   "carb": 186,
+   "fiber": 0,
+   "cal": 680
+  },
+  {
+   "cat": "Drinks",
+   "name": "Canada Dry, 20 Oz",
+   "carb": 55,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Drinks",
+   "name": "Cheerwine, 2 Liter",
+   "carb": 237,
+   "fiber": 0,
+   "cal": 850
+  },
+  {
+   "cat": "Drinks",
+   "name": "Cheerwine, 12 Oz",
+   "carb": 42,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Drinks",
+   "name": "Cheerwine, 20 Oz",
+   "carb": 70,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Cherry Coke, 20 Oz",
+   "carb": 70,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Cherry Dr Pepper, 2 Liter",
+   "carb": 240,
+   "fiber": 0,
+   "cal": 880
+  },
+  {
+   "cat": "Drinks",
+   "name": "Cherry Dr Pepper, 20 Oz",
+   "carb": 71,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Drinks",
+   "name": "Cherry Seven Up, 2 Liter",
+   "carb": 220,
+   "fiber": 0,
+   "cal": 850
+  },
+  {
+   "cat": "Drinks",
+   "name": "Cherry Seven Up, 20 Oz",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Cherry Vanilla Dr Pepper, 2 Liter",
+   "carb": 220,
+   "fiber": 0,
+   "cal": 810
+  },
+  {
+   "cat": "Drinks",
+   "name": "Cherry Vanilla Dr Pepper, 20 Oz",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Drinks",
+   "name": "Cherry Vanilla Pepsi, 2 Liter",
+   "carb": 200,
+   "fiber": 0,
+   "cal": 740
+  },
+  {
+   "cat": "Drinks",
+   "name": "Cherry Vanilla Pepsi, 20 Oz",
+   "carb": 59,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Drinks",
+   "name": "Coffee, 16 Oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Coffee, 20 Oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Coke, 2 Liter",
+   "carb": 222,
+   "fiber": 0,
+   "cal": 820
+  },
+  {
+   "cat": "Drinks",
+   "name": "Coke, 20 Oz",
+   "carb": 66,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Drinks",
+   "name": "Coke Zero, 2 Liter",
+   "carb": 222,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Coke Zero, 20 Oz",
+   "carb": 66,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Countrytime Strawberry Lemonade, 2 Liter",
+   "carb": 203,
+   "fiber": 0,
+   "cal": 760
+  },
+  {
+   "cat": "Drinks",
+   "name": "Countrytime Strawberry Lemonade, 20 Oz",
+   "carb": 60,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Drinks",
+   "name": "Crush Cherry, 2 Liter",
+   "carb": 264,
+   "fiber": 0,
+   "cal": 980
+  },
+  {
+   "cat": "Drinks",
+   "name": "Crush Cherry, 20 Oz",
+   "carb": 78,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Drinks",
+   "name": "Crush Cream Soda, 2 Liter",
+   "carb": 254,
+   "fiber": 0,
+   "cal": 950
+  },
+  {
+   "cat": "Drinks",
+   "name": "Crush Cream Soda, 12 Oz",
+   "carb": 45,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Drinks",
+   "name": "Crush Cream Soda, 20 Oz",
+   "carb": 75,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Drinks",
+   "name": "Crush Grape, 2 Liter",
+   "carb": 243,
+   "fiber": 0,
+   "cal": 910
+  },
+  {
+   "cat": "Drinks",
+   "name": "Crush Grape, 12 Oz",
+   "carb": 43,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks",
+   "name": "Crush Grape, 20 Oz",
+   "carb": 72,
+   "fiber": 0,
+   "cal": 270
+  },
+  {
+   "cat": "Drinks",
+   "name": "Crush Orange, 1.25 Liter",
+   "carb": 180,
+   "fiber": 0,
+   "cal": 630
+  },
+  {
+   "cat": "Drinks",
+   "name": "Crush Orange, 2 Liter",
+   "carb": 287,
+   "fiber": 0,
+   "cal": 1010
+  },
+  {
+   "cat": "Drinks",
+   "name": "Crush Orange, 12 Oz",
+   "carb": 51,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Drinks",
+   "name": "Crush Orange, 20 Oz",
+   "carb": 85,
+   "fiber": 0,
+   "cal": 300
+  },
+  {
+   "cat": "Drinks",
+   "name": "Crush Peach, 2 Liter",
+   "carb": 281,
+   "fiber": 0,
+   "cal": 1050
+  },
+  {
+   "cat": "Drinks",
+   "name": "Crush Peach, 20 Oz",
+   "carb": 83,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Drinks",
+   "name": "Crush Pineapple, 2 Liter",
+   "carb": 291,
+   "fiber": 0,
+   "cal": 1080
+  },
+  {
+   "cat": "Drinks",
+   "name": "Crush Pineapple, 20 Oz",
+   "carb": 86,
+   "fiber": 0,
+   "cal": 320
+  },
+  {
+   "cat": "Drinks",
+   "name": "Crush Strawberry, 2 Liter",
+   "carb": 260,
+   "fiber": 0,
+   "cal": 980
+  },
+  {
+   "cat": "Drinks",
+   "name": "Crush Strawberry, 12 Oz",
+   "carb": 46,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Drinks",
+   "name": "Crush Strawberry, 20 Oz",
+   "carb": 77,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Drinks",
+   "name": "Crystal Pepsi, 2 Liter",
+   "carb": 233,
+   "fiber": 0,
+   "cal": 850
+  },
+  {
+   "cat": "Drinks",
+   "name": "Crystal Pepsi, 20 Oz",
+   "carb": 69,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Coke, 2 Liter",
+   "carb": 291,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Coke, 20 Oz",
+   "carb": 86,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Dr Pepper, 2 Liter",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Dr Pepper, 20 Oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Mist Twst, 1.25 Liter",
+   "carb": 137,
+   "fiber": 0,
+   "cal": 530
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Mist Twst, 2 Liter",
+   "carb": 234,
+   "fiber": 0,
+   "cal": 900
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Mist Twst, 20 Oz",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Mountain Dew, 2 Liter",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Mountain Dew, 12 Oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Mountain Dew, 20 Oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Pepsi, 1.25 Liter",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Pepsi, 2 Liter",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Pepsi, 12 Oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Pepsi, 20 Oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Pepsi Max, 20 Oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Seven Up, 2 Liter",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Seven Up, 20 Oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Wild Cherry Pepsi, 2 Liter",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Wild Cherry Pepsi, 20 Oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Doc X, 2 Liter",
+   "carb": 225,
+   "fiber": 0,
+   "cal": 850
+  },
+  {
+   "cat": "Drinks",
+   "name": "Doc X, 20 Oz",
+   "carb": 67,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Dr Pepper, 2 Liter",
+   "carb": 228,
+   "fiber": 0,
+   "cal": 850
+  },
+  {
+   "cat": "Drinks",
+   "name": "Dr Pepper, 12 Oz",
+   "carb": 41,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Drinks",
+   "name": "Dr Pepper, 20 Oz",
+   "carb": 68,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Dr Pepper 10, 2 Liter",
+   "carb": 17,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Drinks",
+   "name": "Dr Pepper 10, 20 Oz",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Drinks",
+   "name": "Dr Wham, 2 Liter",
+   "carb": 220,
+   "fiber": 0,
+   "cal": 850
+  },
+  {
+   "cat": "Drinks",
+   "name": "Dr Wham, 20 Oz",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Fanta Orange, 2 Liter",
+   "carb": 254,
+   "fiber": 0,
+   "cal": 930
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gatorade Cool Blue, 20 Oz",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gatorade Fierce Blue Cherry, 20 Oz",
+   "carb": 36,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gatorade Fierce Grape, 20 Oz",
+   "carb": 125,
+   "fiber": 0,
+   "cal": 500
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gatorade Fierce Green Apple, 20 Oz",
+   "carb": 36,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gatorade Fierce Melon, 20 Oz",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gatorade Fruit Punch, 20 Oz",
+   "carb": 36,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gatorade Fruit Punch, 64 Oz",
+   "carb": 115,
+   "fiber": 0,
+   "cal": 450
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gatorade G2 Blueberry Pomegranate, 20 Oz",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gatorade G2 Fruit Punch, 20 Oz",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gatorade G2 Grape, 20 Oz",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gatorade G2 Orange, 20 Oz",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gatorade Glacial Cherry, 20 Oz",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gatorade Glacial Freeze, 20 Oz",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gatorade Lemon Lime, 20 Oz",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gatorade Lime Cucumber, 20 Oz",
+   "carb": 34,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gatorade Mango Xtreme, 20 Oz",
+   "carb": 36,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gatorade Orange, 20 Oz",
+   "carb": 36,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gatorade Orange, 64 Oz",
+   "carb": 115,
+   "fiber": 0,
+   "cal": 450
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gatorade Raspberry, 20 Oz",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gatorade Riptide Rush, 20 Oz",
+   "carb": 34,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gatorade Tropical Mango, 20 Oz",
+   "carb": 36,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Drinks",
+   "name": "Grapico, 2 Liter",
+   "carb": 197,
+   "fiber": 0,
+   "cal": 790
+  },
+  {
+   "cat": "Drinks",
+   "name": "Grapico, 20 Oz",
+   "carb": 58,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Drinks",
+   "name": "Hawaiian Fruit Punch, 12 Oz",
+   "carb": 50,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Drinks",
+   "name": "Hawaiian Punch, 2 Liter",
+   "carb": 279,
+   "fiber": 0,
+   "cal": 1100
+  },
+  {
+   "cat": "Drinks",
+   "name": "Hawaiian Punch, 20 Oz",
+   "carb": 83,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Drinks",
+   "name": "Lipton Green Tea Citrus, 20 Oz",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Drinks",
+   "name": "Lipton Green Tea Honey, 20 Oz",
+   "carb": 48,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Drinks",
+   "name": "Lipton Green Tea Passionfruit Mango, 20 Oz",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Drinks",
+   "name": "Lipton Half & Half, 2 Liter",
+   "carb": 105,
+   "fiber": 0,
+   "cal": 410
+  },
+  {
+   "cat": "Drinks",
+   "name": "Lipton Half & Half, 20 Oz",
+   "carb": 31,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Drinks",
+   "name": "Lipton Ice Tea Lemon, 20 Oz",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Drinks",
+   "name": "Lipton Ice Tea Pomegranate Blueberry, 20 Oz",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Drinks",
+   "name": "Lipton Pureleaf Diet Lemon Tea, 18.5 Oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Drinks",
+   "name": "Lipton Pureleaf Extrasweet Tea, 18.5 Oz",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Lipton Pureleaf Green Tea, 18.5 Oz",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Drinks",
+   "name": "Lipton Pure Leaf Half And Half, 18.5 Oz",
+   "carb": 42,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks",
+   "name": "Lipton Pureleaf Lemon, 18.5 Oz",
+   "carb": 41,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks",
+   "name": "Lipton Pureleaf Nts Peach Tea, 18.5 Oz",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Drinks",
+   "name": "Lipton Pureleaf Peach Tea, 18.5 Oz",
+   "carb": 29,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Drinks",
+   "name": "Lipton Pureleaf Raspberry Tea, 18.5 Oz",
+   "carb": 46,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Drinks",
+   "name": "Lipton Pureleaf Sweet Tea, 18.5 Oz",
+   "carb": 42,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks",
+   "name": "Lipton Sparkling Iced Tea Peach, 12 Oz",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Drinks",
+   "name": "Lipton Sparkling Iced Tea Peach, 20 Oz",
+   "carb": 30,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Drinks",
+   "name": "Lipton Sparkling Tea Raspberry, 12 Oz",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Drinks",
+   "name": "Manzanita Sol, 2 Liter",
+   "carb": 235,
+   "fiber": 0,
+   "cal": 890
+  },
+  {
+   "cat": "Drinks",
+   "name": "Manzanita Sol, 12 Oz",
+   "carb": 42,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks",
+   "name": "Manzanita Sol, 20 Oz",
+   "carb": 70,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mist Twst, 2 Liter",
+   "carb": 220,
+   "fiber": 0,
+   "cal": 810
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mist Twst, 20 Oz",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Drinks",
+   "name": "Montellier Sparkling Water, 17 Oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mountain Dew, 1.25 Liter",
+   "carb": 162,
+   "fiber": 0,
+   "cal": 600
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mountain Dew, 2 Liter",
+   "carb": 262,
+   "fiber": 0,
+   "cal": 930
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mountain Dew, 12 Oz",
+   "carb": 47,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mountain Dew, 20 Oz",
+   "carb": 78,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mountain Dew Baja Blast, 20 Oz",
+   "carb": 73,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mountain Dew Code Red, 2 Liter",
+   "carb": 260,
+   "fiber": 0,
+   "cal": 950
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mountain Dew Code Red, 20 Oz",
+   "carb": 78,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mountain Dew Game Fuel, 2 Liter",
+   "carb": 156,
+   "fiber": 0,
+   "cal": 570
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mountain Dew Game Fuel Citrus Cherry, 2 Liter",
+   "carb": 156,
+   "fiber": 0,
+   "cal": 570
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mountain Dew Game Fuel Citrus Cherry, 20 Oz",
+   "carb": 46,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mountain Dew Kickstart Black Cherry, 16 Oz",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mountain Dew Kickstart Blood Orange, 12 Oz",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mountain Dew Kickstart Blueberry Pomegranate, 12 Oz",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mountain Dew Kickstart Energizing Watermelon, 12 Oz",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mountain Dew Kickstart Fruit Punch, 16 Oz",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mountain Dew Kickstart Kiwi Strawberry, 12 Oz",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mountain Dew Kickstart Kiwi Strawberry, 16 Oz",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mountain Dew Kickstart Lime, 16 Oz",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mountain Dew Kickstart Orange Citrus, 16 Oz",
+   "carb": 21,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mountain Dew Kickstart Pineapple Orange, 12 Oz",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mountain Dew Livewire, 20 Oz",
+   "carb": 77,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mountain Dew Voltage, 2 Liter",
+   "carb": 257,
+   "fiber": 0,
+   "cal": 980
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mountain Dew Voltage, 20 Oz",
+   "carb": 76,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mtn Dew Kickstart Pineapple Orange Mango, 12 Oz",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mtn Dew Throwback, 20 Oz",
+   "carb": 73,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mug Cream Soda, 2 Liter",
+   "carb": 271,
+   "fiber": 0,
+   "cal": 1010
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mug Cream Soda, 20 Oz",
+   "carb": 80,
+   "fiber": 0,
+   "cal": 300
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mug Root Beer, 2 Liter",
+   "carb": 245,
+   "fiber": 0,
+   "cal": 850
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mug Root Beer, 12 Oz",
+   "carb": 44,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mug Root Beer, 20 Oz",
+   "carb": 73,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pepsi, 1.25 Liter",
+   "carb": 146,
+   "fiber": 0,
+   "cal": 530
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pepsi, 2 Liter",
+   "carb": 246,
+   "fiber": 0,
+   "cal": 900
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pepsi, 12 Oz",
+   "carb": 42,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pepsi, 20 Oz",
+   "carb": 69,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pepsi Max, 12 Oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pepsi Mexico, 12 Oz",
+   "carb": 58,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pepsi Next, 2 Liter",
+   "carb": 152,
+   "fiber": 0,
+   "cal": 560
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pepsi Next, 12 Oz",
+   "carb": 27,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pepsi Next, 20 Oz",
+   "carb": 45,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pepsi Real Sugar, 2 Liter",
+   "carb": 223,
+   "fiber": 0,
+   "cal": 850
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pepsi Real Sugar, 20 Oz",
+   "carb": 66,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pepsi Throwback, 2 Liter",
+   "carb": 227,
+   "fiber": 0,
+   "cal": 880
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pepsi Zero Sugar, 2 Liter",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pepsi Zero Sugar, 20 Oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pibb Xtra, 20 Oz",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Powerade Mountain Blast, 20 Oz",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Drinks",
+   "name": "Rockstar, 16 Oz",
+   "carb": 61,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Drinks",
+   "name": "Rockstar Fruit Punch, 16 Oz",
+   "carb": 62,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Drinks",
+   "name": "Rockstar Lemonade, 16 Oz",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Drinks",
+   "name": "Rockstar Recovery, 16 Oz",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Drinks",
+   "name": "Rockstar Sugar Free, 16 Oz",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Drinks",
+   "name": "Rockstar Xtra, 16 Oz",
+   "carb": 64,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Drinks",
+   "name": "Schweppes Ginger Ale, 1.25 Liter",
+   "carb": 116,
+   "fiber": 0,
+   "cal": 440
+  },
+  {
+   "cat": "Drinks",
+   "name": "Schweppes Ginger Ale, 2 Liter",
+   "carb": 186,
+   "fiber": 0,
+   "cal": 680
+  },
+  {
+   "cat": "Drinks",
+   "name": "Schweppes Ginger Ale, 12 Oz",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Drinks",
+   "name": "Schweppes Ginger Ale, 20 Oz",
+   "carb": 55,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Drinks",
+   "name": "Schweppes Ginger Ale Raspberry, 2 Liter",
+   "carb": 214,
+   "fiber": 0,
+   "cal": 790
+  },
+  {
+   "cat": "Drinks",
+   "name": "Schweppes Ginger Ale Raspberry, 20 Oz",
+   "carb": 63,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Drinks",
+   "name": "Seven Up, 2 Liter",
+   "carb": 220,
+   "fiber": 0,
+   "cal": 850
+  },
+  {
+   "cat": "Drinks",
+   "name": "Seven Up, 12 Oz",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Drinks",
+   "name": "Seven Up, 20 Oz",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sobe Blackberry Blueberry, 20 Oz",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sobe Energize Power Fruit Punch, 20 Oz",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sobe Energy Citrus, 20 Oz",
+   "carb": 64,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sobe Fuji Apple, 20 Oz",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sobe Pomegranate Cherry, 20 Oz",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sobe Strawberry Daquiri, 20 Oz",
+   "carb": 63,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sobe Strawberry Dragonfruit, 20 Oz",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sobe Strawberry Kiwi, 20 Oz",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sobe Yumberry Pomegranate, 20 Oz",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sprite, 2 Liter",
+   "carb": 227,
+   "fiber": 0,
+   "cal": 890
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sprite, 20 Oz",
+   "carb": 67,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Drinks",
+   "name": "Starbucks Doubleshot Energy Vanilla, 15 Oz",
+   "carb": 34,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Drinks",
+   "name": "Starbucks Refreshers Strawberry Lemonade, 12 Oz",
+   "carb": 27,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Drinks",
+   "name": "Starry, 12 Oz",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Drinks",
+   "name": "Starry, 20 Oz",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Drinks",
+   "name": "Starry Zero Sugar, 12 Oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Starry Zero Sugar, 20 Oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sunkist Grape, 2 Liter",
+   "carb": 259,
+   "fiber": 0,
+   "cal": 960
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sunkist Grape, 20 Oz",
+   "carb": 77,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sunkist Orange, 2 Liter",
+   "carb": 296,
+   "fiber": 0,
+   "cal": 1100
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sunkist Orange, 20 Oz",
+   "carb": 88,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sunkist Peach, 2 Liter",
+   "carb": 265,
+   "fiber": 0,
+   "cal": 960
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sunkist Peach, 20 Oz",
+   "carb": 78,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sunkist Strawberry, 2 Liter",
+   "carb": 259,
+   "fiber": 0,
+   "cal": 960
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sunkist Strawberry, 20 Oz",
+   "carb": 77,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Drinks",
+   "name": "Tropicana Twst Orange, 2 Liter",
+   "carb": 279,
+   "fiber": 0,
+   "cal": 1100
+  },
+  {
+   "cat": "Drinks",
+   "name": "Tropicana Twst Orange, 20 Oz",
+   "carb": 83,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Drinks",
+   "name": "Vanilla Pepsi, 20 Oz",
+   "carb": 66,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Vanilla Pepsi Real Sugar, 20 Oz",
+   "carb": 66,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Welch's Grape Soda, 2 Liter",
+   "carb": 287,
+   "fiber": 0,
+   "cal": 1100
+  },
+  {
+   "cat": "Drinks",
+   "name": "Welch's Grape Soda, 12 Oz",
+   "carb": 51,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Drinks",
+   "name": "Welch's Grape Soda, 20 Oz",
+   "carb": 85,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Drinks",
+   "name": "Wild Cherry Pepsi, 2 Liter",
+   "carb": 237,
+   "fiber": 0,
+   "cal": 850
+  },
+  {
+   "cat": "Drinks",
+   "name": "Wild Cherry Pepsi, 12 Oz",
+   "carb": 42,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Drinks",
+   "name": "Wild Cherry Pepsi, 20 Oz",
+   "carb": 70,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Wild Cherry Pepsi Real Sugar, 2 Liter",
+   "carb": 223,
+   "fiber": 0,
+   "cal": 850
+  },
+  {
+   "cat": "Drinks",
+   "name": "Wild Cherry Pepsi Real Sugar, 20 Oz",
+   "carb": 66,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Alfredo Sauce for Gluten Free Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Alfredo Sauce for Original Crust, Extra Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Alfredo Sauce for Original Crust, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Alfredo Sauce for Original Crust, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Alfredo Sauce for Original Crust, Pizza for One",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Alfredo Sauce for Original Crust, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Alfredo Sauce for Thin Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Anchovies for Gluten Free Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Anchovies for Original Crust, Extra Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Anchovies for Original Crust, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Anchovies for Original Crust, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Anchovies for Original Crust, Pizza for One",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Anchovies for Original Crust, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Anchovies for Thin Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Bacon for Gluten Free Crust",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Bacon for Original Crust, Extra Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Bacon for Original Crust, Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Bacon for Original Crust, Medium",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Bacon for Original Crust, Pizza for One",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Bacon for Original Crust, Small",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Bacon for Thin Crust",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Banana Peppers for Gluten Free Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Banana Peppers for Original Crust, Extra Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Banana Peppers for Original Crust, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Banana Peppers for Original Crust, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Banana Peppers for Original Crust, Pizza for One",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Banana Peppers for Original Crust, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Banana Peppers for Thin Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "BBQ Sauce-Extra for Gluten Free Crust",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "BBQ Sauce-Extra for Original Crust, Extra Large",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "BBQ Sauce-Extra for Original Crust, Large",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "BBQ Sauce-Extra for Original Crust, Medium",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "BBQ Sauce-Extra for Original Crust, Pizza for One",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 30
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "BBQ Sauce-Extra for Original Crust, Small",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "BBQ Sauce-Extra for Thin Crust",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "BBQ Sauce-Light for Original Crust, Extra Large",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "BBQ Sauce-Light for Original Crust, Large",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "BBQ Sauce-Light for Original Crust, Medium",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "BBQ Sauce-Light for Original Crust, Pizza for One",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "BBQ Sauce-Light for Thin Crust",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "BBQ Sauce for Gluten Free Crust",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "BBQ Sauce for Original Crust, Extra Large",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "BBQ Sauce for Original Crust, Large",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "BBQ Sauce for Original Crust, Medium",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "BBQ Sauce for Original Crust, Pizza for One",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "BBQ Sauce for Original Crust, Small",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "BBQ Sauce for Thin Crust",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Beef for Gluten Free Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 30
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Beef for Original Crust, Extra Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Beef for Original Crust, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Beef for Original Crust, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 30
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Beef for Original Crust, Pizza for One",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Beef for Original Crust, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 30
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Beef for Thin Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Black Olives for Gluten Free Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Black Olives for Original Crust, Extra Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Black Olives for Original Crust, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Black Olives for Original Crust, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Black Olives for Original Crust, Pizza for One",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Black Olives for Original Crust, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Black Olives for Thin Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Canadian Bacon for Gluten Free Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Canadian Bacon for Original Crust, Extra Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Canadian Bacon for Original Crust, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Canadian Bacon for Original Crust, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Canadian Bacon for Original Crust, Pizza for One",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Canadian Bacon for Original Crust, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Canadian Bacon for Thin Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Cheese for Gluten Free Crust",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Cheese for Original Crust, Extra Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Cheese for Original Crust, Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Cheese for Original Crust, Medium",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Cheese for Original Crust, Pizza for One",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Cheese for Original Crust, Small",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Cheese for Thin Crust",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Cheesy Burger Sauce for Original Crust, Large",
+   "carb": 2,
+   "fiber": 2,
+   "cal": 60
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Chicken for Gluten Free Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Chicken for Original Crust, Extra Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Chicken for Original Crust, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Chicken for Original Crust, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Chicken for Original Crust, Pizza for One",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Chicken for Original Crust, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Chicken for Thin Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Extra Cheese for Gluten Free Crust",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Extra Cheese for Original Crust, Extra Large",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Extra Cheese for Original Crust, Large",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Extra Cheese for Original Crust, Medium",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Extra Cheese for Original Crust, Pizza for One",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Extra Cheese for Original Crust, Small",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Extra Cheese for Thin Crust",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Gluten Free Crust (Crust Only)",
+   "carb": 17,
+   "fiber": 1,
+   "cal": 90
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Green Olives for Gluten Free Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Green Olives for Original Crust, Extra Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Green Olives for Original Crust, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Green Olives for Original Crust, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Green Olives for Original Crust, Pizza for One",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Green Olives for Original Crust, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Green Olives for Thin Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Italian Sausage for Gluten Free Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Italian Sausage for Original Crust, Extra Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Italian Sausage for Original Crust, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Italian Sausage for Original Crust, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Italian Sausage for Original Crust, Pizza for One",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Italian Sausage for Original Crust, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Italian Sausage for Thin Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Jalapeno for Gluten Free Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Jalapeno for Original Crust, Extra Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Jalapeno for Original Crust, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Jalapeno for Original Crust, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Jalapeno for Original Crust, Pizza for One",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Jalapeno for Original Crust, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Jalapeno for Thin Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Light Cheese for Gluten Free Crust",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Light Cheese for Original Crust, Extra Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Light Cheese for Original Crust, Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Light Cheese for Original Crust, Medium",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Light Cheese for Original Crust, Pizza for One",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Light Cheese for Original Crust, Small",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Light Cheese for Thin Crust",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Meatball for Gluten Free Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Meatball for Original Crust, Extra Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Meatball for Original Crust, Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Meatball for Original Crust, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Meatball for Original Crust, Pizza for One",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Meatball for Original Crust, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Meatball for Thin Crust",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Mushroom for Original Crust, Extra Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Mushroom for Original Crust, Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Mushroom for Thin Crust",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Onion for Gluten Free Crust",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Onion for Original Crust, Extra Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Onion for Original Crust, Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Onion for Original Crust, Medium",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Onion for Original Crust, Pizza for One",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Onion for Original Crust, Small",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Onion for Thin Crust",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Original Crust, Extra Large (Crust Only)",
+   "carb": 36,
+   "fiber": 1,
+   "cal": 200
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Original Crust, Large (Crust Only)",
+   "carb": 34,
+   "fiber": 1,
+   "cal": 190
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Original Crust, Medium (Crust Only)",
+   "carb": 24,
+   "fiber": 1,
+   "cal": 130
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Original Crust, Pizza for One (Crust Only)",
+   "carb": 23,
+   "fiber": 1,
+   "cal": 120
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Original Crust, Small (Crust Only)",
+   "carb": 23,
+   "fiber": 1,
+   "cal": 130
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Original Sauce-Extra for Gluten Free Crust",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Original Sauce-Extra for Original Crust, Extra Large",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Original Sauce-Extra for Original Crust, Large",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Original Sauce-Extra for Original Crust, Medium",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Original Sauce-Extra for Original Crust, Pizza for One",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Original Sauce-Extra for Original Crust, Small",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Original Sauce-Extra for Thin Crust",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Original Sauce-Light for Gluten Free Crust",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Original Sauce-Light for Original Crust, Extra Large",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Original Sauce-Light for Original Crust, Large",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Original Sauce-Light for Original Crust, Medium",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Original Sauce-Light for Original Crust, Pizza for One",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Original Sauce-Light for Original Crust, Small",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Original Sauce-Light for Thin Crust",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Original Sauce for Gluten Free Crust",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Original Sauce for Original Crust, Extra Large",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Original Sauce for Original Crust, Large",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Original Sauce for Original Crust, Medium",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Original Sauce for Original Crust, Pizza for One",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Original Sauce for Original Crust, Small",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Original Sauce for Thin Crust",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Parmesan Romano for Gluten Free Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Parmesan Romano for Original Crust, Extra Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Parmesan Romano for Original Crust, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Parmesan Romano for Original Crust, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Parmesan Romano for Original Crust, Pizza for One",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Parmesan Romano for Original Crust, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Parmesan Romano for Thin Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Pepperoni for Gluten Free Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 30
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Pepperoni for Original Crust, Extra Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Pepperoni for Original Crust, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Pepperoni for Original Crust, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Pepperoni for Original Crust, Pizza for One",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Pepperoni for Original Crust, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 30
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Pepperoni for Thin Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Pineapple for Gluten Free Crust",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Pineapple for Original Crust, Extra Large",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Pineapple for Original Crust, Large",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Pineapple for Original Crust, Medium",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Pineapple for Original Crust, Pizza for One",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Pineapple for Original Crust, Small",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Pineapple for Thin Crust",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Ranch Sauce-Extra for Gluten Free Crust",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Ranch Sauce-Extra for Original Crust, Extra Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Ranch Sauce-Extra for Original Crust, Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Ranch Sauce-Extra for Original Crust, Medium",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Ranch Sauce-Extra for Original Crust, Pizza for One",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Ranch Sauce-Extra for Original Crust, Small",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Ranch Sauce-Extra for Thin Crust",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Ranch Sauce-Light for Gluten Free Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Ranch Sauce-Light for Original Crust, Extra Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 30
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Ranch Sauce-Light for Original Crust, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Ranch Sauce-Light for Original Crust, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Ranch Sauce-Light for Original Crust, Pizza for One",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Ranch Sauce-Light for Original Crust, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Ranch Sauce-Light for Thin Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Ranch Sauce for Gluten Free Crust",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Ranch Sauce for Original Crust, Extra Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Ranch Sauce for Original Crust, Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Ranch Sauce for Original Crust, Medium",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Ranch Sauce for Original Crust, Pizza for One",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Ranch Sauce for Original Crust, Small",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Ranch Sauce for Thin Crust",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Roma Tomatoes for Original Crust, Extra Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Roma Tomatoes for Original Crust, Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Roma Tomatoes for Thin Crust",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Salami for Gluten Free Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Salami for Original Crust, Extra Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Salami for Original Crust, Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Salami for Original Crust, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Salami for Original Crust, Pizza for One",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Salami for Original Crust, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Salami for Thin Crust",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Sausage for Gluten Free Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Sausage for Original Crust, Extra Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Sausage for Original Crust, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Sausage for Original Crust, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Sausage for Original Crust, Pizza for One",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Sausage for Original Crust, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Sausage for Thin Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Spinach for Original Crust, Extra Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Spinach for Original Crust, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Spinach for Thin Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Steak for Gluten Free Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Steak for Original Crust, Extra Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Steak for Original Crust, Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Steak for Original Crust, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Steak for Original Crust, Pizza for One",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Steak for Original Crust, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Steak for Thin Crust",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Thin Crust (Crust Only)",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Three Cheese Blend for Gluten Free Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Three Cheese Blend for Original Crust, Extra Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Three Cheese Blend for Original Crust, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Three Cheese Blend for Original Crust, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Three Cheese Blend for Original Crust, Pizza for One",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Three Cheese Blend for Original Crust, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Individual Ingredients",
+   "name": "Three Cheese Blend for Thin Crust",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 25
+  }
+ ]
+}

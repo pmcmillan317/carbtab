@@ -1,0 +1,633 @@
+{
+ "chain": "Little Caesars",
+ "slug": "little-caesars",
+ "source": "https://www.nutritionix.com/little-caesars-pizza/menu/premium",
+ "platform": "nutritionix",
+ "updated": "11/09/2024",
+ "pulledAt": "2026-09-10",
+ "type": "grid",
+ "columns": {
+  "cal": 1,
+  "carb": 8,
+  "fiber": 9
+ },
+ "count": 88,
+ "items": [
+  {
+   "cat": "Large ExtraMostBestest Pizzas",
+   "name": "Large ExtraMostBestest Pizza, Cheese",
+   "carb": 252,
+   "fiber": 13,
+   "cal": 2220
+  },
+  {
+   "cat": "Large ExtraMostBestest Pizzas",
+   "name": "Large ExtraMostBestest Pizza, Italian Sausage",
+   "carb": 252,
+   "fiber": 13,
+   "cal": 2660
+  },
+  {
+   "cat": "Large ExtraMostBestest Pizzas",
+   "name": "Large ExtraMostBestest Pizza, Pepperoni",
+   "carb": 252,
+   "fiber": 13,
+   "cal": 2500
+  },
+  {
+   "cat": "Large ExtraMostBestest Pizzas",
+   "name": "Large ExtraMostBestest Pizza, Seasoned Beef",
+   "carb": 250,
+   "fiber": 13,
+   "cal": 2550
+  },
+  {
+   "cat": "Large Specialty Pizzas",
+   "name": "Cheese Pretzel Crust Pizza with Cheese Sauce",
+   "carb": 243,
+   "fiber": 9,
+   "cal": 1940
+  },
+  {
+   "cat": "Large Specialty Pizzas",
+   "name": "Large Specialty Pizza, 3 Meat Treat",
+   "carb": 252,
+   "fiber": 13,
+   "cal": 2860
+  },
+  {
+   "cat": "Large Specialty Pizzas",
+   "name": "Large Specialty Pizza, 5 Meat Feast",
+   "carb": 252,
+   "fiber": 13,
+   "cal": 2830
+  },
+  {
+   "cat": "Large Specialty Pizzas",
+   "name": "Large Specialty Pizza, Hula Hawaiian",
+   "carb": 272,
+   "fiber": 13,
+   "cal": 2180
+  },
+  {
+   "cat": "Large Specialty Pizzas",
+   "name": "Large Specialty Pizza, Slices-N-Stix",
+   "carb": 253,
+   "fiber": 13,
+   "cal": 2300
+  },
+  {
+   "cat": "Large Specialty Pizzas",
+   "name": "Large Specialty Pizza, Slices-N-Stix Bacon",
+   "carb": 252,
+   "fiber": 13,
+   "cal": 2980
+  },
+  {
+   "cat": "Large Specialty Pizzas",
+   "name": "Large Specialty Pizza, Slices-N-Stix Jalapeno",
+   "carb": 255,
+   "fiber": 15,
+   "cal": 2330
+  },
+  {
+   "cat": "Large Specialty Pizzas",
+   "name": "Large Specialty Pizza, Stuffed Crust Pepperoni",
+   "carb": 259,
+   "fiber": 13,
+   "cal": 2980
+  },
+  {
+   "cat": "Large Specialty Pizzas",
+   "name": "Large Specialty Pizza, Ultimate Supreme",
+   "carb": 259,
+   "fiber": 15,
+   "cal": 2500
+  },
+  {
+   "cat": "Large Specialty Pizzas",
+   "name": "Large Specialty Pizza, Veggie",
+   "carb": 266,
+   "fiber": 20,
+   "cal": 2240
+  },
+  {
+   "cat": "Large Specialty Pizzas",
+   "name": "Pretzel Crust Pizza with Cheese Sauce",
+   "carb": 244,
+   "fiber": 9,
+   "cal": 2190
+  },
+  {
+   "cat": "Large Specialty Pizzas",
+   "name": "Pretzel Crust Pizza with Pizza Sauce",
+   "carb": 240,
+   "fiber": 11,
+   "cal": 2080
+  },
+  {
+   "cat": "Large Classic Pizzas",
+   "name": "Large Classic Pizza, Cheese",
+   "carb": 248,
+   "fiber": 12,
+   "cal": 1950
+  },
+  {
+   "cat": "Large Classic Pizzas",
+   "name": "Large Classic Pizza, Italian Sausage",
+   "carb": 255,
+   "fiber": 13,
+   "cal": 2270
+  },
+  {
+   "cat": "Large Classic Pizzas",
+   "name": "Large Classic Pizza, Pepperoni",
+   "carb": 250,
+   "fiber": 13,
+   "cal": 2300
+  },
+  {
+   "cat": "Large Classic Pizzas",
+   "name": "Large Classic Pizza, Seasoned Beef",
+   "carb": 253,
+   "fiber": 13,
+   "cal": 2190
+  },
+  {
+   "cat": "Sides",
+   "name": "Cookie Dough Brownie made with M&M's Minis Chocolate Candies",
+   "carb": 96,
+   "fiber": 4,
+   "cal": 840
+  },
+  {
+   "cat": "Sides",
+   "name": "Cookie Dough Brownie made with Twix Cookie Bar Pieces",
+   "carb": 120,
+   "fiber": 4,
+   "cal": 800
+  },
+  {
+   "cat": "Sides",
+   "name": "Crazy Bread",
+   "carb": 128,
+   "fiber": 5,
+   "cal": 800
+  },
+  {
+   "cat": "Sides",
+   "name": "Crazy Combo",
+   "carb": 135,
+   "fiber": 6,
+   "cal": 840
+  },
+  {
+   "cat": "Sides",
+   "name": "Crazy Sauce",
+   "carb": 7,
+   "fiber": 2,
+   "cal": 30
+  },
+  {
+   "cat": "Sides",
+   "name": "Italian Cheese Bread",
+   "carb": 156,
+   "fiber": 7,
+   "cal": 1340
+  },
+  {
+   "cat": "Sides",
+   "name": "Little Caesars Cookies",
+   "carb": 16,
+   "fiber": 1,
+   "cal": 100
+  },
+  {
+   "cat": "Sides",
+   "name": "Pepperoni Cheese Bread",
+   "carb": 155,
+   "fiber": 7,
+   "cal": 1520
+  },
+  {
+   "cat": "Sides",
+   "name": "Stuffed Crazy Bread",
+   "carb": 126,
+   "fiber": 6,
+   "cal": 980
+  },
+  {
+   "cat": "Sides",
+   "name": "Zesty Cheese Bread",
+   "carb": 158,
+   "fiber": 7,
+   "cal": 1490
+  },
+  {
+   "cat": "Caesar Wings",
+   "name": "Caesar Wings, BBQ",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 620
+  },
+  {
+   "cat": "Caesar Wings",
+   "name": "Caesar Wings, Buffalo",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 520
+  },
+  {
+   "cat": "Caesar Wings",
+   "name": "Caesar Wings, Garlic Parmesan",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 670
+  },
+  {
+   "cat": "Caesar Wings",
+   "name": "Caesar Wings, Oven Roasted",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 510
+  },
+  {
+   "cat": "Caesar Dips",
+   "name": "Caesar Dips, Buffalo Ranch",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Caesar Dips",
+   "name": "Caesar Dips, Butter Garlic Flavor",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 370
+  },
+  {
+   "cat": "Caesar Dips",
+   "name": "Caesar Dips, Cheddar Cheese Sauce",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Caesar Dips",
+   "name": "Caesar Dips, Cheezy Jalapeno",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Caesar Dips",
+   "name": "Caesar Dips, Ranch",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Thin Crust Pizzas",
+   "name": "Thin Crust Pizza, Cheese",
+   "carb": 150,
+   "fiber": 10,
+   "cal": 1980
+  },
+  {
+   "cat": "Thin Crust Pizzas",
+   "name": "Thin Crust Pizzas Pepperoni",
+   "carb": 148,
+   "fiber": 9,
+   "cal": 2130
+  },
+  {
+   "cat": "Make it Stuffed Crust",
+   "name": "Add Stuffed Crust to Any Detroit-Style Deep Dish Pizza",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 530
+  },
+  {
+   "cat": "Make it Stuffed Crust",
+   "name": "Add Stuffed Crust to Any Round Pizza",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 560
+  },
+  {
+   "cat": "Extras",
+   "name": "Extras, Parmesan Cheese Packet",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Extras",
+   "name": "Extras, Zap Pack",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Custom Round Pizzas",
+   "name": "Custom Round Pizza, Add Bacon",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 380
+  },
+  {
+   "cat": "Custom Round Pizzas",
+   "name": "Custom Round Pizza, Add Black Olives",
+   "carb": 4,
+   "fiber": 4,
+   "cal": 280
+  },
+  {
+   "cat": "Custom Round Pizzas",
+   "name": "Custom Round Pizza, Add Extra Cheese",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 270
+  },
+  {
+   "cat": "Custom Round Pizzas",
+   "name": "Custom Round Pizza, Add Fresh Mozzarella",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Custom Round Pizzas",
+   "name": "Custom Round Pizza, Add Green Peppers",
+   "carb": 4,
+   "fiber": 2,
+   "cal": 20
+  },
+  {
+   "cat": "Custom Round Pizzas",
+   "name": "Custom Round Pizza, Add Italian Sausage",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 430
+  },
+  {
+   "cat": "Custom Round Pizzas",
+   "name": "Custom Round Pizza, Add Jalapeno Peppers",
+   "carb": 4,
+   "fiber": 4,
+   "cal": 80
+  },
+  {
+   "cat": "Custom Round Pizzas",
+   "name": "Custom Round Pizza, Add Mild Banana Peppers",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Custom Round Pizzas",
+   "name": "Custom Round Pizza, Add Mushrooms, Canned",
+   "carb": 7,
+   "fiber": 3,
+   "cal": 40
+  },
+  {
+   "cat": "Custom Round Pizzas",
+   "name": "Custom Round Pizza, Add Mushrooms, Fresh",
+   "carb": 5,
+   "fiber": 2,
+   "cal": 35
+  },
+  {
+   "cat": "Custom Round Pizzas",
+   "name": "Custom Round Pizza, Add Onions",
+   "carb": 8,
+   "fiber": 2,
+   "cal": 35
+  },
+  {
+   "cat": "Custom Round Pizzas",
+   "name": "Custom Round Pizza, Add Pepperoni",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 350
+  },
+  {
+   "cat": "Custom Round Pizzas",
+   "name": "Custom Round Pizza, Add Pineapple",
+   "carb": 22,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Custom Round Pizzas",
+   "name": "Custom Round Pizza, Add Seasoned Beef",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Custom Round Pizzas",
+   "name": "Custom Round Pizza, Add Smoky Ham",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Custom Round Pizzas",
+   "name": "Custom Round Pizza, Base Pizza",
+   "carb": 248,
+   "fiber": 12,
+   "cal": 1950
+  },
+  {
+   "cat": "Detroit-Style Deep Dish Pizzas",
+   "name": "Detroit-Style Deep Dish Pizza, Cheese",
+   "carb": 317,
+   "fiber": 16,
+   "cal": 2500
+  },
+  {
+   "cat": "Detroit-Style Deep Dish Pizzas",
+   "name": "Detroit-Style Deep Dish Pizza, Italian Sausage",
+   "carb": 319,
+   "fiber": 16,
+   "cal": 2820
+  },
+  {
+   "cat": "Detroit-Style Deep Dish Pizzas",
+   "name": "Detroit-Style Deep Dish Pizza, Pepperoni",
+   "carb": 319,
+   "fiber": 16,
+   "cal": 2770
+  },
+  {
+   "cat": "Detroit-Style Deep Dish Pizzas",
+   "name": "Detroit-Style Deep Dish Pizza, Seasoned Beef",
+   "carb": 318,
+   "fiber": 16,
+   "cal": 2750
+  },
+  {
+   "cat": "Detroit-Style Deep Dish Specialty Pizzas",
+   "name": "Detroit-Style Deep Dish Specialty Pizza, 3 Meat Treat",
+   "carb": 321,
+   "fiber": 16,
+   "cal": 3480
+  },
+  {
+   "cat": "Detroit-Style Deep Dish Specialty Pizzas",
+   "name": "Detroit-Style Deep Dish Specialty Pizza, 5 Meat Feast",
+   "carb": 322,
+   "fiber": 16,
+   "cal": 3500
+  },
+  {
+   "cat": "Detroit-Style Deep Dish Specialty Pizzas",
+   "name": "Detroit-Style Deep Dish Specialty Pizza, Hula Hawaiian",
+   "carb": 341,
+   "fiber": 17,
+   "cal": 2690
+  },
+  {
+   "cat": "Detroit-Style Deep Dish Specialty Pizzas",
+   "name": "Detroit-Style Deep Dish Specialty Pizza, Ultimate Supreme",
+   "carb": 332,
+   "fiber": 20,
+   "cal": 3050
+  },
+  {
+   "cat": "Detroit-Style Deep Dish Specialty Pizzas",
+   "name": "Detroit-Style Deep Dish Specialty Pizza, Veggie",
+   "carb": 333,
+   "fiber": 22,
+   "cal": 2730
+  },
+  {
+   "cat": "Custom Detroit-Style Deep Dish Pizzas",
+   "name": "Custom Detroit-Style Deep Dish Pizza, Add Bacon",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 380
+  },
+  {
+   "cat": "Custom Detroit-Style Deep Dish Pizzas",
+   "name": "Custom Detroit-Style Deep Dish Pizza, Add Black Olives",
+   "carb": 3,
+   "fiber": 3,
+   "cal": 210
+  },
+  {
+   "cat": "Custom Detroit-Style Deep Dish Pizzas",
+   "name": "Custom Detroit-Style Deep Dish Pizza, Add Extra Cheese",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 270
+  },
+  {
+   "cat": "Custom Detroit-Style Deep Dish Pizzas",
+   "name": "Custom Detroit-Style Deep Dish Pizza, Add Fresh Mozzarella",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Custom Detroit-Style Deep Dish Pizzas",
+   "name": "Custom Detroit-Style Deep Dish Pizza, Add Green Peppers",
+   "carb": 3,
+   "fiber": 1,
+   "cal": 15
+  },
+  {
+   "cat": "Custom Detroit-Style Deep Dish Pizzas",
+   "name": "Custom Detroit-Style Deep Dish Pizza, Add Italian Sausage",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Custom Detroit-Style Deep Dish Pizzas",
+   "name": "Custom Detroit-Style Deep Dish Pizza, Add Jalapeno Peppers",
+   "carb": 3,
+   "fiber": 3,
+   "cal": 60
+  },
+  {
+   "cat": "Custom Detroit-Style Deep Dish Pizzas",
+   "name": "Custom Detroit-Style Deep Dish Pizza, Add Mild Banana Peppers",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Custom Detroit-Style Deep Dish Pizzas",
+   "name": "Custom Detroit-Style Deep Dish Pizza, Add Mushrooms, Canned",
+   "carb": 7,
+   "fiber": 3,
+   "cal": 40
+  },
+  {
+   "cat": "Custom Detroit-Style Deep Dish Pizzas",
+   "name": "Custom Detroit-Style Deep Dish Pizza, Add Mushrooms, Fresh",
+   "carb": 5,
+   "fiber": 2,
+   "cal": 35
+  },
+  {
+   "cat": "Custom Detroit-Style Deep Dish Pizzas",
+   "name": "Custom Detroit-Style Deep Dish Pizza, Add Onions",
+   "carb": 6,
+   "fiber": 1,
+   "cal": 25
+  },
+  {
+   "cat": "Custom Detroit-Style Deep Dish Pizzas",
+   "name": "Custom Detroit-Style Deep Dish Pizza, Add Pepperoni",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Custom Detroit-Style Deep Dish Pizzas",
+   "name": "Custom Detroit-Style Deep Dish Pizza, Add Pineapple",
+   "carb": 22,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Custom Detroit-Style Deep Dish Pizzas",
+   "name": "Custom Detroit-Style Deep Dish Pizza, Add Seasoned Beef",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Custom Detroit-Style Deep Dish Pizzas",
+   "name": "Custom Detroit-Style Deep Dish Pizza, Add Smoky Ham",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Custom Detroit-Style Deep Dish Pizzas",
+   "name": "Custom Detroit-Style Deep Dish Pizza, Base Pizza",
+   "carb": 317,
+   "fiber": 16,
+   "cal": 2500
+  },
+  {
+   "cat": "Limited Time Offer",
+   "name": "Cheese & Herb Crazy Puffs",
+   "carb": 56,
+   "fiber": 3,
+   "cal": 580
+  },
+  {
+   "cat": "Limited Time Offer",
+   "name": "Pepperoni Crazy Puffs",
+   "carb": 56,
+   "fiber": 3,
+   "cal": 680
+  }
+ ]
+}

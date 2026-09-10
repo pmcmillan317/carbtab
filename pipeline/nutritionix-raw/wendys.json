@@ -1,0 +1,1571 @@
+{
+ "chain": "Wendy's",
+ "slug": "wendys",
+ "source": "https://www.nutritionix.com/wendys/menu/premium",
+ "platform": "nutritionix",
+ "updated": "08/05/2025",
+ "pulledAt": "2026-09-10",
+ "type": "grid",
+ "columns": {
+  "cal": 1,
+  "carb": 7,
+  "fiber": 8
+ },
+ "count": 222,
+ "items": [
+  {
+   "cat": "Hamburgers",
+   "name": "Baconator",
+   "carb": 34,
+   "fiber": 1,
+   "cal": 930
+  },
+  {
+   "cat": "Hamburgers",
+   "name": "Bacon Double Stack",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 430
+  },
+  {
+   "cat": "Hamburgers",
+   "name": "Big Bacon Classic",
+   "carb": 36,
+   "fiber": 2,
+   "cal": 630
+  },
+  {
+   "cat": "Hamburgers",
+   "name": "Big Bacon Classic Double",
+   "carb": 36,
+   "fiber": 2,
+   "cal": 900
+  },
+  {
+   "cat": "Hamburgers",
+   "name": "Big Bacon Classic Triple",
+   "carb": 37,
+   "fiber": 2,
+   "cal": 1200
+  },
+  {
+   "cat": "Hamburgers",
+   "name": "Dave's Double",
+   "carb": 35,
+   "fiber": 2,
+   "cal": 850
+  },
+  {
+   "cat": "Hamburgers",
+   "name": "Dave's Single",
+   "carb": 35,
+   "fiber": 2,
+   "cal": 580
+  },
+  {
+   "cat": "Hamburgers",
+   "name": "Dave's Triple",
+   "carb": 36,
+   "fiber": 2,
+   "cal": 1150
+  },
+  {
+   "cat": "Hamburgers",
+   "name": "Double Stack",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 400
+  },
+  {
+   "cat": "Hamburgers",
+   "name": "Jr. Bacon Cheeseburger",
+   "carb": 24,
+   "fiber": 1,
+   "cal": 360
+  },
+  {
+   "cat": "Hamburgers",
+   "name": "Jr. Cheeseburger",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 280
+  },
+  {
+   "cat": "Hamburgers",
+   "name": "Jr. Cheeseburger Deluxe",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 340
+  },
+  {
+   "cat": "Hamburgers",
+   "name": "Jr. Hamburger",
+   "carb": 24,
+   "fiber": 1,
+   "cal": 240
+  },
+  {
+   "cat": "Hamburgers",
+   "name": "Son of Baconator",
+   "carb": 34,
+   "fiber": 1,
+   "cal": 610
+  },
+  {
+   "cat": "Chicken, Nuggets & More",
+   "name": "4 Piece Crispy Chicken Nuggets",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Chicken, Nuggets & More",
+   "name": "4 Piece Spicy Chicken Nuggets",
+   "carb": 9,
+   "fiber": 1,
+   "cal": 190
+  },
+  {
+   "cat": "Chicken, Nuggets & More",
+   "name": "6 Piece Cripsy Chicken Nuggets",
+   "carb": 14,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Chicken, Nuggets & More",
+   "name": "6 Piece Spicy Chicken Nuggets",
+   "carb": 13,
+   "fiber": 1,
+   "cal": 280
+  },
+  {
+   "cat": "Chicken, Nuggets & More",
+   "name": "10 Piece Crispy Chicken Nuggets",
+   "carb": 23,
+   "fiber": 1,
+   "cal": 450
+  },
+  {
+   "cat": "Chicken, Nuggets & More",
+   "name": "10 Piece Spicy Chicken Nuggets",
+   "carb": 22,
+   "fiber": 2,
+   "cal": 470
+  },
+  {
+   "cat": "Chicken, Nuggets & More",
+   "name": "Asiago Ranch Classic Chicken Club",
+   "carb": 45,
+   "fiber": 2,
+   "cal": 600
+  },
+  {
+   "cat": "Chicken, Nuggets & More",
+   "name": "Classic Chicken Sandwich",
+   "carb": 44,
+   "fiber": 2,
+   "cal": 480
+  },
+  {
+   "cat": "Chicken, Nuggets & More",
+   "name": "Crispy Chicken BLT",
+   "carb": 34,
+   "fiber": 1,
+   "cal": 420
+  },
+  {
+   "cat": "Chicken, Nuggets & More",
+   "name": "Crispy Chicken Sandwich",
+   "carb": 32,
+   "fiber": 1,
+   "cal": 340
+  },
+  {
+   "cat": "Chicken, Nuggets & More",
+   "name": "Grilled Chicken Ranch Wrap",
+   "carb": 41,
+   "fiber": 2,
+   "cal": 420
+  },
+  {
+   "cat": "Chicken, Nuggets & More",
+   "name": "Nuggs Party Pack",
+   "carb": 116,
+   "fiber": 5,
+   "cal": 2260
+  },
+  {
+   "cat": "Chicken, Nuggets & More",
+   "name": "Spicy Asiago Ranch Chicken Club",
+   "carb": 45,
+   "fiber": 2,
+   "cal": 590
+  },
+  {
+   "cat": "Chicken, Nuggets & More",
+   "name": "Spicy Chicken Sandwich",
+   "carb": 44,
+   "fiber": 2,
+   "cal": 470
+  },
+  {
+   "cat": "Chicken, Nuggets & More",
+   "name": "Spicy Nuggs Party Pack",
+   "carb": 112,
+   "fiber": 8,
+   "cal": 2340
+  },
+  {
+   "cat": "Saucy Nuggs",
+   "name": "4 Piece Buffalo Nuggs",
+   "carb": 11,
+   "fiber": 1,
+   "cal": 220
+  },
+  {
+   "cat": "Saucy Nuggs",
+   "name": "4 Piece Honey BBQ Nuggs",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 240
+  },
+  {
+   "cat": "Saucy Nuggs",
+   "name": "4 Piece Spicy Buffalo Nuggs",
+   "carb": 11,
+   "fiber": 1,
+   "cal": 220
+  },
+  {
+   "cat": "Saucy Nuggs",
+   "name": "4 Piece Spicy Honey BBQ Nuggs",
+   "carb": 24,
+   "fiber": 1,
+   "cal": 250
+  },
+  {
+   "cat": "Saucy Nuggs",
+   "name": "6 Piece Buffalo Nuggs",
+   "carb": 16,
+   "fiber": 1,
+   "cal": 310
+  },
+  {
+   "cat": "Saucy Nuggs",
+   "name": "6 Piece Honey BBQ Nuggs",
+   "carb": 29,
+   "fiber": 1,
+   "cal": 330
+  },
+  {
+   "cat": "Saucy Nuggs",
+   "name": "6 Piece Spicy Buffalo Nuggs",
+   "carb": 15,
+   "fiber": 1,
+   "cal": 320
+  },
+  {
+   "cat": "Saucy Nuggs",
+   "name": "6 Piece Spicy Honey BBQ Nuggs",
+   "carb": 29,
+   "fiber": 1,
+   "cal": 340
+  },
+  {
+   "cat": "Saucy Nuggs",
+   "name": "10 Piece Buffalo Nuggs",
+   "carb": 26,
+   "fiber": 2,
+   "cal": 530
+  },
+  {
+   "cat": "Saucy Nuggs",
+   "name": "10 Piece Honey BBQ Nuggs",
+   "carb": 56,
+   "fiber": 2,
+   "cal": 580
+  },
+  {
+   "cat": "Saucy Nuggs",
+   "name": "10 Piece Spicy Buffalo Nuggs",
+   "carb": 26,
+   "fiber": 2,
+   "cal": 540
+  },
+  {
+   "cat": "Saucy Nuggs",
+   "name": "10 Piece Spicy Honey BBQ Nuggs",
+   "carb": 55,
+   "fiber": 2,
+   "cal": 600
+  },
+  {
+   "cat": "Saucy Nuggs",
+   "name": "20 Piece Buffalo Nuggs",
+   "carb": 53,
+   "fiber": 3,
+   "cal": 1050
+  },
+  {
+   "cat": "Saucy Nuggs",
+   "name": "20 Piece Honey BBQ Nuggs",
+   "carb": 111,
+   "fiber": 3,
+   "cal": 1170
+  },
+  {
+   "cat": "Saucy Nuggs",
+   "name": "20 Piece Spicy Buffalo Nuggs",
+   "carb": 51,
+   "fiber": 4,
+   "cal": 1080
+  },
+  {
+   "cat": "Saucy Nuggs",
+   "name": "20 Piece Spicy Honey BBQ Nuggs",
+   "carb": 110,
+   "fiber": 4,
+   "cal": 1200
+  },
+  {
+   "cat": "Saucy Nuggs",
+   "name": "Buffalo Nuggs Party Pack",
+   "carb": 128,
+   "fiber": 7,
+   "cal": 2530
+  },
+  {
+   "cat": "Saucy Nuggs",
+   "name": "Honey BBQ Nuggs Party Pack",
+   "carb": 250,
+   "fiber": 7,
+   "cal": 2810
+  },
+  {
+   "cat": "Saucy Nuggs",
+   "name": "Spicy Buffalo Nuggs Party Pack",
+   "carb": 124,
+   "fiber": 10,
+   "cal": 2610
+  },
+  {
+   "cat": "Saucy Nuggs",
+   "name": "Spicy Honey BBQ Nuggs Party Pack",
+   "carb": 247,
+   "fiber": 10,
+   "cal": 2890
+  },
+  {
+   "cat": "Fresh-Made Salads",
+   "name": "Apple Pecan Salad, Dressing",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Fresh-Made Salads",
+   "name": "Apple Pecan Salad, Entree",
+   "carb": 28,
+   "fiber": 5,
+   "cal": 450
+  },
+  {
+   "cat": "Fresh-Made Salads",
+   "name": "Cobb Salad, Dressing",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Fresh-Made Salads",
+   "name": "Cobb Salad, Entree",
+   "carb": 16,
+   "fiber": 3,
+   "cal": 420
+  },
+  {
+   "cat": "Fresh-Made Salads",
+   "name": "Parmesan Caesar Salad, Dressing",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Fresh-Made Salads",
+   "name": "Parmesan Caesar Salad, Entree",
+   "carb": 13,
+   "fiber": 3,
+   "cal": 290
+  },
+  {
+   "cat": "Fresh-Made Salads",
+   "name": "Taco Salad, Dressing",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Fresh-Made Salads",
+   "name": "Taco Salad, Entree",
+   "carb": 29,
+   "fiber": 6,
+   "cal": 480
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "6 Piece Crispy Chicken Nuggets",
+   "carb": 14,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "Apple Bites",
+   "carb": 8,
+   "fiber": 1,
+   "cal": 35
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "Baconator Fries",
+   "carb": 42,
+   "fiber": 3,
+   "cal": 450
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "Bacon Cheese Baked Potato",
+   "carb": 64,
+   "fiber": 7,
+   "cal": 420
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "Cheese Baked Potato",
+   "carb": 65,
+   "fiber": 7,
+   "cal": 440
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "Cheese Fries",
+   "carb": 44,
+   "fiber": 3,
+   "cal": 470
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "Chili",
+   "carb": 24,
+   "fiber": 3,
+   "cal": 280
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "Chili & Cheese Baked Potato",
+   "carb": 70,
+   "fiber": 8,
+   "cal": 490
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "Chili Cheese Fries",
+   "carb": 49,
+   "fiber": 5,
+   "cal": 510
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "Jr. Natural-Cut Fries",
+   "carb": 28,
+   "fiber": 2,
+   "cal": 210
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "Large Chili",
+   "carb": 29,
+   "fiber": 4,
+   "cal": 370
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "Large Natural-Cut Fries",
+   "carb": 63,
+   "fiber": 5,
+   "cal": 470
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "Medium Natural-Cut Fries",
+   "carb": 47,
+   "fiber": 4,
+   "cal": 350
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "Plain Baked Potato",
+   "carb": 61,
+   "fiber": 7,
+   "cal": 270
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "Small Natural-Cut Fries",
+   "carb": 35,
+   "fiber": 3,
+   "cal": 260
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "Sour Cream and Chive Baked Potato",
+   "carb": 63,
+   "fiber": 7,
+   "cal": 300
+  },
+  {
+   "cat": "Coffee",
+   "name": "Caramel Frosty Cream Cold Brew, Large",
+   "carb": 60,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Coffee",
+   "name": "Caramel Frosty Cream Cold Brew, Medium",
+   "carb": 43,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Coffee",
+   "name": "Caramel Frosty Cream Cold Brew, Small",
+   "carb": 31,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Coffee",
+   "name": "Chocolate Frosty Cream Cold Brew, Large",
+   "carb": 61,
+   "fiber": 0,
+   "cal": 320
+  },
+  {
+   "cat": "Coffee",
+   "name": "Chocolate Frosty Cream Cold Brew, Medium",
+   "carb": 45,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Coffee",
+   "name": "Chocolate Frosty Cream Cold Brew, Small",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Coffee",
+   "name": "Cold Brew, Large",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Coffee",
+   "name": "Cold Brew, Medium",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Coffee",
+   "name": "Cold Brew, Small",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Coffee",
+   "name": "Regular Hot Coffee, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Coffee",
+   "name": "Regular Hot Coffee, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Coffee",
+   "name": "Regular Hot Coffee, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Coffee",
+   "name": "Vanilla Frosty Cream Cold Brew, Large",
+   "carb": 58,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Coffee",
+   "name": "Vanilla Frosty Cream Cold Brew, Medium",
+   "carb": 43,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Coffee",
+   "name": "Vanilla Frosty Cream Cold Brew, Small",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Beverages",
+   "name": "All-Natural Lemonade, Large",
+   "carb": 86,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Beverages",
+   "name": "All-Natural Lemonade, Medium",
+   "carb": 72,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Beverages",
+   "name": "All-Natural Lemonade, Small",
+   "carb": 48,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Beverages",
+   "name": "Brewed Unsweetened Iced Tea, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Beverages",
+   "name": "Brewed Unsweetened Iced Tea, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Beverages",
+   "name": "Brewed Unsweetened Iced Tea, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Beverages",
+   "name": "Chocolate Milk",
+   "carb": 23,
+   "fiber": 1,
+   "cal": 140
+  },
+  {
+   "cat": "Beverages",
+   "name": "Honest Kids Fruit Punch",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Beverages",
+   "name": "Milk",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Beverages",
+   "name": "Minute Maid Light Lemonade, Large",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Beverages",
+   "name": "Pineapple Mango Lemonade, Large",
+   "carb": 109,
+   "fiber": 0,
+   "cal": 420
+  },
+  {
+   "cat": "Beverages",
+   "name": "Pineapple Mango Lemonade, Medium",
+   "carb": 86,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Beverages",
+   "name": "Pineapple Mango Lemonade, Small",
+   "carb": 58,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Beverages",
+   "name": "Simply Orange Juice",
+   "carb": 39,
+   "fiber": 1,
+   "cal": 160
+  },
+  {
+   "cat": "Beverages",
+   "name": "Strawberry Lemonade, Large",
+   "carb": 108,
+   "fiber": 0,
+   "cal": 420
+  },
+  {
+   "cat": "Beverages",
+   "name": "Strawberry Lemonade, Medium",
+   "carb": 85,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Beverages",
+   "name": "Strawberry Lemonade, Small",
+   "carb": 58,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Beverages",
+   "name": "Sweetened Iced Tea, Large",
+   "carb": 80,
+   "fiber": 0,
+   "cal": 320
+  },
+  {
+   "cat": "Beverages",
+   "name": "Sweetened Iced Tea, Medium",
+   "carb": 69,
+   "fiber": 0,
+   "cal": 270
+  },
+  {
+   "cat": "Beverages",
+   "name": "Sweetened Iced Tea, Small",
+   "carb": 47,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Beverages",
+   "name": "Tangerine Twist Lemonade, Large",
+   "carb": 108,
+   "fiber": 0,
+   "cal": 420
+  },
+  {
+   "cat": "Beverages",
+   "name": "Tangerine Twist Lemonade, Medium",
+   "carb": 85,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Beverages",
+   "name": "Tangerine Twist Lemonade, Small",
+   "carb": 58,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Digital Exclusives",
+   "name": "Frosty Fusions Trio",
+   "carb": 68,
+   "fiber": 1,
+   "cal": 520
+  },
+  {
+   "cat": "Digital Exclusives",
+   "name": "Frosty Swirls Trio",
+   "carb": 59,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Frosty",
+   "name": "Brownie Batter Chocolate Frosty Swirl",
+   "carb": 61,
+   "fiber": 2,
+   "cal": 500
+  },
+  {
+   "cat": "Frosty",
+   "name": "Brownie Batter Vanilla Frosty Swirl",
+   "carb": 62,
+   "fiber": 1,
+   "cal": 500
+  },
+  {
+   "cat": "Frosty",
+   "name": "Caramel Chocolate Frosty Swirl",
+   "carb": 65,
+   "fiber": 1,
+   "cal": 380
+  },
+  {
+   "cat": "Frosty",
+   "name": "Caramel Crunch Chocolate Frosty Fusion",
+   "carb": 75,
+   "fiber": 1,
+   "cal": 420
+  },
+  {
+   "cat": "Frosty",
+   "name": "Caramel Crunch Vanilla Frosty Fusion",
+   "carb": 75,
+   "fiber": 0,
+   "cal": 420
+  },
+  {
+   "cat": "Frosty",
+   "name": "Caramel Vanilla Frosty Swirl",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 380
+  },
+  {
+   "cat": "Frosty",
+   "name": "Classic Chocolate Frosty",
+   "carb": 49,
+   "fiber": 1,
+   "cal": 310
+  },
+  {
+   "cat": "Frosty",
+   "name": "Jr. Classic Chocolate Frosty",
+   "carb": 31,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Frosty",
+   "name": "Jr. Vanilla Frosty",
+   "carb": 31,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Frosty",
+   "name": "Large Brownie Batter Chocolate Frosty Swirl",
+   "carb": 94,
+   "fiber": 2,
+   "cal": 710
+  },
+  {
+   "cat": "Frosty",
+   "name": "Large Brownie Batter Vanilla Frosty Swirl",
+   "carb": 95,
+   "fiber": 1,
+   "cal": 710
+  },
+  {
+   "cat": "Frosty",
+   "name": "Large Caramel Chocolate Frosty Swirl",
+   "carb": 95,
+   "fiber": 1,
+   "cal": 570
+  },
+  {
+   "cat": "Frosty",
+   "name": "Large Caramel Crunch Chocolate Frosty Fusion",
+   "carb": 134,
+   "fiber": 1,
+   "cal": 740
+  },
+  {
+   "cat": "Frosty",
+   "name": "Large Caramel Crunch Vanilla Frosty Fusion",
+   "carb": 135,
+   "fiber": 0,
+   "cal": 740
+  },
+  {
+   "cat": "Frosty",
+   "name": "Large Caramel Vanilla Frosty Swirl",
+   "carb": 95,
+   "fiber": 0,
+   "cal": 570
+  },
+  {
+   "cat": "Frosty",
+   "name": "Large Classic Chocolate Frosty",
+   "carb": 80,
+   "fiber": 1,
+   "cal": 500
+  },
+  {
+   "cat": "Frosty",
+   "name": "Large OREO Brownie Twist Chocolate Frosty Fusion",
+   "carb": 119,
+   "fiber": 3,
+   "cal": 850
+  },
+  {
+   "cat": "Frosty",
+   "name": "Large OREO Brownie Twist Vanilla Frosty Fusion",
+   "carb": 119,
+   "fiber": 2,
+   "cal": 850
+  },
+  {
+   "cat": "Frosty",
+   "name": "Large Pop-Tarts Strawberry Chocolate Frosty Fusion",
+   "carb": 117,
+   "fiber": 1,
+   "cal": 660
+  },
+  {
+   "cat": "Frosty",
+   "name": "Large Pop-Tarts Strawberry Vanilla Frosty Fusion",
+   "carb": 117,
+   "fiber": 1,
+   "cal": 660
+  },
+  {
+   "cat": "Frosty",
+   "name": "Large Strawberry Chocolate Frosty Swirl",
+   "carb": 90,
+   "fiber": 1,
+   "cal": 530
+  },
+  {
+   "cat": "Frosty",
+   "name": "Large Strawberry Vanilla Frosty Swirl",
+   "carb": 90,
+   "fiber": 1,
+   "cal": 530
+  },
+  {
+   "cat": "Frosty",
+   "name": "Large Vanilla Frosty",
+   "carb": 81,
+   "fiber": 0,
+   "cal": 510
+  },
+  {
+   "cat": "Frosty",
+   "name": "Medium Brownie Batter Chocolate Frosty Swirl",
+   "carb": 78,
+   "fiber": 2,
+   "cal": 610
+  },
+  {
+   "cat": "Frosty",
+   "name": "Medium Brownie Batter Vanilla Frosty Swirl",
+   "carb": 79,
+   "fiber": 1,
+   "cal": 610
+  },
+  {
+   "cat": "Frosty",
+   "name": "Medium Caramel Chocolate Frosty Swirl",
+   "carb": 80,
+   "fiber": 1,
+   "cal": 470
+  },
+  {
+   "cat": "Frosty",
+   "name": "Medium Caramel Crunch Chocolate Frosty Fusion",
+   "carb": 105,
+   "fiber": 1,
+   "cal": 580
+  },
+  {
+   "cat": "Frosty",
+   "name": "Medium Caramel Crunch Vanilla Frosty Fusion",
+   "carb": 105,
+   "fiber": 0,
+   "cal": 580
+  },
+  {
+   "cat": "Frosty",
+   "name": "Medium Caramel Vanilla Frosty Swirl",
+   "carb": 80,
+   "fiber": 0,
+   "cal": 470
+  },
+  {
+   "cat": "Frosty",
+   "name": "Medium Classic Chocolate Frosty",
+   "carb": 61,
+   "fiber": 1,
+   "cal": 390
+  },
+  {
+   "cat": "Frosty",
+   "name": "Medium OREO Brownie Twist Chocolate Frosty Fusion",
+   "carb": 93,
+   "fiber": 2,
+   "cal": 680
+  },
+  {
+   "cat": "Frosty",
+   "name": "Medium OREO Brownie Twist Vanilla Frosty Fusion",
+   "carb": 94,
+   "fiber": 2,
+   "cal": 680
+  },
+  {
+   "cat": "Frosty",
+   "name": "Medium Pop-Tarts Strawberry Chocolate Frosty Fusion",
+   "carb": 91,
+   "fiber": 1,
+   "cal": 520
+  },
+  {
+   "cat": "Frosty",
+   "name": "Medium Pop-Tarts Strawberry Vanilla Frosty Fusion",
+   "carb": 91,
+   "fiber": 0,
+   "cal": 520
+  },
+  {
+   "cat": "Frosty",
+   "name": "Medium Strawberry Chocolate Frosty Swirl",
+   "carb": 75,
+   "fiber": 1,
+   "cal": 430
+  },
+  {
+   "cat": "Frosty",
+   "name": "Medium Strawberry Vanilla Frosty Swirl",
+   "carb": 75,
+   "fiber": 1,
+   "cal": 440
+  },
+  {
+   "cat": "Frosty",
+   "name": "Medium Vanilla Frosty",
+   "carb": 62,
+   "fiber": 0,
+   "cal": 390
+  },
+  {
+   "cat": "Frosty",
+   "name": "OREO Brownie Twist Chocolate Frosty Fusion",
+   "carb": 67,
+   "fiber": 2,
+   "cal": 520
+  },
+  {
+   "cat": "Frosty",
+   "name": "OREO Brownie Twist Vanilla Frosty Fusion",
+   "carb": 68,
+   "fiber": 1,
+   "cal": 520
+  },
+  {
+   "cat": "Frosty",
+   "name": "Pop-Tarts Strawberry Chocolate Frosty Fusion",
+   "carb": 65,
+   "fiber": 1,
+   "cal": 370
+  },
+  {
+   "cat": "Frosty",
+   "name": "Pop-Tarts Strawberry Vanilla Frosty Fusion",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 370
+  },
+  {
+   "cat": "Frosty",
+   "name": "Strawberry Chocolate Frosty Swirl",
+   "carb": 59,
+   "fiber": 1,
+   "cal": 330
+  },
+  {
+   "cat": "Frosty",
+   "name": "Strawberry Vanilla Frosty Swirl",
+   "carb": 59,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Frosty",
+   "name": "Vanilla Frosty",
+   "carb": 49,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Bakery",
+   "name": "Chocolate Chunk Cookie",
+   "carb": 43,
+   "fiber": 2,
+   "cal": 330
+  },
+  {
+   "cat": "Bakery",
+   "name": "Cinnabon Pull-Apart",
+   "carb": 70,
+   "fiber": 3,
+   "cal": 550
+  },
+  {
+   "cat": "Bakery",
+   "name": "Fresh Baked Oatmeal Bar",
+   "carb": 45,
+   "fiber": 4,
+   "cal": 280
+  },
+  {
+   "cat": "Bakery",
+   "name": "Sugar Cookie",
+   "carb": 44,
+   "fiber": 1,
+   "cal": 330
+  },
+  {
+   "cat": "Wendy's Kids' Meal",
+   "name": "Kids' 4 Piece Spicy Nuggets",
+   "carb": 9,
+   "fiber": 1,
+   "cal": 190
+  },
+  {
+   "cat": "Wendy's Kids' Meal",
+   "name": "Kids' 4Piece Nuggets",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Wendy's Kids' Meal",
+   "name": "Kids' Cheeseburger",
+   "carb": 24,
+   "fiber": 1,
+   "cal": 280
+  },
+  {
+   "cat": "Wendy's Kids' Meal",
+   "name": "Kids' Hamburger",
+   "carb": 24,
+   "fiber": 1,
+   "cal": 240
+  },
+  {
+   "cat": "Biggie Deals",
+   "name": "Biggie Deals, Bacon Double Stack",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 430
+  },
+  {
+   "cat": "Biggie Deals",
+   "name": "Biggie Deals, Crispy Chicken BLT",
+   "carb": 34,
+   "fiber": 1,
+   "cal": 420
+  },
+  {
+   "cat": "Biggie Deals",
+   "name": "Biggie Deals, Crispy Chicken Sandwich",
+   "carb": 32,
+   "fiber": 1,
+   "cal": 340
+  },
+  {
+   "cat": "Biggie Deals",
+   "name": "Biggie Deals, Double Stack",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 400
+  },
+  {
+   "cat": "Biggie Deals",
+   "name": "Biggie Deals, Jr. Bacon Cheeseburger",
+   "carb": 24,
+   "fiber": 1,
+   "cal": 360
+  },
+  {
+   "cat": "Biggie Deals",
+   "name": "Biggie Deals, Jr. Cheeseburger",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 280
+  },
+  {
+   "cat": "Biggie Deals",
+   "name": "Biggie Deals, Jr. Cheeseburger Deluxe",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 340
+  },
+  {
+   "cat": "Biggie Deals",
+   "name": "Biggie Deals, Jr. Hamburger",
+   "carb": 24,
+   "fiber": 1,
+   "cal": 240
+  },
+  {
+   "cat": "Meal Deals",
+   "name": "Bacon Double Stack Biggie Bag",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 430
+  },
+  {
+   "cat": "Meal Deals",
+   "name": "Crispy Chicken Biggie Bag",
+   "carb": 32,
+   "fiber": 1,
+   "cal": 340
+  },
+  {
+   "cat": "Meal Deals",
+   "name": "Crispy Chicken BLT Biggie Bag",
+   "carb": 34,
+   "fiber": 1,
+   "cal": 420
+  },
+  {
+   "cat": "Meal Deals",
+   "name": "Double Stack Biggie Bag",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 400
+  },
+  {
+   "cat": "Meal Deals",
+   "name": "Jr. Bacon Cheeseburger Biggie Bag",
+   "carb": 24,
+   "fiber": 1,
+   "cal": 360
+  },
+  {
+   "cat": "Meal Deals",
+   "name": "Jr. Cheeseburger, 444 Meal",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 280
+  },
+  {
+   "cat": "Breakfast Combos",
+   "name": "Bacon, Egg & Cheese Biscuit Combo",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 410
+  },
+  {
+   "cat": "Breakfast Combos",
+   "name": "Bacon, Egg & Cheese English Muffin Combo",
+   "carb": 30,
+   "fiber": 1,
+   "cal": 370
+  },
+  {
+   "cat": "Breakfast Combos",
+   "name": "Bacon, Egg & Swiss Croissant Combo",
+   "carb": 34,
+   "fiber": 0,
+   "cal": 420
+  },
+  {
+   "cat": "Breakfast Combos",
+   "name": "Breakfast Baconator Combo",
+   "carb": 34,
+   "fiber": 1,
+   "cal": 680
+  },
+  {
+   "cat": "Breakfast Combos",
+   "name": "Breakfast Burrito, Bacon Combo",
+   "carb": 55,
+   "fiber": 2,
+   "cal": 700
+  },
+  {
+   "cat": "Breakfast Combos",
+   "name": "Breakfast Burrito, Sausage Combo",
+   "carb": 55,
+   "fiber": 3,
+   "cal": 820
+  },
+  {
+   "cat": "Breakfast Combos",
+   "name": "Egg & Cheese Biscuit Combo",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 360
+  },
+  {
+   "cat": "Breakfast Combos",
+   "name": "Homestyle French Toast Sticks, 6 Piece Combo",
+   "carb": 79,
+   "fiber": 2,
+   "cal": 630
+  },
+  {
+   "cat": "Breakfast Combos",
+   "name": "Honey Buddy Chicken Biscuit Combo",
+   "carb": 41,
+   "fiber": 4,
+   "cal": 470
+  },
+  {
+   "cat": "Breakfast Combos",
+   "name": "Maple Bacon Chicken Croissant Combo",
+   "carb": 48,
+   "fiber": 3,
+   "cal": 540
+  },
+  {
+   "cat": "Breakfast Combos",
+   "name": "Sausage, Egg & Cheese Biscuit Combo",
+   "carb": 28,
+   "fiber": 1,
+   "cal": 580
+  },
+  {
+   "cat": "Breakfast Combos",
+   "name": "Sausage, Egg & Cheese English Muffin Combo",
+   "carb": 31,
+   "fiber": 1,
+   "cal": 540
+  },
+  {
+   "cat": "Breakfast Combos",
+   "name": "Sausage, Egg & Swiss Croissant Combo",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 590
+  },
+  {
+   "cat": "Croissants, English Muffins & Biscuits",
+   "name": "Bacon, Egg & Cheese Biscuit",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 410
+  },
+  {
+   "cat": "Croissants, English Muffins & Biscuits",
+   "name": "Bacon, Egg & Cheese English Muffin",
+   "carb": 30,
+   "fiber": 1,
+   "cal": 370
+  },
+  {
+   "cat": "Croissants, English Muffins & Biscuits",
+   "name": "Bacon, Egg & Swiss Croissant",
+   "carb": 34,
+   "fiber": 0,
+   "cal": 420
+  },
+  {
+   "cat": "Croissants, English Muffins & Biscuits",
+   "name": "Egg & Cheese Biscuit",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 360
+  },
+  {
+   "cat": "Croissants, English Muffins & Biscuits",
+   "name": "Egg & Cheese English Muffin",
+   "carb": 29,
+   "fiber": 1,
+   "cal": 320
+  },
+  {
+   "cat": "Croissants, English Muffins & Biscuits",
+   "name": "Honey Buddy Chicken Biscuit",
+   "carb": 41,
+   "fiber": 4,
+   "cal": 470
+  },
+  {
+   "cat": "Croissants, English Muffins & Biscuits",
+   "name": "Honey Butter Biscuit",
+   "carb": 32,
+   "fiber": 1,
+   "cal": 310
+  },
+  {
+   "cat": "Croissants, English Muffins & Biscuits",
+   "name": "Maple Bacon Chicken Croissant",
+   "carb": 48,
+   "fiber": 3,
+   "cal": 540
+  },
+  {
+   "cat": "Croissants, English Muffins & Biscuits",
+   "name": "Sausage & Cheese English Muffin",
+   "carb": 30,
+   "fiber": 1,
+   "cal": 450
+  },
+  {
+   "cat": "Croissants, English Muffins & Biscuits",
+   "name": "Sausage, Egg & Cheese Biscuit",
+   "carb": 28,
+   "fiber": 1,
+   "cal": 580
+  },
+  {
+   "cat": "Croissants, English Muffins & Biscuits",
+   "name": "Sausage, Egg & Cheese English Muffin",
+   "carb": 31,
+   "fiber": 1,
+   "cal": 540
+  },
+  {
+   "cat": "Croissants, English Muffins & Biscuits",
+   "name": "Sausage, Egg & Swiss Croissant",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 590
+  },
+  {
+   "cat": "Croissants, English Muffins & Biscuits",
+   "name": "Sausage Biscuit",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 450
+  },
+  {
+   "cat": "Croissants, English Muffins & Biscuits",
+   "name": "Sausage Gravy & Biscuit",
+   "carb": 38,
+   "fiber": 1,
+   "cal": 400
+  },
+  {
+   "cat": "Breakfast Classics",
+   "name": "Breakfast Baconator",
+   "carb": 34,
+   "fiber": 1,
+   "cal": 680
+  },
+  {
+   "cat": "Breakfast Classics",
+   "name": "Homestyle French Toast Sticks, 4 Piece",
+   "carb": 63,
+   "fiber": 1,
+   "cal": 460
+  },
+  {
+   "cat": "Breakfast Classics",
+   "name": "Homestyle French Toast Sticks, 6 Piece",
+   "carb": 79,
+   "fiber": 2,
+   "cal": 630
+  },
+  {
+   "cat": "Breakfast Burrito",
+   "name": "Breakfast Burrito, Bacon",
+   "carb": 55,
+   "fiber": 2,
+   "cal": 700
+  },
+  {
+   "cat": "Breakfast Burrito",
+   "name": "Breakfast Burrito, Sausage",
+   "carb": 55,
+   "fiber": 3,
+   "cal": 820
+  },
+  {
+   "cat": "Breakfast Sides & Sweets",
+   "name": "Large Seasoned Potatoes",
+   "carb": 71,
+   "fiber": 6,
+   "cal": 510
+  },
+  {
+   "cat": "Breakfast Sides & Sweets",
+   "name": "Medium Seasoned Potatoes",
+   "carb": 56,
+   "fiber": 5,
+   "cal": 400
+  },
+  {
+   "cat": "Breakfast Sides & Sweets",
+   "name": "Small Seasoned Potatoes",
+   "carb": 39,
+   "fiber": 4,
+   "cal": 280
+  },
+  {
+   "cat": "Breakfast Meal Deals",
+   "name": "Breakfast Biggie Bundles",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 450
+  },
+  {
+   "cat": "Breakfast Biggie Deals",
+   "name": "Breakfast Biggie Deals, Egg & Cheese Biscuit",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 360
+  },
+  {
+   "cat": "Breakfast Biggie Deals",
+   "name": "Breakfast Biggie Deals, Egg & Cheese English Muffin",
+   "carb": 29,
+   "fiber": 1,
+   "cal": 320
+  },
+  {
+   "cat": "Breakfast Biggie Deals",
+   "name": "Breakfast Biggie Deals, Homestyle French Toast Sticks, 4 Piece",
+   "carb": 63,
+   "fiber": 1,
+   "cal": 460
+  },
+  {
+   "cat": "Breakfast Biggie Deals",
+   "name": "Breakfast Biggie Deals, Honey Butter Biscuit",
+   "carb": 32,
+   "fiber": 1,
+   "cal": 310
+  },
+  {
+   "cat": "Breakfast Biggie Deals",
+   "name": "Breakfast Biggie Deals, Sausage & Cheese English Muffin",
+   "carb": 30,
+   "fiber": 1,
+   "cal": 450
+  },
+  {
+   "cat": "Breakfast Biggie Deals",
+   "name": "Breakfast Biggie Deals, Sausage Biscuit",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 450
+  },
+  {
+   "cat": "Breakfast Biggie Deals",
+   "name": "Breakfast Biggie Deals, Sausage Gravy & Biscuit",
+   "carb": 38,
+   "fiber": 1,
+   "cal": 400
+  }
+ ]
+}

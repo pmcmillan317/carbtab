@@ -1,0 +1,2720 @@
+[
+  {
+    "id": "apple-with-skin",
+    "name": "Apple, with skin",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.138,
+    "serving": {
+      "label": "1 medium",
+      "grams": 182
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "banana",
+    "name": "Banana",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.228,
+    "serving": {
+      "label": "1 medium",
+      "grams": 118
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "orange",
+    "name": "Orange",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.118,
+    "serving": {
+      "label": "1 medium",
+      "grams": 131
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "strawberries",
+    "name": "Strawberries",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.077,
+    "serving": {
+      "label": "1 cup",
+      "grams": 144
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "blueberries",
+    "name": "Blueberries",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.145,
+    "serving": {
+      "label": "1 cup",
+      "grams": 148
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "grapes-red-or-green",
+    "name": "Grapes, red or green",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.181,
+    "serving": {
+      "label": "1 cup",
+      "grams": 151
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "peach",
+    "name": "Peach",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.095,
+    "serving": {
+      "label": "1 medium",
+      "grams": 150
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "pear",
+    "name": "Pear",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.152,
+    "serving": {
+      "label": "1 medium",
+      "grams": 178
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "pineapple",
+    "name": "Pineapple",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.131,
+    "serving": {
+      "label": "1 cup chunks",
+      "grams": 165
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "mango",
+    "name": "Mango",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.15,
+    "serving": {
+      "label": "1 cup chunks",
+      "grams": 165
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "raspberries",
+    "name": "Raspberries",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.119,
+    "serving": {
+      "label": "1 cup",
+      "grams": 123
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "blackberries",
+    "name": "Blackberries",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.096,
+    "serving": {
+      "label": "1 cup",
+      "grams": 144
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "kiwi-fruit",
+    "name": "Kiwi Fruit",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.147,
+    "serving": {
+      "label": "1 medium",
+      "grams": 75
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "plum",
+    "name": "Plum",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.114,
+    "serving": {
+      "label": "1 medium",
+      "grams": 66
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "sweet-cherries",
+    "name": "Sweet Cherries",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.16,
+    "serving": {
+      "label": "1 cup",
+      "grams": 140
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "apricot",
+    "name": "Apricot",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.111,
+    "serving": {
+      "label": "1 medium",
+      "grams": 35
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "watermelon",
+    "name": "Watermelon",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.076,
+    "serving": {
+      "label": "1 cup diced",
+      "grams": 152
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "cantaloupe-melon",
+    "name": "Cantaloupe Melon",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.082,
+    "serving": {
+      "label": "1 cup diced",
+      "grams": 156
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "honeydew-melon",
+    "name": "Honeydew Melon",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.091,
+    "serving": {
+      "label": "1 cup diced",
+      "grams": 170
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "grapefruit",
+    "name": "Grapefruit",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.107,
+    "serving": {
+      "label": "1/2 medium",
+      "grams": 120
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "papaya",
+    "name": "Papaya",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.108,
+    "serving": {
+      "label": "1 cup chunks",
+      "grams": 145
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "dried-fig",
+    "name": "Dried Fig",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.639,
+    "serving": {
+      "label": "1 piece",
+      "grams": 8
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "deglet-noor-date",
+    "name": "Deglet Noor Date",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.75,
+    "serving": {
+      "label": "1 date",
+      "grams": 7
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "seedless-raisins",
+    "name": "Seedless Raisins",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.792,
+    "serving": {
+      "label": "1 small box",
+      "grams": 43
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "pomegranate-seeds",
+    "name": "Pomegranate Seeds",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.187,
+    "serving": {
+      "label": "1/2 cup",
+      "grams": 87
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "cranberries",
+    "name": "Cranberries",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.122,
+    "serving": {
+      "label": "1 cup whole",
+      "grams": 110
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "avocado",
+    "name": "Avocado",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.085,
+    "serving": {
+      "label": "1 medium",
+      "grams": 150
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "nectarine",
+    "name": "Nectarine",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.106,
+    "serving": {
+      "label": "1 medium",
+      "grams": 142
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "lemon-peeled",
+    "name": "Lemon, peeled",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.093,
+    "serving": {
+      "label": "1 medium",
+      "grams": 58
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "lime-peeled",
+    "name": "Lime, peeled",
+    "aliases": [],
+    "category": "Fruit",
+    "carbFactorTotal": 0.105,
+    "serving": {
+      "label": "1 medium",
+      "grams": 67
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "broccoli-cooked",
+    "name": "Broccoli, cooked",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.072,
+    "serving": {
+      "label": "1 cup",
+      "grams": 150
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "carrot-raw",
+    "name": "Carrot, raw",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.096,
+    "serving": {
+      "label": "1 medium",
+      "grams": 61
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "baby-spinach",
+    "name": "Baby Spinach",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.036,
+    "serving": {
+      "label": "2 cups",
+      "grams": 60
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "white-potato-boiled",
+    "name": "White Potato, boiled",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.201,
+    "serving": {
+      "label": "1 medium",
+      "grams": 150
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "sweet-potato-baked",
+    "name": "Sweet Potato, baked",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.207,
+    "serving": {
+      "label": "1 medium",
+      "grams": 114
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "red-tomato",
+    "name": "Red Tomato",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.039,
+    "serving": {
+      "label": "1 medium",
+      "grams": 123
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "yellow-onion-raw",
+    "name": "Yellow Onion, raw",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.093,
+    "serving": {
+      "label": "1 medium",
+      "grams": 110
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "garlic-clove",
+    "name": "Garlic Clove",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.331,
+    "serving": {
+      "label": "1 clove",
+      "grams": 3
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "cucumber-with-peel",
+    "name": "Cucumber, with peel",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.036,
+    "serving": {
+      "label": "1/2 cucumber",
+      "grams": 150
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "iceberg-lettuce",
+    "name": "Iceberg Lettuce",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.03,
+    "serving": {
+      "label": "1 cup shredded",
+      "grams": 72
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "celery-raw",
+    "name": "Celery, raw",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.03,
+    "serving": {
+      "label": "2 medium stalks",
+      "grams": 80
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "red-bell-pepper",
+    "name": "Red Bell Pepper",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.06,
+    "serving": {
+      "label": "1 medium",
+      "grams": 119
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "green-cabbage-raw",
+    "name": "Green Cabbage, raw",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.058,
+    "serving": {
+      "label": "1 cup chopped",
+      "grams": 89
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "cauliflower-raw",
+    "name": "Cauliflower, raw",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.05,
+    "serving": {
+      "label": "1 cup florets",
+      "grams": 100
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "zucchini-raw",
+    "name": "Zucchini, raw",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.031,
+    "serving": {
+      "label": "1 medium",
+      "grams": 196
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "white-mushroom",
+    "name": "White Mushroom",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.033,
+    "serving": {
+      "label": "1 cup pieces",
+      "grams": 70
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "asparagus-boiled",
+    "name": "Asparagus, boiled",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.041,
+    "serving": {
+      "label": "4 spears",
+      "grams": 60
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "eggplant-cooked",
+    "name": "Eggplant, cooked",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.059,
+    "serving": {
+      "label": "1 cup cubes",
+      "grams": 82
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "pumpkin-raw",
+    "name": "Pumpkin, raw",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.065,
+    "serving": {
+      "label": "1 cup cubes",
+      "grams": 116
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "red-radish",
+    "name": "Red Radish",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.034,
+    "serving": {
+      "label": "5 medium",
+      "grams": 22
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "beetroot-boiled",
+    "name": "Beetroot, boiled",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.096,
+    "serving": {
+      "label": "1 medium beetroot",
+      "grams": 85
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "sweet-corn-kernels",
+    "name": "Sweet Corn, kernels",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.187,
+    "serving": {
+      "label": "1 cup kernels",
+      "grams": 145
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "green-peas-cooked",
+    "name": "Green Peas, cooked",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.145,
+    "serving": {
+      "label": "1 cup",
+      "grams": 160
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "green-beans-cooked",
+    "name": "Green Beans, cooked",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.079,
+    "serving": {
+      "label": "1 cup",
+      "grams": 125
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "kale-raw",
+    "name": "Kale, raw",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.088,
+    "serving": {
+      "label": "1 cup",
+      "grams": 21
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "brussels-sprouts-cooked",
+    "name": "Brussels Sprouts, cooked",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.08,
+    "serving": {
+      "label": "1 cup",
+      "grams": 156
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "butternut-squash-baked",
+    "name": "Butternut Squash, baked",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.117,
+    "serving": {
+      "label": "1 cup cubes",
+      "grams": 205
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "okra-cooked",
+    "name": "Okra, cooked",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.07,
+    "serving": {
+      "label": "1 cup",
+      "grams": 160
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "artichoke-boiled",
+    "name": "Artichoke, boiled",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.105,
+    "serving": {
+      "label": "1 medium artichoke",
+      "grams": 120
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "leek-raw",
+    "name": "Leek, raw",
+    "aliases": [],
+    "category": "Vegetable",
+    "carbFactorTotal": 0.142,
+    "serving": {
+      "label": "1 leek",
+      "grams": 89
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "almonds",
+    "name": "Almonds",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.216,
+    "serving": {
+      "label": "1 oz",
+      "grams": 28
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "english-walnuts",
+    "name": "English Walnuts",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.137,
+    "serving": {
+      "label": "1 oz",
+      "grams": 28
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "cashews-dry-roasted",
+    "name": "Cashews, dry roasted",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.302,
+    "serving": {
+      "label": "1 oz",
+      "grams": 28
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "peanuts-dry-roasted",
+    "name": "Peanuts, dry roasted",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.215,
+    "serving": {
+      "label": "1 oz",
+      "grams": 28
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "pecan-halves",
+    "name": "Pecan Halves",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.139,
+    "serving": {
+      "label": "1 oz",
+      "grams": 28
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "pistachios-shelled",
+    "name": "Pistachios, shelled",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.272,
+    "serving": {
+      "label": "1 oz",
+      "grams": 28
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "macadamia-nuts",
+    "name": "Macadamia Nuts",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.138,
+    "serving": {
+      "label": "1 oz",
+      "grams": 28
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "hazelnuts-filberts",
+    "name": "Hazelnuts, Filberts",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.167,
+    "serving": {
+      "label": "1 oz",
+      "grams": 28
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "pumpkin-seeds-kernels",
+    "name": "Pumpkin Seeds, kernels",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.107,
+    "serving": {
+      "label": "1 oz",
+      "grams": 28
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "sunflower-seed-kernels",
+    "name": "Sunflower Seed Kernels",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.2,
+    "serving": {
+      "label": "1 oz",
+      "grams": 28
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "chia-seeds",
+    "name": "Chia Seeds",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.421,
+    "serving": {
+      "label": "2 tbsp",
+      "grams": 28
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "flax-seeds-ground",
+    "name": "Flax Seeds, ground",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.289,
+    "serving": {
+      "label": "2 tbsp",
+      "grams": 14
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "sesame-seeds",
+    "name": "Sesame Seeds",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.234,
+    "serving": {
+      "label": "1 tbsp",
+      "grams": 9
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "hemp-seeds-shelled",
+    "name": "Hemp Seeds, shelled",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.087,
+    "serving": {
+      "label": "3 tbsp",
+      "grams": 30
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "pine-nuts",
+    "name": "Pine Nuts",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.131,
+    "serving": {
+      "label": "1 oz",
+      "grams": 28
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "brazil-nuts",
+    "name": "Brazil Nuts",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.123,
+    "serving": {
+      "label": "1 oz",
+      "grams": 28
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "chestnuts-roasted",
+    "name": "Chestnuts, roasted",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.53,
+    "serving": {
+      "label": "1 oz",
+      "grams": 28
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "peanut-butter-creamy",
+    "name": "Peanut Butter, creamy",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.2,
+    "serving": {
+      "label": "2 tbsp",
+      "grams": 32
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "almond-butter",
+    "name": "Almond Butter",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.188,
+    "serving": {
+      "label": "2 tbsp",
+      "grams": 32
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "tahini-sesame-paste",
+    "name": "Tahini, Sesame Paste",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.212,
+    "serving": {
+      "label": "2 tbsp",
+      "grams": 30
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "poppy-seeds",
+    "name": "Poppy Seeds",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.281,
+    "serving": {
+      "label": "1 tbsp",
+      "grams": 9
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "coconut-meat-shredded",
+    "name": "Coconut Meat, shredded",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.152,
+    "serving": {
+      "label": "1 oz",
+      "grams": 28
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "peanut-flour",
+    "name": "Peanut Flour",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.35,
+    "serving": {
+      "label": "1/4 cup",
+      "grams": 28
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "cashew-butter",
+    "name": "Cashew Butter",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.27,
+    "serving": {
+      "label": "2 tbsp",
+      "grams": 32
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "soy-nuts",
+    "name": "Soy Nuts",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.32,
+    "serving": {
+      "label": "1/4 cup",
+      "grams": 30
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "safflower-seeds",
+    "name": "Safflower Seeds",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.34,
+    "serving": {
+      "label": "1 oz",
+      "grams": 28
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "squash-seeds-roasted",
+    "name": "Squash Seeds, roasted",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.15,
+    "serving": {
+      "label": "1 oz",
+      "grams": 28
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "sunflower-butter",
+    "name": "Sunflower Butter",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.22,
+    "serving": {
+      "label": "2 tbsp",
+      "grams": 32
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "mixed-nuts-salted",
+    "name": "Mixed Nuts, salted",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.21,
+    "serving": {
+      "label": "1 oz",
+      "grams": 28
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "ginkgo-nuts-raw",
+    "name": "Ginkgo Nuts, raw",
+    "aliases": [],
+    "category": "Nuts",
+    "carbFactorTotal": 0.376,
+    "serving": {
+      "label": "1 oz",
+      "grams": 28
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "oatmeal-cooked",
+    "name": "Oatmeal, cooked",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.12,
+    "serving": {
+      "label": "1 cup cooked",
+      "grams": 234
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "white-rice-cooked",
+    "name": "White Rice, cooked",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.282,
+    "serving": {
+      "label": "1 cup cooked",
+      "grams": 158
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "brown-rice-cooked",
+    "name": "Brown Rice, cooked",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.256,
+    "serving": {
+      "label": "1 cup cooked",
+      "grams": 195
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "quinoa-cooked",
+    "name": "Quinoa, cooked",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.213,
+    "serving": {
+      "label": "1 cup cooked",
+      "grams": 185
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "white-bread-slice",
+    "name": "White Bread Slice",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.49,
+    "serving": {
+      "label": "1 slice",
+      "grams": 25
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "whole-wheat-bread-slice",
+    "name": "Whole Wheat Bread Slice",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.41,
+    "serving": {
+      "label": "1 slice",
+      "grams": 28
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "spaghetti-boiled",
+    "name": "Spaghetti, boiled",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.307,
+    "serving": {
+      "label": "1 cup cooked",
+      "grams": 140
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "soda-saltine-cracker",
+    "name": "Soda Saltine Cracker",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.72,
+    "serving": {
+      "label": "5 crackers",
+      "grams": 15
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "dark-chocolate-70",
+    "name": "Dark Chocolate, 70%",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.46,
+    "serving": {
+      "label": "3 blocks",
+      "grams": 30
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "potato-chips",
+    "name": "Potato Chips",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.53,
+    "serving": {
+      "label": "1 bag",
+      "grams": 28
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "corn-tortilla",
+    "name": "Corn Tortilla",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.44,
+    "serving": {
+      "label": "1 small circle",
+      "grams": 26
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "pretzel-sticks",
+    "name": "Pretzel Sticks",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.8,
+    "serving": {
+      "label": "1 oz",
+      "grams": 28
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "chocolate-chip-cookie",
+    "name": "Chocolate Chip Cookie",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.62,
+    "serving": {
+      "label": "1 cookie",
+      "grams": 16
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "air-popcorn",
+    "name": "Air Popcorn",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.58,
+    "serving": {
+      "label": "2 cups",
+      "grams": 16
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "granola-bars-oats",
+    "name": "Granola Bars, oats",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.68,
+    "serving": {
+      "label": "1 bar",
+      "grams": 24
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "english-muffin",
+    "name": "English Muffin",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.46,
+    "serving": {
+      "label": "1 muffin",
+      "grams": 57
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "plain-bagel",
+    "name": "Plain Bagel",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.53,
+    "serving": {
+      "label": "1 medium bagel",
+      "grams": 95
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "croissant",
+    "name": "Croissant",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.45,
+    "serving": {
+      "label": "1 medium",
+      "grams": 57
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "pancake-prepared",
+    "name": "Pancake, prepared",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.28,
+    "serving": {
+      "label": "1 pancake",
+      "grams": 40
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "corn-rice-cakes",
+    "name": "Corn Rice Cakes",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.8,
+    "serving": {
+      "label": "1 cake",
+      "grams": 9
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "french-fries-baked",
+    "name": "French Fries, baked",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.35,
+    "serving": {
+      "label": "1 medium serving",
+      "grams": 117
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "tortilla-chips",
+    "name": "Tortilla Chips",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.65,
+    "serving": {
+      "label": "1 oz",
+      "grams": 28
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "oat-bran-raw",
+    "name": "Oat Bran, raw",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.66,
+    "serving": {
+      "label": "1/2 cup",
+      "grams": 94
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "couscous-cooked",
+    "name": "Couscous, cooked",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.23,
+    "serving": {
+      "label": "1 cup",
+      "grams": 157
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "barley-cooked",
+    "name": "Barley, cooked",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.28,
+    "serving": {
+      "label": "1 cup",
+      "grams": 157
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "graham-cracker",
+    "name": "Graham Cracker",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.74,
+    "serving": {
+      "label": "1 sheet",
+      "grams": 14
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "rice-krispies-cereal",
+    "name": "Rice Krispies Cereal",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.88,
+    "serving": {
+      "label": "1.25 cup",
+      "grams": 33
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "corn-flakes-cereal",
+    "name": "Corn Flakes Cereal",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.84,
+    "serving": {
+      "label": "1 cup",
+      "grams": 28
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "animal-crackers",
+    "name": "Animal Crackers",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.78,
+    "serving": {
+      "label": "8 crackers",
+      "grams": 30
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "granola-plain",
+    "name": "Granola, plain",
+    "aliases": [],
+    "category": "Grain",
+    "carbFactorTotal": 0.64,
+    "serving": {
+      "label": "1/4 cup",
+      "grams": 29
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "whole-milk",
+    "name": "Whole Milk",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0.048,
+    "serving": {
+      "label": "1 glass",
+      "grams": 244
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "greek-yogurt-plain",
+    "name": "Greek Yogurt, plain",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0.036,
+    "serving": {
+      "label": "1 tub",
+      "grams": 150
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "cheddar-cheese",
+    "name": "Cheddar Cheese",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0.013,
+    "serving": {
+      "label": "1 slice",
+      "grams": 28
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "whole-chicken-egg",
+    "name": "Whole Chicken Egg",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0.006,
+    "serving": {
+      "label": "1 large egg",
+      "grams": 50
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "chicken-breast-cooked",
+    "name": "Chicken Breast, cooked",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0,
+    "serving": {
+      "label": "1 breast",
+      "grams": 140
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "ground-beef-lean",
+    "name": "Ground Beef, lean",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0,
+    "serving": {
+      "label": "3 oz",
+      "grams": 85
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "grilled-salmon-filet",
+    "name": "Grilled Salmon Filet",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0,
+    "serving": {
+      "label": "1 fillet",
+      "grams": 150
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "tofu-firm",
+    "name": "Tofu, firm",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0.019,
+    "serving": {
+      "label": "1/2 cup",
+      "grams": 126
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "natural-pure-honey",
+    "name": "Natural Pure Honey",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0.824,
+    "serving": {
+      "label": "1 tbsp",
+      "grams": 21
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "table-white-sugar",
+    "name": "Table White Sugar",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 1,
+    "serving": {
+      "label": "1 packet",
+      "grams": 4
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "olive-oil-extra-virgin",
+    "name": "Olive Oil Extra Virgin",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0,
+    "serving": {
+      "label": "1 tbsp",
+      "grams": 13.5
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "salted-butter-cream",
+    "name": "Salted Butter Cream",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0.001,
+    "serving": {
+      "label": "1 pat",
+      "grams": 5
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "maple-syrup",
+    "name": "Maple Syrup",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0.67,
+    "serving": {
+      "label": "1 tbsp",
+      "grams": 20
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "premium-soy-sauce",
+    "name": "Premium Soy Sauce",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0.08,
+    "serving": {
+      "label": "1 tbsp",
+      "grams": 16
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "prepared-mustard",
+    "name": "Prepared Mustard",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0.05,
+    "serving": {
+      "label": "1 tsp",
+      "grams": 6
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "tomato-ketchup",
+    "name": "Tomato Ketchup",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0.26,
+    "serving": {
+      "label": "1 tbsp",
+      "grams": 17
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "hummus-dip",
+    "name": "Hummus Dip",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0.14,
+    "serving": {
+      "label": "2 tbsp",
+      "grams": 30
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "soy-milk-plain",
+    "name": "Soy Milk, plain",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0.04,
+    "serving": {
+      "label": "1 cup",
+      "grams": 240
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "almond-milk-unsweetened",
+    "name": "Almond Milk, unsweetened",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0.008,
+    "serving": {
+      "label": "1 cup",
+      "grams": 240
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "mozzarella-cheese",
+    "name": "Mozzarella Cheese",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0.022,
+    "serving": {
+      "label": "1 oz",
+      "grams": 28
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "cottage-cheese-2",
+    "name": "Cottage Cheese, 2%",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0.043,
+    "serving": {
+      "label": "1/2 cup",
+      "grams": 113
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "cream-cheese",
+    "name": "Cream Cheese",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0.041,
+    "serving": {
+      "label": "1 oz",
+      "grams": 28
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "sour-cream",
+    "name": "Sour Cream",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0.046,
+    "serving": {
+      "label": "2 tbsp",
+      "grams": 30
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "canned-tuna-in-water",
+    "name": "Canned Tuna in Water",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0,
+    "serving": {
+      "label": "3 oz",
+      "grams": 85
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "cooked-pork-chop",
+    "name": "Cooked Pork Chop",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0,
+    "serving": {
+      "label": "3 oz",
+      "grams": 85
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "roasted-turkey-breast",
+    "name": "Roasted Turkey Breast",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0.01,
+    "serving": {
+      "label": "3 oz",
+      "grams": 85
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "brown-gravy-mix",
+    "name": "Brown Gravy Mix",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0.55,
+    "serving": {
+      "label": "1 tbsp",
+      "grams": 6
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "black-beans-canned",
+    "name": "Black Beans, canned",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0.166,
+    "serving": {
+      "label": "1/2 cup",
+      "grams": 130
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "lentils-cooked",
+    "name": "Lentils, cooked",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0.201,
+    "serving": {
+      "label": "1 cup cooked",
+      "grams": 198
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "plain-lowfat-yogurt",
+    "name": "Plain Lowfat Yogurt",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0.07,
+    "serving": {
+      "label": "1 cup",
+      "grams": 227
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "quail-eggs",
+    "name": "Quail Eggs",
+    "aliases": [],
+    "category": "Other",
+    "carbFactorTotal": 0.004,
+    "serving": {
+      "label": "1 egg",
+      "grams": 9
+    },
+    "source": {
+      "type": "USDA",
+      "note": "CarbTab curated seed, USDA FoodData Central derived. Total-carb density; net pass pending.",
+      "retrievedAt": "2026-09-09"
+    },
+    "confidence": "medium",
+    "updatedAt": "2026-09-09"
+  }
+]

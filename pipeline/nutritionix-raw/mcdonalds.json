@@ -1,0 +1,1585 @@
+{
+ "chain": "McDonald's",
+ "slug": "mcdonalds",
+ "source": "https://www.nutritionix.com/mcdonalds/menu/premium",
+ "platform": "nutritionix",
+ "updated": "06/15/2026",
+ "pulledAt": "2026-09-10",
+ "type": "grid",
+ "columns": {
+  "cal": 1,
+  "carb": 7,
+  "fiber": 8
+ },
+ "count": 224,
+ "items": [
+  {
+   "cat": "McValue",
+   "name": "McValue, Chicken McNuggets, 4 Piece",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "McValue",
+   "name": "McValue, Chicken McNuggets, 6 Piece",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "McValue",
+   "name": "McValue, Chicken McNuggets, 10 Piece",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 410
+  },
+  {
+   "cat": "McValue",
+   "name": "McValue, Chicken McNuggets, 20 Piece",
+   "carb": 51,
+   "fiber": 2,
+   "cal": 830
+  },
+  {
+   "cat": "McValue",
+   "name": "McValue, Chicken McNuggets, 40 Piece",
+   "carb": 102,
+   "fiber": 4,
+   "cal": 1650
+  },
+  {
+   "cat": "McValue",
+   "name": "McValue, Double Cheeseburger",
+   "carb": 34,
+   "fiber": 2,
+   "cal": 440
+  },
+  {
+   "cat": "McValue",
+   "name": "McValue, Hash Browns",
+   "carb": 18,
+   "fiber": 2,
+   "cal": 140
+  },
+  {
+   "cat": "McValue",
+   "name": "McValue, McChicken",
+   "carb": 38,
+   "fiber": 1,
+   "cal": 390
+  },
+  {
+   "cat": "McValue",
+   "name": "McValue, Sausage Biscuit",
+   "carb": 37,
+   "fiber": 2,
+   "cal": 460
+  },
+  {
+   "cat": "McValue",
+   "name": "McValue, Sausage Burrito",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 310
+  },
+  {
+   "cat": "McValue",
+   "name": "McValue, Sausage McMuffin",
+   "carb": 29,
+   "fiber": 2,
+   "cal": 400
+  },
+  {
+   "cat": "McValue",
+   "name": "McValue, The McChicken $5 Meal Deal",
+   "carb": 132,
+   "fiber": 4,
+   "cal": 990
+  },
+  {
+   "cat": "McValue",
+   "name": "McValue, The McDouble $5 Meal Deal",
+   "carb": 126,
+   "fiber": 5,
+   "cal": 990
+  },
+  {
+   "cat": "McValue",
+   "name": "McValue, World Famous Fries, Kids",
+   "carb": 14,
+   "fiber": 1,
+   "cal": 110
+  },
+  {
+   "cat": "McValue",
+   "name": "McValue, World Famous Fries, Large",
+   "carb": 65,
+   "fiber": 6,
+   "cal": 480
+  },
+  {
+   "cat": "McValue",
+   "name": "McValue, World Famous Fries, Medium",
+   "carb": 43,
+   "fiber": 4,
+   "cal": 320
+  },
+  {
+   "cat": "McValue",
+   "name": "McValue, World Famous Fries, Small",
+   "carb": 31,
+   "fiber": 3,
+   "cal": 230
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Bacon, Egg & Cheese Bagel",
+   "carb": 56,
+   "fiber": 2,
+   "cal": 590
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Bacon, Egg & Cheese Biscuit",
+   "carb": 39,
+   "fiber": 2,
+   "cal": 460
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Bacon, Egg & Cheese Biscuit Meal",
+   "carb": 58,
+   "fiber": 4,
+   "cal": 610
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Bacon, Egg & Cheese McGriddles",
+   "carb": 44,
+   "fiber": 2,
+   "cal": 430
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Bacon, Egg & Cheese McGriddles Meal",
+   "carb": 63,
+   "fiber": 4,
+   "cal": 580
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Bagel (Plain)",
+   "carb": 51,
+   "fiber": 2,
+   "cal": 270
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Big Breakfast",
+   "carb": 131,
+   "fiber": 3,
+   "cal": 1060
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Big Breakfast with Hotcakes",
+   "carb": 158,
+   "fiber": 5,
+   "cal": 1340
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Egg & Cheese Bagel",
+   "carb": 55,
+   "fiber": 2,
+   "cal": 520
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Egg McMuffin",
+   "carb": 30,
+   "fiber": 2,
+   "cal": 310
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Egg McMuffin Meal",
+   "carb": 49,
+   "fiber": 4,
+   "cal": 460
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Fruit & Maple Oatmeal",
+   "carb": 64,
+   "fiber": 4,
+   "cal": 320
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hash Browns",
+   "carb": 18,
+   "fiber": 2,
+   "cal": 140
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hotcakes",
+   "carb": 101,
+   "fiber": 2,
+   "cal": 580
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hotcakes & Sausage",
+   "carb": 102,
+   "fiber": 2,
+   "cal": 770
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage, Egg & Cheese Bagel",
+   "carb": 56,
+   "fiber": 2,
+   "cal": 710
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage, Egg & Cheese McGriddles",
+   "carb": 44,
+   "fiber": 2,
+   "cal": 550
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage, Egg & Cheese McGriddles Meal",
+   "carb": 63,
+   "fiber": 4,
+   "cal": 700
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage Biscuit",
+   "carb": 37,
+   "fiber": 2,
+   "cal": 460
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage Biscuit with Egg",
+   "carb": 38,
+   "fiber": 2,
+   "cal": 530
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage Biscuit with Egg Meal",
+   "carb": 57,
+   "fiber": 4,
+   "cal": 680
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage Burrito",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 310
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage Burrito Meal",
+   "carb": 44,
+   "fiber": 3,
+   "cal": 460
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage McGriddles",
+   "carb": 41,
+   "fiber": 2,
+   "cal": 430
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage McGriddles Meal",
+   "carb": 60,
+   "fiber": 4,
+   "cal": 580
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage McMuffin",
+   "carb": 29,
+   "fiber": 2,
+   "cal": 400
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage McMuffin with Egg",
+   "carb": 30,
+   "fiber": 2,
+   "cal": 480
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage McMuffin with Egg Meal",
+   "carb": 49,
+   "fiber": 4,
+   "cal": 630
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Steak, Egg & Cheese Bagel",
+   "carb": 57,
+   "fiber": 3,
+   "cal": 680
+  },
+  {
+   "cat": "Burgers",
+   "name": "Bacon Quarter Pounder with Cheese",
+   "carb": 43,
+   "fiber": 3,
+   "cal": 630
+  },
+  {
+   "cat": "Burgers",
+   "name": "Big Mac",
+   "carb": 45,
+   "fiber": 3,
+   "cal": 580
+  },
+  {
+   "cat": "Burgers",
+   "name": "Cheeseburger",
+   "carb": 31,
+   "fiber": 2,
+   "cal": 300
+  },
+  {
+   "cat": "Burgers",
+   "name": "Double Cheeseburger",
+   "carb": 34,
+   "fiber": 2,
+   "cal": 440
+  },
+  {
+   "cat": "Burgers",
+   "name": "Double Quarter Pounder with Cheese",
+   "carb": 43,
+   "fiber": 2,
+   "cal": 740
+  },
+  {
+   "cat": "Burgers",
+   "name": "Hamburger, The Classic McDonald's Burger",
+   "carb": 30,
+   "fiber": 1,
+   "cal": 250
+  },
+  {
+   "cat": "Burgers",
+   "name": "McDouble",
+   "carb": 32,
+   "fiber": 2,
+   "cal": 390
+  },
+  {
+   "cat": "Burgers",
+   "name": "Quarter Pounder with Cheese",
+   "carb": 42,
+   "fiber": 2,
+   "cal": 520
+  },
+  {
+   "cat": "Burgers",
+   "name": "Quarter Pounder with Cheese Deluxe",
+   "carb": 44,
+   "fiber": 3,
+   "cal": 630
+  },
+  {
+   "cat": "Chicken & Fish Sandwiches",
+   "name": "Deluxe McCrispy",
+   "carb": 48,
+   "fiber": 2,
+   "cal": 530
+  },
+  {
+   "cat": "Chicken & Fish Sandwiches",
+   "name": "Filet-O-Fish",
+   "carb": 38,
+   "fiber": 1,
+   "cal": 380
+  },
+  {
+   "cat": "Chicken & Fish Sandwiches",
+   "name": "McChicken",
+   "carb": 38,
+   "fiber": 1,
+   "cal": 390
+  },
+  {
+   "cat": "Chicken & Fish Sandwiches",
+   "name": "McCrispy",
+   "carb": 46,
+   "fiber": 1,
+   "cal": 470
+  },
+  {
+   "cat": "Chicken & Fish Sandwiches",
+   "name": "Spicy Deluxe McCrispy",
+   "carb": 49,
+   "fiber": 2,
+   "cal": 530
+  },
+  {
+   "cat": "Chicken & Fish Sandwiches",
+   "name": "Spicy McCrispy",
+   "carb": 48,
+   "fiber": 2,
+   "cal": 530
+  },
+  {
+   "cat": "McNuggets & McCrispy Strips",
+   "name": "Chicken McNuggets, 4 Piece",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "McNuggets & McCrispy Strips",
+   "name": "Chicken McNuggets, 6 Piece",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "McNuggets & McCrispy Strips",
+   "name": "Chicken McNuggets, 10 Piece",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 410
+  },
+  {
+   "cat": "McNuggets & McCrispy Strips",
+   "name": "Chicken McNuggets, 20 Piece",
+   "carb": 51,
+   "fiber": 2,
+   "cal": 830
+  },
+  {
+   "cat": "McNuggets & McCrispy Strips",
+   "name": "Chicken McNuggets, 40 Piece",
+   "carb": 102,
+   "fiber": 4,
+   "cal": 1650
+  },
+  {
+   "cat": "McNuggets & McCrispy Strips",
+   "name": "McCrispy Strips, 3 Piece",
+   "carb": 18,
+   "fiber": 1,
+   "cal": 350
+  },
+  {
+   "cat": "McNuggets & McCrispy Strips",
+   "name": "McCrispy Strips, 4 Piece",
+   "carb": 24,
+   "fiber": 2,
+   "cal": 460
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "Apple Slices",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "Creamy Chili McCrispy Strip Dip",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "Creamy Ranch Sauce",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "Honey",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "Honey Mustard Sauce",
+   "carb": 6,
+   "fiber": 1,
+   "cal": 60
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "Ketchup Packet",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "Mayonnaise Packet",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "Mustard Packet",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "Spicy Buffalo Sauce",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 30
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "Sweet 'N Sour Sauce",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "Tangy Barbeque Sauce",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "World Famous Fries, Kids",
+   "carb": 14,
+   "fiber": 1,
+   "cal": 110
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "World Famous Fries, Large",
+   "carb": 65,
+   "fiber": 6,
+   "cal": 480
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "World Famous Fries, Medium",
+   "carb": 43,
+   "fiber": 4,
+   "cal": 320
+  },
+  {
+   "cat": "Fries & Sides",
+   "name": "World Famous Fries, Small",
+   "carb": 31,
+   "fiber": 3,
+   "cal": 230
+  },
+  {
+   "cat": "Happy Meal",
+   "name": "4 Piece Chicken McNuggets Happy Meal",
+   "carb": 40,
+   "fiber": 1,
+   "cal": 400
+  },
+  {
+   "cat": "Happy Meal",
+   "name": "6 Piece Chicken McNuggets Happy Meal",
+   "carb": 45,
+   "fiber": 1,
+   "cal": 480
+  },
+  {
+   "cat": "Happy Meal",
+   "name": "Hamburger Happy Meal",
+   "carb": 60,
+   "fiber": 2,
+   "cal": 480
+  },
+  {
+   "cat": "Sweets & Treats",
+   "name": "Baked Apple Pie",
+   "carb": 33,
+   "fiber": 1,
+   "cal": 230
+  },
+  {
+   "cat": "Sweets & Treats",
+   "name": "Chocolate Chip Cookie",
+   "carb": 22,
+   "fiber": 1,
+   "cal": 170
+  },
+  {
+   "cat": "Sweets & Treats",
+   "name": "Chocolate Shake, Large",
+   "carb": 134,
+   "fiber": 1,
+   "cal": 800
+  },
+  {
+   "cat": "Sweets & Treats",
+   "name": "Chocolate Shake, Medium",
+   "carb": 107,
+   "fiber": 1,
+   "cal": 650
+  },
+  {
+   "cat": "Sweets & Treats",
+   "name": "Chocolate Shake, Small",
+   "carb": 85,
+   "fiber": 0,
+   "cal": 520
+  },
+  {
+   "cat": "Sweets & Treats",
+   "name": "HERSHEY’S S’mores McFlurry, Mini",
+   "carb": 42,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Sweets & Treats",
+   "name": "HERSHEY’S S’mores McFlurry, Regular",
+   "carb": 70,
+   "fiber": 1,
+   "cal": 460
+  },
+  {
+   "cat": "Sweets & Treats",
+   "name": "Hot Caramel Sundae",
+   "carb": 58,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Sweets & Treats",
+   "name": "Hot Fudge Sundae",
+   "carb": 51,
+   "fiber": 2,
+   "cal": 330
+  },
+  {
+   "cat": "Sweets & Treats",
+   "name": "McFlurry with M&M'S Candies, Mini",
+   "carb": 51,
+   "fiber": 1,
+   "cal": 340
+  },
+  {
+   "cat": "Sweets & Treats",
+   "name": "McFlurry with M&M'S Candies, Regular",
+   "carb": 85,
+   "fiber": 2,
+   "cal": 570
+  },
+  {
+   "cat": "Sweets & Treats",
+   "name": "McFlurry with OREO Cookies, Mini",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Sweets & Treats",
+   "name": "McFlurry with OREO Cookies, Regular",
+   "carb": 64,
+   "fiber": 1,
+   "cal": 410
+  },
+  {
+   "cat": "Sweets & Treats",
+   "name": "Strawberry Shake, Large",
+   "carb": 143,
+   "fiber": 0,
+   "cal": 850
+  },
+  {
+   "cat": "Sweets & Treats",
+   "name": "Strawberry Shake, Medium",
+   "carb": 99,
+   "fiber": 0,
+   "cal": 600
+  },
+  {
+   "cat": "Sweets & Treats",
+   "name": "Strawberry Shake, Small",
+   "carb": 77,
+   "fiber": 0,
+   "cal": 470
+  },
+  {
+   "cat": "Sweets & Treats",
+   "name": "Vanilla Cone",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Sweets & Treats",
+   "name": "Vanilla Shake, Large",
+   "carb": 133,
+   "fiber": 0,
+   "cal": 780
+  },
+  {
+   "cat": "Sweets & Treats",
+   "name": "Vanilla Shake, Medium",
+   "carb": 97,
+   "fiber": 0,
+   "cal": 570
+  },
+  {
+   "cat": "Sweets & Treats",
+   "name": "Vanilla Shake, Small",
+   "carb": 80,
+   "fiber": 0,
+   "cal": 480
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "Americano, Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "Americano, Medium",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "Americano, Small",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Cappuccino, Large",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Cappuccino, Medium",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Cappuccino, Small",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Caramel Cappuccino, Large",
+   "carb": 55,
+   "fiber": 0,
+   "cal": 340
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Caramel Cappuccino, Medium",
+   "carb": 44,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Caramel Cappuccino, Small",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Caramel Frappe, Large",
+   "carb": 94,
+   "fiber": 1,
+   "cal": 650
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Caramel Frappe, Medium",
+   "carb": 70,
+   "fiber": 1,
+   "cal": 490
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Caramel Frappe, Small",
+   "carb": 60,
+   "fiber": 1,
+   "cal": 420
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Caramel Latte, Large",
+   "carb": 60,
+   "fiber": 0,
+   "cal": 390
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Caramel Latte, Medium",
+   "carb": 49,
+   "fiber": 0,
+   "cal": 320
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Caramel Latte, Small",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Caramel Macchiato, Large",
+   "carb": 62,
+   "fiber": 0,
+   "cal": 400
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Caramel Macchiato, Medium",
+   "carb": 51,
+   "fiber": 0,
+   "cal": 320
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Caramel Macchiato, Small",
+   "carb": 41,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe French Vanilla Cappuccino, Large",
+   "carb": 58,
+   "fiber": 0,
+   "cal": 340
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe French Vanilla Cappuccino, Medium",
+   "carb": 47,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe French Vanilla Cappuccino, Small",
+   "carb": 37,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe French Vanilla Latte, Large",
+   "carb": 63,
+   "fiber": 0,
+   "cal": 400
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe French Vanilla Latte, Medium",
+   "carb": 52,
+   "fiber": 0,
+   "cal": 320
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe French Vanilla Latte, Small",
+   "carb": 41,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Iced Caramel Coffee, Large",
+   "carb": 46,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Iced Caramel Coffee, Medium",
+   "carb": 31,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Iced Caramel Coffee, Small",
+   "carb": 23,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Iced Caramel Latte, Large",
+   "carb": 54,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Iced Caramel Latte, Medium",
+   "carb": 36,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Iced Caramel Latte, Small",
+   "carb": 28,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Iced Caramel Macchiato, Large",
+   "carb": 59,
+   "fiber": 0,
+   "cal": 360
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Iced Caramel Macchiato, Medium",
+   "carb": 41,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Iced Caramel Macchiato, Small",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Iced Coffee, Large",
+   "carb": 47,
+   "fiber": 0,
+   "cal": 270
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Iced Coffee, Medium",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Iced Coffee, Small",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Iced French Vanilla Coffee, Large",
+   "carb": 49,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Iced French Vanilla Coffee, Medium",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Iced French Vanilla Coffee, Small",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Iced French Vanilla Latte, Large",
+   "carb": 57,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Iced French Vanilla Latte, Medium",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Iced French Vanilla Latte, Small",
+   "carb": 30,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Iced Latte, Large",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Iced Latte, Medium",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Iced Latte, Small",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Iced Mocha Latte, Large",
+   "carb": 67,
+   "fiber": 1,
+   "cal": 440
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Iced Mocha Latte, Medium",
+   "carb": 47,
+   "fiber": 1,
+   "cal": 320
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Iced Mocha Latte, Small",
+   "carb": 39,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Latte, Large",
+   "carb": 22,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Latte, Medium",
+   "carb": 17,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Latte, Small",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Mocha Frappe, Large",
+   "carb": 97,
+   "fiber": 1,
+   "cal": 660
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Mocha Frappe, Medium",
+   "carb": 72,
+   "fiber": 0,
+   "cal": 490
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Mocha Frappe, Small",
+   "carb": 61,
+   "fiber": 0,
+   "cal": 430
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Mocha Latte, Large",
+   "carb": 68,
+   "fiber": 1,
+   "cal": 460
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Mocha Latte, Medium",
+   "carb": 56,
+   "fiber": 1,
+   "cal": 370
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Mocha Latte, Small",
+   "carb": 45,
+   "fiber": 1,
+   "cal": 290
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Premium Roast Coffee, Large",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Premium Roast Coffee, Medium",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "McCafe Coffees",
+   "name": "McCafe Premium Roast Coffee, Small",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Beverages",
+   "name": "1% Low Fat Milk Jug",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Beverages",
+   "name": "Coca-Cola, Extra Small",
+   "carb": 40,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Beverages",
+   "name": "Coca-Cola, Large",
+   "carb": 100,
+   "fiber": 0,
+   "cal": 380
+  },
+  {
+   "cat": "Beverages",
+   "name": "Coca-Cola, Medium",
+   "carb": 70,
+   "fiber": 0,
+   "cal": 270
+  },
+  {
+   "cat": "Beverages",
+   "name": "Coca-Cola, Small",
+   "carb": 53,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Beverages",
+   "name": "Diet Coke, Extra Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Beverages",
+   "name": "Diet Coke, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Beverages",
+   "name": "Diet Coke, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Beverages",
+   "name": "Diet Coke, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Beverages",
+   "name": "Dr Pepper, Extra Small",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Beverages",
+   "name": "Dr Pepper, Large",
+   "carb": 98,
+   "fiber": 0,
+   "cal": 360
+  },
+  {
+   "cat": "Beverages",
+   "name": "Dr Pepper, Medium",
+   "carb": 68,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Beverages",
+   "name": "Dr Pepper, Small",
+   "carb": 52,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Beverages",
+   "name": "Fanta Orange, Large",
+   "carb": 101,
+   "fiber": 0,
+   "cal": 380
+  },
+  {
+   "cat": "Beverages",
+   "name": "Fanta Orange, Medium",
+   "carb": 71,
+   "fiber": 0,
+   "cal": 270
+  },
+  {
+   "cat": "Beverages",
+   "name": "Fanta Orange, Small",
+   "carb": 54,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Beverages",
+   "name": "Frozen Coca-Cola Classic, Large",
+   "carb": 29,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Beverages",
+   "name": "Frozen Coca-Cola Classic, Medium",
+   "carb": 21,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Beverages",
+   "name": "Frozen Coca-Cola Classic, Small",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Beverages",
+   "name": "Frozen Fanta Blue Raspberry, Large",
+   "carb": 29,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Beverages",
+   "name": "Frozen Fanta Blue Raspberry, Medium",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Beverages",
+   "name": "Frozen Fanta Blue Raspberry, Small",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Beverages",
+   "name": "Hi-C Orange Lavaburst, Extra Small",
+   "carb": 42,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Beverages",
+   "name": "Hi-C Orange Lavaburst, Large",
+   "carb": 104,
+   "fiber": 0,
+   "cal": 410
+  },
+  {
+   "cat": "Beverages",
+   "name": "Hi-C Orange Lavaburst, Medium",
+   "carb": 73,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Beverages",
+   "name": "Hi-C Orange Lavaburst, Small",
+   "carb": 56,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Beverages",
+   "name": "Honest Kids Appley Ever After Organic Juice Drink",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Beverages",
+   "name": "Hot Tea, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Beverages",
+   "name": "Hot Tea, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Beverages",
+   "name": "Hot Tea, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Beverages",
+   "name": "Lemonade, Large",
+   "carb": 68,
+   "fiber": 0,
+   "cal": 270
+  },
+  {
+   "cat": "Beverages",
+   "name": "Lemonade, Medium",
+   "carb": 48,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Beverages",
+   "name": "Lemonade, Small",
+   "carb": 31,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Beverages",
+   "name": "Mango Pineapple Smoothie, Large",
+   "carb": 78,
+   "fiber": 2,
+   "cal": 340
+  },
+  {
+   "cat": "Beverages",
+   "name": "Mango Pineapple Smoothie, Medium",
+   "carb": 57,
+   "fiber": 1,
+   "cal": 250
+  },
+  {
+   "cat": "Beverages",
+   "name": "Mango Pineapple Smoothie, Small",
+   "carb": 45,
+   "fiber": 1,
+   "cal": 200
+  },
+  {
+   "cat": "Beverages",
+   "name": "McCafe Hot Chocolate, Large",
+   "carb": 73,
+   "fiber": 0,
+   "cal": 540
+  },
+  {
+   "cat": "Beverages",
+   "name": "McCafe Hot Chocolate, Medium",
+   "carb": 62,
+   "fiber": 1,
+   "cal": 440
+  },
+  {
+   "cat": "Beverages",
+   "name": "McCafe Hot Chocolate, Small",
+   "carb": 51,
+   "fiber": 1,
+   "cal": 360
+  },
+  {
+   "cat": "Beverages",
+   "name": "Minute Maid Premium Orange Juice, Large",
+   "carb": 65,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Beverages",
+   "name": "Minute Maid Premium Orange Juice, Medium",
+   "carb": 45,
+   "fiber": 1,
+   "cal": 190
+  },
+  {
+   "cat": "Beverages",
+   "name": "Minute Maid Premium Orange Juice, Small",
+   "carb": 36,
+   "fiber": 1,
+   "cal": 150
+  },
+  {
+   "cat": "Beverages",
+   "name": "Reduced Sugar Low Fat Chocolate Milk Jug",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Beverages",
+   "name": "Sprite, Extra Small",
+   "carb": 36,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Beverages",
+   "name": "Sprite, Large",
+   "carb": 91,
+   "fiber": 0,
+   "cal": 350
+  },
+  {
+   "cat": "Beverages",
+   "name": "Sprite, Medium",
+   "carb": 64,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Beverages",
+   "name": "Sprite, Small",
+   "carb": 49,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Beverages",
+   "name": "Strawberry Banana Smoothie, Large",
+   "carb": 76,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Beverages",
+   "name": "Strawberry Banana Smoothie, Medium",
+   "carb": 55,
+   "fiber": 3,
+   "cal": 240
+  },
+  {
+   "cat": "Beverages",
+   "name": "Strawberry Banana Smoothie, Small",
+   "carb": 44,
+   "fiber": 2,
+   "cal": 190
+  },
+  {
+   "cat": "Beverages",
+   "name": "Sweet Tea, Extra Small",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Beverages",
+   "name": "Sweet Tea, Large",
+   "carb": 43,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Beverages",
+   "name": "Sweet Tea, Medium",
+   "carb": 31,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Beverages",
+   "name": "Sweet Tea, Small",
+   "carb": 42,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Beverages",
+   "name": "Unsweetened Iced Tea, Extra Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Beverages",
+   "name": "Unsweetened Iced Tea, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Beverages",
+   "name": "Unsweetened Iced Tea, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Beverages",
+   "name": "Unsweetened Iced Tea, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  }
+ ]
+}

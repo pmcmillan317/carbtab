@@ -1,0 +1,1060 @@
+<title>CarbWise Home</title>
+<meta name="description" content="Mobile-first home screen prototype for CarbWise, a fast carb-counting app." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" />
+
+<style>
+  /* ---------- tokens: light is the bare :root ---------- */
+  :root {
+    --bg: #F1F4EA;
+    --surface: #FFFFFF;
+    --surface-2: #E9EEDC;
+    --ink: #17201A;
+    --ink-muted: #5C6A5A;
+    --line: #E982;
+    --line: #DFE6D0;
+    --brand: #497F1B;
+    --brand-strong: #3C6B14;
+    --brand-bright: #7CB92C;
+    --brand-wash: #E9F3D6;
+    --caution: #A86608;
+    --caution-wash: #FBEBCF;
+    --danger: #BE3B2B;
+    --focus: #2F6DB0;
+    --shadow: 0 1px 2px rgba(23,32,26,.06), 0 8px 24px -12px rgba(23,32,26,.18);
+    --shadow-sheet: 0 -8px 40px -12px rgba(23,32,26,.28);
+
+    --font-display: 'Bricolage Grotesque', 'Trebuchet MS', sans-serif;
+    --font-sans: 'IBM Plex Sans', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+    --maxw: 460px;
+    --radius: 18px;
+    --radius-sm: 12px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0D120E;
+      --surface: #161E16;
+      --surface-2: #202B20;
+      --ink: #E7ECDF;
+      --ink-muted: #93A18E;
+      --line: #2B3A2B;
+      --brand: #9AD152;
+      --brand-strong: #B0E06B;
+      --brand-bright: #8FCB3A;
+      --brand-wash: #1A2A11;
+      --caution: #E0A43C;
+      --caution-wash: #33270F;
+      --danger: #E6796C;
+      --focus: #7FB3E6;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 10px 30px -14px rgba(0,0,0,.6);
+      --shadow-sheet: 0 -10px 44px -12px rgba(0,0,0,.7);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #0D120E;
+    --surface: #161E16;
+    --surface-2: #202B20;
+    --ink: #E7ECDF;
+    --ink-muted: #93A18E;
+    --line: #2B3A2B;
+    --brand: #9AD152;
+    --brand-strong: #B0E06B;
+    --brand-bright: #8FCB3A;
+    --brand-wash: #1A2A11;
+    --caution: #E0A43C;
+    --caution-wash: #33270F;
+    --danger: #E6796C;
+    --focus: #7FB3E6;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 10px 30px -14px rgba(0,0,0,.6);
+    --shadow-sheet: 0 -10px 44px -12px rgba(0,0,0,.7);
+  }
+
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: var(--font-sans);
+    background: var(--bg);
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    line-height: 1.45;
+  }
+  button { font: inherit; color: inherit; cursor: pointer; }
+  input { font: inherit; }
+  :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 6px; }
+  @media (prefers-reduced-motion: reduce) {
+    * { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+  }
+
+  /* ---------- shell ---------- */
+  .device {
+    max-width: var(--maxw);
+    margin: 0 auto;
+    min-height: 100vh;
+    background: var(--bg);
+    position: relative;
+    padding-bottom: 96px;
+  }
+
+  .topbar {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 12px;
+    padding: 16px 18px 8px;
+  }
+  .brand { display: flex; align-items: center; gap: 9px; }
+  .brand .mark {
+    width: 30px; height: 30px; border-radius: 9px;
+    background: var(--brand-bright);
+    display: grid; place-items: center;
+    color: #16240a;
+    flex: none;
+  }
+  .brand .mark svg { width: 19px; height: 19px; display: block; }
+  .brand b {
+    font-family: var(--font-display);
+    font-weight: 700; font-size: 19px; letter-spacing: -.01em;
+  }
+  .icon-btn {
+    width: 40px; height: 40px; border-radius: 11px;
+    border: 1px solid var(--line);
+    background: var(--surface);
+    display: grid; place-items: center;
+    color: var(--ink-muted);
+  }
+  .icon-btn svg { width: 18px; height: 18px; }
+
+  .screen { padding: 6px 18px 0; }
+  .screen[hidden] { display: none; }
+
+  /* ---------- today band ---------- */
+  .today {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 16px 18px 18px;
+    box-shadow: var(--shadow);
+  }
+  .today .row1 {
+    display: flex; align-items: baseline; justify-content: space-between; gap: 10px;
+  }
+  .eyebrow {
+    font-size: 12px; font-weight: 600; letter-spacing: .09em; text-transform: uppercase;
+    color: var(--ink-muted);
+  }
+  .today .total {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1;
+    letter-spacing: -.02em;
+    font-variant-numeric: tabular-nums;
+    margin: 8px 0 2px;
+  }
+  .today .total span { font-size: 17px; font-weight: 600; color: var(--ink-muted); font-family: var(--font-sans); }
+  .today .sub { font-size: 13.5px; color: var(--ink-muted); }
+  .today .sub b { color: var(--brand); font-weight: 700; }
+  .bar {
+    margin-top: 14px;
+    height: 10px; border-radius: 999px;
+    background: var(--surface-2);
+    overflow: hidden;
+  }
+  .bar > i {
+    display: block; height: 100%;
+    background: var(--brand-bright);
+    border-radius: 999px;
+    transition: width .35s ease;
+  }
+  .bar.over > i { background: var(--caution); }
+
+  /* ---------- primary action ---------- */
+  .ask {
+    margin-top: 18px;
+  }
+  .ask h1 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 21px;
+    letter-spacing: -.01em;
+    margin: 0 0 10px;
+    text-wrap: balance;
+  }
+  .searchwrap { position: relative; }
+  .searchwrap svg.s {
+    position: absolute; left: 16px; top: 50%; transform: translateY(-50%);
+    width: 20px; height: 20px; color: var(--ink-muted); pointer-events: none;
+  }
+  #q {
+    width: 100%;
+    height: 58px;
+    border-radius: 15px;
+    border: 1.5px solid var(--line);
+    background: var(--surface);
+    padding: 0 16px 0 46px;
+    font-size: 16px;
+    color: var(--ink);
+    box-shadow: var(--shadow);
+  }
+  #q::placeholder { color: var(--ink-muted); }
+  #q:focus { border-color: var(--brand-bright); outline: none; box-shadow: 0 0 0 4px var(--brand-wash); }
+
+  .tiles {
+    margin-top: 12px;
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;
+  }
+  .tile {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-sm);
+    padding: 14px 8px 12px;
+    display: flex; flex-direction: column; align-items: center; gap: 7px;
+    text-align: center;
+    min-height: 84px;
+    justify-content: center;
+  }
+  .tile svg { width: 22px; height: 22px; color: var(--brand); }
+  .tile span { font-size: 12.5px; font-weight: 600; color: var(--ink-muted); line-height: 1.2; }
+
+  /* ---------- section ---------- */
+  .sec { margin-top: 22px; }
+  .sec > .sechead {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .sec .sechead .eyebrow { color: var(--ink-muted); }
+  .link {
+    background: none; border: none; padding: 6px 4px;
+    color: var(--brand); font-weight: 600; font-size: 13px;
+  }
+
+  .list { display: flex; flex-direction: column; gap: 8px; }
+  .frow {
+    display: flex; align-items: center; gap: 12px;
+    width: 100%;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 12px 14px;
+    text-align: left;
+    min-height: 66px;
+  }
+  .frow:active { background: var(--surface-2); }
+  .frow .fmain { flex: 1; min-width: 0; }
+  .frow .fname {
+    font-size: 16px; font-weight: 600; letter-spacing: -.005em;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .frow .fmeta {
+    font-size: 12px; color: var(--ink-muted);
+    display: flex; align-items: center; gap: 6px; margin-top: 2px;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .src {
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    padding: 2px 6px;
+    border-radius: 6px;
+    background: var(--surface-2);
+    color: var(--ink-muted);
+    letter-spacing: .02em;
+    flex: none;
+  }
+  .src.usda { background: var(--brand-wash); color: var(--brand); }
+  .src.official { background: var(--caution-wash); color: var(--caution); }
+  .frow .fright { text-align: right; flex: none; }
+  .frow .fval {
+    font-family: var(--font-display);
+    font-weight: 700; font-size: 19px; line-height: 1;
+    font-variant-numeric: tabular-nums;
+  }
+  .frow .fval small { font-size: 11px; font-weight: 600; color: var(--ink-muted); font-family: var(--font-sans); }
+  .frow .fadd {
+    margin-top: 4px; font-size: 11px; color: var(--brand); font-weight: 600;
+  }
+  .empty {
+    text-align: center; color: var(--ink-muted); font-size: 14px;
+    padding: 28px 10px; border: 1px dashed var(--line); border-radius: 14px;
+  }
+
+  /* ---------- bottom nav ---------- */
+  .nav {
+    position: fixed; left: 0; right: 0; bottom: 0;
+    max-width: var(--maxw); margin: 0 auto;
+    background: var(--surface);
+    border-top: 1px solid var(--line);
+    display: grid; grid-template-columns: repeat(4, 1fr);
+    padding: 6px 6px calc(6px + env(safe-area-inset-bottom));
+    z-index: 30;
+  }
+  .nav button {
+    background: none; border: none;
+    display: flex; flex-direction: column; align-items: center; gap: 3px;
+    padding: 8px 4px;
+    color: var(--ink-muted);
+    font-size: 11px; font-weight: 600;
+    border-radius: 10px;
+  }
+  .nav button svg { width: 22px; height: 22px; }
+  .nav button[aria-current="true"] { color: var(--brand); }
+
+  .disclaimer {
+    position: fixed; left: 0; right: 0; bottom: calc(62px + env(safe-area-inset-bottom));
+    max-width: var(--maxw); margin: 0 auto;
+    text-align: center;
+    font-size: 11px; color: var(--ink-muted);
+    padding: 4px 18px;
+    pointer-events: none;
+  }
+
+  /* ---------- weigh sheet ---------- */
+  .scrim {
+    position: fixed; inset: 0; background: rgba(10,16,11,.55);
+    z-index: 40; opacity: 0; pointer-events: none; transition: opacity .2s ease;
+  }
+  .scrim.show { opacity: 1; pointer-events: auto; }
+  .sheet {
+    position: fixed; left: 0; right: 0; bottom: 0;
+    max-width: var(--maxw); margin: 0 auto;
+    background: var(--surface);
+    border-radius: 22px 22px 0 0;
+    box-shadow: var(--shadow-sheet);
+    z-index: 50;
+    transform: translateY(100%);
+    transition: transform .26s cubic-bezier(.2,.7,.2,1);
+    padding: 10px 20px calc(22px + env(safe-area-inset-bottom));
+  }
+  .sheet.show { transform: translateY(0); }
+  .grab { width: 40px; height: 4px; border-radius: 999px; background: var(--line); margin: 0 auto 14px; }
+  .sheet .sname { font-family: var(--font-display); font-weight: 700; font-size: 20px; letter-spacing: -.01em; }
+  .sheet .smeta { font-size: 12.5px; color: var(--ink-muted); margin-top: 3px; display: flex; gap: 7px; align-items: center; flex-wrap: wrap; }
+
+  .weighrow { margin-top: 18px; display: flex; align-items: stretch; gap: 10px; }
+  .weighrow .field { flex: 1; position: relative; }
+  .weighrow label {
+    position: absolute; top: 8px; left: 16px;
+    font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase;
+    color: var(--ink-muted);
+  }
+  #grams {
+    width: 100%; height: 68px;
+    border-radius: 15px; border: 1.5px solid var(--line);
+    background: var(--bg);
+    padding: 20px 42px 0 16px;
+    font-family: var(--font-display);
+    font-weight: 700; font-size: 26px;
+    color: var(--ink);
+    font-variant-numeric: tabular-nums;
+  }
+  #grams:focus { outline: none; border-color: var(--brand-bright); box-shadow: 0 0 0 4px var(--brand-wash); }
+  .weighrow .unit { position: absolute; right: 16px; bottom: 16px; font-size: 15px; font-weight: 600; color: var(--ink-muted); }
+  .fixedserv {
+    flex: 1;
+    border-radius: 15px; border: 1.5px dashed var(--line);
+    background: var(--bg);
+    display: flex; flex-direction: column; justify-content: center; padding: 0 16px;
+  }
+  .fixedserv .k { font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-muted); }
+  .fixedserv .v { font-family: var(--font-display); font-weight: 700; font-size: 20px; }
+
+  .result {
+    margin-top: 16px;
+    background: var(--brand-wash);
+    border: 1px solid color-mix(in srgb, var(--brand-bright) 40%, transparent);
+    border-radius: var(--radius);
+    padding: 18px;
+    display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  }
+  .result .rk { font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--brand-strong); }
+  .result .rv {
+    font-family: var(--font-display);
+    font-weight: 700; font-size: 60px; line-height: .9;
+    letter-spacing: -.02em;
+    color: var(--brand-strong);
+    font-variant-numeric: tabular-nums;
+  }
+  .result .rv small { font-size: 20px; font-weight: 600; }
+
+  .chips { margin-top: 14px; display: flex; gap: 8px; flex-wrap: wrap; }
+  .chip {
+    border: 1px solid var(--line); background: var(--surface);
+    border-radius: 999px; padding: 9px 14px;
+    font-size: 13px; font-weight: 600; color: var(--ink-muted);
+  }
+  .chip[aria-pressed="true"] { background: var(--brand-wash); color: var(--brand-strong); border-color: var(--brand-bright); }
+
+  .primary {
+    margin-top: 16px;
+    width: 100%; height: 56px;
+    border: none; border-radius: 15px;
+    background: var(--brand); color: #fff;
+    font-weight: 700; font-size: 16px; letter-spacing: .01em;
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+  }
+  :root[data-theme="dark"] .primary, :root:not([data-theme="light"]) .primary { color: #10240a; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .primary { color: #10240a; } }
+  .primary svg { width: 19px; height: 19px; }
+  .ghost {
+    margin-top: 8px; width: 100%; height: 46px;
+    border: none; background: none; color: var(--ink-muted); font-weight: 600; font-size: 14px;
+  }
+
+  /* ---------- log screen ---------- */
+  .logitem {
+    display: flex; align-items: center; gap: 12px;
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: 14px; padding: 12px 14px;
+  }
+  .logitem .lmain { flex: 1; min-width: 0; }
+  .logitem .lname { font-size: 15.5px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .logitem .lmeta { font-size: 12px; color: var(--ink-muted); margin-top: 2px; }
+  .logitem .lval { font-family: var(--font-display); font-weight: 700; font-size: 18px; font-variant-numeric: tabular-nums; }
+  .logitem .del { width: 34px; height: 34px; border-radius: 9px; border: 1px solid var(--line); background: var(--surface); display: grid; place-items: center; color: var(--ink-muted); flex: none; }
+  .logitem .del svg { width: 15px; height: 15px; }
+
+  .daygoal {
+    background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 16px 18px; box-shadow: var(--shadow); margin-bottom: 16px;
+  }
+  .daygoal .big {
+    font-family: var(--font-display); font-weight: 700; font-size: 34px; line-height: 1;
+    font-variant-numeric: tabular-nums; margin-top: 6px;
+  }
+  .daygoal .big .unit { font-size: 15px; color: var(--ink-muted); font-weight: 600; font-family: var(--font-sans); }
+
+  /* ---------- first-run disclaimer modal ---------- */
+  .modal-scrim {
+    position: fixed; inset: 0; background: rgba(10,16,11,.6);
+    z-index: 80; display: grid; place-items: center; padding: 22px;
+  }
+  .modal-scrim[hidden] { display: none; }
+  .modal {
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: 22px; padding: 24px 22px;
+    max-width: 400px; box-shadow: var(--shadow);
+  }
+  .modal .mi {
+    width: 46px; height: 46px; border-radius: 13px;
+    background: var(--caution-wash); color: var(--caution);
+    display: grid; place-items: center; margin-bottom: 12px;
+  }
+  .modal .mi svg { width: 24px; height: 24px; }
+  .modal h2 { font-family: var(--font-display); font-weight: 700; font-size: 19px; margin: 0 0 8px; }
+  .modal p { font-size: 13.5px; color: var(--ink-muted); margin: 0 0 10px; }
+  .modal .primary { color: #fff; }
+
+  .note {
+    margin-top: 26px; font-size: 12px; color: var(--ink-muted);
+    border-top: 1px solid var(--line); padding-top: 14px; line-height: 1.6;
+  }
+  .note b { color: var(--ink); font-weight: 600; }
+</style>
+
+<div class="device">
+  <div class="topbar">
+    <div class="brand">
+      <span class="mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M12 21c4-3 7-6.5 7-11a7 7 0 0 0-14 0c0 4.5 3 8 7 11Z" fill="currentColor"/><path d="M12 3c1.5 2 1.5 4 0 6" stroke="#7CB92C" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </span>
+      <b>CarbWise</b>
+    </div>
+    <button class="icon-btn" id="themeBtn" aria-label="Switch light or dark theme">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4 12H2M22 12h-2M5 5l1.5 1.5M17.5 17.5 19 19M19 5l-1.5 1.5M6.5 17.5 5 19"/></svg>
+    </button>
+  </div>
+
+  <!-- ============ HOME ============ -->
+  <main class="screen" id="screen-home">
+    <section class="today" aria-label="Carbs logged today">
+      <div class="row1">
+        <span class="eyebrow">Today</span>
+        <span class="eyebrow" id="todayDate">Tue, Sep 9</span>
+      </div>
+      <div class="total"><span id="tPrefix"></span><span style="font-family:var(--font-display);color:var(--ink);font-size:44px" id="tNum">0</span> <span>g carbs</span></div>
+      <div class="sub" id="tSub">Nothing logged yet. <b>150 g</b> goal for the day.</div>
+      <div class="bar" id="tBar"><i style="width:0%"></i></div>
+    </section>
+
+    <section class="ask">
+      <h1>What are you eating?</h1>
+      <div class="searchwrap">
+        <svg class="s" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q" type="search" inputmode="search" autocomplete="off" placeholder="Search a food, or a restaurant" aria-label="Search foods and restaurants" />
+      </div>
+      <div class="tiles">
+        <button class="tile" data-demo="Scan a nutrition label">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7V5a1 1 0 0 1 1-1h2M17 4h2a1 1 0 0 1 1 1v2M20 17v2a1 1 0 0 1-1 1h-2M7 20H5a1 1 0 0 1-1-1v-2"/><path d="M7 12h10"/></svg>
+          <span>Scan label</span>
+        </button>
+        <button class="tile" data-demo="Estimate carbs from a photo">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 8a2 2 0 0 1 2-2h1.5l1-1.5h5L16 6h3a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"/><circle cx="12" cy="12" r="3.2"/></svg>
+          <span>Photo</span>
+        </button>
+        <button class="tile" id="restBtn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 3v18M5 8h4V3M9 3v5M19 3s-3 1-3 6 3 4 3 4v8"/></svg>
+          <span>Restaurants</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="sec" id="resultsSec" hidden>
+      <div class="sechead"><span class="eyebrow" id="resultsLabel">Results</span><button class="link" id="clearQ">Clear</button></div>
+      <div class="list" id="results"></div>
+    </section>
+
+    <section class="sec" id="quickSec">
+      <div class="sechead"><span class="eyebrow">Quick add</span><button class="link" id="editQuick">Recent &amp; favourites</button></div>
+      <div class="list" id="quick"></div>
+    </section>
+
+    <p class="note">
+      <b>Prototype.</b> This is the redesigned home screen only: one big question, one tap to a food, a weight, and the carb number rendered large enough to read at a glance or with shaky hands. Numbers below come from the curated CarbWise dataset (USDA-derived whole foods) plus a sample of official restaurant nutrition. Tap anything to try the flow.
+    </p>
+  </main>
+
+  <!-- ============ LOG ============ -->
+  <main class="screen" id="screen-log" hidden>
+    <div class="daygoal">
+      <span class="eyebrow">Carbs today</span>
+      <div class="big"><span id="lgNum">0</span> <span class="unit" id="lgGoal">/ 150 g goal</span></div>
+      <div class="bar" id="lgBar" style="margin-top:12px"><i style="width:0%"></i></div>
+    </div>
+    <div class="sec" style="margin-top:0">
+      <div class="sechead"><span class="eyebrow">Logged items</span><button class="link" id="clearDay">Clear day</button></div>
+      <div class="list" id="logList"><div class="empty">No items yet today. Add one from Home.</div></div>
+    </div>
+    <p class="note"><b>Log</b> keeps the running total that shows on Home. Each entry stores the food, the weight, the carb basis (total or net), and where the number came from, so a value can be checked later.</p>
+  </main>
+
+  <!-- ============ FOODS ============ -->
+  <main class="screen" id="screen-foods" hidden>
+    <div class="ask" style="margin-top:8px">
+      <h1>Food database</h1>
+      <div class="searchwrap">
+        <svg class="s" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q2" type="search" autocomplete="off" placeholder="Search all foods" aria-label="Search all foods" />
+      </div>
+    </div>
+    <div class="sec" style="margin-top:16px"><div class="list" id="foodsList"></div></div>
+  </main>
+
+  <!-- ============ SETTINGS ============ -->
+  <main class="screen" id="screen-settings" hidden>
+    <div class="ask" style="margin-top:8px"><h1>Settings</h1></div>
+    <div class="sec" style="margin-top:14px">
+      <div class="sechead"><span class="eyebrow">Count carbs as</span></div>
+      <div class="chips">
+        <button class="chip" data-basis="total" aria-pressed="true">Total carbs</button>
+        <button class="chip" data-basis="net" aria-pressed="false">Net carbs (total &minus; fiber)</button>
+      </div>
+      <p class="note" style="margin-top:12px;border:0;padding:0">Your care team teaches one of these. CarbWise stores both factors for every food and shows the basis on every result. Net values need fiber data, which the sample set does not carry yet, so the demo shows total.</p>
+    </div>
+    <div class="sec">
+      <div class="sechead"><span class="eyebrow">Daily carb goal</span></div>
+      <div class="chips">
+        <button class="chip goal" data-goal="120">120 g</button>
+        <button class="chip goal" data-goal="150" aria-pressed="true">150 g</button>
+        <button class="chip goal" data-goal="180">180 g</button>
+        <button class="chip goal" data-goal="220">220 g</button>
+      </div>
+    </div>
+    <p class="note"><b>Not medical advice.</b> CarbWise estimates carbohydrate for information and logging. It does not calculate insulin doses. Talk to a diabetes clinician before changing how you count or dose.</p>
+  </main>
+
+  <div class="disclaimer">Estimates for information only &mdash; not medical advice</div>
+
+  <nav class="nav" aria-label="Main">
+    <button data-go="home" aria-current="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11 12 4l8 7"/><path d="M6 10v9h12v-9"/></svg>
+      Home
+    </button>
+    <button data-go="log">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h14v16l-7-3-7 3Z"/><path d="M9 9h6M9 13h4"/></svg>
+      Log
+    </button>
+    <button data-go="foods">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4c4 0 7 1.5 7 4v8c0 2.5-3 4-7 4s-7-1.5-7-4V8c0-2.5 3-4 7-4Z"/><path d="M5 8c0 2.5 3 4 7 4s7-1.5 7-4"/></svg>
+      Foods
+    </button>
+    <button data-go="settings">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.5 5.5l2 2M16.5 16.5l2 2M18.5 5.5l-2 2M7.5 16.5l-2 2"/></svg>
+      Settings
+    </button>
+  </nav>
+</div>
+
+<!-- weigh sheet -->
+<div class="scrim" id="scrim"></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetName">
+  <div class="grab"></div>
+  <div id="sheetName" class="sname">Food</div>
+  <div class="smeta" id="sheetMeta"></div>
+
+  <div class="weighrow" id="weighVariable">
+    <div class="field">
+      <label for="grams">Weight</label>
+      <input id="grams" type="number" inputmode="decimal" min="0" step="1" value="100" />
+      <span class="unit">grams</span>
+    </div>
+  </div>
+
+  <div class="chips" id="servChips"></div>
+
+  <div class="result">
+    <span class="rk">Carbs &middot; <span id="basisLabel">total</span></span>
+    <span class="rv" id="carbOut">14<small>g</small></span>
+  </div>
+
+  <button class="primary" id="addBtn">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+    Add to today
+  </button>
+  <button class="ghost" id="closeSheet">Cancel</button>
+</div>
+
+<!-- first-run disclaimer -->
+<div class="modal-scrim" id="firstRun" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="frTitle">
+    <div class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3 2 20h20L12 3Z"/><path d="M12 9v5M12 17.5v.5"/></svg></div>
+    <h2 id="frTitle">Before you start</h2>
+    <p>CarbWise helps you estimate and log grams of carbohydrate. It is an information tool, not a medical device, and it does not tell you how much insulin to take.</p>
+    <p>Always follow the carb-counting and dosing plan from your own diabetes care team.</p>
+    <button class="primary" id="frOk" style="color:#fff">I understand</button>
+  </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+  var LS = null;
+  try { LS = window.localStorage; } catch (e) { LS = null; }
+  var safeGet = function (k, d) { try { if (!LS) return d; var v = LS.getItem(k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } };
+  var safeSet = function (k, v) { try { if (LS) LS.setItem(k, JSON.stringify(v)); } catch (e) {} };
+
+  /* ---------- data: curated whole foods (USDA-derived) ---------- */
+  var FOODS = [
+    ["Apple, with skin",0.138,"Fruit","1 medium (182 g)",182,"usda"],
+    ["Banana",0.228,"Fruit","1 medium (118 g)",118,"usda"],
+    ["Orange",0.118,"Fruit","1 medium (131 g)",131,"usda"],
+    ["Strawberries",0.077,"Fruit","1 cup (144 g)",144,"usda"],
+    ["Blueberries",0.145,"Fruit","1 cup (148 g)",148,"usda"],
+    ["Grapes",0.181,"Fruit","1 cup (151 g)",151,"usda"],
+    ["Watermelon, diced",0.076,"Fruit","1 cup (152 g)",152,"usda"],
+    ["Mango, chunks",0.150,"Fruit","1 cup (165 g)",165,"usda"],
+    ["Pineapple, chunks",0.131,"Fruit","1 cup (165 g)",165,"usda"],
+    ["Raisins",0.792,"Fruit","1 small box (43 g)",43,"usda"],
+    ["Medjool-style date",0.750,"Fruit","1 date (7 g)",7,"usda"],
+    ["Avocado",0.085,"Fruit","1 medium (150 g)",150,"usda"],
+    ["Carrot, raw",0.096,"Vegetable","1 medium (61 g)",61,"usda"],
+    ["Broccoli, cooked",0.072,"Vegetable","1 cup (150 g)",150,"usda"],
+    ["White potato, boiled",0.201,"Vegetable","1 medium (150 g)",150,"usda"],
+    ["Sweet potato, baked",0.207,"Vegetable","1 medium (114 g)",114,"usda"],
+    ["Sweet corn kernels",0.187,"Vegetable","1 cup (145 g)",145,"usda"],
+    ["Green peas, cooked",0.145,"Vegetable","1 cup (160 g)",160,"usda"],
+    ["Baby spinach",0.036,"Vegetable","2 cups (60 g)",60,"usda"],
+    ["Red bell pepper",0.060,"Vegetable","1 medium (119 g)",119,"usda"],
+    ["Butternut squash, baked",0.117,"Vegetable","1 cup (205 g)",205,"usda"],
+    ["Black beans, canned",0.166,"Beans","1/2 cup (130 g)",130,"usda"],
+    ["Lentils, cooked",0.201,"Beans","1 cup (198 g)",198,"usda"],
+    ["Hummus",0.140,"Beans","2 tbsp (30 g)",30,"usda"],
+    ["Oatmeal, cooked",0.120,"Grain","1 cup (234 g)",234,"usda"],
+    ["White rice, cooked",0.282,"Grain","1 cup (158 g)",158,"usda"],
+    ["Brown rice, cooked",0.256,"Grain","1 cup (195 g)",195,"usda"],
+    ["Quinoa, cooked",0.213,"Grain","1 cup (185 g)",185,"usda"],
+    ["Spaghetti, cooked",0.307,"Grain","1 cup (140 g)",140,"usda"],
+    ["Couscous, cooked",0.230,"Grain","1 cup (157 g)",157,"usda"],
+    ["White bread",0.490,"Grain","1 slice (25 g)",25,"usda"],
+    ["Whole wheat bread",0.410,"Grain","1 slice (28 g)",28,"usda"],
+    ["Plain bagel",0.530,"Grain","1 medium (95 g)",95,"usda"],
+    ["English muffin",0.460,"Grain","1 muffin (57 g)",57,"usda"],
+    ["Corn tortilla",0.440,"Grain","1 small (26 g)",26,"usda"],
+    ["Flour tortilla",0.480,"Grain","1 medium (49 g)",49,"usda"],
+    ["Pancake, prepared",0.280,"Grain","1 pancake (40 g)",40,"usda"],
+    ["Potato chips",0.530,"Snack","1 oz bag (28 g)",28,"usda"],
+    ["Tortilla chips",0.650,"Snack","1 oz (28 g)",28,"usda"],
+    ["Pretzel sticks",0.800,"Snack","1 oz (28 g)",28,"usda"],
+    ["Saltine crackers",0.720,"Snack","5 crackers (15 g)",15,"usda"],
+    ["Chocolate chip cookie",0.620,"Snack","1 cookie (16 g)",16,"usda"],
+    ["Granola bar",0.680,"Snack","1 bar (24 g)",24,"usda"],
+    ["Air-popped popcorn",0.580,"Snack","2 cups (16 g)",16,"usda"],
+    ["Dark chocolate, 70%",0.460,"Snack","3 squares (30 g)",30,"usda"],
+    ["Corn flakes",0.840,"Snack","1 cup (28 g)",28,"usda"],
+    ["Almonds",0.216,"Nuts","1 oz (28 g)",28,"usda"],
+    ["Peanut butter, creamy",0.200,"Nuts","2 tbsp (32 g)",32,"usda"],
+    ["Cashews, dry roasted",0.302,"Nuts","1 oz (28 g)",28,"usda"],
+    ["Whole milk",0.048,"Dairy","1 glass (244 g)",244,"usda"],
+    ["Greek yogurt, plain",0.036,"Dairy","1 tub (150 g)",150,"usda"],
+    ["Lowfat yogurt, plain",0.070,"Dairy","1 cup (227 g)",227,"usda"],
+    ["Cheddar cheese",0.013,"Dairy","1 slice (28 g)",28,"usda"],
+    ["Large egg",0.006,"Protein","1 egg (50 g)",50,"usda"],
+    ["Chicken breast, cooked",0.000,"Protein","1 breast (140 g)",140,"usda"],
+    ["Grilled salmon",0.000,"Protein","1 fillet (150 g)",150,"usda"],
+    ["Honey",0.824,"Other","1 tbsp (21 g)",21,"usda"],
+    ["Maple syrup",0.670,"Other","1 tbsp (20 g)",20,"usda"],
+    ["Tomato ketchup",0.260,"Other","1 tbsp (17 g)",17,"usda"],
+    ["Orange juice",0.104,"Other","1 cup (248 g)",248,"usda"]
+  ];
+
+  /* ---------- data: sample official restaurant items (fixed serving) ---------- */
+  var RESTAURANTS = {
+    "McDonald's": [
+      ["Hamburger",31,"1 sandwich (100 g)"],
+      ["Cheeseburger",32,"1 sandwich (119 g)"],
+      ["Double Cheeseburger",34,"1 sandwich (151 g)"],
+      ["Big Mac",45,"1 sandwich (219 g)"],
+      ["McChicken",40,"1 sandwich (143 g)"],
+      ["10 pc Chicken McNuggets",25,"1 order (162 g)"],
+      ["Small Fries",29,"1 serving (75 g)"],
+      ["Medium Fries",44,"1 serving (117 g)"],
+      ["Large Fries",56,"1 serving (150 g)"],
+      ["Egg McMuffin",30,"1 sandwich (132 g)"],
+      ["Hotcakes, no syrup",51,"1 order (221 g)"],
+      ["Coca-Cola, medium",51,"21 fl oz"],
+      ["Vanilla cone",21,"1 cone (92 g)"]
+    ],
+    "Starbucks": [
+      ["Caffè Latte, Grande (2% milk)",19,"16 fl oz"],
+      ["Caramel Macchiato, Grande",33,"16 fl oz"],
+      ["Caffè Mocha, Grande",35,"16 fl oz"],
+      ["Pike Place brewed coffee, Grande",0,"16 fl oz"],
+      ["Iced Brown Sugar Oatmilk Shaken Espresso, Grande",27,"16 fl oz"],
+      ["Pumpkin Spice Latte, Grande",52,"16 fl oz"],
+      ["Butter Croissant",26,"1 croissant (71 g)"],
+      ["Chocolate Croissant",39,"1 croissant (85 g)"],
+      ["Blueberry Muffin",49,"1 muffin (113 g)"],
+      ["Bacon, Gouda & Egg Sandwich",33,"1 sandwich (139 g)"],
+      ["Spinach, Feta & Egg White Wrap",34,"1 wrap (170 g)"],
+      ["Plain Bagel",56,"1 bagel (105 g)"]
+    ]
+  };
+
+  var GOAL_KEY = "cw_demo_goal", LOG_KEY = "cw_demo_log", BASIS_KEY = "cw_demo_basis", THEME_KEY = "cw_demo_theme", SEEN_KEY = "cw_demo_seen";
+  var goal = safeGet(GOAL_KEY, 150);
+  var log = safeGet(LOG_KEY, []);
+  var basis = safeGet(BASIS_KEY, "total");
+
+  var $ = function (s, r) { return (r || document).querySelector(s); };
+  var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
+  var el = function (t, c, txt) { var e = document.createElement(t); if (c) e.className = c; if (txt != null) e.textContent = txt; return e; };
+  var round = function (n) { return Math.round(n); };
+
+  /* ---------- theme ---------- */
+  var savedTheme = safeGet(THEME_KEY, null);
+  if (savedTheme) document.documentElement.setAttribute("data-theme", savedTheme);
+  $("#themeBtn").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var isDark = cur ? cur === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;
+    var next = isDark ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", next);
+    safeSet(THEME_KEY, next);
+  });
+
+  /* ---------- date ---------- */
+  var now = new Date();
+  var dfmt = now.toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" });
+  $("#todayDate").textContent = dfmt;
+
+  /* ---------- today totals ---------- */
+  function todayTotal() {
+    var t = 0; log.forEach(function (i) { t += i.carbs; }); return t;
+  }
+  function renderToday() {
+    var t = todayTotal();
+    $("#tNum").textContent = t;
+    $("#lgNum").textContent = t;
+    var pct = Math.min(100, Math.round((t / goal) * 100));
+    var over = t > goal;
+    $("#tBar").classList.toggle("over", over);
+    $("#tBar").firstElementChild.style.width = pct + "%";
+    $("#lgBar").classList.toggle("over", over);
+    $("#lgBar").firstElementChild.style.width = pct + "%";
+    $("#lgGoal").textContent = "/ " + goal + " g goal";
+    if (t === 0) {
+      $("#tSub").innerHTML = 'Nothing logged yet. <b>' + goal + ' g</b> goal for the day.';
+    } else if (over) {
+      $("#tSub").innerHTML = '<b>' + (t - goal) + ' g</b> over the ' + goal + ' g goal.';
+    } else {
+      $("#tSub").innerHTML = '<b>' + (goal - t) + ' g</b> left before the ' + goal + ' g goal.';
+    }
+  }
+
+  /* ---------- quick add (recent + a few staples) ---------- */
+  function quickList() {
+    var recent = safeGet("cw_demo_recent", []);
+    var names = recent.slice(0, 3);
+    ["Banana", "White rice, cooked", "White bread", "Medium Fries"].forEach(function (n) {
+      if (names.indexOf(n) < 0 && names.length < 5) names.push(n);
+    });
+    return names;
+  }
+  function findAny(name) {
+    for (var i = 0; i < FOODS.length; i++) if (FOODS[i][0] === name) return mkFood(FOODS[i]);
+    for (var r in RESTAURANTS) {
+      for (var j = 0; j < RESTAURANTS[r].length; j++) {
+        if (RESTAURANTS[r][j][0] === name) return mkRest(r, RESTAURANTS[r][j]);
+      }
+    }
+    return null;
+  }
+  function renderQuick() {
+    var box = $("#quick"); box.innerHTML = "";
+    quickList().forEach(function (n) {
+      var f = findAny(n); if (!f) return;
+      box.appendChild(foodRow(f, true));
+    });
+  }
+
+  /* ---------- food object builders ---------- */
+  function mkFood(a) {
+    return { kind: "food", name: a[0], factor: a[1], cat: a[2], serving: a[3], servingG: a[4], src: a[5] };
+  }
+  function mkRest(r, a) {
+    return { kind: "rest", name: a[0], restaurant: r, carbs: a[1], serving: a[2], src: "official" };
+  }
+
+  /* ---------- rows ---------- */
+  function foodRow(f, quick) {
+    var b = el("button", "frow");
+    var main = el("div", "fmain");
+    main.appendChild(el("div", "fname", f.kind === "rest" ? f.name : f.name));
+    var meta = el("div", "fmeta");
+    var s = el("span", "src " + (f.src === "usda" ? "usda" : f.src === "official" ? "official" : ""));
+    s.textContent = f.kind === "rest" ? f.restaurant : "USDA";
+    meta.appendChild(s);
+    meta.appendChild(el("span", null, f.kind === "rest" ? f.serving : (Math.round(f.factor * 100) + " g per 100 g")));
+    main.appendChild(meta);
+    b.appendChild(main);
+
+    var right = el("div", "fright");
+    var val = el("div", "fval");
+    if (f.kind === "rest") {
+      val.innerHTML = f.carbs + '<small> g</small>';
+    } else {
+      var perServ = f.servingG ? round(f.factor * f.servingG) : round(f.factor * 100);
+      val.innerHTML = perServ + '<small> g</small>';
+    }
+    right.appendChild(val);
+    right.appendChild(el("div", "fadd", quick ? "tap to add" : (f.kind === "rest" ? "per serving" : "per serving")));
+    b.appendChild(right);
+
+    b.addEventListener("click", function () { openSheet(f); });
+    return b;
+  }
+
+  /* ---------- search ---------- */
+  function search(term) {
+    term = term.trim().toLowerCase();
+    if (!term) return [];
+    var out = [];
+    for (var r in RESTAURANTS) {
+      if (r.toLowerCase().indexOf(term) >= 0) {
+        RESTAURANTS[r].forEach(function (a) { out.push(mkRest(r, a)); });
+      } else {
+        RESTAURANTS[r].forEach(function (a) {
+          if (a[0].toLowerCase().indexOf(term) >= 0) out.push(mkRest(r, a));
+        });
+      }
+    }
+    FOODS.forEach(function (a) {
+      if (a[0].toLowerCase().indexOf(term) >= 0 || a[2].toLowerCase().indexOf(term) >= 0) out.push(mkFood(a));
+    });
+    return out.slice(0, 40);
+  }
+
+  function runSearch(term, targetList, labelEl) {
+    var res = search(term);
+    targetList.innerHTML = "";
+    if (!term) { return false; }
+    if (labelEl) labelEl.textContent = res.length + ' match' + (res.length === 1 ? '' : 'es') + ' for "' + term + '"';
+    if (!res.length) {
+      targetList.innerHTML = '<div class="empty">No match. Try a simpler word, or add it as a custom food.</div>';
+      return true;
+    }
+    res.forEach(function (f) { targetList.appendChild(foodRow(f, false)); });
+    return true;
+  }
+
+  var q = $("#q");
+  q.addEventListener("input", function () {
+    var has = runSearch(q.value, $("#results"), $("#resultsLabel"));
+    $("#resultsSec").hidden = !has;
+    $("#quickSec").hidden = has;
+  });
+  $("#clearQ").addEventListener("click", function () {
+    q.value = ""; $("#resultsSec").hidden = true; $("#quickSec").hidden = false;
+  });
+  $("#restBtn").addEventListener("click", function () {
+    q.value = "Starbucks"; q.dispatchEvent(new Event("input")); q.focus();
+  });
+
+  var q2 = $("#q2");
+  function renderAllFoods(term) {
+    var list = $("#foodsList"); list.innerHTML = "";
+    var arr = term ? search(term) : FOODS.map(mkFood);
+    arr.forEach(function (f) { list.appendChild(foodRow(f, false)); });
+  }
+  q2.addEventListener("input", function () { renderAllFoods(q2.value); });
+
+  $$(".tile[data-demo]").forEach(function (t) {
+    t.addEventListener("click", function () {
+      alert(t.getAttribute("data-demo") + "\n\n(Not built in this prototype — the redesign keeps these one tap from the home screen, same size as search.)");
+    });
+  });
+
+  /* ---------- weigh sheet ---------- */
+  var sheet = $("#sheet"), scrim = $("#scrim"), current = null;
+  function openSheet(f) {
+    current = f;
+    $("#sheetName").textContent = f.name;
+    var meta = $("#sheetMeta"); meta.innerHTML = "";
+    var s = el("span", "src " + (f.src === "usda" ? "usda" : "official"));
+    s.textContent = f.kind === "rest" ? f.restaurant : "USDA whole food";
+    meta.appendChild(s);
+    meta.appendChild(el("span", null, f.kind === "rest" ? f.serving : f.cat));
+    $("#basisLabel").textContent = basis;
+
+    var chipBox = $("#servChips"); chipBox.innerHTML = "";
+    if (f.kind === "rest") {
+      $("#weighVariable").hidden = true;
+      chipBox.hidden = true;
+    } else {
+      $("#weighVariable").hidden = false;
+      chipBox.hidden = false;
+      var presets = [30, 50, 100];
+      if (f.servingG && presets.indexOf(f.servingG) < 0) presets.push(f.servingG);
+      presets.sort(function (a, b) { return a - b; });
+      presets.forEach(function (g) {
+        var c = el("button", "chip", g === f.servingG ? ("1 serving · " + g + " g") : (g + " g"));
+        c.addEventListener("click", function () {
+          $("#grams").value = g;
+          $$(".chip", chipBox).forEach(function (x) { x.setAttribute("aria-pressed", "false"); });
+          c.setAttribute("aria-pressed", "true");
+          calc();
+        });
+        chipBox.appendChild(c);
+      });
+      $("#grams").value = f.servingG || 100;
+      $$(".chip", chipBox).forEach(function (x) { x.setAttribute("aria-pressed", "false"); });
+      var match = $$(".chip", chipBox).filter(function (x) { return parseInt(x.textContent) === (f.servingG || 100); })[0];
+      if (match) match.setAttribute("aria-pressed", "true");
+    }
+    calc();
+    scrim.classList.add("show");
+    sheet.classList.add("show");
+  }
+  function closeSheet() { scrim.classList.remove("show"); sheet.classList.remove("show"); current = null; }
+  function calc() {
+    if (!current) return;
+    var carbs;
+    if (current.kind === "rest") carbs = current.carbs;
+    else {
+      var g = parseFloat($("#grams").value) || 0;
+      carbs = current.factor * g;
+    }
+    $("#carbOut").innerHTML = round(carbs) + '<small>g</small>';
+  }
+  $("#grams").addEventListener("input", function () {
+    $$(".chip", $("#servChips")).forEach(function (x) { x.setAttribute("aria-pressed", "false"); });
+    calc();
+  });
+  $("#closeSheet").addEventListener("click", closeSheet);
+  scrim.addEventListener("click", closeSheet);
+  $("#addBtn").addEventListener("click", function () {
+    if (!current) return;
+    var carbs, weight;
+    if (current.kind === "rest") { carbs = current.carbs; weight = null; }
+    else { weight = parseFloat($("#grams").value) || 0; carbs = round(current.factor * weight); }
+    log.unshift({
+      id: Date.now(),
+      name: current.name,
+      sub: current.kind === "rest" ? (current.restaurant + " · " + current.serving) : (weight + " g · " + basis + " carbs"),
+      carbs: round(carbs)
+    });
+    safeSet(LOG_KEY, log);
+    var recent = safeGet("cw_demo_recent", []);
+    recent = [current.name].concat(recent.filter(function (n) { return n !== current.name; })).slice(0, 6);
+    safeSet("cw_demo_recent", recent);
+    renderToday(); renderLog(); renderQuick();
+    flash(current.name + " added · " + round(carbs) + " g");
+    closeSheet();
+  });
+
+  /* ---------- log screen ---------- */
+  function renderLog() {
+    var box = $("#logList"); box.innerHTML = "";
+    if (!log.length) { box.innerHTML = '<div class="empty">No items yet today. Add one from Home.</div>'; return; }
+    log.forEach(function (i) {
+      var row = el("div", "logitem");
+      var m = el("div", "lmain");
+      m.appendChild(el("div", "lname", i.name));
+      m.appendChild(el("div", "lmeta", i.sub));
+      row.appendChild(m);
+      row.appendChild(Object.assign(el("div", "lval"), { textContent: i.carbs + " g" }));
+      var del = el("button", "del"); del.setAttribute("aria-label", "Remove " + i.name);
+      del.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M9 7V5h6v2M6 7l1 13h10l1-13"/></svg>';
+      del.addEventListener("click", function () {
+        log = log.filter(function (x) { return x.id !== i.id; });
+        safeSet(LOG_KEY, log); renderToday(); renderLog(); renderQuick();
+      });
+      row.appendChild(del);
+      box.appendChild(row);
+    });
+  }
+  $("#clearDay").addEventListener("click", function () {
+    if (!log.length) return;
+    if (confirm("Clear all items logged today?")) { log = []; safeSet(LOG_KEY, log); renderToday(); renderLog(); renderQuick(); }
+  });
+
+  /* ---------- settings ---------- */
+  $$(".chip[data-basis]").forEach(function (c) {
+    c.addEventListener("click", function () {
+      basis = c.getAttribute("data-basis"); safeSet(BASIS_KEY, basis);
+      $$(".chip[data-basis]").forEach(function (x) { x.setAttribute("aria-pressed", x === c ? "true" : "false"); });
+    });
+    c.setAttribute("aria-pressed", c.getAttribute("data-basis") === basis ? "true" : "false");
+  });
+  $$(".chip.goal").forEach(function (c) {
+    c.addEventListener("click", function () {
+      goal = parseInt(c.getAttribute("data-goal"), 10); safeSet(GOAL_KEY, goal);
+      $$(".chip.goal").forEach(function (x) { x.setAttribute("aria-pressed", x === c ? "true" : "false"); });
+      renderToday();
+    });
+    c.setAttribute("aria-pressed", parseInt(c.getAttribute("data-goal"), 10) === goal ? "true" : "false");
+  });
+
+  /* ---------- nav ---------- */
+  $$(".nav button").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var go = b.getAttribute("data-go");
+      $$(".screen").forEach(function (s) { s.hidden = s.id !== "screen-" + go; });
+      $$(".nav button").forEach(function (x) { x.setAttribute("aria-current", x === b ? "true" : "false"); });
+      if (go === "foods") renderAllFoods("");
+      window.scrollTo(0, 0);
+    });
+  });
+
+  /* ---------- toast ---------- */
+  var toast;
+  function flash(msg) {
+    if (toast) toast.remove();
+    toast = el("div", null, msg);
+    toast.style.cssText = "position:fixed;left:50%;transform:translateX(-50%);bottom:120px;background:var(--ink);color:var(--bg);padding:11px 18px;border-radius:999px;font-size:13px;font-weight:600;z-index:60;box-shadow:var(--shadow);max-width:90%";
+    document.body.appendChild(toast);
+    setTimeout(function () { if (toast) { toast.remove(); toast = null; } }, 2200);
+  }
+
+  /* ---------- first run ---------- */
+  if (!safeGet(SEEN_KEY, false)) {
+    $("#firstRun").hidden = false;
+    $("#frOk").addEventListener("click", function () { safeSet(SEEN_KEY, true); $("#firstRun").hidden = true; q.focus(); });
+  }
+
+  /* ---------- go ---------- */
+  renderToday(); renderLog(); renderQuick();
+})();
+</script>

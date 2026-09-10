@@ -1,0 +1,4 @@
+.usda-key.local
+*.local
+.usda-cache/
+usda_review.json

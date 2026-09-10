@@ -1,0 +1,741 @@
+<title>Naming the Carb Counter</title>
+<meta name="description" content="Ten candidate names for the carb-counting app, checked by a linguist and an ad exec and run past a simulated focus group." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" />
+
+<style>
+  :root {
+    --paper: #f5f6f0;
+    --card: #ffffff;
+    --raise: #eceee3;
+    --ink: #1c201a;
+    --ink-2: #5a6555;
+    --line: #dee2d3;
+    --green: #497f1b;
+    --green-bright: #7cb92c;
+    --green-wash: #e9f2d6;
+    --flag: #92651a;
+    --flag-wash: #f6ead4;
+    --dead: #a53f30;
+    --dead-wash: #f5e0dc;
+    --focus: #2f6db0;
+
+    --f-display: "Bricolage Grotesque", "Trebuchet MS", sans-serif;
+    --f-sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --f-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #12140f;
+      --card: #1a1d17;
+      --raise: #23271e;
+      --ink: #e8ebe0;
+      --ink-2: #97a08c;
+      --line: #2c3327;
+      --green: #9bd25a;
+      --green-bright: #8fcb3a;
+      --green-wash: #1c2a10;
+      --flag: #d9a44a;
+      --flag-wash: #322612;
+      --dead: #e07d6d;
+      --dead-wash: #341d19;
+      --focus: #7fb3e6;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #12140f;
+    --card: #1a1d17;
+    --raise: #23271e;
+    --ink: #e8ebe0;
+    --ink-2: #97a08c;
+    --line: #2c3327;
+    --green: #9bd25a;
+    --green-bright: #8fcb3a;
+    --green-wash: #1c2a10;
+    --flag: #d9a44a;
+    --flag-wash: #322612;
+    --dead: #e07d6d;
+    --dead-wash: #341d19;
+    --focus: #7fb3e6;
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--f-sans);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 80px; }
+  @media (max-width: 500px) { .wrap { padding: 22px 15px 64px; } }
+
+  h1 {
+    font-family: var(--f-display);
+    font-weight: 700;
+    font-size: clamp(28px, 7vw, 40px);
+    line-height: 1.08;
+    letter-spacing: -0.02em;
+    margin: 0 0 10px;
+    text-wrap: balance;
+  }
+  .dek { font-size: 16px; color: var(--ink-2); margin: 0 0 22px; max-width: 60ch; }
+  .lenses { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 28px; }
+  .lens {
+    font-family: var(--f-mono); font-size: 11px; font-weight: 500;
+    text-transform: uppercase; letter-spacing: 0.06em;
+    padding: 5px 10px; border-radius: 999px;
+    background: var(--raise); color: var(--ink-2);
+  }
+
+  h2 {
+    font-family: var(--f-display);
+    font-weight: 600;
+    font-size: clamp(19px, 4.5vw, 23px);
+    letter-spacing: -0.01em;
+    margin: 44px 0 4px;
+    text-wrap: balance;
+  }
+  h2 + .sub { color: var(--ink-2); font-size: 14px; margin: 0 0 18px; }
+
+  p { margin: 0 0 14px; }
+  p.body { max-width: 65ch; }
+  strong { font-weight: 600; }
+  em { font-style: italic; }
+
+  .callout {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--green-bright);
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin: 4px 0 8px;
+  }
+  .callout p:last-child { margin-bottom: 0; }
+  code {
+    font-family: var(--f-mono); font-size: 0.88em;
+    background: var(--raise); padding: 1px 5px; border-radius: 4px;
+  }
+
+  /* scorecard */
+  .scroll-x { overflow-x: auto; margin: 0 -4px 8px; padding: 0 4px 6px; -webkit-overflow-scrolling: touch; }
+  table.score { border-collapse: collapse; width: 100%; min-width: 560px; font-size: 13px; }
+  table.score th, table.score td { padding: 9px 10px; text-align: center; border-bottom: 1px solid var(--line); }
+  table.score thead th {
+    font-family: var(--f-mono); font-weight: 500; font-size: 10.5px;
+    text-transform: uppercase; letter-spacing: 0.04em; color: var(--ink-2);
+    vertical-align: bottom; border-bottom: 1.5px solid var(--ink-2); line-height: 1.35;
+  }
+  table.score td.name, table.score th.name {
+    text-align: left; font-family: var(--f-display); font-weight: 600; font-size: 14px;
+    white-space: nowrap; position: sticky; left: 0; background: var(--paper);
+  }
+  table.score td.total { font-family: var(--f-mono); font-weight: 600; font-size: 14px; font-variant-numeric: tabular-nums; }
+  table.score tr.top td, table.score tr.top td.name { background: var(--green-wash); }
+  .num { font-family: var(--f-mono); font-variant-numeric: tabular-nums; font-weight: 400; }
+
+  /* name cards */
+  .cards { display: flex; flex-direction: column; gap: 12px; margin-top: 6px; }
+  .ncard { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; }
+  .ncard.win { border-color: var(--green-bright); box-shadow: 0 0 0 1px var(--green-bright); }
+  .ncard-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+  .rank { font-family: var(--f-mono); font-size: 12px; font-weight: 600; color: var(--ink-2); flex: none; }
+  .ncard h3 { font-family: var(--f-display); font-weight: 700; font-size: 22px; letter-spacing: -0.01em; margin: 0; flex: 1; }
+  .ncard .comp { font-family: var(--f-mono); font-size: 12px; font-weight: 600; color: var(--green); flex: none; }
+  .verdict { font-size: 14.5px; margin: 2px 0 12px; }
+  .lines { display: flex; flex-direction: column; gap: 8px; }
+  .ln { display: grid; grid-template-columns: 92px 1fr; gap: 10px; font-size: 13.5px; }
+  .ln .who {
+    font-family: var(--f-mono); font-size: 10.5px; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.04em; color: var(--ink-2); padding-top: 3px;
+  }
+  @media (max-width: 440px) { .ln { grid-template-columns: 1fr; gap: 2px; } }
+  .flags { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 6px; }
+  .tag {
+    font-family: var(--f-mono); font-size: 10.5px; font-weight: 500;
+    padding: 3px 8px; border-radius: 6px; background: var(--raise); color: var(--ink-2);
+  }
+  .tag.warn { background: var(--flag-wash); color: var(--flag); }
+  .tag.bad { background: var(--dead-wash); color: var(--dead); }
+  .tag.good { background: var(--green-wash); color: var(--green); }
+
+  /* focus group */
+  .people { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 6px; }
+  @media (max-width: 560px) { .people { grid-template-columns: 1fr; } }
+  .person { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 15px 16px; }
+  .person .who2 { font-family: var(--f-display); font-weight: 700; font-size: 15px; }
+  .person .bio { font-size: 12px; color: var(--ink-2); margin-bottom: 9px; }
+  .person .quote { font-size: 13.5px; margin-bottom: 10px; }
+  .person .pick {
+    font-family: var(--f-mono); font-size: 11px; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.04em; color: var(--green);
+    border-top: 1px solid var(--line); padding-top: 8px;
+  }
+
+  .tally { display: flex; flex-direction: column; gap: 6px; margin-top: 4px; }
+  .tally-row { display: grid; grid-template-columns: 108px 1fr 26px; gap: 10px; align-items: center; font-size: 13px; }
+  .tally-row .bn { font-family: var(--f-display); font-weight: 600; }
+  .tally-bar { height: 12px; border-radius: 6px; background: var(--raise); overflow: hidden; }
+  .tally-bar > i { display: block; height: 100%; background: var(--green-bright); border-radius: 6px; }
+  .tally-row .tc { font-family: var(--f-mono); font-weight: 600; text-align: right; font-variant-numeric: tabular-nums; }
+
+  /* panels (round 2) */
+  .panels { display: flex; flex-direction: column; gap: 12px; margin-top: 6px; }
+  .panel { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; }
+  .panel-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+  .panel-n { font-family: var(--f-mono); font-size: 12px; font-weight: 600; color: var(--ink-2); flex: none; }
+  .panel h3 { font-family: var(--f-display); font-weight: 700; font-size: 17px; letter-spacing: -0.01em; margin: 0; flex: 1; }
+  .panel .who3 { font-size: 12.5px; color: var(--ink-2); margin: 2px 0 10px; }
+  .panel .room { font-size: 13.5px; margin: 0 0 12px; }
+  .panel .room .q { font-style: italic; }
+  .panel .prow {
+    display: grid; grid-template-columns: 84px 1fr; gap: 10px;
+    border-top: 1px solid var(--line); padding-top: 9px; font-size: 12.5px;
+  }
+  .panel .prow + .prow { border-top: 0; padding-top: 4px; }
+  .panel .pk {
+    font-family: var(--f-mono); font-size: 10px; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.04em; color: var(--ink-2); padding-top: 2px;
+  }
+  .panel .pv b { font-family: var(--f-display); font-weight: 700; }
+  @media (max-width: 440px) { .panel .prow { grid-template-columns: 1fr; gap: 2px; } }
+
+  .agg-wrap { overflow-x: auto; margin: 0 -4px 8px; padding: 0 4px 6px; }
+  table.agg { border-collapse: collapse; width: 100%; min-width: 520px; font-size: 12.5px; }
+  table.agg th, table.agg td { padding: 8px 8px; border-bottom: 1px solid var(--line); text-align: center; }
+  table.agg thead th {
+    font-family: var(--f-mono); font-weight: 500; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.03em; color: var(--ink-2);
+    border-bottom: 1.5px solid var(--ink-2); line-height: 1.3;
+  }
+  table.agg td.pn, table.agg th.pn {
+    text-align: left; font-weight: 600; white-space: nowrap;
+    position: sticky; left: 0; background: var(--paper);
+  }
+  table.agg td.hit { background: var(--green-wash); color: var(--green); font-weight: 700; }
+  table.agg td.run { color: var(--ink-2); }
+  table.agg tr.tot td { border-top: 1.5px solid var(--ink-2); font-family: var(--f-mono); font-weight: 700; }
+  table.agg tr.tot td.pn { font-family: var(--f-sans); }
+
+  .sugg-list { display: flex; flex-direction: column; gap: 10px; margin-top: 6px; }
+  .sugg {
+    background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+    padding: 13px 16px; font-size: 13.5px;
+  }
+  .sugg .sn { font-family: var(--f-display); font-weight: 700; font-size: 16px; }
+  .sugg .sfrom { font-family: var(--f-mono); font-size: 10.5px; color: var(--ink-2); text-transform: uppercase; letter-spacing: 0.03em; }
+  .sugg .sbody { margin-top: 4px; }
+  .sugg.dead { opacity: 0.72; }
+
+  .final { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 20px; margin-top: 8px; }
+  .final ol { margin: 0 0 14px; padding-left: 22px; }
+  .final li { margin-bottom: 8px; font-size: 14.5px; }
+  .final li b { font-family: var(--f-display); font-weight: 700; }
+
+  .foot { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 12px; color: var(--ink-2); line-height: 1.7; }
+  .divider { height: 1px; background: var(--line); margin: 40px 0; border: 0; }
+</style>
+
+<div class="wrap">
+  <h1>Naming the carb counter</h1>
+  <p class="dek">
+    Ten fresh candidates for the app, since CarbWise, CarbPal and GramWise are all taken. Each name is
+    checked the way a naming studio would check it: a linguist for how it sounds and spells, an ad exec
+    for how it sells, then eleven simulated panels of the people who would actually use it, each also
+    asked what they would call it instead.
+  </p>
+  <div class="lenses">
+    <span class="lens">Linguist</span>
+    <span class="lens">Advertising</span>
+    <span class="lens">11 panels</span>
+    <span class="lens">Their suggestions</span>
+    <span class="lens">Availability checked</span>
+  </div>
+
+  <h2>The CarbPal problem, stated plainly</h2>
+  <div class="callout">
+    <p>
+      Your wife is right, and there is a name for what she noticed. <strong>Carb</strong> ends on a
+      <code>b</code>, a sound made by pressing the lips together. <strong>Pal</strong> opens on a
+      <code>p</code>, the same lip gesture without the voice. Two nearly identical moves back to back,
+      so English speakers merge them and say <em>car-pal</em>.
+    </p>
+    <p>
+      The same collision hits <strong>CarbPal</strong>, <strong>CarbBuddy</strong> and
+      <strong>CarbMate</strong> (the <code>m</code> is another lips-together sound), and it softly
+      hits <strong>CarbWise</strong>, where <code>b</code> runs into a lip-rounded <code>w</code> and
+      drifts toward <em>car-wise</em>.
+    </p>
+    <p>
+      What flows instead: <strong>carb</strong> followed by a <code>k</code> (Cue, made at the back of
+      the tongue), a <code>t</code> or <code>d</code> (Tab, Tag, Dial, made at the tongue tip), an
+      <code>n</code> (Note), or a vowel (Echo). Different muscles, clean hand-off. Your instinct for
+      <strong>CarbCue</strong> is sound. It has one real wrinkle, covered below, but the seam between
+      the two halves is not it.
+    </p>
+  </div>
+
+  <h2>Scorecard</h2>
+  <p class="sub">Each column scored out of 5, sorted by total. A green row is top tier.</p>
+  <div class="scroll-x">
+    <table class="score">
+      <thead>
+        <tr>
+          <th class="name">Name</th>
+          <th>Clarity<br /><span class="num">says what<br />it is</span></th>
+          <th>Sayability<br /><span class="num">the CarbPal<br />test</span></th>
+          <th>Stands<br />out</th>
+          <th>Legal<br />runway</th>
+          <th>Focus<br />group</th>
+          <th>Total<br /><span class="num">/25</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="top"><td class="name">CarbTab</td><td>4</td><td>5</td><td>3.5</td><td>4</td><td>4</td><td class="total">20.5</td></tr>
+        <tr class="top"><td class="name">CarbSum</td><td>4</td><td>4</td><td>4</td><td>4.5</td><td>3.5</td><td class="total">20</td></tr>
+        <tr class="top"><td class="name">CarbNote</td><td>3.5</td><td>4.5</td><td>3</td><td>3.5</td><td>4</td><td class="total">18.5</td></tr>
+        <tr><td class="name">CarbCue</td><td>3</td><td>3</td><td>4</td><td>4</td><td>3.5</td><td class="total">17.5</td></tr>
+        <tr><td class="name">Gramwell</td><td>2</td><td>4.5</td><td>3.5</td><td>4</td><td>3</td><td class="total">17</td></tr>
+        <tr><td class="name">CarbTag</td><td>3</td><td>4</td><td>2.5</td><td>3.5</td><td>3</td><td class="total">16</td></tr>
+        <tr><td class="name">CarbDial</td><td>3</td><td>3.5</td><td>3</td><td>3.5</td><td>2.5</td><td class="total">15.5</td></tr>
+        <tr><td class="name">Countwise</td><td>3.5</td><td>4</td><td>2</td><td>3</td><td>3</td><td class="total">15.5</td></tr>
+        <tr><td class="name">CarbEcho</td><td>2.5</td><td>4</td><td>4</td><td>1.5</td><td>3</td><td class="total">15</td></tr>
+        <tr><td class="name">CarbKey</td><td>3</td><td>2.5</td><td>3</td><td>3.5</td><td>2.5</td><td class="total">14.5</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>The ten, one by one</h2>
+  <div class="cards">
+
+    <div class="ncard win">
+      <div class="ncard-head"><span class="rank">01</span><h3>CarbTab</h3><span class="comp">20.5 / 25</span></div>
+      <p class="verdict">The safe, strong pick. Reads instantly as "keep a running total," sounds crisp, spells itself.</p>
+      <div class="lines">
+        <div class="ln"><span class="who">Linguist</span><span>Said <em>carb-TAB</em>. The hard <code>b</code> hands straight off to a hard <code>t</code>, made in a different part of the mouth, so nothing slurs. One stressed syllable, and no one mishears the spelling. The stress pattern is the same one behind Fitbit and Venmo.</span></div>
+        <div class="ln"><span class="who">Ad exec</span><span>"Tab" carries a bar tab, a running amount you settle later, which is exactly what the app is. Also a tab of paper, a tab you keep on something. It looks sharp lowercase as <code>carbtab.app</code>. The only ghost is the old diet soda Tab, and that is faintly on theme.</span></div>
+      </div>
+      <div class="flags"><span class="tag good">clean seam</span><span class="tag good">self-spelling</span><span class="tag good">on message</span><span class="tag">"tab" is common</span></div>
+    </div>
+
+    <div class="ncard">
+      <div class="ncard-head"><span class="rank">02</span><h3>CarbSum</h3><span class="comp">20 / 25</span></div>
+      <p class="verdict">More distinctive than CarbTab, with the same honesty. It literally sums your day.</p>
+      <div class="lines">
+        <div class="ln"><span class="who">Linguist</span><span>Said <em>carb-SUM</em>. The <code>b</code> into <code>s</code> is clean. The one risk: if the stress slides off the first syllable it can slur toward "car bum." Keep the weight on <em>CARB</em> and it holds.</span></div>
+        <div class="ln"><span class="who">Ad exec</span><span>A math tone is a real differentiator in a category full of "manager" and "buddy." It feels precise, a little clinical in the way that suits people dosing insulin. Almost certainly wide open on trademark and domain.</span></div>
+      </div>
+      <div class="flags"><span class="tag good">coined feel</span><span class="tag good">wide runway</span><span class="tag warn">"car bum" if mis-stressed</span></div>
+    </div>
+
+    <div class="ncard">
+      <div class="ncard-head"><span class="rank">03</span><h3>CarbNote</h3><span class="comp">18.5 / 25</span></div>
+      <p class="verdict">The gentlest option. Low pressure, diary-like, good for a tool people reach for when anxious.</p>
+      <div class="lines">
+        <div class="ln"><span class="who">Linguist</span><span>Said <em>carb-NOTE</em>. The <code>n</code> gives a soft landing after the hard <code>b</code>. Very easy to say and to spell.</span></div>
+        <div class="ln"><span class="who">Ad exec</span><span>"Note" is warm and unintimidating, but it is also everywhere: Evernote, Apple Notes, Google Keep. You would sit slightly in their shadow, and the word undersells the calculation the app does.</span></div>
+      </div>
+      <div class="flags"><span class="tag good">calm, unintimidating</span><span class="tag warn">"Note" is crowded</span></div>
+    </div>
+
+    <div class="ncard">
+      <div class="ncard-head"><span class="rank">04</span><h3>CarbCue</h3><span class="comp">17.5 / 25</span></div>
+      <p class="verdict">Your pick. The best sounding name on the list, with one real cost to decide on with eyes open.</p>
+      <div class="lines">
+        <div class="ln"><span class="who">Linguist</span><span>Said <em>carb-CUE</em>. The repeated hard <code>k</code> sound at the front of both words is a genuine bit of music, and rare in this category. Two wrinkles. Said quickly, "CarbCue" collapses toward <em>barbecue</em>, so try it out loud a few times. And "cue" has three spellings for one sound (cue, queue, Q), which sends some people to the wrong search result.</span></div>
+        <div class="ln"><span class="who">Ad exec</span><span>The barbecue echo is a liability on radio and in word of mouth, but it is also sticky and food-adjacent, and a confident brand could lean into it with a small flame in the logo and a line like "your cue to eat." "Cue" also means the prompt right before you act, which fits the moment: you check it, then you eat. It trademarks well as a coined compound.</span></div>
+      </div>
+      <div class="flags"><span class="tag good">alliteration</span><span class="tag good">short, ownable</span><span class="tag warn">sounds like "barbecue"</span><span class="tag warn">cue vs queue vs Q</span></div>
+    </div>
+
+    <div class="ncard">
+      <div class="ncard-head"><span class="rank">05</span><h3>Gramwell</h3><span class="comp">17 / 25</span></div>
+      <p class="verdict">The soft, ownable outlier. It sounds like a trusted brand but does not tell you what it does.</p>
+      <div class="lines">
+        <div class="ln"><span class="who">Linguist</span><span>Said <em>GRAM-well</em>. Smooth, no collision, a pleasant falling rhythm. "Gram" keeps the unit up front, and "well" nods to wellness without shouting it.</span></div>
+        <div class="ln"><span class="who">Ad exec</span><span>It could be a supplement, a bakery, a wellness coach. You would spend real money teaching people that it is a carb counter. The upside is no baggage, a likely open <code>gramwell.com</code>, and room to build the meaning from scratch.</span></div>
+      </div>
+      <div class="flags"><span class="tag good">no baggage</span><span class="tag good">warm</span><span class="tag bad">doesn't say "carb"</span></div>
+    </div>
+
+    <div class="ncard">
+      <div class="ncard-head"><span class="rank">06</span><h3>CarbTag</h3><span class="comp">16 / 25</span></div>
+      <p class="verdict">Fine, and forgettable. Every food gets tagged with its number, which is true but not memorable.</p>
+      <div class="lines">
+        <div class="ln"><span class="who">Linguist</span><span>Said <em>carb-TAG</em>. Clean seam. But it is one small sound away from CarbTab, so if you ever showed both, people would mishear one for the other.</span></div>
+        <div class="ln"><span class="who">Ad exec</span><span>"Tag" does not stake a claim. Price tags, hashtags, tag you're it. Nothing wrong, nothing that sticks.</span></div>
+      </div>
+      <div class="flags"><span class="tag warn">"tag" is generic</span><span class="tag warn">clashes with CarbTab</span></div>
+    </div>
+
+    <div class="ncard">
+      <div class="ncard-head"><span class="rank">07</span><h3>CarbDial</h3><span class="comp">15.5 / 25</span></div>
+      <p class="verdict">A dial you read at a glance. The metaphor is aging.</p>
+      <div class="lines">
+        <div class="ln"><span class="who">Linguist</span><span>Said <em>carb-DIAL</em>. Clean seam, but "dial" is two loose syllables and drags a little next to the hard "carb."</span></div>
+        <div class="ln"><span class="who">Ad exec</span><span>Dials mean rotary phones and radio tuners. The imagery skews old, and this audience has a lot of parents and young adults in it. Pass.</span></div>
+      </div>
+      <div class="flags"><span class="tag warn">dated image</span><span class="tag warn">skews older</span></div>
+    </div>
+
+    <div class="ncard">
+      <div class="ncard-head"><span class="rank">08</span><h3>Countwise</h3><span class="comp">15.5 / 25</span></div>
+      <p class="verdict">Saves the "-wise" you liked, moved onto "count." It still reads as CarbWise's understudy.</p>
+      <div class="lines">
+        <div class="ln"><span class="who">Linguist</span><span>Said <em>COUNT-wise</em>. The <code>t</code> into <code>w</code> is clean, better than CarbWise's <code>b</code> into <code>w</code>, so the sound problem is fixed. The problem is elsewhere.</span></div>
+        <div class="ln"><span class="who">Ad exec</span><span>"-wise" is a worn suffix: Clockwise, StreetWise, Pennywise, LikeWise. Anyone who saw CarbWise first will read this as the budget version.</span></div>
+      </div>
+      <div class="flags"><span class="tag warn">tired suffix</span><span class="tag warn">reads as second best</span></div>
+    </div>
+
+    <div class="ncard">
+      <div class="ncard-head"><span class="rank">09</span><h3>CarbEcho</h3><span class="comp">15 / 25</span></div>
+      <p class="verdict">The most premium sounding name here, and the one a lawyer would strike first.</p>
+      <div class="lines">
+        <div class="ln"><span class="who">Linguist</span><span>Said <em>carb-ECK-oh</em>. The second word starts on a vowel, so the seam is as clean as it gets. The open final syllable feels like something coming back to you, which fits "a reading of your meal."</span></div>
+        <div class="ln"><span class="who">Ad exec</span><span>"Echo" is Amazon's flagship consumer-tech brand. In an app on a phone, that is direct confusion and a trademark fight you would lose. Do not.</span></div>
+      </div>
+      <div class="flags"><span class="tag good">best sound</span><span class="tag bad">Amazon Echo collision</span></div>
+    </div>
+
+    <div class="ncard">
+      <div class="ncard-head"><span class="rank">10</span><h3>CarbKey</h3><span class="comp">14.5 / 25</span></div>
+      <p class="verdict">"The one number that matters." Undone by a very common phrase.</p>
+      <div class="lines">
+        <div class="ln"><span class="who">Linguist</span><span>Said aloud, "Carb Key" is a hair away from <em>car key</em>, one of the most frequent two-word phrases in English. Every spoken mention invites a "wait, what?"</span></div>
+        <div class="ln"><span class="who">Ad exec</span><span>You cannot win a search result or a conversation against "car key." Good idea, wrong words.</span></div>
+      </div>
+      <div class="flags"><span class="tag bad">sounds like "car key"</span></div>
+    </div>
+
+  </div>
+
+  <hr class="divider" />
+
+  <h2>The panels</h2>
+  <p class="sub">
+    Eleven simulated rooms, each a different slice of the real audience. Everyone saw the same
+    shortlist (CarbTab, CarbSum, CarbNote, CarbCue, Gramwell), picked one, and was asked what they
+    would call it instead.
+  </p>
+
+  <h2 style="font-size:17px; margin-top:26px">Panel 1 &nbsp;&middot;&nbsp; A mixed room</h2>
+  <p class="sub" style="margin-bottom:12px">Seven people spanning age, diabetes type and tech comfort.</p>
+  <div class="people">
+
+    <div class="person">
+      <div class="who2">Maya, 29</div>
+      <div class="bio">Type 1 since she was 14. Pump, CGM, doses in seconds between the classes she teaches.</div>
+      <p class="quote">"I don't read the name, I tap the icon. So keep it short and don't make me explain it. <strong>CarbTab</strong>. 'What's on my tab today.' Done. CarbCue I would have to spell for people every single time."</p>
+      <div class="pick">Picks CarbTab</div>
+    </div>
+
+    <div class="person">
+      <div class="who2">Rob, 44</div>
+      <div class="bio">Counts every meal for his daughter Ellie, 9, diagnosed last year. High stakes, low patience for cute.</div>
+      <p class="quote">"I want it to sound like a tool, not a toy. <strong>CarbSum</strong> sounds like it does math, and that is what I need at 6pm with a plate in front of me. CarbCue made my wife say 'barbecue?' and that is the whole problem again."</p>
+      <div class="pick">Picks CarbSum</div>
+    </div>
+
+    <div class="person">
+      <div class="who2">Dana, RD, CDCES</div>
+      <div class="bio">Diabetes educator. Recommends two or three apps to patients and needs them not to be mistaken for keto apps.</div>
+      <p class="quote">"My worry with anything 'Carb-something' is patients thinking it is a low-carb lifestyle app. <strong>CarbSum</strong> and <strong>CarbTab</strong> both read as neutral counting tools. I would write either one on a handout. Not Gramwell, I would have to describe it."</p>
+      <div class="pick">Picks CarbSum</div>
+    </div>
+
+    <div class="person">
+      <div class="who2">Frank, 67</div>
+      <div class="bio">Type 2, started insulin this year. Counting carbs for the first time in his life. Not a big phone person.</div>
+      <p class="quote">"CarbCue, is that like a pool cue? <strong>CarbNote</strong>, now that one I get. It is where I write down what I ate. That does not feel like homework."</p>
+      <div class="pick">Picks CarbNote</div>
+    </div>
+
+    <div class="person">
+      <div class="who2">Priya, 34</div>
+      <div class="bio">Product designer, Type 1. Judges apps by the App Store screenshot and tells friends about the good ones.</div>
+      <p class="quote">"Sound-wise I love <strong>Gramwell</strong>, it feels like a real brand. But it could be a probiotic. <strong>CarbTab</strong> is the one I would actually screenshot and text to someone. It looks clean set in lowercase and you know what it is."</p>
+      <div class="pick">Picks CarbTab</div>
+    </div>
+
+    <div class="person">
+      <div class="who2">Sam, 19</div>
+      <div class="bio">College sophomore, Type 1. Word of mouth is how every app reaches him.</div>
+      <p class="quote">"I would say 'yo download CarbCue' and it is kind of a vibe, the barbecue thing is funny not bad. But if I text it, autocorrect fights me. <strong>CarbTab</strong> texts clean."</p>
+      <div class="pick">Picks CarbTab, with CarbCue a close second</div>
+    </div>
+
+    <div class="person">
+      <div class="who2">Luis, 41</div>
+      <div class="bio">Type 1, moved from Colombia six years ago. English is his second language, and he types app names the way he hears them.</div>
+      <p class="quote">"'Cue' I would type C-I-U or K-Y-U, I do not know. <strong>CarbSum</strong> and <strong>CarbTab</strong> I can hear and spell. Small English words I know. The strange spellings, no."</p>
+      <div class="pick">Picks CarbSum</div>
+    </div>
+
+  </div>
+
+  <div class="tally" style="margin-top:16px">
+    <div class="tally-row"><span class="bn">CarbTab</span><span class="tally-bar"><i style="width:100%"></i></span><span class="tc">4</span></div>
+    <div class="tally-row"><span class="bn">CarbSum</span><span class="tally-bar"><i style="width:75%"></i></span><span class="tc">3</span></div>
+    <div class="tally-row"><span class="bn">CarbNote</span><span class="tally-bar"><i style="width:25%"></i></span><span class="tc">1</span></div>
+    <div class="tally-row"><span class="bn">CarbCue</span><span class="tally-bar"><i style="width:2%"></i></span><span class="tc">0</span></div>
+    <div class="tally-row"><span class="bn">Gramwell</span><span class="tally-bar"><i style="width:2%"></i></span><span class="tc">0</span></div>
+  </div>
+  <p class="body" style="margin-top:12px; font-size:13px; color:var(--ink-2)">
+    <strong>Room picks CarbTab.</strong> Suggested instead: <em>CarbCount</em>, <em>gWise</em>,
+    <em>MealMath</em>. CarbCue was the most enjoyed name here, nobody chose it, and the reason was
+    always spelling it aloud for someone else.
+  </p>
+
+  <h2>Ten more panels</h2>
+  <p class="sub">Same shortlist, ten narrower rooms. Each closes with the name the room proposed.</p>
+  <div class="panels">
+
+    <div class="panel">
+      <div class="panel-head"><span class="panel-n">02</span><h3>The first ninety days</h3></div>
+      <p class="who3">Four adults three weeks to three months past a Type 1 diagnosis, still learning to weigh food, still scared of getting it wrong.</p>
+      <p class="room">
+        They flinch at anything that sounds like a system to master. <span class="q">"CarbSum reads
+        like another test I'll fail."</span> CarbNote got the warmest response, <span class="q">"it's
+        just notes, I can do notes."</span> One person: <span class="q">"I want the app to feel like
+        it's on my side, not grading me."</span>
+      </p>
+      <div class="prow"><span class="pk">Room picks</span><span class="pv"><b>CarbNote</b>, runner-up CarbTab</span></div>
+      <div class="prow"><span class="pk">Proposed</span><span class="pv">CarbEase, CarbOK, "something with the word simple in it"</span></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><span class="panel-n">03</span><h3>Counting for someone small</h3></div>
+      <p class="who3">Three parents of Type 1 kids aged 4, 8 and 11, plus a grandparent who does Wednesday pickups.</p>
+      <p class="room">
+        The handoff test dominated. <span class="q">"I text the babysitter 'log it in CarbTab' and
+        she finds it. CarbCue over text and she's googling barbecue recipes."</span> The grandparent
+        needs to say it once on the phone and have it land. Everyone rejected "buddy" and "pal"
+        outright, <span class="q">"not for a disease my kid has forever."</span>
+      </p>
+      <div class="prow"><span class="pk">Room picks</span><span class="pv"><b>CarbTab</b>, runner-up CarbSum</span></div>
+      <div class="prow"><span class="pk">Proposed</span><span class="pv">CarbCard, KidCarbs, "Carb Sheet, like the ones on the fridge"</span></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><span class="panel-n">04</span><h3>Twenty years in</h3></div>
+      <p class="who3">Four people with Type 1 for 18 to 34 years, all on pump plus CGM, all have installed and deleted five or more apps.</p>
+      <p class="room">
+        Deep doubt that the name matters at all, <span class="q">"it's an icon on my third
+        screen."</span> Forced to choose, they split CarbTab and CarbSum on "sounds like it respects
+        my time." CarbCue drew an eye-roll. Gramwell: <span class="q">"a supplement my aunt
+        takes."</span> The useful line: <span class="q">"the fact that it's not trying to be my friend
+        is the selling point. CarbSum. It does a sum."</span>
+      </p>
+      <div class="prow"><span class="pk">Room picks</span><span class="pv"><b>CarbSum</b>, narrowly over CarbTab</span></div>
+      <div class="prow"><span class="pk">Proposed</span><span class="pv">"just call it grams", Countr, gCarb</span></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><span class="panel-n">05</span><h3>New to insulin, later in life</h3></div>
+      <p class="who3">Four adults 61 to 74 with Type 2, all started insulin this year, all counting carbs for the first time, mixed tech comfort.</p>
+      <p class="room">
+        CarbNote and CarbTab both landed. CarbSum <span class="q">"sounds like arithmetic
+        homework."</span> CarbCue: <span class="q">"cue ball? cue card?"</span> Gramwell: <span
+        class="q">"is that a cereal?"</span> One member: <span class="q">"CarbTab. Like a tab at the
+        diner. I keep a tab, the app keeps a tab."</span>
+      </p>
+      <div class="prow"><span class="pk">Room picks</span><span class="pv"><b>CarbNote</b>, a whisker over CarbTab</span></div>
+      <div class="prow"><span class="pk">Proposed</span><span class="pv">Carb Diary, My Carbs, Daily Carb Count</span></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><span class="panel-n">06</span><h3>The clinic</h3></div>
+      <p class="who3">Five clinicians (two endocrinologists, a diabetes educator, a pediatric nurse practitioner, a dietitian) deciding whether they would put the app on a patient handout.</p>
+      <p class="room">
+        The bar is "does not look like a keto app and does not look like it doses insulin." CarbSum
+        and CarbTab both clear it. CarbNote is <span class="q">"fine, a little informal for a
+        handout."</span> Strong agreement that Cue is a clinical hazard: <span class="q">"patients
+        hear 'Q', I get the call."</span> The dietitian: <span class="q">"CarbSum. It's a counting
+        tool, the name says counting."</span>
+      </p>
+      <div class="prow"><span class="pk">Room picks</span><span class="pv"><b>CarbSum</b>, runner-up CarbTab</span></div>
+      <div class="prow"><span class="pk">Proposed</span><span class="pv">CarbLog, CHO Count, GramCount, CarbCount</span></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><span class="panel-n">07</span><h3>Nine months, then done</h3></div>
+      <p class="who3">Four people managing gestational diabetes, weeks 24 to 36, none had counted carbs before, all plan to stop after delivery.</p>
+      <p class="room">
+        They want low commitment and no learning curve. <span class="q">"I'm not downloading a
+        lifestyle. CarbTab, I'll use it three months and delete it, and that's fine."</span> CarbNote
+        also tested well, <span class="q">"gentle, I'm stressed enough."</span> CarbCue: <span
+        class="q">"I don't have the bandwidth to remember how to spell that right now."</span>
+      </p>
+      <div class="prow"><span class="pk">Room picks</span><span class="pv"><b>CarbTab</b>, runner-up CarbNote</span></div>
+      <div class="prow"><span class="pk">Proposed</span><span class="pv">"honestly just Carb Counter is fine", CarbLite</span></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><span class="panel-n">08</span><h3>English as a second language</h3></div>
+      <p class="who3">Five adults with Type 1 or Type 2 whose first languages are Spanish, Tagalog, Arabic, Mandarin and Portuguese.</p>
+      <p class="room">
+        Spelling a name from hearing it was the whole conversation. "Tab", "Sum" and "Note" are words
+        they learned early and can spell. "Cue" produced five different spellings around the table and
+        a laugh. Gramwell was sayable but meaningless. A couple heard "Sum" as "some." "Tab" was
+        cleanest for everyone.
+      </p>
+      <div class="prow"><span class="pk">Room picks</span><span class="pv"><b>CarbTab</b>, runner-up CarbNote</span></div>
+      <div class="prow"><span class="pk">Proposed</span><span class="pv">Carb Number, Food Grams, Count Carb</span></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><span class="panel-n">09</span><h3>The group chat</h3></div>
+      <p class="who3">Four people with Type 1, ages 16 to 23, who found their last two apps through a friend's story or a Reddit comment.</p>
+      <p class="room">
+        CarbCue's best room. <span class="q">"CarbCue is a bit, I'd post it."</span> But simulating
+        actually telling a friend: autocorrect, "is it Q", "wait, like barbecue" three times. <span
+        class="q">"CarbTab I drop in a chat and it just works."</span> One held out for CarbCue as
+        the funnier option.
+      </p>
+      <div class="prow"><span class="pk">Room picks</span><span class="pv"><b>CarbTab</b> 3, CarbCue 1</span></div>
+      <div class="prow"><span class="pk">Proposed</span><span class="pv">carbz, Carbo, "CarbCue but spelled CarbQ so it texts"</span></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><span class="panel-n">10</span><h3>Carbs for performance</h3></div>
+      <p class="who3">Four active people with Type 1 (two distance runners, a cyclist, a lifter) who also use "carbs" as training vocabulary.</p>
+      <p class="room">
+        CarbSum hit a snag: <span class="q">"'carb some' sounds like a fueling instruction, carb some
+        before the long run."</span> CarbTab made sense, <span class="q">"keep a tab during a
+        ride."</span> CarbCue was fine, <span class="q">"cue to fuel."</span> CarbNote felt too
+        passive for people mid-workout.
+      </p>
+      <div class="prow"><span class="pk">Room picks</span><span class="pv"><b>CarbTab</b>, runner-up CarbCue</span></div>
+      <div class="prow"><span class="pk">Proposed</span><span class="pv">CarbFuel, Splits, GramFuel</span></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><span class="panel-n">11</span><h3>Reads it aloud</h3></div>
+      <p class="who3">Four people who navigate by screen reader or large text, plus one with a hand tremor.</p>
+      <p class="room">
+        Spoken pronunciation matters. "CarbTab" and "CarbNote" are read cleanly and can't be
+        confused. "CarbCue" is a problem: VoiceOver and TalkBack can voice "Cue" and "Queue"
+        identically, and <span class="q">"is it the letter Q"</span> came up. In an app list read
+        aloud, "CarbTab" is instantly identifiable.
+      </p>
+      <div class="prow"><span class="pk">Room picks</span><span class="pv"><b>CarbTab</b>, runner-up CarbNote</span></div>
+      <div class="prow"><span class="pk">Proposed</span><span class="pv">CarbClear, CarbList, Plain Carbs</span></div>
+    </div>
+
+  </div>
+
+  <h2>Every panel, every room</h2>
+  <p class="sub">Which name each room chose. Shaded cell is the pick; a dot is the runner-up.</p>
+  <div class="agg-wrap">
+    <table class="agg">
+      <thead>
+        <tr>
+          <th class="pn">Panel</th>
+          <th>CarbTab</th><th>CarbSum</th><th>CarbNote</th><th>CarbCue</th><th>Gramwell</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td class="pn">1 &nbsp;Mixed room</td><td class="hit">&#9632;</td><td class="run">&middot;</td><td></td><td></td><td></td></tr>
+        <tr><td class="pn">2 &nbsp;First ninety days</td><td class="run">&middot;</td><td></td><td class="hit">&#9632;</td><td></td><td></td></tr>
+        <tr><td class="pn">3 &nbsp;Counting for a kid</td><td class="hit">&#9632;</td><td class="run">&middot;</td><td></td><td></td><td></td></tr>
+        <tr><td class="pn">4 &nbsp;Twenty years in</td><td class="run">&middot;</td><td class="hit">&#9632;</td><td></td><td></td><td></td></tr>
+        <tr><td class="pn">5 &nbsp;New to insulin, 60+</td><td class="run">&middot;</td><td></td><td class="hit">&#9632;</td><td></td><td></td></tr>
+        <tr><td class="pn">6 &nbsp;The clinic</td><td class="run">&middot;</td><td class="hit">&#9632;</td><td></td><td></td><td></td></tr>
+        <tr><td class="pn">7 &nbsp;Gestational, then done</td><td class="hit">&#9632;</td><td></td><td class="run">&middot;</td><td></td><td></td></tr>
+        <tr><td class="pn">8 &nbsp;Second-language</td><td class="hit">&#9632;</td><td></td><td class="run">&middot;</td><td></td><td></td></tr>
+        <tr><td class="pn">9 &nbsp;The group chat</td><td class="hit">&#9632;</td><td></td><td></td><td class="run">&middot;</td><td></td></tr>
+        <tr><td class="pn">10 &nbsp;For performance</td><td class="hit">&#9632;</td><td></td><td></td><td class="run">&middot;</td><td></td></tr>
+        <tr><td class="pn">11 &nbsp;Reads it aloud</td><td class="hit">&#9632;</td><td></td><td class="run">&middot;</td><td></td><td></td></tr>
+        <tr class="tot"><td class="pn">Rooms won</td><td>7</td><td>2</td><td>2</td><td>0</td><td>0</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="body" style="margin-top:12px; font-size:13.5px">
+    <strong>CarbTab took seven of eleven rooms.</strong> It rarely won on enthusiasm; it won because
+    it was the name nobody had a problem with. <strong>CarbSum</strong> owned the two most analytical
+    rooms, the long-timers and the clinic, on its plain math tone, though the athletes flagged
+    "carb some." <strong>CarbNote</strong> owned the two most anxious rooms, the newly diagnosed and
+    older adults new to insulin, on feeling gentle rather than like a test. <strong>CarbCue</strong>
+    got exactly one individual vote across roughly fifty people, and <strong>Gramwell</strong> got
+    none, though both had pockets of "I like how it sounds."
+  </p>
+
+  <h2>Names the rooms proposed</h2>
+  <p class="sub">Setting aside restatements of the shortlist, these came up unprompted. Quick checks only.</p>
+  <div class="sugg-list">
+    <div class="sugg">
+      <span class="sn">CarbEase</span> &nbsp;<span class="sfrom">from the newly-diagnosed room</span>
+      <p class="sbody">The reassurance angle, aimed straight at people who feel behind. Clean seam, easy to say and spell, no app found. Risk: "ease" is a soft, slightly generic wellness word, and it undersells the precision. Worth a proper check.</p>
+    </div>
+    <div class="sugg">
+      <span class="sn">CarbClear</span> &nbsp;<span class="sfrom">from the read-it-aloud room</span>
+      <p class="sbody">Reads cleanly by screen reader and in a list, unambiguous spelling, and "clear" nods at the app's honesty about where numbers come from. Also surfaced in the earlier research pass with no app found. The <code>b</code> into <code>k</code>-<code>l</code> is fine. Strongest of the proposed set.</p>
+    </div>
+    <div class="sugg">
+      <span class="sn">CarbCard</span> &nbsp;<span class="sfrom">from the parents room</span>
+      <p class="sbody">A carb reference card, the thing families already tape to the fridge. Concrete and on-message for the handoff use case. No app found. Downside: two hard <code>k</code> sounds plus the <code>d</code>-into-nothing ending make it a slight mouthful, and "card" hints at payments.</p>
+    </div>
+    <div class="sugg">
+      <span class="sn">Carb Diary</span> &nbsp;<span class="sfrom">from the older-adults room</span>
+      <p class="sbody">Gentle and instantly understood, which is why that room reached for it. But it is two words, generic, hard to own, and "diary" undersells the calculation. A description more than a name.</p>
+    </div>
+    <div class="sugg dead">
+      <span class="sn">CarbLog</span> &nbsp;<span class="sfrom">from the clinic room</span>
+      <p class="sbody">The obvious clinical choice, and <strong>already an app</strong> (Carb Log, on iOS, does almost exactly this). Ruled out.</p>
+    </div>
+    <div class="sugg dead">
+      <span class="sn">"grams" &nbsp;/&nbsp; carbz</span> &nbsp;<span class="sfrom">veterans / the group chat</span>
+      <p class="sbody">Real sentiments, not usable names. "grams" cannot be owned, trademarked or searched for. "carbz" reads as unserious for a tool people dose insulin from, and the novelty spelling repeats the CarbCue problem.</p>
+    </div>
+  </div>
+
+  <h2>Verdict</h2>
+  <div class="final">
+    <p class="body" style="margin-top:0">
+      Eleven rooms, the linguist and the ad exec all point the same way. The order did not change from
+      the first pass; the eleven panels made it firmer.
+    </p>
+    <ol>
+      <li><b>CarbTab</b>. The pick. It won seven of eleven rooms, and it won them by being the name
+        nobody could find fault with: clean seam, spells itself from hearing it, reads right by screen
+        reader, "running tab" says exactly what the app does, and it looks sharp as a lowercase
+        wordmark. The lowest-risk name that still has an idea in it.</li>
+      <li><b>CarbSum</b>. Take this for a more clinical, math-forward tone. It owned the two rooms
+        that matter most for credibility, the twenty-year veterans and the clinicians. Two cautions:
+        keep the stress on "CARB" so it does not slur to "car bum," and know that the athlete room
+        heard "carb some" as a fueling cue.</li>
+      <li><b>CarbNote</b>. Take this if the priority is feeling gentle. It won the two most anxious
+        rooms, the newly diagnosed and older adults just starting insulin, precisely because it does
+        not sound like a test.</li>
+    </ol>
+    <p class="body">
+      From the rooms themselves, <b>CarbClear</b> and <b>CarbEase</b> are the only proposed names
+      worth a real look, and only if a formal check clears them.
+    </p>
+    <p class="body" style="margin-bottom:0">
+      On <b>CarbCue</b>: across roughly fifty simulated people it drew one vote, and the reason was
+      always the same, they could not spell it aloud for someone else. Your ear is still not wrong,
+      it is the most characterful name on the list. If you love it, the honest path is to commit to
+      the barbecue echo rather than fight it, build the wordplay into the icon and tagline, and
+      accept a small permanent tax every time someone says it out loud. If that reads as a fun
+      constraint, pick it. If it reads as friction, that is your answer, and the answer is CarbTab.
+    </p>
+  </div>
+
+  <div class="foot">
+    <strong>Availability.</strong> Each name was searched against the app stores and the diabetes and
+    carb-counting category, and none turned up an existing app. That is a first pass, not a clearance.
+    Before committing, check the Apple App Store and Google Play directly, run a USPTO trademark
+    search in the software (009) and health-services (044) classes, and confirm the <code>.com</code>
+    and <code>.app</code> domains. Names already in this space to steer clear of: Carb Manager,
+    Carbs &amp; Cals, CarbScanner, CarbsControl, Carbie, CarbMind, CarbWise (the .ai site and two apps
+    on Google Play), Carb Log, Carb Counter, SNAQ.
+    <br /><br />
+    Prepared 2026-09-09 as a decision aid for the app rename. The panels and their quotes are
+    simulated, built to represent real segments of the carb-counting audience.
+  </div>
+</div>

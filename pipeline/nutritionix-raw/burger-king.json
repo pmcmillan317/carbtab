@@ -1,0 +1,1487 @@
+{
+ "chain": "Burger King",
+ "slug": "burger-king",
+ "source": "https://www.nutritionix.com/burger-king/menu/premium",
+ "platform": "nutritionix",
+ "updated": "07/20/2026",
+ "pulledAt": "2026-09-10",
+ "type": "grid",
+ "columns": {
+  "cal": 1,
+  "carb": 7,
+  "fiber": 8
+ },
+ "count": 210,
+ "items": [
+  {
+   "cat": "Breakfast",
+   "name": "3 Piece French Toast Sticks",
+   "carb": 52,
+   "fiber": 1,
+   "cal": 340
+  },
+  {
+   "cat": "Breakfast",
+   "name": "5 Piece French Toast Sticks",
+   "carb": 71,
+   "fiber": 2,
+   "cal": 500
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Bacon, Egg, & Cheese Biscuit",
+   "carb": 31,
+   "fiber": 2,
+   "cal": 420
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Bacon, Egg, & Cheese Croissan'wich",
+   "carb": 28,
+   "fiber": 3,
+   "cal": 360
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Bacon, Sausage, Egg & Cheese Biscuit",
+   "carb": 33,
+   "fiber": 2,
+   "cal": 650
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Bacon, Sausage, Egg, & Cheese Croissan'wich",
+   "carb": 29,
+   "fiber": 3,
+   "cal": 580
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Breakfast Burrito Jr.",
+   "carb": 29,
+   "fiber": 1,
+   "cal": 420
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Double Sausage, Egg, & Cheese Biscuit",
+   "carb": 33,
+   "fiber": 3,
+   "cal": 790
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Double Sausage, Egg, & Cheese Croissan'wich",
+   "carb": 30,
+   "fiber": 3,
+   "cal": 730
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Egg & Cheese Biscuit",
+   "carb": 31,
+   "fiber": 2,
+   "cal": 380
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Egg & Cheese Croissan'wich",
+   "carb": 28,
+   "fiber": 3,
+   "cal": 310
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Egg-Normous Burrito",
+   "carb": 67,
+   "fiber": 3,
+   "cal": 800
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Fully Loaded Biscuit",
+   "carb": 34,
+   "fiber": 2,
+   "cal": 660
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Fully Loaded Croissan'wich",
+   "carb": 31,
+   "fiber": 3,
+   "cal": 620
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Ham, Egg, & Cheese Biscuit",
+   "carb": 32,
+   "fiber": 2,
+   "cal": 420
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Ham, Egg, & Cheese Croissan'wich",
+   "carb": 29,
+   "fiber": 3,
+   "cal": 350
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Large Hash Browns",
+   "carb": 76,
+   "fiber": 6,
+   "cal": 700
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Medium Hash Browns",
+   "carb": 55,
+   "fiber": 5,
+   "cal": 510
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Pancake & Sausage Platter",
+   "carb": 75,
+   "fiber": 1,
+   "cal": 580
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Pancake Platter",
+   "carb": 74,
+   "fiber": 1,
+   "cal": 400
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage, Egg, & Cheese Biscuit",
+   "carb": 32,
+   "fiber": 2,
+   "cal": 560
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage, Egg, & Cheese Croissan'wich",
+   "carb": 28,
+   "fiber": 3,
+   "cal": 500
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage Biscuit",
+   "carb": 30,
+   "fiber": 2,
+   "cal": 440
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Small Hash Browns",
+   "carb": 29,
+   "fiber": 3,
+   "cal": 270
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Bacon Cheeseburger",
+   "carb": 30,
+   "fiber": 2,
+   "cal": 350
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Bacon Double Cheeseburger",
+   "carb": 31,
+   "fiber": 2,
+   "cal": 500
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Bacon King",
+   "carb": 58,
+   "fiber": 4,
+   "cal": 1260
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Bacon Swiss BBQ Whopper",
+   "carb": 71,
+   "fiber": 4,
+   "cal": 920
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "BBQ Bacon Whopper Jr.",
+   "carb": 32,
+   "fiber": 2,
+   "cal": 390
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Cheeseburger",
+   "carb": 30,
+   "fiber": 2,
+   "cal": 300
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Double Cheeseburger",
+   "carb": 31,
+   "fiber": 2,
+   "cal": 460
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Double Whopper",
+   "carb": 57,
+   "fiber": 5,
+   "cal": 980
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Double Whopper with Bacon",
+   "carb": 57,
+   "fiber": 5,
+   "cal": 1040
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Double Whopper with Bacon & Cheese",
+   "carb": 59,
+   "fiber": 5,
+   "cal": 1120
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Double Whopper with Cheese",
+   "carb": 59,
+   "fiber": 5,
+   "cal": 1060
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Hamburger",
+   "carb": 29,
+   "fiber": 2,
+   "cal": 260
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Impossible Loaded Jalapeno Whopper",
+   "carb": 75,
+   "fiber": 8,
+   "cal": 810
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Impossible Whopper",
+   "carb": 64,
+   "fiber": 8,
+   "cal": 670
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Kid's Cheeseburger",
+   "carb": 29,
+   "fiber": 2,
+   "cal": 300
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Kid's Hamburger",
+   "carb": 29,
+   "fiber": 2,
+   "cal": 260
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Loaded Jalapeno Whopper",
+   "carb": 65,
+   "fiber": 5,
+   "cal": 820
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Loaded Jalapeno Whopper Jr.",
+   "carb": 35,
+   "fiber": 3,
+   "cal": 410
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Rodeo Burger",
+   "carb": 40,
+   "fiber": 3,
+   "cal": 340
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Rodeo Cheeseburger",
+   "carb": 41,
+   "fiber": 3,
+   "cal": 380
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Rodeo Double Cheeseburger",
+   "carb": 41,
+   "fiber": 4,
+   "cal": 530
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Texas Double Whopper",
+   "carb": 56,
+   "fiber": 5,
+   "cal": 1120
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Triple Whopper",
+   "carb": 57,
+   "fiber": 5,
+   "cal": 1250
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Triple Whopper with Bacon",
+   "carb": 58,
+   "fiber": 5,
+   "cal": 1310
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Triple Whopper with Bacon & Cheese",
+   "carb": 59,
+   "fiber": 5,
+   "cal": 1390
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Triple Whopper with Cheese",
+   "carb": 59,
+   "fiber": 5,
+   "cal": 1330
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Whopper",
+   "carb": 57,
+   "fiber": 4,
+   "cal": 710
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Whopper Jr.",
+   "carb": 30,
+   "fiber": 2,
+   "cal": 340
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Whopper Jr. with Bacon",
+   "carb": 30,
+   "fiber": 2,
+   "cal": 380
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Whopper Jr. with Bacon & Cheese",
+   "carb": 31,
+   "fiber": 2,
+   "cal": 430
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Whopper Jr. with Cheese",
+   "carb": 31,
+   "fiber": 2,
+   "cal": 380
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Whopper with Bacon",
+   "carb": 57,
+   "fiber": 4,
+   "cal": 770
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Whopper with Bacon & Cheese",
+   "carb": 58,
+   "fiber": 4,
+   "cal": 860
+  },
+  {
+   "cat": "Flame Grilled Burgers",
+   "name": "Whopper with Cheese",
+   "carb": 58,
+   "fiber": 4,
+   "cal": 790
+  },
+  {
+   "cat": "Chicken & Fish",
+   "name": "4 Piece Chicken Fries",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Chicken & Fish",
+   "name": "4 Piece Crown Nuggets",
+   "carb": 12,
+   "fiber": 1,
+   "cal": 220
+  },
+  {
+   "cat": "Chicken & Fish",
+   "name": "8 Piece Chicken Fries",
+   "carb": 16,
+   "fiber": 1,
+   "cal": 220
+  },
+  {
+   "cat": "Chicken & Fish",
+   "name": "8 Piece Crown Nuggets",
+   "carb": 23,
+   "fiber": 2,
+   "cal": 440
+  },
+  {
+   "cat": "Chicken & Fish",
+   "name": "12 Piece Chicken Fries",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 340
+  },
+  {
+   "cat": "Chicken & Fish",
+   "name": "16 Piece Crown Nuggets",
+   "carb": 46,
+   "fiber": 4,
+   "cal": 870
+  },
+  {
+   "cat": "Chicken & Fish",
+   "name": "Bacon and Swiss Royal Crispy Chicken",
+   "carb": 56,
+   "fiber": 4,
+   "cal": 740
+  },
+  {
+   "cat": "Chicken & Fish",
+   "name": "Big Fish",
+   "carb": 58,
+   "fiber": 3,
+   "cal": 570
+  },
+  {
+   "cat": "Chicken & Fish",
+   "name": "Chicken Jr.",
+   "carb": 39,
+   "fiber": 2,
+   "cal": 440
+  },
+  {
+   "cat": "Chicken & Fish",
+   "name": "Honey Mustard Royal Crispy Wrap",
+   "carb": 30,
+   "fiber": 4,
+   "cal": 290
+  },
+  {
+   "cat": "Chicken & Fish",
+   "name": "Original Chicken Sandwich",
+   "carb": 63,
+   "fiber": 3,
+   "cal": 680
+  },
+  {
+   "cat": "Chicken & Fish",
+   "name": "Royal Crispy Chicken",
+   "carb": 54,
+   "fiber": 4,
+   "cal": 600
+  },
+  {
+   "cat": "Chicken & Fish",
+   "name": "Royal Crispy Wrap",
+   "carb": 28,
+   "fiber": 4,
+   "cal": 310
+  },
+  {
+   "cat": "Chicken & Fish",
+   "name": "Spicy Big Fish",
+   "carb": 61,
+   "fiber": 3,
+   "cal": 730
+  },
+  {
+   "cat": "Chicken & Fish",
+   "name": "Spicy Royal Crispy Chicken",
+   "carb": 58,
+   "fiber": 4,
+   "cal": 760
+  },
+  {
+   "cat": "Chicken & Fish",
+   "name": "Spicy Royal Crispy Wrap",
+   "carb": 30,
+   "fiber": 5,
+   "cal": 390
+  },
+  {
+   "cat": "Sides",
+   "name": "4 Piece Cheddar Ranch Tots",
+   "carb": 17,
+   "fiber": 1,
+   "cal": 140
+  },
+  {
+   "cat": "Sides",
+   "name": "4 Piece Jalapeno Cheddar Bites",
+   "carb": 27,
+   "fiber": 2,
+   "cal": 230
+  },
+  {
+   "cat": "Sides",
+   "name": "4 Piece Mozzarella Fries",
+   "carb": 24,
+   "fiber": 1,
+   "cal": 220
+  },
+  {
+   "cat": "Sides",
+   "name": "8 Piece Cheddar Ranch Tots",
+   "carb": 34,
+   "fiber": 2,
+   "cal": 270
+  },
+  {
+   "cat": "Sides",
+   "name": "8 Piece Mozzarella Fries",
+   "carb": 48,
+   "fiber": 2,
+   "cal": 440
+  },
+  {
+   "cat": "Sides",
+   "name": "12 Piece Mozzarella Fries",
+   "carb": 71,
+   "fiber": 3,
+   "cal": 660
+  },
+  {
+   "cat": "Sides",
+   "name": "Kid's French Fries",
+   "carb": 18,
+   "fiber": 2,
+   "cal": 140
+  },
+  {
+   "cat": "Sides",
+   "name": "Large French Fries",
+   "carb": 60,
+   "fiber": 5,
+   "cal": 440
+  },
+  {
+   "cat": "Sides",
+   "name": "Large Have-sies",
+   "carb": 67,
+   "fiber": 6,
+   "cal": 490
+  },
+  {
+   "cat": "Sides",
+   "name": "Large Onion Rings",
+   "carb": 57,
+   "fiber": 6,
+   "cal": 430
+  },
+  {
+   "cat": "Sides",
+   "name": "Medium French Fries",
+   "carb": 50,
+   "fiber": 4,
+   "cal": 370
+  },
+  {
+   "cat": "Sides",
+   "name": "Medium Have-sies",
+   "carb": 47,
+   "fiber": 4,
+   "cal": 350
+  },
+  {
+   "cat": "Sides",
+   "name": "Medium Onion Rings",
+   "carb": 39,
+   "fiber": 4,
+   "cal": 290
+  },
+  {
+   "cat": "Sides",
+   "name": "Mott's Applesauce",
+   "carb": 13,
+   "fiber": 1,
+   "cal": 50
+  },
+  {
+   "cat": "Sides",
+   "name": "Side, 4 Piece Crown Nuggets",
+   "carb": 12,
+   "fiber": 1,
+   "cal": 220
+  },
+  {
+   "cat": "Sides",
+   "name": "Side, 8 Piece Crown Nuggets",
+   "carb": 23,
+   "fiber": 2,
+   "cal": 440
+  },
+  {
+   "cat": "Sides",
+   "name": "Small French Fries",
+   "carb": 40,
+   "fiber": 3,
+   "cal": 300
+  },
+  {
+   "cat": "Sides",
+   "name": "Small Have-sies",
+   "carb": 38,
+   "fiber": 4,
+   "cal": 280
+  },
+  {
+   "cat": "Sides",
+   "name": "Small Onion Rings",
+   "carb": 31,
+   "fiber": 3,
+   "cal": 230
+  },
+  {
+   "cat": "Sides",
+   "name": "Value French Fries",
+   "carb": 31,
+   "fiber": 3,
+   "cal": 230
+  },
+  {
+   "cat": "Sides",
+   "name": "Value Have-sies",
+   "carb": 27,
+   "fiber": 2,
+   "cal": 220
+  },
+  {
+   "cat": "Sides",
+   "name": "Value Onion Rings",
+   "carb": 22,
+   "fiber": 2,
+   "cal": 170
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Chocolate Oreo Shake",
+   "carb": 116,
+   "fiber": 2,
+   "cal": 670
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Chocolate Shake",
+   "carb": 103,
+   "fiber": 1,
+   "cal": 590
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Classic Oreo Shake",
+   "carb": 109,
+   "fiber": 1,
+   "cal": 640
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Extra Large Mocha Iced Coffee",
+   "carb": 52,
+   "fiber": 2,
+   "cal": 400
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Extra Large Plain Iced Coffee",
+   "carb": 53,
+   "fiber": 0,
+   "cal": 390
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Extra Large Vanilla Iced Coffee",
+   "carb": 51,
+   "fiber": 0,
+   "cal": 390
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Fat Free Milk",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Honest Kids Apple Juice Drink",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Kids Signature Strawberry Lemonade",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Kids Signature Watermelon Lemonade",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Large Barq's Root Beer",
+   "carb": 96,
+   "fiber": 0,
+   "cal": 350
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Large Coca-Cola",
+   "carb": 88,
+   "fiber": 0,
+   "cal": 320
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Large Coca-Cola Zero",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Large Coke Freezee King",
+   "carb": 44,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Large Diet Barq's Root Beer",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Large Diet Coke",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Large Dr Pepper",
+   "carb": 82,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Large Fanta Blue Raspberry Freezee King",
+   "carb": 43,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Large Fanta Orange",
+   "carb": 88,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Large Fanta Strawberry Freezee King",
+   "carb": 43,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Large Hi-C Fruit Punch",
+   "carb": 94,
+   "fiber": 0,
+   "cal": 370
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Large Hi-C Orange Freezee King",
+   "carb": 63,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Large Hi-C Pink Lemonade",
+   "carb": 82,
+   "fiber": 1,
+   "cal": 300
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Large Mello Yello",
+   "carb": 76,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Large Minute Maid Lemonade",
+   "carb": 90,
+   "fiber": 1,
+   "cal": 340
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Large Mocha Iced Coffee",
+   "carb": 34,
+   "fiber": 1,
+   "cal": 260
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Large Orange Dreamsicle Freezee King",
+   "carb": 84,
+   "fiber": 0,
+   "cal": 400
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Large Plain Iced Coffee",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Large Powerade Zero",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Large Signature Watermelon Lemonade",
+   "carb": 96,
+   "fiber": 0,
+   "cal": 380
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Large Sprite",
+   "carb": 81,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Large Sprite Zero",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Large Sweetened Iced Tea",
+   "carb": 59,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Large Vanilla Iced Coffee",
+   "carb": 34,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Medium Barq's Root Beer",
+   "carb": 81,
+   "fiber": 0,
+   "cal": 300
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Medium Coca-Cola",
+   "carb": 70,
+   "fiber": 0,
+   "cal": 270
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Medium Coca-Cola Zero",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Medium Coke Freezee King",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Medium Diet Barq's Root Beer",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Medium Diet Coke",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Medium Dr Pepper",
+   "carb": 70,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Medium Fanta Blue Raspberry Freezee King",
+   "carb": 34,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Medium Fanta Orange",
+   "carb": 74,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Medium Fanta Strawberry Freezee King",
+   "carb": 34,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Medium Hi-C Fruit Punch",
+   "carb": 79,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Medium Hi-C Orange Freezee King",
+   "carb": 50,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Medium Hi-C Pink Lemonade",
+   "carb": 69,
+   "fiber": 1,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Medium Mello Yello",
+   "carb": 64,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Medium Minute Maid Lemonade",
+   "carb": 76,
+   "fiber": 1,
+   "cal": 290
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Medium Mocha Iced Coffee",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 200
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Medium Orange Dreamsicle Freezee King",
+   "carb": 68,
+   "fiber": 0,
+   "cal": 340
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Medium Plain Iced Coffee",
+   "carb": 27,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Medium Powerade Zero",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Medium Signature Strawberry Lemonade",
+   "carb": 63,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Medium Signature Watermelon Lemonade",
+   "carb": 66,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Medium Sprite",
+   "carb": 68,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Medium Sprite Zero",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Medium Sweetened Iced Tea",
+   "carb": 44,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Medium Vanilla Iced Coffee",
+   "carb": 27,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Simply Orange Juice",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Small Barqs Root Beer",
+   "carb": 54,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Small Coca-Cola",
+   "carb": 50,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Small Coca-Cola Zero",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Small Coke Freezee King",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Small Diet Barqs Root Beer",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Small Diet Coke",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Small Dr Pepper",
+   "carb": 46,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Small Fanta Blue Raspberry Freezee King",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Small Fanta Orange",
+   "carb": 49,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Small Fanta Strawberry Freezee King",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Small Hi-C Fruit Punch",
+   "carb": 53,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Small Hi-C Orange Freezee King",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Small Hi-C Pink Lemonade",
+   "carb": 46,
+   "fiber": 1,
+   "cal": 170
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Small Mello Yello",
+   "carb": 43,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Small Minute Maid Lemonade",
+   "carb": 50,
+   "fiber": 1,
+   "cal": 190
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Small Mocha Iced Coffee",
+   "carb": 21,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Small Orange Dreamsicle Freezee King",
+   "carb": 56,
+   "fiber": 0,
+   "cal": 300
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Small Plain Iced Coffee",
+   "carb": 21,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Small Powerade Zero",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Small Signature Strawberry Lemonade",
+   "carb": 50,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Small Signature Watermelon Lemonade",
+   "carb": 52,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Small Sprite",
+   "carb": 45,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Small Sprite Zero",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Small Sweetened Iced Tea",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Small Vanilla Iced Coffee",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Strawberry Shake",
+   "carb": 110,
+   "fiber": 1,
+   "cal": 610
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Value Barqs Root Beer",
+   "carb": 42,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Value Coca-Cola",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Value Coca-Cola Zero",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Value Diet Barqs Root Beer",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Value Diet Coke",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Value Dr Pepper",
+   "carb": 36,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Value Fanta Orange",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Value Hi-C Fruit Punch",
+   "carb": 41,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Value Hi-C Pink Lemonade",
+   "carb": 36,
+   "fiber": 1,
+   "cal": 130
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Value Mello Yello",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Value Powerade Zero",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Value Sprite",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Value Sprite Zero",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Value Sweetened Iced Tea",
+   "carb": 22,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Drinks & Coffee",
+   "name": "Vanilla Shake",
+   "carb": 96,
+   "fiber": 0,
+   "cal": 560
+  },
+  {
+   "cat": "Sweets",
+   "name": "2 Chocolate Chip Cookies",
+   "carb": 46,
+   "fiber": 2,
+   "cal": 320
+  },
+  {
+   "cat": "Sweets",
+   "name": "Cinnamon Apple Pie",
+   "carb": 36,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Sweets",
+   "name": "Firecracker Cookie Pie",
+   "carb": 33,
+   "fiber": 1,
+   "cal": 250
+  },
+  {
+   "cat": "Sweets",
+   "name": "HERSHEY'S Sundae",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Sweets",
+   "name": "HERSHEY'S Sundae Pie",
+   "carb": 32,
+   "fiber": 1,
+   "cal": 310
+  },
+  {
+   "cat": "Sweets",
+   "name": "OREO Sundae",
+   "carb": 51,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Sweets",
+   "name": "Soft Serve Cone",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Sweets",
+   "name": "Soft Serve Cup",
+   "carb": 28,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Sweets",
+   "name": "Sweets, Chocolate Oreo Shake",
+   "carb": 116,
+   "fiber": 2,
+   "cal": 670
+  },
+  {
+   "cat": "Sweets",
+   "name": "Sweets, Chocolate Shake",
+   "carb": 103,
+   "fiber": 1,
+   "cal": 590
+  },
+  {
+   "cat": "Sweets",
+   "name": "Sweets, Classic Oreo Shake",
+   "carb": 109,
+   "fiber": 1,
+   "cal": 640
+  },
+  {
+   "cat": "Sweets",
+   "name": "Sweets, Strawberry Shake",
+   "carb": 110,
+   "fiber": 1,
+   "cal": 610
+  },
+  {
+   "cat": "Sweets",
+   "name": "Sweets, Vanilla Shake",
+   "carb": 96,
+   "fiber": 0,
+   "cal": 560
+  }
+ ]
+}

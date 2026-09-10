@@ -1,0 +1,311 @@
+{
+ "chain": "Five Guys",
+ "slug": "five-guys",
+ "source": "https://www.nutritionix.com/five-guys/menu/premium",
+ "platform": "nutritionix",
+ "updated": "06/06/2025",
+ "pulledAt": "2026-09-10",
+ "type": "grid",
+ "columns": {
+  "cal": 1,
+  "carb": 8,
+  "fiber": 9
+ },
+ "count": 42,
+ "items": [
+  {
+   "cat": "Meat",
+   "name": "Bacon (2 Pieces)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Meat",
+   "name": "Hamburger Patty",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 300
+  },
+  {
+   "cat": "Meat",
+   "name": "Hot Dog",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Bun",
+   "name": "Bun",
+   "carb": 39,
+   "fiber": 2,
+   "cal": 240
+  },
+  {
+   "cat": "Fries",
+   "name": "Large, Cajun Style",
+   "carb": 184,
+   "fiber": 21,
+   "cal": 1330
+  },
+  {
+   "cat": "Fries",
+   "name": "Large, Five Guys Style",
+   "carb": 181,
+   "fiber": 21,
+   "cal": 1310
+  },
+  {
+   "cat": "Fries",
+   "name": "Little, Cajun Style",
+   "carb": 75,
+   "fiber": 8,
+   "cal": 540
+  },
+  {
+   "cat": "Fries",
+   "name": "Little, Five Guys Style",
+   "carb": 72,
+   "fiber": 8,
+   "cal": 530
+  },
+  {
+   "cat": "Fries",
+   "name": "Regular, Cajun Style",
+   "carb": 134,
+   "fiber": 15,
+   "cal": 970
+  },
+  {
+   "cat": "Fries",
+   "name": "Regular, Five Guys Style",
+   "carb": 131,
+   "fiber": 15,
+   "cal": 950
+  },
+  {
+   "cat": "Toppings",
+   "name": "A.1. Sauce",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Toppings",
+   "name": "BBQ Sauce",
+   "carb": 15,
+   "fiber": 1,
+   "cal": 50
+  },
+  {
+   "cat": "Toppings",
+   "name": "Cheese (1 Slice)",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Toppings",
+   "name": "Green Peppers",
+   "carb": 1,
+   "fiber": 1,
+   "cal": 0
+  },
+  {
+   "cat": "Toppings",
+   "name": "Grilled Mushrooms",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Toppings",
+   "name": "Hot Sauce",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Toppings",
+   "name": "Jalapeno Peppers",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Toppings",
+   "name": "Ketchup",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 30
+  },
+  {
+   "cat": "Toppings",
+   "name": "Lettuce",
+   "carb": 1,
+   "fiber": 1,
+   "cal": 0
+  },
+  {
+   "cat": "Toppings",
+   "name": "Mayonnaise",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Toppings",
+   "name": "Mustard",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Toppings",
+   "name": "Onions / Grilled Onions",
+   "carb": 2,
+   "fiber": 1,
+   "cal": 10
+  },
+  {
+   "cat": "Toppings",
+   "name": "Pickles",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Toppings",
+   "name": "Relish",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Toppings",
+   "name": "Tomatoes",
+   "carb": 2,
+   "fiber": 1,
+   "cal": 10
+  },
+  {
+   "cat": "Milkshakes",
+   "name": "Vanilla Shake Base",
+   "carb": 84,
+   "fiber": 0,
+   "cal": 670
+  },
+  {
+   "cat": "Milkshakes",
+   "name": "Whipped Cream",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Mix-Ins",
+   "name": "Banana",
+   "carb": 51,
+   "fiber": 1,
+   "cal": 160
+  },
+  {
+   "cat": "Mix-Ins",
+   "name": "Candy Cane Crunch",
+   "carb": 48,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Mix-Ins",
+   "name": "Chocolate",
+   "carb": 30,
+   "fiber": 2,
+   "cal": 130
+  },
+  {
+   "cat": "Mix-Ins",
+   "name": "Mix In, Bacon (2 Pieces)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Mix-Ins",
+   "name": "Oreo Cookie Pieces",
+   "carb": 18,
+   "fiber": 1,
+   "cal": 120
+  },
+  {
+   "cat": "Mix-Ins",
+   "name": "Oreo Creme",
+   "carb": 23,
+   "fiber": 0,
+   "cal": 320
+  },
+  {
+   "cat": "Mix-Ins",
+   "name": "Peanut Butter",
+   "carb": 9,
+   "fiber": 3,
+   "cal": 320
+  },
+  {
+   "cat": "Mix-Ins",
+   "name": "Reese’s Peanut Butter Cup",
+   "carb": 15,
+   "fiber": 1,
+   "cal": 150
+  },
+  {
+   "cat": "Mix-Ins",
+   "name": "Salted Caramel",
+   "carb": 37,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Mix-Ins",
+   "name": "Strawberry",
+   "carb": 17,
+   "fiber": 1,
+   "cal": 90
+  },
+  {
+   "cat": "Other Items",
+   "name": "Bulk Peanuts (1 oz.)",
+   "carb": 5,
+   "fiber": 3,
+   "cal": 170
+  },
+  {
+   "cat": "Other Items",
+   "name": "Eggs, 2",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Other Items",
+   "name": "Fry Sauce Bulk",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Other Items",
+   "name": "Fry Sauce PC",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Other Items",
+   "name": "Malt Vinegar (1 Tbsp)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  }
+ ]
+}

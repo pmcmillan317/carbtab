@@ -1,0 +1,3643 @@
+{
+ "chain": "Panera Bread",
+ "slug": "panera",
+ "source": "https://www.nutritionix.com/panera-bread/menu/premium",
+ "platform": "nutritionix",
+ "updated": "05/01/2025",
+ "pulledAt": "2026-09-10",
+ "type": "grid",
+ "columns": {
+  "cal": 1,
+  "carb": 8,
+  "fiber": 9
+ },
+ "count": 518,
+ "items": [
+  {
+   "cat": "Bagels & Spreads",
+   "name": "Asiago Cheese Bagel",
+   "carb": 55,
+   "fiber": 2,
+   "cal": 320
+  },
+  {
+   "cat": "Bagels & Spreads",
+   "name": "Blueberry Bagel",
+   "carb": 61,
+   "fiber": 2,
+   "cal": 290
+  },
+  {
+   "cat": "Bagels & Spreads",
+   "name": "Cinnamon Crunch Bagel",
+   "carb": 82,
+   "fiber": 2,
+   "cal": 420
+  },
+  {
+   "cat": "Bagels & Spreads",
+   "name": "Cinnamon Swirl & Raisin Bagel",
+   "carb": 65,
+   "fiber": 3,
+   "cal": 320
+  },
+  {
+   "cat": "Bagels & Spreads",
+   "name": "Everything Bagel",
+   "carb": 58,
+   "fiber": 2,
+   "cal": 290
+  },
+  {
+   "cat": "Bagels & Spreads",
+   "name": "Multigrain Bagel Flat",
+   "carb": 32,
+   "fiber": 3,
+   "cal": 180
+  },
+  {
+   "cat": "Bagels & Spreads",
+   "name": "Plain Bagel",
+   "carb": 57,
+   "fiber": 2,
+   "cal": 280
+  },
+  {
+   "cat": "Bagels & Spreads",
+   "name": "Plain Cream Cheese Spread, 1.75 oz",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Bagels & Spreads",
+   "name": "Plain Cream Cheese Spread, 8 oz",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Bagels & Spreads",
+   "name": "Reduced Fat Honey Walnut Cream Cheese Spread, 1.75 oz",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Bagels & Spreads",
+   "name": "Reduced Fat Honey Walnut Cream Cheese Spread, 8 oz",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Bagels & Spreads",
+   "name": "Sesame Bagel",
+   "carb": 58,
+   "fiber": 2,
+   "cal": 300
+  },
+  {
+   "cat": "Breads",
+   "name": "Artisan Ciabatta",
+   "carb": 30,
+   "fiber": 1,
+   "cal": 150
+  },
+  {
+   "cat": "Breads",
+   "name": "Black Pepper Focaccia",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 140
+  },
+  {
+   "cat": "Breads",
+   "name": "Bread Portion, Half Sandwich & Breakfast, Artisan Ciabatta",
+   "carb": 38,
+   "fiber": 2,
+   "cal": 200
+  },
+  {
+   "cat": "Breads",
+   "name": "Bread Portion, Half Sandwich & Breakfast, Black Pepper Focaccia",
+   "carb": 33,
+   "fiber": 1,
+   "cal": 180
+  },
+  {
+   "cat": "Breads",
+   "name": "Bread Portion, Half Sandwich & Breakfast, Classic White Miche",
+   "carb": 31,
+   "fiber": 1,
+   "cal": 190
+  },
+  {
+   "cat": "Breads",
+   "name": "Bread Portion, Half Sandwich & Breakfast, Country Rustic Sourdough",
+   "carb": 22,
+   "fiber": 1,
+   "cal": 110
+  },
+  {
+   "cat": "Breads",
+   "name": "Bread Portion, Half Sandwich & Breakfast, French Baguette",
+   "carb": 54,
+   "fiber": 2,
+   "cal": 270
+  },
+  {
+   "cat": "Breads",
+   "name": "Bread Portion, Half Sandwich & Breakfast, Tomato Basil Miche",
+   "carb": 30,
+   "fiber": 1,
+   "cal": 150
+  },
+  {
+   "cat": "Breads",
+   "name": "Classic White Miche",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 160
+  },
+  {
+   "cat": "Breads",
+   "name": "Country Rustic Sourdough",
+   "carb": 28,
+   "fiber": 1,
+   "cal": 130
+  },
+  {
+   "cat": "Breads",
+   "name": "Croissant",
+   "carb": 28,
+   "fiber": 1,
+   "cal": 250
+  },
+  {
+   "cat": "Breads",
+   "name": "French Baguette",
+   "carb": 30,
+   "fiber": 1,
+   "cal": 150
+  },
+  {
+   "cat": "Breads",
+   "name": "New England Roll",
+   "carb": 44,
+   "fiber": 1,
+   "cal": 250
+  },
+  {
+   "cat": "Breads",
+   "name": "Tomato Basil Miche",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 130
+  },
+  {
+   "cat": "Breads",
+   "name": "Whole Grain Lahvash",
+   "carb": 25,
+   "fiber": 9,
+   "cal": 170
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Asiago Sausage & Egg on Asiago Bagel",
+   "carb": 58,
+   "fiber": 2,
+   "cal": 810
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Bacon, Egg & Cheese on Ciabatta",
+   "carb": 40,
+   "fiber": 2,
+   "cal": 430
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Bacon, Egg & Cheese on Croissant",
+   "carb": 29,
+   "fiber": 1,
+   "cal": 480
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Bacon Double Take on Black Pepper Focaccia",
+   "carb": 37,
+   "fiber": 1,
+   "cal": 510
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Chipotle Chicken, Egg & Avo on Ciabatta",
+   "carb": 44,
+   "fiber": 4,
+   "cal": 550
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Classic Avo Toast",
+   "carb": 27,
+   "fiber": 5,
+   "cal": 230
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Egg & Cheese on Ciabatta",
+   "carb": 40,
+   "fiber": 2,
+   "cal": 380
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Egg & Cheese on Croissant",
+   "carb": 29,
+   "fiber": 1,
+   "cal": 430
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Egg Whites",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 30
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Garden Avo & Egg White on Multigrain Bagel Flat",
+   "carb": 36,
+   "fiber": 5,
+   "cal": 340
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Garden Avo Toast",
+   "carb": 29,
+   "fiber": 5,
+   "cal": 350
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Green Goddess Avo Toast",
+   "carb": 31,
+   "fiber": 5,
+   "cal": 290
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Ham, Egg & Cheese on Ciabatta",
+   "carb": 40,
+   "fiber": 2,
+   "cal": 410
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage, Egg & Cheese on Ciabatta",
+   "carb": 40,
+   "fiber": 2,
+   "cal": 590
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage, Egg & Cheese on Croissant",
+   "carb": 30,
+   "fiber": 1,
+   "cal": 640
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Scrambled Egg",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Souffle, Four Cheese",
+   "carb": 36,
+   "fiber": 1,
+   "cal": 470
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Souffle, Spinach & Bacon",
+   "carb": 36,
+   "fiber": 1,
+   "cal": 550
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Steak & Wake on Ciabatta",
+   "carb": 41,
+   "fiber": 2,
+   "cal": 470
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Steel Cut Oatmeal with Strawberries & Cinnamon Crunch Topping without Pecans",
+   "carb": 50,
+   "fiber": 6,
+   "cal": 260
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Steel Cut Oatmeal with Strawberries, Pecans & Cinnamon Crunch Topping",
+   "carb": 52,
+   "fiber": 7,
+   "cal": 370
+  },
+  {
+   "cat": "Dressings & Sauces",
+   "name": "Dressing, Asian Sesame Vinaigrette, Half",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Dressings & Sauces",
+   "name": "Dressing, Asian Sesame Vinaigrette, Whole",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Dressings & Sauces",
+   "name": "Dressing, Balsamic Vinaigrette, Half",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Dressings & Sauces",
+   "name": "Dressing, Balsamic Vinaigrette, Whole",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Dressings & Sauces",
+   "name": "Dressing, Caesar, Half",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Dressings & Sauces",
+   "name": "Dressing, Caesar, Whole",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Dressings & Sauces",
+   "name": "Dressing, Greek Dressing, Half",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Dressings & Sauces",
+   "name": "Dressing, Greek Dressing, Sandwich Portion",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Dressings & Sauces",
+   "name": "Dressing, Greek Dressing, Whole",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Dressings & Sauces",
+   "name": "Dressing, Green Goddess, Half",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Dressings & Sauces",
+   "name": "Dressing, Green Goddess, Whole",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Dressings & Sauces",
+   "name": "Dressing, Green Goddess Dressing, Sandwich Portion",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 30
+  },
+  {
+   "cat": "Dressings & Sauces",
+   "name": "Dressing, Poppyseed, Half",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Dressings & Sauces",
+   "name": "Dressing, Poppyseed, Whole",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Dressings & Sauces",
+   "name": "Dressing, Ranch, Half",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Dressings & Sauces",
+   "name": "Dressing, Ranch, Whole",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Dressings & Sauces",
+   "name": "Dressing, Ranch Dressing, Sandwich Portion",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Dressings & Sauces",
+   "name": "Dressing, White Balsamic Vinaigrette Flavored with Apple, Half",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Dressings & Sauces",
+   "name": "Dressing, White Balsamic Vinaigrette Flavored with Apple, Whole",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Dressings & Sauces",
+   "name": "Sauce, Apple Cider Vinegar Bbq Sauce, Sandwich Portion",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Dressings & Sauces",
+   "name": "Sauce, Chipotle Aioli, Sandwich Portion",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Dressings & Sauces",
+   "name": "Sauce, Garlic Aioli, Sandwich Portion",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Dressings & Sauces",
+   "name": "Sauce, Mayonnaise, Sandwich Portion",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Dressings & Sauces",
+   "name": "Sauce, Signature Sauce, Sandwich Portion",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Dressings & Sauces",
+   "name": "Spread, Green Chile Salsa Verde, Sandwich Portion",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Dressings & Sauces",
+   "name": "Spread, Hummus, Sandwich Portion",
+   "carb": 4,
+   "fiber": 1,
+   "cal": 60
+  },
+  {
+   "cat": "Drinks",
+   "name": "1 Pump of Cane Sugar Syrup",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Drinks",
+   "name": "20 oz Diet Coke Bottle",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Additional Shot of Caramel Syrup",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Drinks",
+   "name": "Additional Shot of Espresso",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Additional Shot of Madagascar Vanilla Syrup",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Drinks",
+   "name": "Agave Lemonade, 20 fl oz",
+   "carb": 52,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Drinks",
+   "name": "Agave Lemonade, 30 fl oz",
+   "carb": 78,
+   "fiber": 0,
+   "cal": 320
+  },
+  {
+   "cat": "Drinks",
+   "name": "Agave Lemonade, Serves 4, Group",
+   "carb": 165,
+   "fiber": 0,
+   "cal": 670
+  },
+  {
+   "cat": "Drinks",
+   "name": "Agave Lemonade, Serves 8, Group",
+   "carb": 331,
+   "fiber": 0,
+   "cal": 1350
+  },
+  {
+   "cat": "Drinks",
+   "name": "Americano, 16 fl oz",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Blueberry Lavender Lemonade, Naturally Flavored, 20 fl oz without Ice",
+   "carb": 63,
+   "fiber": 1,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Blueberry Lavender Lemonade, Naturally Flavored, 30 fl oz without Ice",
+   "carb": 95,
+   "fiber": 1,
+   "cal": 380
+  },
+  {
+   "cat": "Drinks",
+   "name": "Blueberry Lavender Lemonade, Naturally Flavored, Serves 4, Group",
+   "carb": 202,
+   "fiber": 2,
+   "cal": 810
+  },
+  {
+   "cat": "Drinks",
+   "name": "Blueberry Lavender Lemonade, Naturally Flavored, Serves 8, Group",
+   "carb": 404,
+   "fiber": 4,
+   "cal": 1620
+  },
+  {
+   "cat": "Drinks",
+   "name": "Blue Packet Sweetener",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Bottled Passionfruit Papaya Naturally Flavored Iced Green Tea",
+   "carb": 31,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Drinks",
+   "name": "Bottled Water",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Cafe Blend Dark Roast Coffee, 16 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Cafe Blend Dark Roast Coffee, 20 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Cafe Blend Dark Roast Coffee, Group",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Drinks",
+   "name": "Cafe Blend Light Roast Coffee, 16 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Cafe Blend Light Roast Coffee, 20 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Cafe Blend Light Roast Coffee, Group",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Drinks",
+   "name": "Caffeine Free Diet Pepsi, 20 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Caffeine Free Diet Pepsi, 30 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Caffe Latte, 16 fl oz",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Drinks",
+   "name": "Caffe Latte, 20 fl oz",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks",
+   "name": "Canada Dry Ginger Ale, 20 fl oz",
+   "carb": 60,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Drinks",
+   "name": "Canada Dry Ginger Ale, 30 fl oz",
+   "carb": 90,
+   "fiber": 0,
+   "cal": 340
+  },
+  {
+   "cat": "Drinks",
+   "name": "Cappuccino, 16 fl oz",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Drinks",
+   "name": "Cappuccino, 20 fl oz",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks",
+   "name": "Caramel Latte, 16 fl oz",
+   "carb": 51,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Drinks",
+   "name": "Caramel Latte, 20 fl oz",
+   "carb": 66,
+   "fiber": 0,
+   "cal": 400
+  },
+  {
+   "cat": "Drinks",
+   "name": "Chai Tea Latte, 16 fl oz",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Drinks",
+   "name": "Chai Tea Latte, 20 fl oz",
+   "carb": 42,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Drinks",
+   "name": "Citrus Punch, Naturally Flavored, 20 fl oz without Ice",
+   "carb": 69,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Drinks",
+   "name": "Citrus Punch, Naturally Flavored, 30 fl oz without Ice",
+   "carb": 104,
+   "fiber": 0,
+   "cal": 430
+  },
+  {
+   "cat": "Drinks",
+   "name": "Citrus Punch, Naturally Flavored, Serves 4, Group",
+   "carb": 221,
+   "fiber": 0,
+   "cal": 920
+  },
+  {
+   "cat": "Drinks",
+   "name": "Citrus Punch, Naturally Flavored, Serves 8, Group",
+   "carb": 443,
+   "fiber": 0,
+   "cal": 1840
+  },
+  {
+   "cat": "Drinks",
+   "name": "Coke, 20 fl oz",
+   "carb": 67,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Drinks",
+   "name": "Coke, 30 fl oz",
+   "carb": 100,
+   "fiber": 0,
+   "cal": 370
+  },
+  {
+   "cat": "Drinks",
+   "name": "Coke 20 fl oz Bottle",
+   "carb": 68,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Coke Zero, 20 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Coke Zero, 20 fl oz Bottle",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Coke Zero, 30 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Dasani Lemon, 12 fl oz Can",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Dasani Lime, 12 fl oz Can",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Decaf Coffee, 16 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Decaf Coffee, 20 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Decaf Coffee, Group",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Coke, 20 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Coke, 30 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Dr. Pepper, 20 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Dr. Pepper, 30 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Mountain Dew, 12 fl oz Can",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Mountain Dew, 20 fl oz",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Mountain Dew, 30 fl oz",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Pepsi, 12 fl oz Can",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Pepsi, 20 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Pepsi, 20 fl oz Bottle",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Pepsi, 30 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Dr. Pepper, 20 fl oz",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Drinks",
+   "name": "Dr. Pepper, 30 fl oz",
+   "carb": 98,
+   "fiber": 0,
+   "cal": 360
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive-Thru, Lime Bubly Sparkling Water, 20 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive-Thru, Lime Bubly Sparkling Water, 30 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Agave Lemonade, 20 fl oz",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Agave Lemonade, 30 fl oz",
+   "carb": 48,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Blueberry Lavender Lemonade, Naturally Flavored, 20 fl oz with Ice",
+   "carb": 37,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Blueberry Lavender Lemonade, Naturally Flavored, 30 fl oz with Ice",
+   "carb": 53,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Caffeine Free Diet Pepsi, 20 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Caffeine Free Diet Pepsi, 30 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Canada Dry Ginger Ale, 20 fl oz",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Canada Dry Ginger Ale, 30 fl oz",
+   "carb": 57,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Citrus Punch, Naturally Flavored, 20 fl oz with Ice",
+   "carb": 41,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Citrus Punch, Naturally Flavored, 30 fl oz with Ice",
+   "carb": 58,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Coke, 20 fl oz",
+   "carb": 42,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Coke, 30 fl oz",
+   "carb": 63,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Coke Zero, 20 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Coke Zero, 30 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Diet Coke, 20 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Diet Coke, 30 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Diet Dr. Pepper, 20 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Diet Dr. Pepper, 30 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Diet Mountain Dew, 20 fl oz",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Diet Mountain Dew, 30 fl oz",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Diet Pepsi, 20 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Diet Pepsi, 30 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Dr. Pepper, 20 fl oz",
+   "carb": 41,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Dr. Pepper, 30 fl oz",
+   "carb": 61,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Fanta Orange, 20 fl oz",
+   "carb": 42,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Fanta Orange, 30 fl oz",
+   "carb": 63,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Lipton Brisk Raspberry Tea, 20 fl oz",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Lipton Brisk Raspberry Tea, 30 fl oz",
+   "carb": 28,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Mountain Dew, 20 fl oz",
+   "carb": 46,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Mountain Dew, 30 fl oz",
+   "carb": 69,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Mug Root Beer, 20 fl oz",
+   "carb": 40,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Mug Root Beer, 30 fl oz",
+   "carb": 60,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Passion Papaya Naturally Flavored Iced Green Tea, 20 fl oz",
+   "carb": 21,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Passion Papaya Naturally Flavored Iced Green Tea, 30 fl oz",
+   "carb": 29,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Pepsi, 20 fl oz",
+   "carb": 43,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Pepsi, 30 fl oz",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Pepsi Zero, 20 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Pibb Xtra, 20 fl oz",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Pibb Xtra, 30 fl oz",
+   "carb": 58,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Powerade Mountain Blast, 20 fl oz",
+   "carb": 23,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Powerade Mountain Blast, 30 fl oz",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Sobe Life Water Yumberry Pomegranate, 20 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Sobe Life Water Yumberry Pomegranate, 30 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Sprite, 20 fl oz",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Sprite, 30 fl oz",
+   "carb": 57,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Starry Lemon Lime, 20 fl oz",
+   "carb": 43,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Starry Lemon Lime, 30 fl oz",
+   "carb": 61,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Sweet Iced Tea, 20 fl oz",
+   "carb": 34,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Sweet Iced Tea, 30 fl oz",
+   "carb": 50,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Tropicana Fruit Punch, 20 fl oz",
+   "carb": 49,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Tropicana Fruit Punch, 30 fl oz",
+   "carb": 71,
+   "fiber": 0,
+   "cal": 270
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Tropicana Lemonade, 20 fl oz",
+   "carb": 42,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Tropicana Lemonade, 30 fl oz",
+   "carb": 62,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Tropicana Light Lemonade, 20 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Tropicana Light Lemonade, 30 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Unsweetened Iced Tea, 20 fl oz",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Unsweetened Iced Tea, 30 fl oz",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Wild Cherry Pepsi, 20 fl oz",
+   "carb": 44,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks",
+   "name": "Drive Thru, Wild Cherry Pepsi, 30 fl oz",
+   "carb": 66,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Drinks",
+   "name": "Dr Pepper, 20 fl oz Bottle",
+   "carb": 66,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Espresso",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Fanta Orange, 20 fl oz",
+   "carb": 66,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Fanta Orange, 30 fl oz",
+   "carb": 99,
+   "fiber": 0,
+   "cal": 370
+  },
+  {
+   "cat": "Drinks",
+   "name": "Frozen Strawberry Lemonade with Fresh Strawberries, 16 fl oz",
+   "carb": 35,
+   "fiber": 1,
+   "cal": 140
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gold Peak Unsweetened Iced Tea, 18.5 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Half & Half, 1 fl oz",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Drinks",
+   "name": "Hazelnut Coffee, Group",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Drinks",
+   "name": "Hazelnut Flavored Coffee, 16 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Hazelnut Flavored Coffee, 20 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Honest Berry Hibiscus Iced Tea, 16.9 fl oz Bottle",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Drinks",
+   "name": "Iced Cafe Blend Dark Roast Coffee, 20 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Iced Cafe Blend Dark Roast Coffee, 20 fl oz, No Ice",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Iced Cafe Blend Dark Roast Coffee, 30 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Iced Cafe Blend Dark Roast Coffee, 30 fl oz, No Ice",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Drinks",
+   "name": "Iced Caffe Latte, 20 fl oz",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks",
+   "name": "Iced Caramel Latte, 20 fl oz",
+   "carb": 54,
+   "fiber": 0,
+   "cal": 360
+  },
+  {
+   "cat": "Drinks",
+   "name": "Iced Chai Tea Latte, 20 fl oz",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Drinks",
+   "name": "Iced Madagascar Vanilla Latte, 20 fl oz",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Drinks",
+   "name": "Kids Organic Apple Juice",
+   "carb": 24,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Drinks",
+   "name": "Kids Organic Chocolate Milk",
+   "carb": 23,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Drinks",
+   "name": "Kids Organic White Milk",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Drinks",
+   "name": "Lime Bubly Sparkling Water, 20 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Lime Bubly Sparkling Water, 30 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Lipton Brisk Raspberry Tea, 20 fl oz",
+   "carb": 30,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Drinks",
+   "name": "Lipton Brisk Raspberry Tea, 30 fl oz",
+   "carb": 45,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Drinks",
+   "name": "Madagascar Vanilla Latte, 16 fl oz",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Madagascar Vanilla Latte, 20 fl oz",
+   "carb": 41,
+   "fiber": 0,
+   "cal": 300
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mango Smoothie with Greek Yogurt, 16 fl oz",
+   "carb": 51,
+   "fiber": 1,
+   "cal": 300
+  },
+  {
+   "cat": "Drinks",
+   "name": "Minute Maid Orange Juice, 12 fl oz Bottle",
+   "carb": 51,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mountain Dew, 12 fl oz Can",
+   "carb": 46,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mountain Dew, 20 fl oz",
+   "carb": 73,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mountain Dew, 20 fl oz Bottle",
+   "carb": 77,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mountain Dew, 30 fl oz",
+   "carb": 110,
+   "fiber": 0,
+   "cal": 420
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mug Root Beer, 20 fl oz",
+   "carb": 64,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mug Root Beer, 30 fl oz",
+   "carb": 96,
+   "fiber": 0,
+   "cal": 360
+  },
+  {
+   "cat": "Drinks",
+   "name": "Passion Papaya Naturally Flavored Iced Green Tea, 20 fl oz",
+   "carb": 36,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Drinks",
+   "name": "Passion Papaya Naturally Flavored Iced Green Tea, 30 fl oz",
+   "carb": 53,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Drinks",
+   "name": "Passion Papaya Naturally Flavored Iced Green Tea, Serves 4, Group",
+   "carb": 114,
+   "fiber": 0,
+   "cal": 460
+  },
+  {
+   "cat": "Drinks",
+   "name": "Passion Papaya Naturally Flavored Iced Green Tea, Serves 8, Group",
+   "carb": 227,
+   "fiber": 0,
+   "cal": 910
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pepsi, 20 fl oz",
+   "carb": 69,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pepsi, 20 fl oz Bottle",
+   "carb": 69,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pepsi, 30 fl oz",
+   "carb": 103,
+   "fiber": 0,
+   "cal": 380
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pepsi 12 fl oz Can",
+   "carb": 41,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pepsi Zero, 20 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pepsi Zero, 20 fl oz Bottle",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pibb Xtra, 20 fl oz",
+   "carb": 61,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pibb Xtra, 30 fl oz",
+   "carb": 92,
+   "fiber": 0,
+   "cal": 370
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pink Packet Sweetener",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pomegranate Hibiscus Herbal Tea Infusion, Naturally Flavored, 20 fl oz without Ice",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pomegranate Hibiscus Herbal Tea Infusion, Naturally Flavored, 30 fl oz without Ice",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pomegranate Hibiscus Herbal Tea Infusion, Naturally Flavored, Serves 4, Group",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pomegranate Hibiscus Herbal Tea Infusion, Naturally Flavored, Serves 8, Group",
+   "carb": 21,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Drinks",
+   "name": "Powerade Mountain Blast, 20 fl oz",
+   "carb": 37,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Drinks",
+   "name": "Powerade Mountain Blast, 30 fl oz",
+   "carb": 55,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Drinks",
+   "name": "Premium Oj, 11.5 fl oz",
+   "carb": 37,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks",
+   "name": "Premium Orange Juice, Serves 4, Group",
+   "carb": 204,
+   "fiber": 0,
+   "cal": 900
+  },
+  {
+   "cat": "Drinks",
+   "name": "Premium Orange Juice, Serves 8, Group",
+   "carb": 408,
+   "fiber": 0,
+   "cal": 1800
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sobe Life Water Yumberry Pomegranate, 20 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sobe Life Water Yumberry Pomegranate, 30 fl oz",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sprite, 20 fl oz",
+   "carb": 61,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sprite, 20 fl oz Bottle",
+   "carb": 64,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sprite, 30 fl oz",
+   "carb": 91,
+   "fiber": 0,
+   "cal": 340
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sprite Zero, 20 fl oz Bottle",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Starry Lemon Lime, 12 fl oz Can",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Drinks",
+   "name": "Starry Lemon Lime, 20 fl oz",
+   "carb": 68,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Starry Lemon Lime, 20 fl oz Bottle",
+   "carb": 68,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Starry Lemon Lime, 30 fl oz",
+   "carb": 97,
+   "fiber": 0,
+   "cal": 370
+  },
+  {
+   "cat": "Drinks",
+   "name": "Strawberry Banana Smoothie with Greek Yogurt, 16 fl oz",
+   "carb": 51,
+   "fiber": 4,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Strawberry Smoothie with Greek Yogurt, 16 fl oz",
+   "carb": 43,
+   "fiber": 2,
+   "cal": 260
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sugar",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sweet Iced Tea, 20 fl oz",
+   "carb": 45,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sweet Iced Tea, 30 fl oz",
+   "carb": 68,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sweet Iced Tea, Serves 4, Group",
+   "carb": 145,
+   "fiber": 0,
+   "cal": 560
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sweet Iced Tea, Serves 8, Group",
+   "carb": 290,
+   "fiber": 0,
+   "cal": 1120
+  },
+  {
+   "cat": "Drinks",
+   "name": "Tropical Green Smoothie, 16 fl oz",
+   "carb": 46,
+   "fiber": 3,
+   "cal": 190
+  },
+  {
+   "cat": "Drinks",
+   "name": "Tropicana Fruit Punch, 20 fl oz",
+   "carb": 78,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Drinks",
+   "name": "Tropicana Fruit Punch, 30 fl oz",
+   "carb": 113,
+   "fiber": 0,
+   "cal": 420
+  },
+  {
+   "cat": "Drinks",
+   "name": "Tropicana Lemonade, 20 fl oz",
+   "carb": 67,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Drinks",
+   "name": "Tropicana Lemonade, 30 fl oz",
+   "carb": 100,
+   "fiber": 0,
+   "cal": 380
+  },
+  {
+   "cat": "Drinks",
+   "name": "Tropicana Light Lemonade, 20 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Drinks",
+   "name": "Tropicana Light Lemonade, 30 fl oz",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Drinks",
+   "name": "Turbinado Cane Sugar Packet",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Drinks",
+   "name": "Unsweetened Iced Tea, 20 fl oz",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Unsweetened Iced Tea, 30 fl oz",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Drinks",
+   "name": "Unsweetened Iced Tea, Serves 4, Group",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Drinks",
+   "name": "Unsweetened Iced Tea, Serves 8, Group",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Drinks",
+   "name": "Wild Cherry Pepsi, 20 fl oz",
+   "carb": 70,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Drinks",
+   "name": "Wild Cherry Pepsi, 30 fl oz",
+   "carb": 106,
+   "fiber": 0,
+   "cal": 390
+  },
+  {
+   "cat": "Drinks",
+   "name": "Yellow Packet Sweetener",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Pastries & Sweets",
+   "name": "Brownie",
+   "carb": 73,
+   "fiber": 5,
+   "cal": 550
+  },
+  {
+   "cat": "Pastries & Sweets",
+   "name": "Cinnamon Roll",
+   "carb": 84,
+   "fiber": 2,
+   "cal": 520
+  },
+  {
+   "cat": "Pastries & Sweets",
+   "name": "Cookie, Candy",
+   "carb": 68,
+   "fiber": 1,
+   "cal": 480
+  },
+  {
+   "cat": "Pastries & Sweets",
+   "name": "Cookie, Chocolate Chipper",
+   "carb": 52,
+   "fiber": 2,
+   "cal": 390
+  },
+  {
+   "cat": "Pastries & Sweets",
+   "name": "Cookie, Chocolate Coconut Macaroon",
+   "carb": 23,
+   "fiber": 3,
+   "cal": 190
+  },
+  {
+   "cat": "Pastries & Sweets",
+   "name": "Cookie, Coconut Macaroon",
+   "carb": 24,
+   "fiber": 2,
+   "cal": 190
+  },
+  {
+   "cat": "Pastries & Sweets",
+   "name": "Cookie, Kitchen Sink",
+   "carb": 100,
+   "fiber": 3,
+   "cal": 820
+  },
+  {
+   "cat": "Pastries & Sweets",
+   "name": "Cookie, Oatmeal Raisin with Berries",
+   "carb": 55,
+   "fiber": 3,
+   "cal": 350
+  },
+  {
+   "cat": "Pastries & Sweets",
+   "name": "Cookie, Petite Chocolate Chipper",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Pastries & Sweets",
+   "name": "Cookie, Pumpkin Shaped Shortbread",
+   "carb": 62,
+   "fiber": 1,
+   "cal": 450
+  },
+  {
+   "cat": "Pastries & Sweets",
+   "name": "Cranberry Orange Loaf Slice, Naturally Flavored",
+   "carb": 53,
+   "fiber": 1,
+   "cal": 360
+  },
+  {
+   "cat": "Pastries & Sweets",
+   "name": "Dozen Chocolate Chipper Cookies",
+   "carb": 52,
+   "fiber": 2,
+   "cal": 390
+  },
+  {
+   "cat": "Pastries & Sweets",
+   "name": "Dozen Mixed Cookies",
+   "carb": 683,
+   "fiber": 20,
+   "cal": 4830
+  },
+  {
+   "cat": "Pastries & Sweets",
+   "name": "Mini, Brownie",
+   "carb": 18,
+   "fiber": 1,
+   "cal": 140
+  },
+  {
+   "cat": "Pastries & Sweets",
+   "name": "Mini Cookie, Candy",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Pastries & Sweets",
+   "name": "Mini Cookie, Oatmeal Raisin with Berries",
+   "carb": 14,
+   "fiber": 1,
+   "cal": 90
+  },
+  {
+   "cat": "Pastries & Sweets",
+   "name": "Mini Scone, Orange",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 180
+  },
+  {
+   "cat": "Pastries & Sweets",
+   "name": "Muffie, Chocolate Chip",
+   "carb": 51,
+   "fiber": 3,
+   "cal": 340
+  },
+  {
+   "cat": "Pastries & Sweets",
+   "name": "Muffin, Blueberry",
+   "carb": 79,
+   "fiber": 8,
+   "cal": 510
+  },
+  {
+   "cat": "Pastries & Sweets",
+   "name": "Pastry, Almond",
+   "carb": 50,
+   "fiber": 3,
+   "cal": 480
+  },
+  {
+   "cat": "Pastries & Sweets",
+   "name": "Pastry, Cherry",
+   "carb": 48,
+   "fiber": 1,
+   "cal": 340
+  },
+  {
+   "cat": "Pastries & Sweets",
+   "name": "Pastry, Chocolate Croissant",
+   "carb": 51,
+   "fiber": 2,
+   "cal": 410
+  },
+  {
+   "cat": "Pastries & Sweets",
+   "name": "Pastry, Pecan Braid",
+   "carb": 51,
+   "fiber": 3,
+   "cal": 450
+  },
+  {
+   "cat": "Pastries & Sweets",
+   "name": "Scone, Orange",
+   "carb": 77,
+   "fiber": 2,
+   "cal": 550
+  },
+  {
+   "cat": "Pastries & Sweets",
+   "name": "Tulip Shaped Shortbread Cookie",
+   "carb": 57,
+   "fiber": 1,
+   "cal": 440
+  },
+  {
+   "cat": "Salads",
+   "name": "Asian Sesame Chicken, Half",
+   "carb": 14,
+   "fiber": 3,
+   "cal": 220
+  },
+  {
+   "cat": "Salads",
+   "name": "Asian Sesame Chicken, Half (No Nuts)",
+   "carb": 12,
+   "fiber": 2,
+   "cal": 180
+  },
+  {
+   "cat": "Salads",
+   "name": "Asian Sesame Chicken, Whole",
+   "carb": 27,
+   "fiber": 5,
+   "cal": 450
+  },
+  {
+   "cat": "Salads",
+   "name": "Asian Sesame Chicken, Whole (No Nuts)",
+   "carb": 24,
+   "fiber": 4,
+   "cal": 360
+  },
+  {
+   "cat": "Salads",
+   "name": "Balsamic Chicken Greens with Grains Salad, Half",
+   "carb": 24,
+   "fiber": 4,
+   "cal": 300
+  },
+  {
+   "cat": "Salads",
+   "name": "Balsamic Chicken Greens with Grains Salad, Whole",
+   "carb": 47,
+   "fiber": 8,
+   "cal": 590
+  },
+  {
+   "cat": "Salads",
+   "name": "Balsamic Greens with Grains Salad, Half",
+   "carb": 23,
+   "fiber": 4,
+   "cal": 230
+  },
+  {
+   "cat": "Salads",
+   "name": "Balsamic Greens with Grains Salad, Whole",
+   "carb": 46,
+   "fiber": 8,
+   "cal": 460
+  },
+  {
+   "cat": "Salads",
+   "name": "Caesar Salad, Half",
+   "carb": 12,
+   "fiber": 2,
+   "cal": 210
+  },
+  {
+   "cat": "Salads",
+   "name": "Caesar Salad, Whole",
+   "carb": 24,
+   "fiber": 4,
+   "cal": 410
+  },
+  {
+   "cat": "Salads",
+   "name": "Caesar with Chicken Salad, Half",
+   "carb": 13,
+   "fiber": 2,
+   "cal": 270
+  },
+  {
+   "cat": "Salads",
+   "name": "Caesar with Chicken Salad, Whole",
+   "carb": 25,
+   "fiber": 4,
+   "cal": 550
+  },
+  {
+   "cat": "Salads",
+   "name": "Fuji Apple Chicken Salad, Half",
+   "carb": 18,
+   "fiber": 2,
+   "cal": 280
+  },
+  {
+   "cat": "Salads",
+   "name": "Fuji Apple Chicken Salad, Whole",
+   "carb": 36,
+   "fiber": 5,
+   "cal": 560
+  },
+  {
+   "cat": "Salads",
+   "name": "Fuji Apple Chicken Salad without Pecans, Half",
+   "carb": 17,
+   "fiber": 2,
+   "cal": 230
+  },
+  {
+   "cat": "Salads",
+   "name": "Fuji Apple Chicken Salad without Pecans, Whole",
+   "carb": 34,
+   "fiber": 4,
+   "cal": 450
+  },
+  {
+   "cat": "Salads",
+   "name": "Greek Salad, Half",
+   "carb": 9,
+   "fiber": 2,
+   "cal": 210
+  },
+  {
+   "cat": "Salads",
+   "name": "Greek Salad, Whole",
+   "carb": 17,
+   "fiber": 4,
+   "cal": 420
+  },
+  {
+   "cat": "Salads",
+   "name": "Greek Salad with Chicken, Half",
+   "carb": 9,
+   "fiber": 2,
+   "cal": 270
+  },
+  {
+   "cat": "Salads",
+   "name": "Greek Salad with Chicken, Whole",
+   "carb": 19,
+   "fiber": 4,
+   "cal": 550
+  },
+  {
+   "cat": "Salads",
+   "name": "Green Goddess Cobb Salad with Chicken, Half",
+   "carb": 11,
+   "fiber": 3,
+   "cal": 250
+  },
+  {
+   "cat": "Salads",
+   "name": "Green Goddess Cobb Salad with Chicken, Whole",
+   "carb": 22,
+   "fiber": 7,
+   "cal": 510
+  },
+  {
+   "cat": "Salads",
+   "name": "Mediterranean Chicken Greens with Grains Salad, Half",
+   "carb": 21,
+   "fiber": 3,
+   "cal": 340
+  },
+  {
+   "cat": "Salads",
+   "name": "Mediterranean Chicken Greens with Grains Salad, Whole",
+   "carb": 42,
+   "fiber": 7,
+   "cal": 680
+  },
+  {
+   "cat": "Salads",
+   "name": "Mediterranean Greens with Grains Salads, Half",
+   "carb": 20,
+   "fiber": 3,
+   "cal": 270
+  },
+  {
+   "cat": "Salads",
+   "name": "Mediterranean Greens with Grains Salads, Whole",
+   "carb": 40,
+   "fiber": 7,
+   "cal": 540
+  },
+  {
+   "cat": "Salads",
+   "name": "Ranch Cobb Salad, Half",
+   "carb": 8,
+   "fiber": 2,
+   "cal": 240
+  },
+  {
+   "cat": "Salads",
+   "name": "Ranch Cobb Salad, Whole",
+   "carb": 16,
+   "fiber": 3,
+   "cal": 470
+  },
+  {
+   "cat": "Salads",
+   "name": "Southwest Chicken Ranch Salad, Half",
+   "carb": 17,
+   "fiber": 5,
+   "cal": 340
+  },
+  {
+   "cat": "Salads",
+   "name": "Southwest Chicken Ranch Salad, Whole",
+   "carb": 35,
+   "fiber": 9,
+   "cal": 680
+  },
+  {
+   "cat": "Salads",
+   "name": "Strawberry Chicken Caprese Salad, Half",
+   "carb": 11,
+   "fiber": 2,
+   "cal": 300
+  },
+  {
+   "cat": "Salads",
+   "name": "Strawberry Chicken Caprese Salad, Whole",
+   "carb": 22,
+   "fiber": 4,
+   "cal": 600
+  },
+  {
+   "cat": "Salads",
+   "name": "Strawberry Chicken Caprese Salad without Pecans, Half",
+   "carb": 10,
+   "fiber": 1,
+   "cal": 240
+  },
+  {
+   "cat": "Salads",
+   "name": "Strawberry Chicken Caprese Salad without Pecans, Whole",
+   "carb": 20,
+   "fiber": 3,
+   "cal": 490
+  },
+  {
+   "cat": "Salads",
+   "name": "Strawberry Poppyseed Chicken Salad, Half",
+   "carb": 18,
+   "fiber": 3,
+   "cal": 190
+  },
+  {
+   "cat": "Salads",
+   "name": "Strawberry Poppyseed Chicken Salad, Whole",
+   "carb": 36,
+   "fiber": 6,
+   "cal": 380
+  },
+  {
+   "cat": "Salads",
+   "name": "Strawberry Poppyseed Chicken Salad without Pecans, Half",
+   "carb": 17,
+   "fiber": 3,
+   "cal": 130
+  },
+  {
+   "cat": "Salads",
+   "name": "Strawberry Poppyseed Chicken Salad without Pecans, Whole",
+   "carb": 34,
+   "fiber": 6,
+   "cal": 270
+  },
+  {
+   "cat": "Salads",
+   "name": "Strawberry Poppyseed Salad, Half",
+   "carb": 17,
+   "fiber": 3,
+   "cal": 120
+  },
+  {
+   "cat": "Salads",
+   "name": "Strawberry Poppyseed Salad, Whole",
+   "carb": 35,
+   "fiber": 6,
+   "cal": 240
+  },
+  {
+   "cat": "Salads",
+   "name": "Strawberry Poppyseed Salad without Pecans, Half",
+   "carb": 16,
+   "fiber": 3,
+   "cal": 70
+  },
+  {
+   "cat": "Salads",
+   "name": "Strawberry Poppyseed Salad without Pecans, Whole",
+   "carb": 32,
+   "fiber": 6,
+   "cal": 140
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Bacon Turkey Bravo on Tomato Basil, Half",
+   "carb": 37,
+   "fiber": 2,
+   "cal": 420
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Bacon Turkey Bravo on Tomato Basil, Whole",
+   "carb": 73,
+   "fiber": 3,
+   "cal": 840
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Chicken Bacon Rancher on Black Pepper Focaccia Round, Half",
+   "carb": 36,
+   "fiber": 2,
+   "cal": 450
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Chicken Bacon Rancher on Black Pepper Focaccia Round, Whole",
+   "carb": 72,
+   "fiber": 3,
+   "cal": 900
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Chipotle Chicken Avo Melt on Black Pepper Focaccia Round, Half",
+   "carb": 38,
+   "fiber": 3,
+   "cal": 460
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Chipotle Chicken Avo Melt on Black Pepper Focaccia Round, Whole",
+   "carb": 75,
+   "fiber": 7,
+   "cal": 930
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Ciabatta Cheesesteak, Half",
+   "carb": 46,
+   "fiber": 3,
+   "cal": 530
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Ciabatta Cheesesteak, Whole",
+   "carb": 92,
+   "fiber": 5,
+   "cal": 1050
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Cranberry Walnut Chicken Salad on Country Rustic, Half",
+   "carb": 30,
+   "fiber": 2,
+   "cal": 340
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Cranberry Walnut Chicken Salad on Country Rustic, Whole",
+   "carb": 61,
+   "fiber": 4,
+   "cal": 680
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Croque Monsieur on Croissant Toast",
+   "carb": 33,
+   "fiber": 1,
+   "cal": 440
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Fromage Croissant Toast",
+   "carb": 36,
+   "fiber": 1,
+   "cal": 540
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Grilled Cheese on Classic White Miche, Half",
+   "carb": 36,
+   "fiber": 1,
+   "cal": 410
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Grilled Cheese on Classic White Miche, Whole",
+   "carb": 72,
+   "fiber": 2,
+   "cal": 810
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Grilled Chicken & Avo Blt on Country Rustic Sourdough, Half",
+   "carb": 27,
+   "fiber": 3,
+   "cal": 450
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Grilled Chicken & Avo Blt on Country Rustic Sourdough, Whole",
+   "carb": 55,
+   "fiber": 6,
+   "cal": 900
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Mediterranean Veggie on Tomato Basil, Half",
+   "carb": 38,
+   "fiber": 3,
+   "cal": 250
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Mediterranean Veggie on Tomato Basil, Whole",
+   "carb": 76,
+   "fiber": 6,
+   "cal": 490
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Smokehouse Bbq Chicken on Artisan Ciabatta, Half",
+   "carb": 45,
+   "fiber": 2,
+   "cal": 370
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Smokehouse Bbq Chicken on Artisan Ciabatta, Whole",
+   "carb": 90,
+   "fiber": 4,
+   "cal": 730
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Spicy Fiesta Chicken on Ciabatta, Half",
+   "carb": 45,
+   "fiber": 2,
+   "cal": 420
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Spicy Fiesta Chicken on Ciabatta, Whole",
+   "carb": 89,
+   "fiber": 5,
+   "cal": 850
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Toasted Frontega Chicken on Black Pepper Focaccia, Half",
+   "carb": 36,
+   "fiber": 2,
+   "cal": 390
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Toasted Frontega Chicken on Black Pepper Focaccia, Whole",
+   "carb": 73,
+   "fiber": 4,
+   "cal": 790
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Toasted Garden Caprese Melt, Half",
+   "carb": 43,
+   "fiber": 2,
+   "cal": 450
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Toasted Garden Caprese Melt, Whole",
+   "carb": 85,
+   "fiber": 4,
+   "cal": 890
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Toasted Italiano on Baguette, Half",
+   "carb": 58,
+   "fiber": 2,
+   "cal": 640
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Toasted Italiano on Baguette, Whole",
+   "carb": 116,
+   "fiber": 4,
+   "cal": 1280
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Tomato Basil Blt on Tomato Basil Miche, Half",
+   "carb": 33,
+   "fiber": 2,
+   "cal": 380
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Tomato Basil Blt on Tomato Basil Miche, Whole",
+   "carb": 65,
+   "fiber": 3,
+   "cal": 760
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Tuna Salad on Country Rustic Sourdough, Half",
+   "carb": 25,
+   "fiber": 2,
+   "cal": 270
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Tuna Salad on Country Rustic Sourdough, Whole",
+   "carb": 49,
+   "fiber": 4,
+   "cal": 550
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Turkey & Cheddar on Country Rustic Sourdough, Half",
+   "carb": 25,
+   "fiber": 2,
+   "cal": 390
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Turkey & Cheddar on Country Rustic Sourdough, Whole",
+   "carb": 50,
+   "fiber": 3,
+   "cal": 790
+  },
+  {
+   "cat": "Sides",
+   "name": "Banana",
+   "carb": 23,
+   "fiber": 3,
+   "cal": 90
+  },
+  {
+   "cat": "Sides",
+   "name": "Fruit Cup",
+   "carb": 15,
+   "fiber": 2,
+   "cal": 60
+  },
+  {
+   "cat": "Sides",
+   "name": "Greek Yogurt with Mixed Berries",
+   "carb": 29,
+   "fiber": 2,
+   "cal": 250
+  },
+  {
+   "cat": "Sides",
+   "name": "Kettle Cooked Potato Chips",
+   "carb": 17,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Sides",
+   "name": "Side, Apple",
+   "carb": 22,
+   "fiber": 5,
+   "cal": 80
+  },
+  {
+   "cat": "Sides",
+   "name": "Side, Pickle Spear",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Sides",
+   "name": "Side Portion, French Baguette",
+   "carb": 36,
+   "fiber": 1,
+   "cal": 180
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Bacon Mac & Cheese, Bowl",
+   "carb": 68,
+   "fiber": 0,
+   "cal": 1050
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Bacon Mac & Cheese, Bread Bowl",
+   "carb": 164,
+   "fiber": 4,
+   "cal": 1190
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Bacon Mac & Cheese, Cup",
+   "carb": 34,
+   "fiber": 0,
+   "cal": 520
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Bacon Mac & Cheese, Group",
+   "carb": 136,
+   "fiber": 0,
+   "cal": 2090
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Bistro French Onion, Bowl",
+   "carb": 33,
+   "fiber": 1,
+   "cal": 290
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Bistro French Onion, Bread Bowl",
+   "carb": 153,
+   "fiber": 5,
+   "cal": 860
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Bistro French Onion, Cup",
+   "carb": 22,
+   "fiber": 1,
+   "cal": 190
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Bistro French Onion Soup, Group",
+   "carb": 82,
+   "fiber": 2,
+   "cal": 720
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Broccoli Cheddar, Bowl",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 360
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Broccoli Cheddar, Bread Bowl",
+   "carb": 147,
+   "fiber": 5,
+   "cal": 910
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Broccoli Cheddar, Cup",
+   "carb": 17,
+   "fiber": 1,
+   "cal": 240
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Broccoli Cheddar Soup, Group",
+   "carb": 58,
+   "fiber": 3,
+   "cal": 840
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Cream of Chicken & Wild Rice, Bowl",
+   "carb": 27,
+   "fiber": 3,
+   "cal": 280
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Cream of Chicken & Wild Rice, Bread Bowl",
+   "carb": 149,
+   "fiber": 6,
+   "cal": 860
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Cream of Chicken & Wild Rice, Cup",
+   "carb": 18,
+   "fiber": 2,
+   "cal": 190
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Cream of Chicken & Wild Rice, Group",
+   "carb": 64,
+   "fiber": 6,
+   "cal": 650
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Homestyle Chicken Noodle Soup, Bowl",
+   "carb": 19,
+   "fiber": 1,
+   "cal": 180
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Homestyle Chicken Noodle Soup, Bread Bowl",
+   "carb": 143,
+   "fiber": 5,
+   "cal": 790
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Homestyle Chicken Noodle Soup, Cup",
+   "carb": 13,
+   "fiber": 1,
+   "cal": 120
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Homestyle Chicken Noodle Soup, Group",
+   "carb": 45,
+   "fiber": 3,
+   "cal": 430
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Mac & Cheese, Bowl",
+   "carb": 67,
+   "fiber": 0,
+   "cal": 960
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Mac & Cheese, Bread Bowl",
+   "carb": 164,
+   "fiber": 4,
+   "cal": 1150
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Mac & Cheese, Cup",
+   "carb": 34,
+   "fiber": 0,
+   "cal": 480
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Mac & Cheese, Group",
+   "carb": 134,
+   "fiber": 0,
+   "cal": 1930
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Mexican Style Street Corn Chowder, Bowl",
+   "carb": 26,
+   "fiber": 6,
+   "cal": 310
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Mexican Style Street Corn Chowder, Bread Bowl",
+   "carb": 147,
+   "fiber": 8,
+   "cal": 860
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Mexican Style Street Corn Chowder, Cup",
+   "carb": 16,
+   "fiber": 4,
+   "cal": 190
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Mexican Style Street Corn Chowder, Group",
+   "carb": 59,
+   "fiber": 13,
+   "cal": 700
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Vegetarian Creamy Tomato, Bread Bowl",
+   "carb": 155,
+   "fiber": 5,
+   "cal": 920
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Vegetarian Creamy Tomato Soup, Bowl",
+   "carb": 35,
+   "fiber": 1,
+   "cal": 370
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Vegetarian Creamy Tomato Soup, Cup",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 250
+  },
+  {
+   "cat": "Soups & Mac",
+   "name": "Vegetarian Creamy Tomato Soup, Group",
+   "carb": 89,
+   "fiber": 2,
+   "cal": 900
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Asian Sesame Chicken Salad, Serves 5",
+   "carb": 71,
+   "fiber": 15,
+   "cal": 1140
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Asian Sesame Chicken Salad, Serves 5 (No Nuts)",
+   "carb": 64,
+   "fiber": 11,
+   "cal": 930
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Asian Sesame Chicken Salad, Serves 10",
+   "carb": 142,
+   "fiber": 30,
+   "cal": 2280
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Asian Sesame Chicken Salad, Serves 10 (No Nuts)",
+   "carb": 127,
+   "fiber": 22,
+   "cal": 1850
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Asian Sesame Salad, Half",
+   "carb": 13,
+   "fiber": 3,
+   "cal": 160
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Asian Sesame Salad, Half (No Nuts & No Chicken)",
+   "carb": 11,
+   "fiber": 2,
+   "cal": 120
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Asian Sesame Salad, Serves 5",
+   "carb": 67,
+   "fiber": 15,
+   "cal": 810
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Asian Sesame Salad, Serves 5 (No Nuts & No Chicken)",
+   "carb": 59,
+   "fiber": 11,
+   "cal": 600
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Asian Sesame Salad, Serves 10",
+   "carb": 134,
+   "fiber": 30,
+   "cal": 1620
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Asian Sesame Salad, Serves 10 (No Nuts & No Chicken)",
+   "carb": 119,
+   "fiber": 22,
+   "cal": 1190
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Asian Sesame Salad, Whole",
+   "carb": 26,
+   "fiber": 5,
+   "cal": 320
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Asian Sesame Salad, Whole (No Nuts & No Chicken)",
+   "carb": 23,
+   "fiber": 4,
+   "cal": 230
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Balsamic Chicken Greens with Grains Salad, Serves 5",
+   "carb": 121,
+   "fiber": 22,
+   "cal": 1500
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Balsamic Chicken Greens with Grains Salad, Serves 10",
+   "carb": 243,
+   "fiber": 44,
+   "cal": 3000
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Balsamic Greens with Grains Salad, Serves 5",
+   "carb": 117,
+   "fiber": 22,
+   "cal": 1170
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Balsamic Greens with Grains Salad, Serves 10",
+   "carb": 234,
+   "fiber": 44,
+   "cal": 2340
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Butter Pat",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Caesar Salad, Serves 5",
+   "carb": 63,
+   "fiber": 11,
+   "cal": 1140
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Caesar Salad, Serves 10",
+   "carb": 126,
+   "fiber": 22,
+   "cal": 2280
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Caesar Salad with Chicken, Serves 5",
+   "carb": 67,
+   "fiber": 11,
+   "cal": 1470
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Caesar Salad with Chicken, Serves 10",
+   "carb": 134,
+   "fiber": 22,
+   "cal": 2940
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Chipotle Aioli For Breakfast Sandwiches",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering French Baguette",
+   "carb": 217,
+   "fiber": 8,
+   "cal": 1060
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Fuji Apple, Half",
+   "carb": 17,
+   "fiber": 2,
+   "cal": 210
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Fuji Apple, Whole",
+   "carb": 35,
+   "fiber": 5,
+   "cal": 430
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Fuji Apple Salad, Serves 5",
+   "carb": 94,
+   "fiber": 13,
+   "cal": 1160
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Fuji Apple Salad, Serves 10",
+   "carb": 188,
+   "fiber": 26,
+   "cal": 2320
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Fuji Apple Salad without Pecans, Serves 5",
+   "carb": 89,
+   "fiber": 11,
+   "cal": 900
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Fuji Apple Salad without Pecans, Serves 10",
+   "carb": 177,
+   "fiber": 21,
+   "cal": 1790
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Fuji Apple with Chicken Salad, Serves 5",
+   "carb": 98,
+   "fiber": 13,
+   "cal": 1490
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Fuji Apple with Chicken Salad, Serves 10",
+   "carb": 197,
+   "fiber": 26,
+   "cal": 2990
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Fuji Apple with Chicken Salad without Pecans, Serves 5",
+   "carb": 93,
+   "fiber": 11,
+   "cal": 1230
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Fuji Apple with Chicken Salad without Pecans, Serves 10",
+   "carb": 186,
+   "fiber": 21,
+   "cal": 2450
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Fuji Apple without Pecans, Half",
+   "carb": 16,
+   "fiber": 2,
+   "cal": 160
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Fuji Apple without Pecans, Whole",
+   "carb": 32,
+   "fiber": 4,
+   "cal": 320
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Garlic Aioli For Breakfast Sandwiches",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Greek Salad, Serves 5",
+   "carb": 46,
+   "fiber": 13,
+   "cal": 1170
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Greek Salad, Serves 10",
+   "carb": 92,
+   "fiber": 25,
+   "cal": 2340
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Greek Salad with Chicken, Serves 5",
+   "carb": 50,
+   "fiber": 13,
+   "cal": 1500
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Greek Salad with Chicken, Serves 10",
+   "carb": 100,
+   "fiber": 25,
+   "cal": 3000
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Green Goddess Cobb Salad with Chicken, Serves 5",
+   "carb": 59,
+   "fiber": 18,
+   "cal": 1320
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Green Goddess Cobb Salad with Chicken, Serves 10",
+   "carb": 119,
+   "fiber": 35,
+   "cal": 2650
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Ham & Cheddar on Country Rustic Sourdough, Whole",
+   "carb": 52,
+   "fiber": 3,
+   "cal": 790
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Mediterranean Chicken Greens with Grains Salad, Serves 5",
+   "carb": 105,
+   "fiber": 17,
+   "cal": 1760
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Mediterranean Chicken Greens with Grains Salad, Serves 10",
+   "carb": 210,
+   "fiber": 33,
+   "cal": 3530
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Mediterranean Greens with Grains Salad, Serves 5",
+   "carb": 101,
+   "fiber": 17,
+   "cal": 1430
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Mediterranean Greens with Grains Salad, Serves 10",
+   "carb": 201,
+   "fiber": 33,
+   "cal": 2870
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Ranch Cobb Salad, Serves 5",
+   "carb": 44,
+   "fiber": 9,
+   "cal": 1250
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Ranch Cobb Salad, Serves 10",
+   "carb": 87,
+   "fiber": 18,
+   "cal": 2500
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Southwest Chicken Ranch Salad, Serves 5",
+   "carb": 91,
+   "fiber": 25,
+   "cal": 1770
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Southwest Chicken Ranch Salad, Serves 10",
+   "carb": 182,
+   "fiber": 50,
+   "cal": 3530
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Strawberry Caprese Salad, Half",
+   "carb": 10,
+   "fiber": 2,
+   "cal": 230
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Strawberry Caprese Salad, Serves 5",
+   "carb": 55,
+   "fiber": 9,
+   "cal": 1200
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Strawberry Caprese Salad, Serves 10",
+   "carb": 109,
+   "fiber": 19,
+   "cal": 2390
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Strawberry Caprese Salad, Whole",
+   "carb": 20,
+   "fiber": 4,
+   "cal": 460
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Strawberry Caprese Salad No Pecans, Half",
+   "carb": 9,
+   "fiber": 1,
+   "cal": 180
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Strawberry Caprese Salad No Pecans, Serves 5",
+   "carb": 49,
+   "fiber": 7,
+   "cal": 930
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Strawberry Caprese Salad No Pecans, Serves 10",
+   "carb": 98,
+   "fiber": 14,
+   "cal": 1860
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Strawberry Caprese Salad No Pecans, Whole",
+   "carb": 18,
+   "fiber": 3,
+   "cal": 360
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Strawberry Chicken Caprese Salad, Serves 5",
+   "carb": 59,
+   "fiber": 9,
+   "cal": 1530
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Strawberry Chicken Caprese Salad, Serves 10",
+   "carb": 117,
+   "fiber": 19,
+   "cal": 3050
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Strawberry Chicken Caprese Salad No Pecans, Serves 5",
+   "carb": 53,
+   "fiber": 7,
+   "cal": 1260
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Strawberry Chicken Caprese Salad No Pecans, Serves 10",
+   "carb": 107,
+   "fiber": 14,
+   "cal": 2520
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Strawberry Poppyseed Salad, Serves 5",
+   "carb": 92,
+   "fiber": 18,
+   "cal": 640
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Strawberry Poppyseed Salad, Serves 10",
+   "carb": 185,
+   "fiber": 36,
+   "cal": 1270
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Strawberry Poppyseed Salad without Pecans, Serves 5",
+   "carb": 87,
+   "fiber": 15,
+   "cal": 370
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Strawberry Poppyseed Salad without Pecans, Serves 10",
+   "carb": 174,
+   "fiber": 31,
+   "cal": 740
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Strawberry Poppyseed with Chicken Salad, Serves 5",
+   "carb": 97,
+   "fiber": 18,
+   "cal": 970
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Strawberry Poppyseed with Chicken Salad, Serves 10",
+   "carb": 193,
+   "fiber": 36,
+   "cal": 1930
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Strawberry Poppyseed with Chicken Salad without Pecans, Serves 5",
+   "carb": 91,
+   "fiber": 15,
+   "cal": 700
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Strawberry Poppyseed with Chicken Salad without Pecans, Serves 10",
+   "carb": 183,
+   "fiber": 31,
+   "cal": 1400
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Summer Fruit Bowl, Serves 5",
+   "carb": 85,
+   "fiber": 12,
+   "cal": 330
+  },
+  {
+   "cat": "Catering",
+   "name": "Catering Summer Fruit Bowl, Serves 10",
+   "carb": 169,
+   "fiber": 23,
+   "cal": 670
+  },
+  {
+   "cat": "Non-Traditional Grab N Go",
+   "name": "Chicken Caesar Wrap",
+   "carb": 39,
+   "fiber": 13,
+   "cal": 480
+  },
+  {
+   "cat": "Non-Traditional Grab N Go",
+   "name": "Frontega Chicken Wrap",
+   "carb": 37,
+   "fiber": 12,
+   "cal": 460
+  },
+  {
+   "cat": "Non-Traditional Grab N Go",
+   "name": "Green Goddess Chicken Wrap",
+   "carb": 44,
+   "fiber": 14,
+   "cal": 460
+  },
+  {
+   "cat": "Non-Traditional Grab N Go",
+   "name": "Hard Boiled Eggs",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Non-Traditional Grab N Go",
+   "name": "Turkey & Cheddar Wrap",
+   "carb": 37,
+   "fiber": 12,
+   "cal": 460
+  },
+  {
+   "cat": "Value Duets",
+   "name": "Value Duet, Caesar Salad & Homestyle Chicken Noodle Soup",
+   "carb": 25,
+   "fiber": 3,
+   "cal": 330
+  },
+  {
+   "cat": "Value Duets",
+   "name": "Value Duet, Greek Salad & Creamy Tomato Soup",
+   "carb": 33,
+   "fiber": 3,
+   "cal": 460
+  },
+  {
+   "cat": "Value Duets",
+   "name": "Value Duet, Grilled Cheese & Creamy Tomato Soup",
+   "carb": 61,
+   "fiber": 2,
+   "cal": 660
+  },
+  {
+   "cat": "Value Duets",
+   "name": "Value Duet, Mediterranean Veggie & Creamy Tomato Soup",
+   "carb": 63,
+   "fiber": 4,
+   "cal": 500
+  },
+  {
+   "cat": "Value Duets",
+   "name": "Value Duet, Toasted Smokehouse Bbq Chicken Sandwich & Creamy Tomato Soup",
+   "carb": 65,
+   "fiber": 2,
+   "cal": 630
+  },
+  {
+   "cat": "Value Duets",
+   "name": "Value Duet, Tuna Sandwich & Creamy Tomato Soup",
+   "carb": 50,
+   "fiber": 2,
+   "cal": 530
+  },
+  {
+   "cat": "Value Duets",
+   "name": "Value Duet, Turkey & Cheddar Sandwich & Cream of Chicken & Wild Rice Soup",
+   "carb": 43,
+   "fiber": 3,
+   "cal": 580
+  },
+  {
+   "cat": "Kids",
+   "name": "Kids Broccoli Cheddar, Cup",
+   "carb": 17,
+   "fiber": 1,
+   "cal": 240
+  },
+  {
+   "cat": "Kids",
+   "name": "Kids Grilled Cheese on Classic White Miche, Whole",
+   "carb": 72,
+   "fiber": 2,
+   "cal": 810
+  },
+  {
+   "cat": "Kids",
+   "name": "Kids Ham & American Cheese on Classic White Miche, Whole",
+   "carb": 68,
+   "fiber": 2,
+   "cal": 650
+  },
+  {
+   "cat": "Kids",
+   "name": "Kids Mac & Cheese, Cup",
+   "carb": 34,
+   "fiber": 0,
+   "cal": 480
+  },
+  {
+   "cat": "Kids",
+   "name": "Kids Turkey & American Cheese on Classic White Miche, Whole",
+   "carb": 66,
+   "fiber": 2,
+   "cal": 640
+  }
+ ]
+}

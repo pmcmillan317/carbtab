@@ -1,0 +1,6569 @@
+{
+ "chain": "Dunkin'",
+ "slug": "dunkin",
+ "source": "https://www.nutritionix.com/dunkin/menu/premium",
+ "platform": "nutritionix",
+ "updated": "09/09/2025",
+ "pulledAt": "2026-09-10",
+ "type": "grid",
+ "columns": {
+  "cal": 1,
+  "carb": 7,
+  "fiber": 8
+ },
+ "count": 936,
+ "items": [
+  {
+   "cat": "Limited Time Products",
+   "name": "#ALLCAPS Donut",
+   "carb": 37,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Arctic Cherry Dunkin' Energy, Large",
+   "carb": 39,
+   "fiber": 1,
+   "cal": 170
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Arctic Cherry Dunkin' Energy, Medium",
+   "carb": 29,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Arctic Cherry Dunkin' Energy, Small",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Bacon & Cheddar Omelet Bites",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Bacon, Egg and Cheese on a Bagel with Chipotle Aioil",
+   "carb": 69,
+   "fiber": 4,
+   "cal": 660
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Berry Burst Dunkin' Energy, Large",
+   "carb": 40,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Berry Burst Dunkin' Energy, Medium",
+   "carb": 30,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Berry Burst Dunkin' Energy, Small",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Birdland Donut",
+   "carb": 37,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Blueberry Breeze Dunkin' Lemonade Refresher, Large",
+   "carb": 80,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Blueberry Breeze Dunkin' Lemonade Refresher, Medium",
+   "carb": 60,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Blueberry Breeze Dunkin' Lemonade Refresher, Small",
+   "carb": 40,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Blueberry Breeze Dunkin' Refresher, Large",
+   "carb": 42,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Blueberry Breeze Dunkin' Refresher, Medium",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Blueberry Breeze Dunkin' Refresher, Small",
+   "carb": 21,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Blueberry Breeze Sparkling Dunkin' Refresher, Large",
+   "carb": 42,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Blueberry Breeze Sparkling Dunkin' Refresher, Medium",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Blueberry Breeze Sparkling Dunkin' Refresher, Small",
+   "carb": 21,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Blueberry Cobbler Iced Coffee, Large",
+   "carb": 53,
+   "fiber": 0,
+   "cal": 340
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Blueberry Cobbler Iced Coffee, Medium",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Blueberry Cobbler Iced Coffee, Small",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Blueberry Cream Cold Brew, Large",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Blueberry Cream Cold Brew, Medium",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Blueberry Cream Cold Brew, Small",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Blueberry Iced Dunkalatte, Large",
+   "carb": 61,
+   "fiber": 0,
+   "cal": 420
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Blueberry Iced Dunkalatte, Medium",
+   "carb": 46,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Blueberry Iced Dunkalatte, Small",
+   "carb": 30,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Blueberry Strawberry Sparkling Dunkin' Refresher, Large",
+   "carb": 40,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Blueberry Strawberry Sparkling Dunkin' Refresher, Medium",
+   "carb": 30,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Blueberry Strawberry Sparkling Dunkin' Refresher, Small",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Blue Raspberry Rockstar Energy Punch, Large",
+   "carb": 100,
+   "fiber": 0,
+   "cal": 430
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Braided Apple Pie",
+   "carb": 53,
+   "fiber": 2,
+   "cal": 400
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Brown Sugar Hazelnut Oat Iced Latte, Large",
+   "carb": 70,
+   "fiber": 4,
+   "cal": 330
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Brown Sugar Hazelnut Oat Iced Latte, Medium",
+   "carb": 53,
+   "fiber": 3,
+   "cal": 250
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Brown Sugar Hazelnut Oat Iced Latte, Small",
+   "carb": 35,
+   "fiber": 2,
+   "cal": 160
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Brown Sugar Shakin' Espresso, Large",
+   "carb": 51,
+   "fiber": 2,
+   "cal": 230
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Brown Sugar Shakin' Espresso, Medium",
+   "carb": 40,
+   "fiber": 2,
+   "cal": 180
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Brown Sugar Shakin' Espresso, Small",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 120
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Bulls Donut",
+   "carb": 37,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Buttermilk Donut",
+   "carb": 41,
+   "fiber": 1,
+   "cal": 330
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Butternut Munchkins",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Butter Pecan Frozen Coffee, Large",
+   "carb": 174,
+   "fiber": 0,
+   "cal": 1090
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Butter Pecan Frozen Coffee, Medium",
+   "carb": 133,
+   "fiber": 0,
+   "cal": 840
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Butter Pecan Frozen Coffee, Small",
+   "carb": 92,
+   "fiber": 0,
+   "cal": 590
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Caramel Oat Shakin' Espresso, Large",
+   "carb": 69,
+   "fiber": 2,
+   "cal": 320
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Caramel Oat Shakin' Espresso, Medium",
+   "carb": 52,
+   "fiber": 1,
+   "cal": 240
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Caramel Oat Shakin' Espresso, Small",
+   "carb": 35,
+   "fiber": 1,
+   "cal": 160
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Cherry Berry Twist Dunkin' Energy, Large",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Cherry Berry Twist Dunkin' Energy, Medium",
+   "carb": 29,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Cherry Berry Twist Dunkin' Energy, Small",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Chicken & Roasted Pepper Dunkin' Wrap",
+   "carb": 33,
+   "fiber": 3,
+   "cal": 380
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Chipotle Hash Brown Wake-Up Wrap",
+   "carb": 22,
+   "fiber": 1,
+   "cal": 340
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Chocolate Frosted with Chocolate Sprinkles Donut",
+   "carb": 36,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Chocolate Frosted with Patriot Sprinkles Donut",
+   "carb": 37,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Chocolate Hazelnut Truffle Iced Coffee, Large",
+   "carb": 53,
+   "fiber": 2,
+   "cal": 340
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Chocolate Hazelnut Truffle Iced Coffee, Medium",
+   "carb": 40,
+   "fiber": 2,
+   "cal": 250
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Chocolate Hazelnut Truffle Iced Coffee, Small",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 170
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Cleveland Guardians Donut",
+   "carb": 37,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Cookie Dough Frozen Coffee, Large",
+   "carb": 158,
+   "fiber": 0,
+   "cal": 1020
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Cookie Dough Frozen Coffee, Medium",
+   "carb": 121,
+   "fiber": 0,
+   "cal": 780
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Cookie Dough Frozen Coffee, Small",
+   "carb": 84,
+   "fiber": 0,
+   "cal": 550
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Dodgers Donut",
+   "carb": 37,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Fenway Faithful Donut",
+   "carb": 37,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Frozen Coffee with Almondmilk, Large",
+   "carb": 118,
+   "fiber": 0,
+   "cal": 500
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Frozen Coffee with Almondmilk, Medium",
+   "carb": 88,
+   "fiber": 0,
+   "cal": 370
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Frozen Coffee with Almondmilk, Small",
+   "carb": 59,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Frozen Matcha Latte with Almondmilk, Large",
+   "carb": 111,
+   "fiber": 2,
+   "cal": 470
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Frozen Matcha Latte with Almondmilk, Medium",
+   "carb": 84,
+   "fiber": 2,
+   "cal": 350
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Frozen Matcha Latte with Almondmilk, Small",
+   "carb": 56,
+   "fiber": 1,
+   "cal": 240
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Go Hornets Donut",
+   "carb": 37,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Golden Hour Dunkin' Lemonade Refresher, Large",
+   "carb": 78,
+   "fiber": 0,
+   "cal": 320
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Golden Hour Dunkin' Lemonade Refresher, Medium",
+   "carb": 59,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Golden Hour Dunkin' Lemonade Refresher, Small",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Guava Donut",
+   "carb": 32,
+   "fiber": 1,
+   "cal": 240
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Guava Strawberry Black Tea Dunkin' Refresher, Large",
+   "carb": 41,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Guava Strawberry Black Tea Dunkin' Refresher, Medium",
+   "carb": 31,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Guava Strawberry Black Tea Dunkin' Refresher, Small",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Ham & Cheese Croissant Stuffer",
+   "carb": 30,
+   "fiber": 2,
+   "cal": 330
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Hot Dunkalatte, Large",
+   "carb": 60,
+   "fiber": 0,
+   "cal": 410
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Hot Dunkalatte, Medium",
+   "carb": 45,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Hot Dunkalatte, Small",
+   "carb": 30,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Iced Cappuccino with Almondmilk, Large",
+   "carb": 15,
+   "fiber": 1,
+   "cal": 90
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Iced Cappuccino with Almondmilk, Medium",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Iced Cappuccino with Almondmilk, Small",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Iced Dunkalatte, Large",
+   "carb": 60,
+   "fiber": 0,
+   "cal": 410
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Iced Dunkalatte, Medium",
+   "carb": 45,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Iced Dunkalatte, Small",
+   "carb": 30,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Iced Strawberry Lemon Loaf",
+   "carb": 58,
+   "fiber": 1,
+   "cal": 450
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Iced Tea Lemonade, Large",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Iced Tea Lemonade, Medium",
+   "carb": 30,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Iced Tea Lemonade, Small",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Iced Vanilla Chai Latte with Sweet Cold Foam, Large",
+   "carb": 77,
+   "fiber": 2,
+   "cal": 520
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Iced Vanilla Chai Latte with Sweet Cold Foam, Medium",
+   "carb": 56,
+   "fiber": 2,
+   "cal": 380
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Iced Vanilla Chai Latte with Sweet Cold Foam, Small",
+   "carb": 41,
+   "fiber": 1,
+   "cal": 280
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Iced Vanilla Matcha with Sweet Cold Foam, Large",
+   "carb": 63,
+   "fiber": 2,
+   "cal": 460
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Iced Vanilla Matcha with Sweet Cold Foam, Medium",
+   "carb": 46,
+   "fiber": 2,
+   "cal": 340
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Iced Vanilla Matcha with Sweet Cold Foam, Small",
+   "carb": 35,
+   "fiber": 1,
+   "cal": 250
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Inter Miami Donut",
+   "carb": 37,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Jaguars Hall of Fame Donut",
+   "carb": 37,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Kosher Sweet Black Pepper Bacon Breakfast Sandwich",
+   "carb": 49,
+   "fiber": 2,
+   "cal": 670
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Kosher Sweet Black Pepper Bacon Wake-Up Wrap",
+   "carb": 19,
+   "fiber": 1,
+   "cal": 280
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Loaded Hash Browns",
+   "carb": 24,
+   "fiber": 2,
+   "cal": 320
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Mango Pineapple Dream Refresher, Large",
+   "carb": 81,
+   "fiber": 3,
+   "cal": 410
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Mango Pineapple Dream Refresher, Medium",
+   "carb": 58,
+   "fiber": 2,
+   "cal": 290
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Mango Pineapple Dream Refresher, Small",
+   "carb": 42,
+   "fiber": 1,
+   "cal": 220
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Mango Pineapple Sparkling Dunkin' Refresher, Large",
+   "carb": 42,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Mango Pineapple Sparkling Dunkin' Refresher, Medium",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Mango Pineapple Sparkling Dunkin' Refresher, Small",
+   "carb": 21,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Mint Chocolate Chip Frozen Coffee, Large",
+   "carb": 173,
+   "fiber": 0,
+   "cal": 1090
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Mint Chocolate Chip Frozen Coffee, Medium",
+   "carb": 132,
+   "fiber": 0,
+   "cal": 830
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Mint Chocolate Chip Frozen Coffee, Small",
+   "carb": 91,
+   "fiber": 0,
+   "cal": 580
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Mocha Raspberry Iced Latte, Large",
+   "carb": 72,
+   "fiber": 2,
+   "cal": 450
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Mocha Raspberry Iced Latte, Medium",
+   "carb": 54,
+   "fiber": 2,
+   "cal": 340
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Mocha Raspberry Iced Latte, Small",
+   "carb": 36,
+   "fiber": 1,
+   "cal": 220
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Orioles Magic Donut",
+   "carb": 47,
+   "fiber": 1,
+   "cal": 350
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Padres Donut",
+   "carb": 36,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Peach Cherry Twist Dunkin' Energy, Large",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Peach Cherry Twist Dunkin' Energy, Medium",
+   "carb": 29,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Peach Cherry Twist Dunkin' Energy, Small",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Peach Sunshine Dunkin' Energy, Large",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Peach Sunshine Dunkin' Energy, Medium",
+   "carb": 28,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Peach Sunshine Dunkin' Energy, Small",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Pecan Vanilla Iced Latte, Large",
+   "carb": 70,
+   "fiber": 0,
+   "cal": 450
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Pecan Vanilla Iced Latte, Medium",
+   "carb": 52,
+   "fiber": 0,
+   "cal": 340
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Pecan Vanilla Iced Latte, Small",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Pistachio Cold Brew with Sweet Cold Foam, Large",
+   "carb": 67,
+   "fiber": 0,
+   "cal": 340
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Pistachio Cold Brew with Sweet Cold Foam, Medium",
+   "carb": 48,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Pistachio Cold Brew with Sweet Cold Foam, Small",
+   "carb": 36,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Pistachio Hot Coffee, Extra Large",
+   "carb": 64,
+   "fiber": 0,
+   "cal": 410
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Pistachio Hot Coffee, Large",
+   "carb": 51,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Pistachio Hot Coffee, Medium",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Pistachio Hot Coffee, Small",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Pistachio Iced Coffee, Large",
+   "carb": 51,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Pistachio Iced Coffee, Medium",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Pistachio Iced Coffee, Small",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Pistachio Iced Signature Latte, Large",
+   "carb": 78,
+   "fiber": 0,
+   "cal": 540
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Pistachio Iced Signature Latte, Medium",
+   "carb": 61,
+   "fiber": 0,
+   "cal": 420
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Pistachio Iced Signature Latte, Small",
+   "carb": 44,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Pistachio Shakin' Espresso, Large",
+   "carb": 61,
+   "fiber": 0,
+   "cal": 340
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Pistachio Shakin' Espresso, Medium",
+   "carb": 45,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Pistachio Shakin' Espresso, Small",
+   "carb": 30,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Pittsburgh Crème Donut",
+   "carb": 47,
+   "fiber": 1,
+   "cal": 350
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Pittsburgh Penguins Donut",
+   "carb": 36,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Poe's Purple Donut",
+   "carb": 37,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Raspberry Cold Brew with Sweet Cold Foam, Large",
+   "carb": 22,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Raspberry Cold Brew with Sweet Cold Foam, Medium",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Raspberry Cold Brew with Sweet Cold Foam, Small",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Raspberry Watermelon Dunkin' Lemonade Refresher, Large",
+   "carb": 80,
+   "fiber": 0,
+   "cal": 320
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Raspberry Watermelon Dunkin' Lemonade Refresher, Medium",
+   "carb": 60,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Raspberry Watermelon Dunkin' Lemonade Refresher, Small",
+   "carb": 40,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Raspberry Watermelon Dunkin' Refresher, Large",
+   "carb": 42,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Raspberry Watermelon Dunkin' Refresher, Medium",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Raspberry Watermelon Dunkin' Refresher, Small",
+   "carb": 21,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Raven's Flock Donut",
+   "carb": 47,
+   "fiber": 1,
+   "cal": 350
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Redland Donut",
+   "carb": 37,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Reds Donut",
+   "carb": 37,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Shakin' Espresso, Large",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Shakin' Espresso, Medium",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Shakin' Espresso, Small",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Star Spangled Specialty Donut",
+   "carb": 44,
+   "fiber": 1,
+   "cal": 320
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Strawberry Dragonfruit Sparkling Dunkin' Refresher, Large",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Strawberry Dragonfruit Sparkling Dunkin' Refresher, Medium",
+   "carb": 29,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Strawberry Dragonfruit Sparkling Dunkin' Refresher, Small",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Strawberry Dream Refresher, Large",
+   "carb": 77,
+   "fiber": 3,
+   "cal": 400
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Strawberry Dream Refresher, Medium",
+   "carb": 55,
+   "fiber": 2,
+   "cal": 280
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Strawberry Dream Refresher, Small",
+   "carb": 40,
+   "fiber": 1,
+   "cal": 210
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Strawberry Frosted with Patriot Sprinkles Donut",
+   "carb": 38,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Strawberry Rockstar Energy Punch, Large",
+   "carb": 103,
+   "fiber": 1,
+   "cal": 440
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Stuffed Bagel Minis, Everything",
+   "carb": 34,
+   "fiber": 3,
+   "cal": 260
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Stuffed Bagel Minis, Plain",
+   "carb": 32,
+   "fiber": 2,
+   "cal": 240
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Sweet Black Pepper Bacon Breakfast Sandwich",
+   "carb": 39,
+   "fiber": 1,
+   "cal": 590
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Sweet Black Pepper Bacon Wake-Up Wrap",
+   "carb": 18,
+   "fiber": 1,
+   "cal": 280
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Sweet Black Pepper Snacking Bacon",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "The GOAT Donut",
+   "carb": 37,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "TN Titans Donut",
+   "carb": 37,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Toasted Almond Iced Dunkalatte, Large",
+   "carb": 61,
+   "fiber": 0,
+   "cal": 420
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Toasted Almond Iced Dunkalatte, Medium",
+   "carb": 46,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Toasted Almond Iced Dunkalatte, Small",
+   "carb": 30,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Toasted Almond Mocha Cold Brew with Sweet Cold Foam, Large",
+   "carb": 69,
+   "fiber": 2,
+   "cal": 340
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Toasted Almond Mocha Cold Brew with Sweet Cold Foam, Medium",
+   "carb": 51,
+   "fiber": 2,
+   "cal": 250
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Toasted Almond Mocha Cold Brew with Sweet Cold Foam, Small",
+   "carb": 38,
+   "fiber": 1,
+   "cal": 200
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Toffee Nut Iced Coffee, Large",
+   "carb": 54,
+   "fiber": 0,
+   "cal": 350
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Toffee Nut Iced Coffee, Medium",
+   "carb": 40,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Toffee Nut Iced Coffee, Small",
+   "carb": 27,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Tornado Twist Dunkin' Energy, Large",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Tornado Twist Dunkin' Energy, Medium",
+   "carb": 29,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Tornado Twist Dunkin' Energy, Small",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Triple Mocha Frozen Coffee, Large",
+   "carb": 178,
+   "fiber": 3,
+   "cal": 1100
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Triple Mocha Frozen Coffee, Medium",
+   "carb": 137,
+   "fiber": 2,
+   "cal": 840
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Triple Mocha Frozen Coffee, Small",
+   "carb": 96,
+   "fiber": 2,
+   "cal": 600
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Tropical Guava Dream Refresher, Large",
+   "carb": 80,
+   "fiber": 3,
+   "cal": 400
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Tropical Guava Dream Refresher, Medium",
+   "carb": 57,
+   "fiber": 2,
+   "cal": 280
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Tropical Guava Dream Refresher, Small",
+   "carb": 42,
+   "fiber": 1,
+   "cal": 210
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Tropical Guava Dunkin' Lemonade Refresher, Large",
+   "carb": 79,
+   "fiber": 0,
+   "cal": 320
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Tropical Guava Dunkin' Lemonade Refresher, Medium",
+   "carb": 59,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Tropical Guava Dunkin' Lemonade Refresher, Small",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Tropical Guava Dunkin' Refresher, Large",
+   "carb": 41,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Tropical Guava Dunkin' Refresher, Medium",
+   "carb": 31,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Tropical Guava Dunkin' Refresher, Small",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Tropical Guava Sparkling Dunkin' Refresher, Large",
+   "carb": 41,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Tropical Guava Sparkling Dunkin' Refresher, Medium",
+   "carb": 31,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Tropical Guava Sparkling Dunkin' Refresher, Small",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Vanilla Blueberry Iced Latte, Large",
+   "carb": 71,
+   "fiber": 0,
+   "cal": 460
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Vanilla Blueberry Iced Latte, Medium",
+   "carb": 53,
+   "fiber": 0,
+   "cal": 340
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Vanilla Blueberry Iced Latte, Small",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Vanilla Creme Cold Brew, Large",
+   "carb": 55,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Vanilla Creme Cold Brew, Medium",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "Vanilla Creme Cold Brew, Small",
+   "carb": 29,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "White Chocolate Iced Matcha Latte, Large",
+   "carb": 93,
+   "fiber": 2,
+   "cal": 550
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "White Chocolate Iced Matcha Latte, Medium",
+   "carb": 70,
+   "fiber": 1,
+   "cal": 410
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "White Chocolate Iced Matcha Latte, Small",
+   "carb": 47,
+   "fiber": 1,
+   "cal": 280
+  },
+  {
+   "cat": "Limited Time Products",
+   "name": "White Frosted with Patriot Sprinkles Donut",
+   "carb": 38,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Avocado Toast",
+   "name": "Avocado Spread",
+   "carb": 4,
+   "fiber": 3,
+   "cal": 80
+  },
+  {
+   "cat": "Avocado Toast",
+   "name": "Avocado Toast",
+   "carb": 34,
+   "fiber": 6,
+   "cal": 240
+  },
+  {
+   "cat": "Avocado Toast",
+   "name": "Bacon Topped Avocado Toast",
+   "carb": 32,
+   "fiber": 5,
+   "cal": 290
+  },
+  {
+   "cat": "Bagels",
+   "name": "Cinnamon Raisin Bagel",
+   "carb": 67,
+   "fiber": 4,
+   "cal": 320
+  },
+  {
+   "cat": "Bagels",
+   "name": "Everything Bagel",
+   "carb": 67,
+   "fiber": 5,
+   "cal": 340
+  },
+  {
+   "cat": "Bagels",
+   "name": "Multigrain Bagel",
+   "carb": 63,
+   "fiber": 8,
+   "cal": 380
+  },
+  {
+   "cat": "Bagels",
+   "name": "Plain Bagel",
+   "carb": 64,
+   "fiber": 4,
+   "cal": 300
+  },
+  {
+   "cat": "Bagels",
+   "name": "Sesame Seed Bagel",
+   "carb": 64,
+   "fiber": 5,
+   "cal": 350
+  },
+  {
+   "cat": "Bagels",
+   "name": "White Cheddar Bagel Twist",
+   "carb": 64,
+   "fiber": 4,
+   "cal": 390
+  },
+  {
+   "cat": "Cold Brew Coffee",
+   "name": "Caramel Cold Brew with Dunkin' Cold Foam, Large",
+   "carb": 70,
+   "fiber": 0,
+   "cal": 350
+  },
+  {
+   "cat": "Cold Brew Coffee",
+   "name": "Caramel Cold Brew with Dunkin' Cold Foam, Medium",
+   "carb": 51,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Cold Brew Coffee",
+   "name": "Caramel Cold Brew with Dunkin' Cold Foam, Small",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Cold Brew Coffee",
+   "name": "Cold Brew Coffee, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Cold Brew Coffee",
+   "name": "Cold Brew Coffee, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Cold Brew Coffee",
+   "name": "Cold Brew Coffee, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Cold Brew Coffee",
+   "name": "Cold Brew Coffee with Cream, Large",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Cold Brew Coffee",
+   "name": "Cold Brew Coffee with Cream, Medium",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Cold Brew Coffee",
+   "name": "Cold Brew Coffee with Cream, Small",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Cold Brew Coffee",
+   "name": "Cold Brew Coffee with Cream and Sugar, Large",
+   "carb": 37,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Cold Brew Coffee",
+   "name": "Cold Brew Coffee with Cream and Sugar, Medium",
+   "carb": 27,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Cold Brew Coffee",
+   "name": "Cold Brew Coffee with Cream and Sugar, Small",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Cold Brew Coffee",
+   "name": "Cold Brew Coffee with Oatmilk, Large",
+   "carb": 8,
+   "fiber": 1,
+   "cal": 50
+  },
+  {
+   "cat": "Cold Brew Coffee",
+   "name": "Cold Brew Coffee with Oatmilk, Medium",
+   "carb": 5,
+   "fiber": 1,
+   "cal": 30
+  },
+  {
+   "cat": "Cold Brew Coffee",
+   "name": "Cold Brew Coffee with Oatmilk, Small",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Cold Brew Coffee",
+   "name": "Cold Brew with Dunkin' Cold Foam, Black, Large",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Cold Brew Coffee",
+   "name": "Cold Brew with Dunkin' Cold Foam, Black, Medium",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Cold Brew Coffee",
+   "name": "Cold Brew with Dunkin' Cold Foam, Black, Small",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Cold Brew Coffee",
+   "name": "Cold Brew with Dunkin' Cold Foam and Cream, Large",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Cold Brew Coffee",
+   "name": "Cold Brew with Dunkin' Cold Foam and Cream, Medium",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Cold Brew Coffee",
+   "name": "Cold Brew with Dunkin' Cold Foam and Cream, Small",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Cold Brew Coffee",
+   "name": "Nitro Cold Brew Coffee, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Cold Brew Coffee",
+   "name": "Nitro Cold Brew with Dunkin' Cold Foam, Small",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Cold Brew Coffee",
+   "name": "The Caramel Cold Foam, Large",
+   "carb": 70,
+   "fiber": 0,
+   "cal": 340
+  },
+  {
+   "cat": "Cold Brew Coffee",
+   "name": "The Caramel Cold Foam, Medium",
+   "carb": 52,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Cold Brew Coffee",
+   "name": "The Caramel Cold Foam, Small",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Cold Brew Coffee",
+   "name": "Vanilla Cream Cold Brew, Large",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Cold Brew Coffee",
+   "name": "Vanilla Cream Cold Brew, Medium",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Cold Brew Coffee",
+   "name": "Vanilla Cream Cold Brew, Small",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Condiments",
+   "name": "Butter Packet",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Condiments",
+   "name": "Butter Spread with Canola Oil",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Coolatta",
+   "name": "Blue Raspberry Coolatta, Large",
+   "carb": 112,
+   "fiber": 0,
+   "cal": 460
+  },
+  {
+   "cat": "Coolatta",
+   "name": "Blue Raspberry Coolatta, Medium",
+   "carb": 84,
+   "fiber": 0,
+   "cal": 350
+  },
+  {
+   "cat": "Coolatta",
+   "name": "Blue Raspberry Coolatta, Small",
+   "carb": 56,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Coolatta",
+   "name": "Strawberry Coolatta, Large",
+   "carb": 115,
+   "fiber": 1,
+   "cal": 470
+  },
+  {
+   "cat": "Coolatta",
+   "name": "Strawberry Coolatta, Medium",
+   "carb": 86,
+   "fiber": 1,
+   "cal": 350
+  },
+  {
+   "cat": "Coolatta",
+   "name": "Strawberry Coolatta, Small",
+   "carb": 57,
+   "fiber": 1,
+   "cal": 240
+  },
+  {
+   "cat": "Coolatta",
+   "name": "Vanilla Bean Coolatta, Large",
+   "carb": 172,
+   "fiber": 0,
+   "cal": 790
+  },
+  {
+   "cat": "Coolatta",
+   "name": "Vanilla Bean Coolatta, Medium",
+   "carb": 129,
+   "fiber": 0,
+   "cal": 590
+  },
+  {
+   "cat": "Coolatta",
+   "name": "Vanilla Bean Coolatta, Small",
+   "carb": 86,
+   "fiber": 0,
+   "cal": 390
+  },
+  {
+   "cat": "Cream Cheese Spread",
+   "name": "Classic Plain Cream Cheese Spread",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Cream Cheese Spread",
+   "name": "Garden Veggie Cream Cheese Spread",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Cream Cheese Spread",
+   "name": "Strawberry Cream Cheese Spread",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Donuts",
+   "name": "Apple 'n Spice Donut",
+   "carb": 31,
+   "fiber": 1,
+   "cal": 230
+  },
+  {
+   "cat": "Donuts",
+   "name": "Apple Crumb Donut",
+   "carb": 44,
+   "fiber": 1,
+   "cal": 290
+  },
+  {
+   "cat": "Donuts",
+   "name": "Apple Fritter",
+   "carb": 47,
+   "fiber": 2,
+   "cal": 470
+  },
+  {
+   "cat": "Donuts",
+   "name": "Apple Stick",
+   "carb": 50,
+   "fiber": 1,
+   "cal": 470
+  },
+  {
+   "cat": "Donuts",
+   "name": "Bavarian Kreme Donut",
+   "carb": 31,
+   "fiber": 1,
+   "cal": 240
+  },
+  {
+   "cat": "Donuts",
+   "name": "Bismark",
+   "carb": 63,
+   "fiber": 1,
+   "cal": 480
+  },
+  {
+   "cat": "Donuts",
+   "name": "Boston Kreme Donut",
+   "carb": 39,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Donuts",
+   "name": "Butternut Donut",
+   "carb": 57,
+   "fiber": 1,
+   "cal": 430
+  },
+  {
+   "cat": "Donuts",
+   "name": "Chocolate Butternut Donut",
+   "carb": 57,
+   "fiber": 1,
+   "cal": 450
+  },
+  {
+   "cat": "Donuts",
+   "name": "Chocolate Crème Donut",
+   "carb": 36,
+   "fiber": 1,
+   "cal": 290
+  },
+  {
+   "cat": "Donuts",
+   "name": "Chocolate Dipped French Cruller",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Donuts",
+   "name": "Chocolate Frosted Cake Donut",
+   "carb": 41,
+   "fiber": 1,
+   "cal": 360
+  },
+  {
+   "cat": "Donuts",
+   "name": "Chocolate Frosted Donut",
+   "carb": 34,
+   "fiber": 1,
+   "cal": 260
+  },
+  {
+   "cat": "Donuts",
+   "name": "Chocolate Frosted with Sprinkles Donut",
+   "carb": 36,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Donuts",
+   "name": "Chocolate Headlight Donut",
+   "carb": 41,
+   "fiber": 1,
+   "cal": 310
+  },
+  {
+   "cat": "Donuts",
+   "name": "Chocolate Long John",
+   "carb": 41,
+   "fiber": 1,
+   "cal": 320
+  },
+  {
+   "cat": "Donuts",
+   "name": "Cinnamon Donut",
+   "carb": 34,
+   "fiber": 1,
+   "cal": 330
+  },
+  {
+   "cat": "Donuts",
+   "name": "Cinnamon Stick",
+   "carb": 39,
+   "fiber": 1,
+   "cal": 430
+  },
+  {
+   "cat": "Donuts",
+   "name": "Coconut Donut",
+   "carb": 50,
+   "fiber": 1,
+   "cal": 410
+  },
+  {
+   "cat": "Donuts",
+   "name": "Coffee Roll",
+   "carb": 48,
+   "fiber": 2,
+   "cal": 390
+  },
+  {
+   "cat": "Donuts",
+   "name": "Double Chocolate Donut",
+   "carb": 41,
+   "fiber": 1,
+   "cal": 380
+  },
+  {
+   "cat": "Donuts",
+   "name": "French Cruller",
+   "carb": 21,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Donuts",
+   "name": "Frosted Vanilla Crème Donut",
+   "carb": 44,
+   "fiber": 1,
+   "cal": 330
+  },
+  {
+   "cat": "Donuts",
+   "name": "Glazed Blueberry Donut",
+   "carb": 44,
+   "fiber": 1,
+   "cal": 350
+  },
+  {
+   "cat": "Donuts",
+   "name": "Glazed Chocolate Donut",
+   "carb": 41,
+   "fiber": 1,
+   "cal": 370
+  },
+  {
+   "cat": "Donuts",
+   "name": "Glazed Chocolate Stick",
+   "carb": 42,
+   "fiber": 2,
+   "cal": 410
+  },
+  {
+   "cat": "Donuts",
+   "name": "Glazed Donut",
+   "carb": 33,
+   "fiber": 1,
+   "cal": 240
+  },
+  {
+   "cat": "Donuts",
+   "name": "Glazed Jelly Donut",
+   "carb": 44,
+   "fiber": 1,
+   "cal": 280
+  },
+  {
+   "cat": "Donuts",
+   "name": "Glazed Jelly Stick",
+   "carb": 66,
+   "fiber": 1,
+   "cal": 540
+  },
+  {
+   "cat": "Donuts",
+   "name": "Glazed Stick",
+   "carb": 48,
+   "fiber": 1,
+   "cal": 470
+  },
+  {
+   "cat": "Donuts",
+   "name": "Glazed Strawberry Donut",
+   "carb": 44,
+   "fiber": 1,
+   "cal": 280
+  },
+  {
+   "cat": "Donuts",
+   "name": "Jelly Donut",
+   "carb": 36,
+   "fiber": 1,
+   "cal": 250
+  },
+  {
+   "cat": "Donuts",
+   "name": "Jelly Stick",
+   "carb": 57,
+   "fiber": 1,
+   "cal": 500
+  },
+  {
+   "cat": "Donuts",
+   "name": "Lemon Donut",
+   "carb": 31,
+   "fiber": 1,
+   "cal": 230
+  },
+  {
+   "cat": "Donuts",
+   "name": "Lemon Stick",
+   "carb": 50,
+   "fiber": 1,
+   "cal": 480
+  },
+  {
+   "cat": "Donuts",
+   "name": "Maple Crème Donut",
+   "carb": 38,
+   "fiber": 1,
+   "cal": 290
+  },
+  {
+   "cat": "Donuts",
+   "name": "Maple Crème Stick",
+   "carb": 59,
+   "fiber": 1,
+   "cal": 460
+  },
+  {
+   "cat": "Donuts",
+   "name": "Maple Frosted Donut",
+   "carb": 35,
+   "fiber": 1,
+   "cal": 260
+  },
+  {
+   "cat": "Donuts",
+   "name": "Maple Vanilla Crème Donut",
+   "carb": 45,
+   "fiber": 1,
+   "cal": 330
+  },
+  {
+   "cat": "Donuts",
+   "name": "Old Fashioned Donut",
+   "carb": 30,
+   "fiber": 1,
+   "cal": 310
+  },
+  {
+   "cat": "Donuts",
+   "name": "Peanut Donut",
+   "carb": 50,
+   "fiber": 2,
+   "cal": 470
+  },
+  {
+   "cat": "Donuts",
+   "name": "Plain Stick",
+   "carb": 36,
+   "fiber": 1,
+   "cal": 420
+  },
+  {
+   "cat": "Donuts",
+   "name": "Powdered Donut",
+   "carb": 34,
+   "fiber": 1,
+   "cal": 330
+  },
+  {
+   "cat": "Donuts",
+   "name": "Powdered Stick",
+   "carb": 42,
+   "fiber": 1,
+   "cal": 440
+  },
+  {
+   "cat": "Donuts",
+   "name": "Sour Cream Donut",
+   "carb": 49,
+   "fiber": 1,
+   "cal": 360
+  },
+  {
+   "cat": "Donuts",
+   "name": "Strawberry Frosted Donut",
+   "carb": 35,
+   "fiber": 1,
+   "cal": 260
+  },
+  {
+   "cat": "Donuts",
+   "name": "Strawberry Frosted with Sprinkles Donut",
+   "carb": 37,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Donuts",
+   "name": "Sugared Donut",
+   "carb": 24,
+   "fiber": 1,
+   "cal": 210
+  },
+  {
+   "cat": "Donuts",
+   "name": "Sugared Stick",
+   "carb": 39,
+   "fiber": 1,
+   "cal": 430
+  },
+  {
+   "cat": "Donuts",
+   "name": "Taillight Donut",
+   "carb": 41,
+   "fiber": 1,
+   "cal": 320
+  },
+  {
+   "cat": "Donuts",
+   "name": "Toasted Coconut Donut",
+   "carb": 52,
+   "fiber": 3,
+   "cal": 430
+  },
+  {
+   "cat": "Donuts",
+   "name": "Vanilla Crème Donut",
+   "carb": 37,
+   "fiber": 1,
+   "cal": 300
+  },
+  {
+   "cat": "Donuts",
+   "name": "Vanilla Frosted Donut",
+   "carb": 34,
+   "fiber": 1,
+   "cal": 260
+  },
+  {
+   "cat": "Donuts",
+   "name": "Vanilla Frosted Sprinkles Donut",
+   "carb": 37,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Donuts",
+   "name": "Vanilla Headlight Donut",
+   "carb": 41,
+   "fiber": 1,
+   "cal": 310
+  },
+  {
+   "cat": "Donuts",
+   "name": "Vanilla Long John",
+   "carb": 42,
+   "fiber": 1,
+   "cal": 320
+  },
+  {
+   "cat": "Donuts",
+   "name": "Éclair",
+   "carb": 50,
+   "fiber": 1,
+   "cal": 360
+  },
+  {
+   "cat": "Donuts - Regional",
+   "name": "Apple Streusel Donut",
+   "carb": 46,
+   "fiber": 1,
+   "cal": 310
+  },
+  {
+   "cat": "Donuts - Regional",
+   "name": "Chocolate Coconut Donut",
+   "carb": 50,
+   "fiber": 1,
+   "cal": 430
+  },
+  {
+   "cat": "Donuts - Regional",
+   "name": "Chocolate Crème Stick",
+   "carb": 58,
+   "fiber": 2,
+   "cal": 460
+  },
+  {
+   "cat": "Donuts - Regional",
+   "name": "Crème Delight Donut",
+   "carb": 44,
+   "fiber": 1,
+   "cal": 330
+  },
+  {
+   "cat": "Donuts - Regional",
+   "name": "French Apple Donut",
+   "carb": 40,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Donuts - Regional",
+   "name": "Glazed Lemon Donut",
+   "carb": 40,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Donuts - Regional",
+   "name": "Indy Crème Donut",
+   "carb": 44,
+   "fiber": 1,
+   "cal": 330
+  },
+  {
+   "cat": "Donuts - Regional",
+   "name": "Maple Long John Donut",
+   "carb": 42,
+   "fiber": 1,
+   "cal": 320
+  },
+  {
+   "cat": "Donuts - Regional",
+   "name": "Marble Frosted Donut",
+   "carb": 37,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Donuts - Regional",
+   "name": "New Yorker Donut",
+   "carb": 44,
+   "fiber": 1,
+   "cal": 330
+  },
+  {
+   "cat": "Dunkin' Lemonade Refreshers",
+   "name": "Mango Pineapple Dunkin' Lemonade Refresher, Large",
+   "carb": 80,
+   "fiber": 0,
+   "cal": 320
+  },
+  {
+   "cat": "Dunkin' Lemonade Refreshers",
+   "name": "Mango Pineapple Dunkin' Lemonade Refresher, Medium",
+   "carb": 60,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Dunkin' Lemonade Refreshers",
+   "name": "Mango Pineapple Dunkin' Lemonade Refresher, Small",
+   "carb": 40,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Dunkin' Lemonade Refreshers",
+   "name": "Strawberry Dragonfruit Dunkin' Lemonade Refresher, Large",
+   "carb": 75,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Dunkin' Lemonade Refreshers",
+   "name": "Strawberry Dragonfruit Dunkin' Lemonade Refresher, Medium",
+   "carb": 56,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Dunkin' Lemonade Refreshers",
+   "name": "Strawberry Dragonfruit Dunkin' Lemonade Refresher, Small",
+   "carb": 37,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Dunkin' Refreshers",
+   "name": "Mango Pineapple Dunkin' Refresher, Large",
+   "carb": 42,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Dunkin' Refreshers",
+   "name": "Mango Pineapple Dunkin' Refresher, Medium",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Dunkin' Refreshers",
+   "name": "Mango Pineapple Dunkin' Refresher, Small",
+   "carb": 21,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Dunkin' Refreshers",
+   "name": "Strawberry Dragonfruit Dunkin' Refresher, Large",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Dunkin' Refreshers",
+   "name": "Strawberry Dragonfruit Dunkin' Refresher, Medium",
+   "carb": 29,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Dunkin' Refreshers",
+   "name": "Strawberry Dragonfruit Dunkin' Refresher, Small",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Frozen Chocolate",
+   "name": "Butter Pecan Swirl Frozen Chocolate, Large",
+   "carb": 175,
+   "fiber": 1,
+   "cal": 900
+  },
+  {
+   "cat": "Frozen Chocolate",
+   "name": "Butter Pecan Swirl Frozen Chocolate, Medium",
+   "carb": 134,
+   "fiber": 1,
+   "cal": 700
+  },
+  {
+   "cat": "Frozen Chocolate",
+   "name": "Butter Pecan Swirl Frozen Chocolate, Small",
+   "carb": 95,
+   "fiber": 1,
+   "cal": 500
+  },
+  {
+   "cat": "Frozen Chocolate",
+   "name": "Caramel Swirl Frozen Chocolate, Large",
+   "carb": 176,
+   "fiber": 1,
+   "cal": 900
+  },
+  {
+   "cat": "Frozen Chocolate",
+   "name": "Caramel Swirl Frozen Chocolate, Medium",
+   "carb": 135,
+   "fiber": 1,
+   "cal": 700
+  },
+  {
+   "cat": "Frozen Chocolate",
+   "name": "Caramel Swirl Frozen Chocolate, Small",
+   "carb": 95,
+   "fiber": 1,
+   "cal": 500
+  },
+  {
+   "cat": "Frozen Chocolate",
+   "name": "French Vanilla Swirl Frozen Chocolate, Large",
+   "carb": 175,
+   "fiber": 1,
+   "cal": 900
+  },
+  {
+   "cat": "Frozen Chocolate",
+   "name": "French Vanilla Swirl Frozen Chocolate, Medium",
+   "carb": 135,
+   "fiber": 1,
+   "cal": 700
+  },
+  {
+   "cat": "Frozen Chocolate",
+   "name": "French Vanilla Swirl Frozen Chocolate, Small",
+   "carb": 95,
+   "fiber": 1,
+   "cal": 500
+  },
+  {
+   "cat": "Frozen Chocolate",
+   "name": "Frozen Chocolate, Large",
+   "carb": 175,
+   "fiber": 4,
+   "cal": 890
+  },
+  {
+   "cat": "Frozen Chocolate",
+   "name": "Frozen Chocolate, Medium",
+   "carb": 134,
+   "fiber": 3,
+   "cal": 690
+  },
+  {
+   "cat": "Frozen Chocolate",
+   "name": "Frozen Chocolate, Small",
+   "carb": 94,
+   "fiber": 2,
+   "cal": 490
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Butter Pecan Swirl Frozen Coffee with Cream, Large",
+   "carb": 175,
+   "fiber": 0,
+   "cal": 1050
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Butter Pecan Swirl Frozen Coffee with Cream, Medium",
+   "carb": 131,
+   "fiber": 0,
+   "cal": 780
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Butter Pecan Swirl Frozen Coffee with Cream, Small",
+   "carb": 88,
+   "fiber": 0,
+   "cal": 520
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Butter Pecan Swirl Frozen Coffee with Skim Milk, Large",
+   "carb": 179,
+   "fiber": 0,
+   "cal": 760
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Butter Pecan Swirl Frozen Coffee with Skim Milk, Medium",
+   "carb": 134,
+   "fiber": 0,
+   "cal": 570
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Butter Pecan Swirl Frozen Coffee with Skim Milk, Small",
+   "carb": 90,
+   "fiber": 0,
+   "cal": 380
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Butter Pecan Swirl Frozen Coffee with Whole Milk, Large",
+   "carb": 179,
+   "fiber": 0,
+   "cal": 810
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Butter Pecan Swirl Frozen Coffee with Whole Milk, Medium",
+   "carb": 134,
+   "fiber": 0,
+   "cal": 610
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Butter Pecan Swirl Frozen Coffee with Whole Milk, Small",
+   "carb": 89,
+   "fiber": 0,
+   "cal": 410
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Caramel Creme Frozen Coffee, Large",
+   "carb": 180,
+   "fiber": 0,
+   "cal": 1120
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Caramel Creme Frozen Coffee, Medium",
+   "carb": 138,
+   "fiber": 0,
+   "cal": 860
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Caramel Creme Frozen Coffee, Small",
+   "carb": 97,
+   "fiber": 0,
+   "cal": 610
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Caramel Swirl Frozen Coffee with Cream, Large",
+   "carb": 164,
+   "fiber": 0,
+   "cal": 1000
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Caramel Swirl Frozen Coffee with Cream, Medium",
+   "carb": 123,
+   "fiber": 0,
+   "cal": 750
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Caramel Swirl Frozen Coffee with Cream, Small",
+   "carb": 82,
+   "fiber": 0,
+   "cal": 500
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Caramel Swirl Frozen Coffee with Skim Milk, Large",
+   "carb": 168,
+   "fiber": 0,
+   "cal": 720
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Caramel Swirl Frozen Coffee with Skim Milk, Medium",
+   "carb": 126,
+   "fiber": 0,
+   "cal": 540
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Caramel Swirl Frozen Coffee with Skim Milk, Small",
+   "carb": 84,
+   "fiber": 0,
+   "cal": 360
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Caramel Swirl Frozen Coffee with Whole Milk, Large",
+   "carb": 168,
+   "fiber": 0,
+   "cal": 770
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Caramel Swirl Frozen Coffee with Whole Milk, Medium",
+   "carb": 126,
+   "fiber": 0,
+   "cal": 580
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Caramel Swirl Frozen Coffee with Whole Milk, Small",
+   "carb": 84,
+   "fiber": 0,
+   "cal": 380
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "French Vanilla Swirl Frozen Coffee with Cream, Large",
+   "carb": 163,
+   "fiber": 0,
+   "cal": 1000
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "French Vanilla Swirl Frozen Coffee with Cream, Medium",
+   "carb": 123,
+   "fiber": 0,
+   "cal": 750
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "French Vanilla Swirl Frozen Coffee with Cream, Small",
+   "carb": 82,
+   "fiber": 0,
+   "cal": 500
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "French Vanilla Swirl Frozen Coffee with Skim Milk, Large",
+   "carb": 167,
+   "fiber": 0,
+   "cal": 710
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "French Vanilla Swirl Frozen Coffee with Skim Milk, Medium",
+   "carb": 126,
+   "fiber": 0,
+   "cal": 540
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "French Vanilla Swirl Frozen Coffee with Skim Milk, Small",
+   "carb": 84,
+   "fiber": 0,
+   "cal": 360
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "French Vanilla Swirl Frozen Coffee with Whole Milk, Large",
+   "carb": 167,
+   "fiber": 0,
+   "cal": 760
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "French Vanilla Swirl Frozen Coffee with Whole Milk, Medium",
+   "carb": 125,
+   "fiber": 0,
+   "cal": 570
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "French Vanilla Swirl Frozen Coffee with Whole Milk, Small",
+   "carb": 84,
+   "fiber": 0,
+   "cal": 380
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Frozen Coffee with Cream, Large",
+   "carb": 113,
+   "fiber": 0,
+   "cal": 780
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Frozen Coffee with Cream, Medium",
+   "carb": 85,
+   "fiber": 0,
+   "cal": 590
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Frozen Coffee with Cream, Small",
+   "carb": 57,
+   "fiber": 0,
+   "cal": 390
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Frozen Coffee with Skim Milk, Large",
+   "carb": 117,
+   "fiber": 0,
+   "cal": 500
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Frozen Coffee with Skim Milk, Medium",
+   "carb": 88,
+   "fiber": 0,
+   "cal": 370
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Frozen Coffee with Skim Milk, Small",
+   "carb": 59,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Frozen Coffee with Whole Milk, Large",
+   "carb": 117,
+   "fiber": 0,
+   "cal": 550
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Frozen Coffee with Whole Milk, Medium",
+   "carb": 88,
+   "fiber": 0,
+   "cal": 410
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Frozen Coffee with Whole Milk, Small",
+   "carb": 58,
+   "fiber": 0,
+   "cal": 270
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Mocha Swirl Frozen Coffee with Cream, Large",
+   "carb": 163,
+   "fiber": 2,
+   "cal": 990
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Mocha Swirl Frozen Coffee with Cream, Medium",
+   "carb": 122,
+   "fiber": 2,
+   "cal": 740
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Mocha Swirl Frozen Coffee with Cream, Small",
+   "carb": 81,
+   "fiber": 1,
+   "cal": 490
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Mocha Swirl Frozen Coffee with Skim Milk, Large",
+   "carb": 167,
+   "fiber": 2,
+   "cal": 700
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Mocha Swirl Frozen Coffee with Skim Milk, Medium",
+   "carb": 125,
+   "fiber": 2,
+   "cal": 530
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Mocha Swirl Frozen Coffee with Skim Milk, Small",
+   "carb": 83,
+   "fiber": 1,
+   "cal": 350
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Mocha Swirl Frozen Coffee with Whole Milk, Large",
+   "carb": 167,
+   "fiber": 2,
+   "cal": 750
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Mocha Swirl Frozen Coffee with Whole Milk, Medium",
+   "carb": 125,
+   "fiber": 2,
+   "cal": 570
+  },
+  {
+   "cat": "Frozen Coffee",
+   "name": "Mocha Swirl Frozen Coffee with Whole Milk, Small",
+   "carb": 83,
+   "fiber": 1,
+   "cal": 380
+  },
+  {
+   "cat": "Frozen Specialty",
+   "name": "Frozen Chai Latte, Large",
+   "carb": 132,
+   "fiber": 2,
+   "cal": 690
+  },
+  {
+   "cat": "Frozen Specialty",
+   "name": "Frozen Chai Latte, Medium",
+   "carb": 99,
+   "fiber": 2,
+   "cal": 520
+  },
+  {
+   "cat": "Frozen Specialty",
+   "name": "Frozen Chai Latte, Small",
+   "carb": 66,
+   "fiber": 1,
+   "cal": 350
+  },
+  {
+   "cat": "Frozen Specialty",
+   "name": "Frozen Matcha Latte with Skim Milk, Large",
+   "carb": 111,
+   "fiber": 2,
+   "cal": 480
+  },
+  {
+   "cat": "Frozen Specialty",
+   "name": "Frozen Matcha Latte with Skim Milk, Medium",
+   "carb": 83,
+   "fiber": 1,
+   "cal": 360
+  },
+  {
+   "cat": "Frozen Specialty",
+   "name": "Frozen Matcha Latte with Skim Milk, Small",
+   "carb": 55,
+   "fiber": 1,
+   "cal": 240
+  },
+  {
+   "cat": "Frozen Specialty",
+   "name": "Frozen Matcha Latte with Whole Milk, Large",
+   "carb": 110,
+   "fiber": 2,
+   "cal": 530
+  },
+  {
+   "cat": "Frozen Specialty",
+   "name": "Frozen Matcha Latte with Whole Milk, Medium",
+   "carb": 83,
+   "fiber": 1,
+   "cal": 390
+  },
+  {
+   "cat": "Frozen Specialty",
+   "name": "Frozen Matcha Latte with Whole Milk, Small",
+   "carb": 55,
+   "fiber": 1,
+   "cal": 260
+  },
+  {
+   "cat": "Hash Browns",
+   "name": "Hash Browns",
+   "carb": 13,
+   "fiber": 1,
+   "cal": 110
+  },
+  {
+   "cat": "Hot Americano",
+   "name": "Americano, Large",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Hot Americano",
+   "name": "Americano, Medium",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Hot Americano",
+   "name": "Americano, Small",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Butter Pecan Swirl Hot Cappuccino with Skim Milk, Large",
+   "carb": 64,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Butter Pecan Swirl Hot Cappuccino with Skim Milk, Medium",
+   "carb": 48,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Butter Pecan Swirl Hot Cappuccino with Skim Milk, Small",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Butter Pecan Swirl Hot Cappuccino with Whole Milk, Large",
+   "carb": 63,
+   "fiber": 0,
+   "cal": 370
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Butter Pecan Swirl Hot Cappuccino with Whole Milk, Medium",
+   "carb": 47,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Butter Pecan Swirl Hot Cappuccino with Whole Milk, Small",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Cappuccino with Skim Milk, Large",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Cappuccino with Skim Milk, Medium",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Cappuccino with Skim Milk, Small",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Cappuccino with Skim Milk and Sugar, Large",
+   "carb": 48,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Cappuccino with Skim Milk and Sugar, Medium",
+   "carb": 36,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Cappuccino with Skim Milk and Sugar, Small",
+   "carb": 24,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Cappuccino with Whole Milk, Large",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Cappuccino with Whole Milk, Medium",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Cappuccino with Whole Milk, Small",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Cappuccino with Whole Milk and Sugar, Large",
+   "carb": 48,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Cappuccino with Whole Milk and Sugar, Medium",
+   "carb": 36,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Cappuccino with Whole Milk and Sugar, Small",
+   "carb": 24,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Caramel Swirl Hot Cappuccino with Skim Milk, Large",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Caramel Swirl Hot Cappuccino with Skim Milk, Medium",
+   "carb": 49,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Caramel Swirl Hot Cappuccino with Skim Milk, Small",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Caramel Swirl Hot Cappuccino with Whole Milk, Large",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 380
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Caramel Swirl Hot Cappuccino with Whole Milk, Medium",
+   "carb": 48,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Caramel Swirl Hot Cappuccino with Whole Milk, Small",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "French Vanilla Swirl Hot Cappuccino with Skim Milk, Large",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "French Vanilla Swirl Hot Cappuccino with Skim Milk, Medium",
+   "carb": 48,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "French Vanilla Swirl Hot Cappuccino with Skim Milk, Small",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "French Vanilla Swirl Hot Cappuccino with Whole Milk, Large",
+   "carb": 64,
+   "fiber": 0,
+   "cal": 370
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "French Vanilla Swirl Hot Cappuccino with Whole Milk, Medium",
+   "carb": 48,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "French Vanilla Swirl Hot Cappuccino with Whole Milk, Small",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Mocha Swirl Hot Cappuccino with Skim Milk, Large",
+   "carb": 64,
+   "fiber": 2,
+   "cal": 300
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Mocha Swirl Hot Cappuccino with Skim Milk, Medium",
+   "carb": 48,
+   "fiber": 2,
+   "cal": 220
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Mocha Swirl Hot Cappuccino with Skim Milk, Small",
+   "carb": 32,
+   "fiber": 1,
+   "cal": 150
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Mocha Swirl Hot Cappuccino with Whole Milk, Large",
+   "carb": 63,
+   "fiber": 2,
+   "cal": 360
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Mocha Swirl Hot Cappuccino with Whole Milk, Medium",
+   "carb": 48,
+   "fiber": 2,
+   "cal": 270
+  },
+  {
+   "cat": "Hot Cappuccino",
+   "name": "Mocha Swirl Hot Cappuccino with Whole Milk, Small",
+   "carb": 32,
+   "fiber": 1,
+   "cal": 180
+  },
+  {
+   "cat": "Hot Chocolate",
+   "name": "Box 'O Joe(R) Hot Chocolate",
+   "carb": 40,
+   "fiber": 2,
+   "cal": 220
+  },
+  {
+   "cat": "Hot Chocolate",
+   "name": "Hot Chocolate with Espresso Shot, Large",
+   "carb": 71,
+   "fiber": 3,
+   "cal": 400
+  },
+  {
+   "cat": "Hot Chocolate",
+   "name": "Hot Chocolate with Espresso Shot, Medium",
+   "carb": 51,
+   "fiber": 2,
+   "cal": 280
+  },
+  {
+   "cat": "Hot Chocolate",
+   "name": "Hot Chocolate with Espresso Shot, Small",
+   "carb": 35,
+   "fiber": 1,
+   "cal": 190
+  },
+  {
+   "cat": "Hot Chocolate",
+   "name": "Original Hot Chocolate, Extra Large",
+   "carb": 89,
+   "fiber": 3,
+   "cal": 500
+  },
+  {
+   "cat": "Hot Chocolate",
+   "name": "Original Hot Chocolate, Large",
+   "carb": 82,
+   "fiber": 3,
+   "cal": 460
+  },
+  {
+   "cat": "Hot Chocolate",
+   "name": "Original Hot Chocolate, Medium",
+   "carb": 59,
+   "fiber": 2,
+   "cal": 330
+  },
+  {
+   "cat": "Hot Chocolate",
+   "name": "Original Hot Chocolate, Small",
+   "carb": 40,
+   "fiber": 2,
+   "cal": 220
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Box 'O Joe",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Butter Pecan Swirl Hot Coffee with Black, Extra Large",
+   "carb": 63,
+   "fiber": 0,
+   "cal": 270
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Butter Pecan Swirl Hot Coffee with Black, Large",
+   "carb": 50,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Butter Pecan Swirl Hot Coffee with Black, Medium",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Butter Pecan Swirl Hot Coffee with Black, Small",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Butter Pecan Swirl Hot Coffee with Cream, Extra Large",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 420
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Butter Pecan Swirl Hot Coffee with Cream, Large",
+   "carb": 52,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Butter Pecan Swirl Hot Coffee with Cream, Medium",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Butter Pecan Swirl Hot Coffee with Cream, Small",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Caramel Swirl Hot Coffee with Black, Extra Large",
+   "carb": 64,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Caramel Swirl Hot Coffee with Black, Large",
+   "carb": 52,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Caramel Swirl Hot Coffee with Black, Medium",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Caramel Swirl Hot Coffee with Black, Small",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Caramel Swirl Hot Coffee with Cream, Extra Large",
+   "carb": 67,
+   "fiber": 0,
+   "cal": 420
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Caramel Swirl Hot Coffee with Cream, Large",
+   "carb": 53,
+   "fiber": 0,
+   "cal": 340
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Caramel Swirl Hot Coffee with Cream, Medium",
+   "carb": 40,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Caramel Swirl Hot Coffee with Cream, Small",
+   "carb": 27,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "French Vanilla Swirl Hot Coffee, Extra Large",
+   "carb": 64,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "French Vanilla Swirl Hot Coffee, Large",
+   "carb": 51,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "French Vanilla Swirl Hot Coffee, Medium",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "French Vanilla Swirl Hot Coffee, Small",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "French Vanilla Swirl Hot Coffee with Cream, Extra Large",
+   "carb": 66,
+   "fiber": 0,
+   "cal": 420
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "French Vanilla Swirl Hot Coffee with Cream, Large",
+   "carb": 53,
+   "fiber": 0,
+   "cal": 340
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "French Vanilla Swirl Hot Coffee with Cream, Medium",
+   "carb": 40,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "French Vanilla Swirl Hot Coffee with Cream, Small",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee, Extra Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with AlmondMilk, Extra Large",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with AlmondMilk, Large",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with AlmondMilk, Medium",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with AlmondMilk, Small",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Cream, Extra Large",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Cream, Large",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Cream, Medium",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Cream, Small",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Cream and Sugar, Extra Large",
+   "carb": 46,
+   "fiber": 0,
+   "cal": 320
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Cream and Sugar, Extra Medium",
+   "carb": 27,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Cream and Sugar, Large",
+   "carb": 37,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Cream and Sugar, Small",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Oatmilk, Extra Large",
+   "carb": 10,
+   "fiber": 1,
+   "cal": 60
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Oatmilk, Large",
+   "carb": 8,
+   "fiber": 1,
+   "cal": 45
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Oatmilk, Medium",
+   "carb": 5,
+   "fiber": 1,
+   "cal": 30
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Oatmilk, Small",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Skim Milk, Extra Large",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 30
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Skim Milk, Large",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Skim Milk, Medium",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Skim Milk, Small",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Skim Milk and Sugar, Extra Large",
+   "carb": 47,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Skim Milk and Sugar, Large",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Skim Milk and Sugar, Medium",
+   "carb": 28,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Skim Milk and Sugar, Small",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Sugar, Extra Large",
+   "carb": 44,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Sugar, Large",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Sugar, Medium",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Sugar, Small",
+   "carb": 17,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Whole Milk, Extra Large",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Whole Milk, Large",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Whole Milk, Medium",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 30
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Whole Milk, Small",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Whole Milk and Sugar, Extra Large",
+   "carb": 47,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Whole Milk and Sugar, Large",
+   "carb": 42,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Whole Milk and Sugar, Medium",
+   "carb": 28,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Hot Coffee with Whole Milk and Sugar, Small",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Mocha Swirl Hot Coffee, Extra Large",
+   "carb": 63,
+   "fiber": 3,
+   "cal": 260
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Mocha Swirl Hot Coffee, Large",
+   "carb": 50,
+   "fiber": 2,
+   "cal": 210
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Mocha Swirl Hot Coffee, Medium",
+   "carb": 38,
+   "fiber": 2,
+   "cal": 160
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Mocha Swirl Hot Coffee, Small",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 110
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Mocha Swirl Hot Coffee with Cream, Extra Large",
+   "carb": 65,
+   "fiber": 3,
+   "cal": 410
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Mocha Swirl Hot Coffee with Cream, Large",
+   "carb": 52,
+   "fiber": 2,
+   "cal": 330
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Mocha Swirl Hot Coffee with Cream, Medium",
+   "carb": 39,
+   "fiber": 2,
+   "cal": 240
+  },
+  {
+   "cat": "Hot Coffee",
+   "name": "Mocha Swirl Hot Coffee with Cream, Small",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 160
+  },
+  {
+   "cat": "Hot Espresso",
+   "name": "Café con Leche, Large",
+   "carb": 47,
+   "fiber": 0,
+   "cal": 340
+  },
+  {
+   "cat": "Hot Espresso",
+   "name": "Café con Leche, Medium",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Hot Espresso",
+   "name": "Café con Leche, Small",
+   "carb": 23,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Hot Espresso",
+   "name": "Espresso with Sugar, Single Shot",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Hot Espresso",
+   "name": "Hot Espresso, Single Shot",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Butter Pecan Swirl Hot Latte with Skim Milk, Large",
+   "carb": 70,
+   "fiber": 0,
+   "cal": 350
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Butter Pecan Swirl Hot Latte with Skim Milk, Medium",
+   "carb": 52,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Butter Pecan Swirl Hot Latte with Skim Milk, Small",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Butter Pecan Swirl Hot Latte with Whole Milk, Large",
+   "carb": 69,
+   "fiber": 0,
+   "cal": 450
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Butter Pecan Swirl Hot Latte with Whole Milk, Medium",
+   "carb": 52,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Butter Pecan Swirl Hot Latte with Whole Milk, Small",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Caramel Craze Signature Hot Latte with Skim Milk, Large",
+   "carb": 80,
+   "fiber": 0,
+   "cal": 440
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Caramel Craze Signature Hot Latte with Skim Milk, Medium",
+   "carb": 61,
+   "fiber": 0,
+   "cal": 340
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Caramel Craze Signature Hot Latte with Skim Milk, Small",
+   "carb": 43,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Caramel Craze Signature Hot Latte with Whole Milk, Large",
+   "carb": 79,
+   "fiber": 0,
+   "cal": 530
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Caramel Craze Signature Hot Latte with Whole Milk, Medium",
+   "carb": 61,
+   "fiber": 0,
+   "cal": 410
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Caramel Craze Signature Hot Latte with Whole Milk, Small",
+   "carb": 43,
+   "fiber": 0,
+   "cal": 300
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Caramel Swirl Hot Latte with Skim Milk, Large",
+   "carb": 71,
+   "fiber": 0,
+   "cal": 350
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Caramel Swirl Hot Latte with Skim Milk, Medium",
+   "carb": 53,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Caramel Swirl Hot Latte with Skim Milk, Small",
+   "carb": 36,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Caramel Swirl Hot Latte with Whole Milk, Large",
+   "carb": 70,
+   "fiber": 0,
+   "cal": 450
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Caramel Swirl Hot Latte with Whole Milk, Medium",
+   "carb": 53,
+   "fiber": 0,
+   "cal": 340
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Caramel Swirl Hot Latte with Whole Milk, Small",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Chai Hot Latte with Skim Milk- Large",
+   "carb": 58,
+   "fiber": 2,
+   "cal": 290
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Chai Hot Latte with Skim Milk- Medium",
+   "carb": 44,
+   "fiber": 2,
+   "cal": 220
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Chai Hot Latte with Skim Milk- Small",
+   "carb": 29,
+   "fiber": 1,
+   "cal": 150
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Chai Hot Latte with Whole Milk- Large",
+   "carb": 57,
+   "fiber": 2,
+   "cal": 390
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Chai Hot Latte with Whole Milk- Medium",
+   "carb": 43,
+   "fiber": 2,
+   "cal": 290
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Chai Hot Latte with Whole Milk- Small",
+   "carb": 29,
+   "fiber": 1,
+   "cal": 200
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Cocoa Mocha Signature Hot Latte with Skim Milk, Large",
+   "carb": 79,
+   "fiber": 2,
+   "cal": 420
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Cocoa Mocha Signature Hot Latte with Skim Milk, Medium",
+   "carb": 61,
+   "fiber": 2,
+   "cal": 330
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Cocoa Mocha Signature Hot Latte with Skim Milk, Small",
+   "carb": 43,
+   "fiber": 1,
+   "cal": 250
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Cocoa Mocha Signature Hot Latte with Whole Milk, Large",
+   "carb": 78,
+   "fiber": 2,
+   "cal": 520
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Cocoa Mocha Signature Hot Latte with Whole Milk, Medium",
+   "carb": 60,
+   "fiber": 2,
+   "cal": 400
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Cocoa Mocha Signature Hot Latte with Whole Milk, Small",
+   "carb": 43,
+   "fiber": 1,
+   "cal": 300
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "French Vanilla Swirl Hot Latte with Skim Milk, Large",
+   "carb": 71,
+   "fiber": 0,
+   "cal": 350
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "French Vanilla Swirl Hot Latte with Skim Milk, Medium",
+   "carb": 53,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "French Vanilla Swirl Hot Latte with Skim Milk, Small",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "French Vanilla Swirl Hot Latte with Whole Milk, Large",
+   "carb": 70,
+   "fiber": 0,
+   "cal": 450
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "French Vanilla Swirl Hot Latte with Whole Milk, Medium",
+   "carb": 52,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "French Vanilla Swirl Hot Latte with Whole Milk, Small",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Hot Latte with AlmondMilk, Large",
+   "carb": 23,
+   "fiber": 1,
+   "cal": 130
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Hot Latte with AlmondMilk, Medium",
+   "carb": 17,
+   "fiber": 1,
+   "cal": 100
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Hot Latte with AlmondMilk, Small",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Hot Latte with Oatmilk, Large",
+   "carb": 32,
+   "fiber": 4,
+   "cal": 180
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Hot Latte with Oatmilk, Medium",
+   "carb": 24,
+   "fiber": 3,
+   "cal": 130
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Hot Latte with Oatmilk, Small",
+   "carb": 16,
+   "fiber": 2,
+   "cal": 90
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Hot Latte with Skim Milk, Large",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Hot Latte with Skim Milk, Medium",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Hot Latte with Skim Milk, Small",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Hot Latte with Skim Milk and Sugar, Large",
+   "carb": 54,
+   "fiber": 0,
+   "cal": 270
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Hot Latte with Skim Milk and Sugar, Medium",
+   "carb": 41,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Hot Latte with Skim Milk and Sugar, Small",
+   "carb": 27,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Hot Latte with Whole Milk, Large",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Hot Latte with Whole Milk, Medium",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Hot Latte with Whole Milk, Small",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Hot Latte with Whole Milk and Sugar, Large",
+   "carb": 54,
+   "fiber": 0,
+   "cal": 370
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Hot Latte with Whole Milk and Sugar, Medium",
+   "carb": 40,
+   "fiber": 0,
+   "cal": 270
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Hot Latte with Whole Milk and Sugar, Small",
+   "carb": 27,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Matcha Hot Latte with Skim Milk, Large",
+   "carb": 45,
+   "fiber": 2,
+   "cal": 240
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Matcha Hot Latte with Skim Milk, Medium",
+   "carb": 34,
+   "fiber": 1,
+   "cal": 180
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Matcha Hot Latte with Skim Milk, Small",
+   "carb": 23,
+   "fiber": 1,
+   "cal": 120
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Matcha Hot Latte with Whole Milk, Large",
+   "carb": 44,
+   "fiber": 2,
+   "cal": 340
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Matcha Hot Latte with Whole Milk, Medium",
+   "carb": 33,
+   "fiber": 1,
+   "cal": 250
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Matcha Hot Latte with Whole Milk, Small",
+   "carb": 22,
+   "fiber": 1,
+   "cal": 170
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Mocha Swirl Hot Latte with Skim Milk, Large",
+   "carb": 70,
+   "fiber": 2,
+   "cal": 340
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Mocha Swirl Hot Latte with Skim Milk, Medium",
+   "carb": 52,
+   "fiber": 2,
+   "cal": 250
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Mocha Swirl Hot Latte with Skim Milk, Small",
+   "carb": 35,
+   "fiber": 1,
+   "cal": 170
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Mocha Swirl Hot Latte with Whole Milk, Large",
+   "carb": 69,
+   "fiber": 2,
+   "cal": 440
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Mocha Swirl Hot Latte with Whole Milk, Medium",
+   "carb": 52,
+   "fiber": 2,
+   "cal": 330
+  },
+  {
+   "cat": "Hot Latte",
+   "name": "Mocha Swirl Hot Latte with Whole Milk, Small",
+   "carb": 35,
+   "fiber": 1,
+   "cal": 220
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Butter Pecan Swirl Hot Macchiato with Skim Milk, Large",
+   "carb": 64,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Butter Pecan Swirl Hot Macchiato with Skim Milk, Medium",
+   "carb": 48,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Butter Pecan Swirl Hot Macchiato with Skim Milk, Small",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Butter Pecan Swirl Hot Macchiato with Whole Milk, Large",
+   "carb": 64,
+   "fiber": 0,
+   "cal": 380
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Butter Pecan Swirl Hot Macchiato with Whole Milk, Medium",
+   "carb": 48,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Butter Pecan Swirl Hot Macchiato with Whole Milk, Small",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Caramel Swirl Hot Macchiato with Skim Milk, Large",
+   "carb": 66,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Caramel Swirl Hot Macchiato with Skim Milk, Medium",
+   "carb": 49,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Caramel Swirl Hot Macchiato with Skim Milk, Small",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Caramel Swirl Hot Macchiato with Whole Milk, Large",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 380
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Caramel Swirl Hot Macchiato with Whole Milk, Medium",
+   "carb": 49,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Caramel Swirl Hot Macchiato with Whole Milk, Small",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "French Vanilla Swirl Hot Macchiato with Skim Milk, Large",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "French Vanilla Swirl Hot Macchiato with Skim Milk, Medium",
+   "carb": 49,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "French Vanilla Swirl Hot Macchiato with Skim Milk, Small",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "French Vanilla Swirl Hot Macchiato with Whole Milk, Large",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 380
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "French Vanilla Swirl Hot Macchiato with Whole Milk, Medium",
+   "carb": 49,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "French Vanilla Swirl Hot Macchiato with Whole Milk, Small",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Hot Macchiato with Oatmilk, Large",
+   "carb": 23,
+   "fiber": 3,
+   "cal": 120
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Hot Macchiato with Oatmilk, Medium",
+   "carb": 17,
+   "fiber": 2,
+   "cal": 90
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Hot Macchiato with Oatmilk, Small",
+   "carb": 12,
+   "fiber": 1,
+   "cal": 60
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Hot Macchiato with Skim Milk, Large",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Hot Macchiato with Skim Milk, Medium",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Hot Macchiato with Skim Milk, Small",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Hot Macchiato with Skim Milk and Sugar, Large",
+   "carb": 49,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Hot Macchiato with Skim Milk and Sugar, Medium",
+   "carb": 37,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Hot Macchiato with Skim Milk and Sugar, Small",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Hot Macchiato with Whole Milk, Large",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Hot Macchiato with Whole Milk, Medium",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Hot Macchiato with Whole Milk, Small",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Hot Macchiato with Whole Milk and Sugar, Large",
+   "carb": 49,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Hot Macchiato with Whole Milk and Sugar, Medium",
+   "carb": 37,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Hot Macchiato with Whole Milk and Sugar, Small",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Mocha Swirl Hot Macchiato with Skim Milk, Large",
+   "carb": 65,
+   "fiber": 2,
+   "cal": 300
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Mocha Swirl Hot Macchiato with Skim Milk, Medium",
+   "carb": 49,
+   "fiber": 2,
+   "cal": 230
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Mocha Swirl Hot Macchiato with Skim Milk, Small",
+   "carb": 33,
+   "fiber": 1,
+   "cal": 150
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Mocha Swirl Hot Macchiato with Whole Milk, Large",
+   "carb": 64,
+   "fiber": 2,
+   "cal": 370
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Mocha Swirl Hot Macchiato with Whole Milk, Medium",
+   "carb": 48,
+   "fiber": 2,
+   "cal": 280
+  },
+  {
+   "cat": "Hot Macchiato",
+   "name": "Mocha Swirl Hot Macchiato with Whole Milk, Small",
+   "carb": 32,
+   "fiber": 1,
+   "cal": 180
+  },
+  {
+   "cat": "Iced Americano",
+   "name": "Iced Americano, Large",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Iced Americano",
+   "name": "Iced Americano, Medium",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Iced Americano",
+   "name": "Iced Americano, Small",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Butter Pecan Swirl Iced Cappuccino with Skim Milk, Large",
+   "carb": 64,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Butter Pecan Swirl Iced Cappuccino with Skim Milk, Medium",
+   "carb": 48,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Butter Pecan Swirl Iced Cappuccino with Skim Milk, Small",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Butter Pecan Swirl Iced Cappuccino with Whole Milk, Large",
+   "carb": 63,
+   "fiber": 0,
+   "cal": 370
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Butter Pecan Swirl Iced Cappuccino with Whole Milk, Medium",
+   "carb": 47,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Butter Pecan Swirl Iced Cappuccino with Whole Milk, Small",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Caramel Swirl Iced Cappuccino with Skim Milk, Large",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Caramel Swirl Iced Cappuccino with Skim Milk, Medium",
+   "carb": 49,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Caramel Swirl Iced Cappuccino with Skim Milk, Small",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Caramel Swirl Iced Cappuccino with Whole Milk, Large",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 380
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Caramel Swirl Iced Cappuccino with Whole Milk, Medium",
+   "carb": 48,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Caramel Swirl Iced Cappuccino with Whole Milk, Small",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "French Vanilla Swirl Iced Cappuccino with Skim Milk, Large",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "French Vanilla Swirl Iced Cappuccino with Skim Milk, Medium",
+   "carb": 48,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "French Vanilla Swirl Iced Cappuccino with Skim Milk, Small",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "French Vanilla Swirl Iced Cappuccino with Whole Milk, Large",
+   "carb": 64,
+   "fiber": 0,
+   "cal": 370
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "French Vanilla Swirl Iced Cappuccino with Whole Milk, Medium",
+   "carb": 48,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "French Vanilla Swirl Iced Cappuccino with Whole Milk, Small",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Iced Cappuccino with Skim Milk, Large",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Iced Cappuccino with Skim Milk, Medium",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Iced Cappuccino with Skim Milk, Small",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Iced Cappuccino with Skim Milk and Sugar, Large",
+   "carb": 48,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Iced Cappuccino with Skim Milk and Sugar, Medium",
+   "carb": 36,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Iced Cappuccino with Skim Milk and Sugar, Small",
+   "carb": 24,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Iced Cappuccino with Whole Milk, Large",
+   "carb": 13,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Iced Cappuccino with Whole Milk, Medium",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Iced Cappuccino with Whole Milk, Small",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Iced Cappuccino with Whole Milk and Sugar, Large",
+   "carb": 48,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Iced Cappuccino with Whole Milk and Sugar, Medium",
+   "carb": 36,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Iced Cappuccino with Whole Milk and Sugar, Small",
+   "carb": 24,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Mocha Swirl Iced Cappuccino with Skim Milk, Large",
+   "carb": 64,
+   "fiber": 2,
+   "cal": 300
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Mocha Swirl Iced Cappuccino with Skim Milk, Medium",
+   "carb": 48,
+   "fiber": 2,
+   "cal": 220
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Mocha Swirl Iced Cappuccino with Skim Milk, Small",
+   "carb": 32,
+   "fiber": 1,
+   "cal": 150
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Mocha Swirl Iced Cappuccino with Whole Milk, Large",
+   "carb": 63,
+   "fiber": 2,
+   "cal": 360
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Mocha Swirl Iced Cappuccino with Whole Milk, Medium",
+   "carb": 48,
+   "fiber": 2,
+   "cal": 270
+  },
+  {
+   "cat": "Iced Cappuccino",
+   "name": "Mocha Swirl Iced Cappuccino with Whole Milk, Small",
+   "carb": 32,
+   "fiber": 1,
+   "cal": 180
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Butter Pecan Swirl Iced Coffee with Black, Large",
+   "carb": 50,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Butter Pecan Swirl Iced Coffee with Black, Medium",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Butter Pecan Swirl Iced Coffee with Black, Small",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Butter Pecan Swirl Iced Coffee with Cream, Large",
+   "carb": 52,
+   "fiber": 0,
+   "cal": 340
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Butter Pecan Swirl Iced Coffee with Cream, Medium",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Butter Pecan Swirl Iced Coffee with Cream, Small",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Caramel Swirl Iced Coffee, Large",
+   "carb": 52,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Caramel Swirl Iced Coffee, Medium",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Caramel Swirl Iced Coffee, Small",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Caramel Swirl Iced Coffee with Cream, Large",
+   "carb": 53,
+   "fiber": 0,
+   "cal": 340
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Caramel Swirl Iced Coffee with Cream, Medium",
+   "carb": 40,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Caramel Swirl Iced Coffee with Cream, Small",
+   "carb": 27,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "French Vanilla Swirl Iced Coffee, Large",
+   "carb": 51,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "French Vanilla Swirl Iced Coffee, Medium",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "French Vanilla Swirl Iced Coffee, Small",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "French Vanilla Swirl Iced Coffee with Cream, Large",
+   "carb": 51,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "French Vanilla Swirl Iced Coffee with Cream, Medium",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "French Vanilla Swirl Iced Coffee with Cream, Small",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Café Au Lait with Skim Milk, Large",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Café Au Lait with Skim Milk, Medium",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Café Au Lait with Skim Milk, Small",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 45
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Café Au Lait with Whole Milk, Large",
+   "carb": 12,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Café Au Lait with Whole Milk, Medium",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Café Au Lait with Whole Milk, Small",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee with AlmondMilk, Large",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee with AlmondMilk, Medium",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee with AlmondMilk, Small",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee with Cream, Large",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee with Cream, Medium",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee with Cream, Small",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee with Cream and Sugar, Large",
+   "carb": 37,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee with Cream and Sugar, Medium",
+   "carb": 27,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee with Cream and Sugar, Small",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee with Oatmilk, Large",
+   "carb": 8,
+   "fiber": 1,
+   "cal": 45
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee with Oatmilk, Medium",
+   "carb": 5,
+   "fiber": 1,
+   "cal": 30
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee with Oatmilk, Small",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee with Skim Milk, Large",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 25
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee with Skim Milk, Medium",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee with Skim Milk, Small",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee with Skim Milk and Sugar, Large",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee with Skim Milk and Sugar, Medium",
+   "carb": 28,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee with Skim Milk and Sugar, Small",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee with Sugar, Large",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee with Sugar, Medium",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee with Sugar, Small",
+   "carb": 17,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee with Whole Milk, Large",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee with Whole Milk, Medium",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 30
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee with Whole Milk, Small",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee with Whole Milk and Sugar, Large",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee with Whole Milk and Sugar, Medium",
+   "carb": 28,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Iced Coffee with Whole Milk and Sugar, Small",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Mocha Swirl Iced Coffee Large",
+   "carb": 50,
+   "fiber": 2,
+   "cal": 210
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Mocha Swirl Iced Coffee Medium",
+   "carb": 38,
+   "fiber": 2,
+   "cal": 160
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Mocha Swirl Iced Coffee Small",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 110
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Mocha Swirl Iced Coffee with Cream, Large",
+   "carb": 52,
+   "fiber": 2,
+   "cal": 330
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Mocha Swirl Iced Coffee with Cream, Medium",
+   "carb": 39,
+   "fiber": 2,
+   "cal": 240
+  },
+  {
+   "cat": "Iced Coffee",
+   "name": "Mocha Swirl Iced Coffee with Cream, Small",
+   "carb": 26,
+   "fiber": 1,
+   "cal": 160
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Almondmilk Iced Matcha Latte, Large",
+   "carb": 48,
+   "fiber": 3,
+   "cal": 230
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Almondmilk Iced Matcha Latte, Medium",
+   "carb": 36,
+   "fiber": 2,
+   "cal": 180
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Almondmilk Iced Matcha Latte, Small",
+   "carb": 24,
+   "fiber": 1,
+   "cal": 120
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Butter Pecan Swirl Iced Latte with Skim Milk, Large",
+   "carb": 70,
+   "fiber": 0,
+   "cal": 350
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Butter Pecan Swirl Iced Latte with Skim Milk, Medium",
+   "carb": 52,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Butter Pecan Swirl Iced Latte with Skim Milk, Small",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Butter Pecan Swirl Iced Latte with Whole Milk, Large",
+   "carb": 69,
+   "fiber": 0,
+   "cal": 450
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Butter Pecan Swirl Iced Latte with Whole Milk, Medium",
+   "carb": 52,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Butter Pecan Swirl Iced Latte with Whole Milk, Small",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Caramel Craze Signature Iced Latte with Skim Milk, Large",
+   "carb": 79,
+   "fiber": 0,
+   "cal": 430
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Caramel Craze Signature Iced Latte with Skim Milk, Medium",
+   "carb": 61,
+   "fiber": 0,
+   "cal": 340
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Caramel Craze Signature Iced Latte with Skim Milk, Small",
+   "carb": 43,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Caramel Craze Signature Iced Latte with Whole Milk, Large",
+   "carb": 79,
+   "fiber": 0,
+   "cal": 530
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Caramel Craze Signature Iced Latte with Whole Milk, Medium",
+   "carb": 61,
+   "fiber": 0,
+   "cal": 410
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Caramel Craze Signature Iced Latte with Whole Milk, Small",
+   "carb": 43,
+   "fiber": 0,
+   "cal": 300
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Caramel Swirl Iced Latte with Skim Milk, Large",
+   "carb": 71,
+   "fiber": 0,
+   "cal": 350
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Caramel Swirl Iced Latte with Skim Milk, Medium",
+   "carb": 53,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Caramel Swirl Iced Latte with Skim Milk, Small",
+   "carb": 36,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Caramel Swirl Iced Latte with Whole Milk, Large",
+   "carb": 70,
+   "fiber": 0,
+   "cal": 450
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Caramel Swirl Iced Latte with Whole Milk, Medium",
+   "carb": 53,
+   "fiber": 0,
+   "cal": 340
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Caramel Swirl Iced Latte with Whole Milk, Small",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Chai Iced Latte with Skim Milk, Large",
+   "carb": 58,
+   "fiber": 2,
+   "cal": 290
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Chai Iced Latte with Skim Milk, Medium",
+   "carb": 44,
+   "fiber": 2,
+   "cal": 220
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Chai Iced Latte with Skim Milk, Small",
+   "carb": 29,
+   "fiber": 1,
+   "cal": 150
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Chai Iced Latte with Whole Milk, Large",
+   "carb": 57,
+   "fiber": 2,
+   "cal": 390
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Chai Iced Latte with Whole Milk, Medium",
+   "carb": 43,
+   "fiber": 2,
+   "cal": 290
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Chai Iced Latte with Whole Milk, Small",
+   "carb": 29,
+   "fiber": 1,
+   "cal": 200
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Cocoa Mocha Signature Iced Latte with Skim Milk, Large",
+   "carb": 78,
+   "fiber": 2,
+   "cal": 420
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Cocoa Mocha Signature Iced Latte with Skim Milk, Medium",
+   "carb": 60,
+   "fiber": 2,
+   "cal": 330
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Cocoa Mocha Signature Iced Latte with Skim Milk, Small",
+   "carb": 43,
+   "fiber": 1,
+   "cal": 250
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Cocoa Mocha Signature Iced Latte with Whole Milk, Large",
+   "carb": 77,
+   "fiber": 2,
+   "cal": 520
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Cocoa Mocha Signature Iced Latte with Whole Milk, Medium",
+   "carb": 60,
+   "fiber": 2,
+   "cal": 400
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Cocoa Mocha Signature Iced Latte with Whole Milk, Small",
+   "carb": 42,
+   "fiber": 1,
+   "cal": 300
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "French Vanilla Swirl Iced Latte with Skim Milk, Large",
+   "carb": 71,
+   "fiber": 0,
+   "cal": 350
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "French Vanilla Swirl Iced Latte with Skim Milk, Medium",
+   "carb": 53,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "French Vanilla Swirl Iced Latte with Skim Milk, Small",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "French Vanilla Swirl Iced Latte with Whole Milk, Large",
+   "carb": 70,
+   "fiber": 0,
+   "cal": 450
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "French Vanilla Swirl Iced Latte with Whole Milk, Medium",
+   "carb": 52,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "French Vanilla Swirl Iced Latte with Whole Milk, Small",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Iced Latte with AlmondMilk, Large",
+   "carb": 23,
+   "fiber": 1,
+   "cal": 130
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Iced Latte with AlmondMilk, Medium",
+   "carb": 17,
+   "fiber": 1,
+   "cal": 100
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Iced Latte with AlmondMilk, Small",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Iced Latte with Oatmilk, Large",
+   "carb": 32,
+   "fiber": 4,
+   "cal": 180
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Iced Latte with Oatmilk, Medium",
+   "carb": 24,
+   "fiber": 3,
+   "cal": 130
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Iced Latte with Oatmilk, Small",
+   "carb": 16,
+   "fiber": 2,
+   "cal": 90
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Iced Latte with Skim Milk, Large",
+   "carb": 20,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Iced Latte with Skim Milk, Medium",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Iced Latte with Skim Milk, Small",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Iced Latte with Skim Milk and Sugar, Large",
+   "carb": 54,
+   "fiber": 0,
+   "cal": 270
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Iced Latte with Skim Milk and Sugar, Medium",
+   "carb": 41,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Iced Latte with Skim Milk and Sugar, Small",
+   "carb": 27,
+   "fiber": 0,
+   "cal": 130
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Iced Latte with Whole Milk, Large",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Iced Latte with Whole Milk, Medium",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Iced Latte with Whole Milk, Small",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Iced Latte with Whole Milk and Sugar, Large",
+   "carb": 54,
+   "fiber": 0,
+   "cal": 370
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Iced Latte with Whole Milk and Sugar, Medium",
+   "carb": 40,
+   "fiber": 0,
+   "cal": 270
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Iced Latte with Whole Milk and Sugar, Small",
+   "carb": 27,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Matcha Iced Latte with Skim Milk, Large",
+   "carb": 45,
+   "fiber": 2,
+   "cal": 240
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Matcha Iced Latte with Skim Milk, Medium",
+   "carb": 34,
+   "fiber": 1,
+   "cal": 180
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Matcha Iced Latte with Skim Milk, Small",
+   "carb": 23,
+   "fiber": 1,
+   "cal": 120
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Matcha Iced Latte with Whole Milk, Large",
+   "carb": 44,
+   "fiber": 2,
+   "cal": 340
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Matcha Iced Latte with Whole Milk, Medium",
+   "carb": 33,
+   "fiber": 1,
+   "cal": 250
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Matcha Iced Latte with Whole Milk, Small",
+   "carb": 22,
+   "fiber": 1,
+   "cal": 170
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Mocha Swirl Iced Latte with Skim Milk, Large",
+   "carb": 70,
+   "fiber": 2,
+   "cal": 340
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Mocha Swirl Iced Latte with Skim Milk, Medium",
+   "carb": 52,
+   "fiber": 2,
+   "cal": 250
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Mocha Swirl Iced Latte with Skim Milk, Small",
+   "carb": 35,
+   "fiber": 1,
+   "cal": 170
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Mocha Swirl Iced Latte with Whole Milk, Large",
+   "carb": 69,
+   "fiber": 2,
+   "cal": 440
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Mocha Swirl Iced Latte with Whole Milk, Medium",
+   "carb": 52,
+   "fiber": 2,
+   "cal": 330
+  },
+  {
+   "cat": "Iced Latte",
+   "name": "Mocha Swirl Iced Latte with Whole Milk, Small",
+   "carb": 35,
+   "fiber": 1,
+   "cal": 220
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Butter Pecan Swirl Iced Macchiato with Skim Milk, Large",
+   "carb": 64,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Butter Pecan Swirl Iced Macchiato with Skim Milk, Medium",
+   "carb": 48,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Butter Pecan Swirl Iced Macchiato with Skim Milk, Small",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Butter Pecan Swirl Iced Macchiato with Whole Milk, Large",
+   "carb": 64,
+   "fiber": 0,
+   "cal": 380
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Butter Pecan Swirl Iced Macchiato with Whole Milk, Medium",
+   "carb": 48,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Butter Pecan Swirl Iced Macchiato with Whole Milk, Small",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Caramel Swirl Iced Macchiato with Skim Milk, Large",
+   "carb": 66,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Caramel Swirl Iced Macchiato with Skim Milk, Medium",
+   "carb": 49,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Caramel Swirl Iced Macchiato with Skim Milk, Small",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Caramel Swirl Iced Macchiato with Whole Milk, Large",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 380
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Caramel Swirl Iced Macchiato with Whole Milk, Medium",
+   "carb": 49,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Caramel Swirl Iced Macchiato with Whole Milk, Small",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "French Vanilla Swirl Iced Macchiato with Skim Milk, Large",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "French Vanilla Swirl Iced Macchiato with Skim Milk, Medium",
+   "carb": 49,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "French Vanilla Swirl Iced Macchiato with Skim Milk, Small",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "French Vanilla Swirl Iced Macchiato with Whole Milk, Large",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 380
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "French Vanilla Swirl Iced Macchiato with Whole Milk, Medium",
+   "carb": 49,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "French Vanilla Swirl Iced Macchiato with Whole Milk, Small",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Iced Macchiato with Oatmilk, Large",
+   "carb": 23,
+   "fiber": 3,
+   "cal": 120
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Iced Macchiato with Oatmilk, Medium",
+   "carb": 17,
+   "fiber": 2,
+   "cal": 90
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Iced Macchiato with Oatmilk, Small",
+   "carb": 12,
+   "fiber": 1,
+   "cal": 60
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Iced Macchiato with Skim Milk, Large",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Iced Macchiato with Skim Milk, Medium",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Iced Macchiato with Skim Milk, Small",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Iced Macchiato with Skim Milk and Sugar, Large",
+   "carb": 49,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Iced Macchiato with Skim Milk and Sugar, Medium",
+   "carb": 37,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Iced Macchiato with Skim Milk and Sugar, Small",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Iced Macchiato with Whole Milk, Large",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Iced Macchiato with Whole Milk, Medium",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Iced Macchiato with Whole Milk, Small",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Iced Macchiato with Whole Milk and Sugar, Large",
+   "carb": 49,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Iced Macchiato with Whole Milk and Sugar, Medium",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Iced Macchiato with Whole Milk and Sugar, Small",
+   "carb": 37,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Mocha Swirl Iced Macchiato with Skim Milk, Large",
+   "carb": 65,
+   "fiber": 2,
+   "cal": 300
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Mocha Swirl Iced Macchiato with Skim Milk, Medium",
+   "carb": 49,
+   "fiber": 2,
+   "cal": 230
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Mocha Swirl Iced Macchiato with Skim Milk, Small",
+   "carb": 33,
+   "fiber": 1,
+   "cal": 150
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Mocha Swirl Iced Macchiato with Whole Milk, Large",
+   "carb": 64,
+   "fiber": 2,
+   "cal": 370
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Mocha Swirl Iced Macchiato with Whole Milk, Medium",
+   "carb": 48,
+   "fiber": 2,
+   "cal": 280
+  },
+  {
+   "cat": "Iced Macchiato",
+   "name": "Mocha Swirl Iced Macchiato with Whole Milk, Small",
+   "carb": 32,
+   "fiber": 1,
+   "cal": 180
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Iced Green Tea Sweetened, Large",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Iced Green Tea Sweetened, Medium",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Iced Green Tea Sweetened, Small",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Iced Green Tea Unsweetened, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Iced Green Tea Unsweetened, Medium",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Iced Green Tea Unsweetened, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Iced Tea Sweetened, Large",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Iced Tea Sweetened, Medium",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 100
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Iced Tea Sweetened, Small",
+   "carb": 17,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Iced Tea Sweetened Blueberry Flavored, Large",
+   "carb": 35,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Iced Tea Sweetened Blueberry Flavored, Medium",
+   "carb": 27,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Iced Tea Sweetened Blueberry Flavored, Small",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Iced Tea Sweetened Raspberry Flavored, Large",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Iced Tea Sweetened Raspberry Flavored, Small",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Iced Tea Sweetened Raspberry Flavored -Medium",
+   "carb": 29,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Iced Tea Unsweetened, Large",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Iced Tea Unsweetened, Medium",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Iced Tea Unsweetened, Small",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Iced Tea Unsweetened Blueberry Flavored, Large",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Iced Tea Unsweetened Blueberry Flavored, Medium",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Iced Tea Unsweetened Blueberry Flavored, Small",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Iced Tea Unsweetened Raspberry Flavored, Large",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 20
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Iced Tea Unsweetened Raspberry Flavored, Medium",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 15
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Iced Tea Unsweetened Raspberry Flavored, Small",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Sweet Tea, Large",
+   "carb": 79,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Sweet Tea, Medium",
+   "carb": 60,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Sweet Tea, Small",
+   "carb": 40,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Sweet Tea Blueberry Flavored, Large",
+   "carb": 86,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Sweet Tea Blueberry Flavored, Medium",
+   "carb": 64,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Sweet Tea Blueberry Flavored, Small",
+   "carb": 43,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Sweet Tea Raspberry Flavored, Large",
+   "carb": 86,
+   "fiber": 0,
+   "cal": 330
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Sweet Tea Raspberry Flavored, Medium",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 250
+  },
+  {
+   "cat": "Iced Tea",
+   "name": "Sweet Tea Raspberry Flavored, Small",
+   "carb": 43,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Kolache - Regional",
+   "name": "Kolache",
+   "carb": 31,
+   "fiber": 1,
+   "cal": 390
+  },
+  {
+   "cat": "Kosher Sandwiches and Wraps",
+   "name": "Kosher Dunkin' Double Veggie Sausage Sandwich",
+   "carb": 74,
+   "fiber": 6,
+   "cal": 600
+  },
+  {
+   "cat": "Kosher Sandwiches and Wraps",
+   "name": "Kosher Egg and Cheese on an English Muffin",
+   "carb": 38,
+   "fiber": 1,
+   "cal": 340
+  },
+  {
+   "cat": "Kosher Sandwiches and Wraps",
+   "name": "Kosher Egg and Cheese Wake Up Wrap",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Kosher Sandwiches and Wraps",
+   "name": "Kosher Sourdough Breakfast Sandwich",
+   "carb": 61,
+   "fiber": 3,
+   "cal": 660
+  },
+  {
+   "cat": "Kosher Sandwiches and Wraps",
+   "name": "Kosher Tuna Melt on a Croissant",
+   "carb": 32,
+   "fiber": 1,
+   "cal": 570
+  },
+  {
+   "cat": "Kosher Sandwiches and Wraps",
+   "name": "Kosher Tuna Salad on a Plain Bagel",
+   "carb": 64,
+   "fiber": 4,
+   "cal": 510
+  },
+  {
+   "cat": "Kosher Sandwiches and Wraps",
+   "name": "Kosher Veggie Bacon Egg and Cheese on a Plain Bagel",
+   "carb": 68,
+   "fiber": 4,
+   "cal": 510
+  },
+  {
+   "cat": "Kosher Sandwiches and Wraps",
+   "name": "Kosher Veggie Bacon Wake-Up Wrap",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Kosher Sandwiches and Wraps",
+   "name": "Kosher Veggie Sausage Egg and Cheese on a Croissant",
+   "carb": 37,
+   "fiber": 2,
+   "cal": 500
+  },
+  {
+   "cat": "Kosher Sandwiches and Wraps",
+   "name": "Kosher Veggie Sausage Wake-Up Wrap",
+   "carb": 16,
+   "fiber": 1,
+   "cal": 210
+  },
+  {
+   "cat": "Kosher Sandwiches and Wraps - Regional",
+   "name": "Kosher Grilled Cheese",
+   "carb": 36,
+   "fiber": 0,
+   "cal": 420
+  },
+  {
+   "cat": "Kosher Sandwiches and Wraps - Regional",
+   "name": "Kosher Grilled Cheese with Veggie Bacon",
+   "carb": 38,
+   "fiber": 0,
+   "cal": 480
+  },
+  {
+   "cat": "Lemonade",
+   "name": "Lemonade, Large",
+   "carb": 60,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Lemonade",
+   "name": "Lemonade, Medium",
+   "carb": 45,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Lemonade",
+   "name": "Lemonade, Small",
+   "carb": 30,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Muffins",
+   "name": "Blueberry Muffin",
+   "carb": 77,
+   "fiber": 1,
+   "cal": 460
+  },
+  {
+   "cat": "Muffins",
+   "name": "Chocolate Chip Muffin",
+   "carb": 85,
+   "fiber": 2,
+   "cal": 550
+  },
+  {
+   "cat": "Muffins",
+   "name": "Coffee Cake Muffin",
+   "carb": 88,
+   "fiber": 2,
+   "cal": 590
+  },
+  {
+   "cat": "Muffins",
+   "name": "Corn Muffin",
+   "carb": 73,
+   "fiber": 1,
+   "cal": 460
+  },
+  {
+   "cat": "Munchkins",
+   "name": "Cinnamon Munchkins",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Munchkins",
+   "name": "Glazed Blueberry Munchins",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Munchkins",
+   "name": "Glazed Chocolate Munchkins",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Munchkins",
+   "name": "Glazed Munchkins",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Munchkins",
+   "name": "Glazed Old Fashioned Munchkins",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Munchkins",
+   "name": "Jelly Munchkins",
+   "carb": 8,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Munchkins",
+   "name": "Old Fashioned Munchkins",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 50
+  },
+  {
+   "cat": "Munchkins",
+   "name": "Powdered Munchkins",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Other Bakery",
+   "name": "English Muffin",
+   "carb": 35,
+   "fiber": 1,
+   "cal": 190
+  },
+  {
+   "cat": "Other Bakery",
+   "name": "Plain Butter Croissant",
+   "carb": 31,
+   "fiber": 1,
+   "cal": 280
+  },
+  {
+   "cat": "Other Bakery - Regional",
+   "name": "Biscuit",
+   "carb": 32,
+   "fiber": 1,
+   "cal": 270
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Bacon, Egg and Cheese on a Plain Bagel",
+   "carb": 67,
+   "fiber": 4,
+   "cal": 520
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Bacon, Egg and Cheese on Croissant",
+   "carb": 34,
+   "fiber": 1,
+   "cal": 500
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Bacon, Egg and Cheese on English Muffin",
+   "carb": 39,
+   "fiber": 1,
+   "cal": 400
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Bacon, Egg and Cheese Wake-Up Wrap",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Double Sausage Breakfast Sandwich",
+   "carb": 70,
+   "fiber": 5,
+   "cal": 900
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Egg and Cheese on a Plain Bagel",
+   "carb": 66,
+   "fiber": 4,
+   "cal": 460
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Egg and Cheese on Croissant",
+   "carb": 33,
+   "fiber": 1,
+   "cal": 440
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Egg and Cheese on English Muffin",
+   "carb": 38,
+   "fiber": 1,
+   "cal": 340
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Egg and Cheese Wake-Up Wrap",
+   "carb": 14,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Grilled Cheese",
+   "carb": 54,
+   "fiber": 3,
+   "cal": 480
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Sausage, Egg and Cheese on a Plain Bagel",
+   "carb": 68,
+   "fiber": 5,
+   "cal": 680
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Sausage, Egg and Cheese on English Muffin",
+   "carb": 40,
+   "fiber": 2,
+   "cal": 560
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Sausage, Egg and Cheese Wake-Up Wrap",
+   "carb": 15,
+   "fiber": 1,
+   "cal": 290
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Sourdough Breakfast Sandwich",
+   "carb": 58,
+   "fiber": 3,
+   "cal": 650
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Spam Breakfast Sandwich",
+   "carb": 41,
+   "fiber": 1,
+   "cal": 630
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Turkey Sausage Sandwich on English Muffin",
+   "carb": 39,
+   "fiber": 1,
+   "cal": 470
+  },
+  {
+   "cat": "Sandwiches",
+   "name": "Turkey Sausage Wake Up Wrap",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Sandwiches - Regional",
+   "name": "Biscuit, Bacon, Egg and Cheese",
+   "carb": 35,
+   "fiber": 1,
+   "cal": 490
+  },
+  {
+   "cat": "Sandwiches - Regional",
+   "name": "Chicken Biscuit",
+   "carb": 46,
+   "fiber": 1,
+   "cal": 460
+  },
+  {
+   "cat": "Sandwiches - Regional",
+   "name": "Chicken Croissant Sandwich",
+   "carb": 47,
+   "fiber": 2,
+   "cal": 590
+  },
+  {
+   "cat": "Sandwiches - Regional",
+   "name": "Sausage Biscuit",
+   "carb": 33,
+   "fiber": 1,
+   "cal": 470
+  }
+ ]
+}

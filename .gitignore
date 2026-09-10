@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# build output (Cloudflare Pages / Netlify rebuild this from source)
+app/dist/
+app/dev-dist/
+
+# secrets and caches
+pipeline/.usda-key.local
+pipeline/.usda-cache/
+*.local
+
+# regenerable pipeline artifacts
+pipeline/usda_review.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
