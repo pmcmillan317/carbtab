@@ -451,7 +451,14 @@ img { max-width: 100%; }
 .result-v small { font-size: 20px; font-weight: 600; }
 .result.solve { flex-direction: column; align-items: stretch; text-align: left; gap: 4px; }
 
+.meal-running {
+  margin-top: 10px; font-size: 13.5px; color: var(--ink-muted);
+  text-align: center; font-variant-numeric: tabular-nums;
+}
+.meal-running b { color: var(--ink); font-weight: 700; }
+
 .sheet .btn-primary { margin-top: 16px; }
+.sheet .meal-running + .btn-primary { margin-top: 12px; }
 
 /* ---------- log ---------- */
 .daygoal {

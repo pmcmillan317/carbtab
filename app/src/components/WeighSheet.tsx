@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import type { CustomFood, Food, LogEntry, SearchHit } from "../types";
 import { carbsFromWeight, localDate, restaurantCarbs, roundCarb, weightFromCarbs } from "../lib/carb";
-import { updateSettings, useSettings } from "../lib/store";
+import { updateSettings, useMeal, useSettings } from "../lib/store";
 import { SourceTag } from "./SourceTag";
 import { Plus } from "./icons";
 
@@ -33,6 +33,7 @@ export function WeighSheet({
 }) {
   const settings = useSettings();
   const basis = settings.basis;
+  const meal = useMeal();
   const [mode, setMode] = useState<Mode>("weigh");
   const [unit, setUnit] = useState<Unit>("grams");
   const [qty, setQty] = useState(1);
@@ -301,12 +302,19 @@ export function WeighSheet({
           <p className="set-explain">No fiber value for this one yet, so this is total carbs.</p>
         )}
 
+        {mode !== "solve" && meal.entries.length > 0 && (
+          <p className="meal-running">
+            Meal so far {meal.total} g <span aria-hidden="true">→</span>{" "}
+            <b>{meal.total + resultCarbs} g</b> with this
+          </p>
+        )}
+
         <button className="btn-primary" onClick={handleAdd}>
           <Plus />
-          Add to today
+          {meal.entries.length > 0 ? "Add to meal" : "Add"}
         </button>
         <button className="btn-ghost" onClick={onClose}>
-          Cancel
+          Close
         </button>
       </div>
     </>
