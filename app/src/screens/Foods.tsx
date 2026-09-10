@@ -2,13 +2,7 @@ import { useMemo, useState } from "react";
 import { useSearch } from "wouter";
 import type { CustomFood, LogEntry, SearchHit } from "../types";
 import { CATEGORIES, foodsByCategory, RESTAURANTS } from "../lib/search";
-import {
-  addCustomFood,
-  addLogEntry,
-  removeCustomFood,
-  useCustomFoods,
-  useSettings,
-} from "../lib/store";
+import { addLogEntry, removeCustomFood, useCustomFoods, useSettings } from "../lib/store";
 import { useToast } from "../components/Toast";
 import { FoodRow } from "../components/FoodRow";
 import { WeighSheet } from "../components/WeighSheet";
@@ -127,16 +121,7 @@ export function Foods() {
         </div>
       )}
 
-      {showAdd && (
-        <AddFoodModal
-          onClose={() => setShowAdd(false)}
-          onSave={(food) => {
-            addCustomFood(food);
-            toast(`Added "${food.name}"`);
-            setShowAdd(false);
-          }}
-        />
-      )}
+      {showAdd && <AddFoodModal onClose={() => setShowAdd(false)} />}
 
       <WeighSheet hit={picked} onClose={() => setPicked(null)} onAdd={handleAdd} />
     </div>

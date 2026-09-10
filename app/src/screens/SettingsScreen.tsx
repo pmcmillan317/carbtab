@@ -1,27 +1,66 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { APP_NAME } from "../lib/brand";
 import { exportData, importData, updateSettings, useSettings } from "../lib/store";
-import { STORAGE_OK } from "../lib/storage";
+import { STORAGE_OK, readJSON, writeJSON } from "../lib/storage";
 import { DisclaimerText } from "../components/Disclaimer";
 import { useToast } from "../components/Toast";
 import { Download, Info, Upload } from "../components/icons";
 
 const TARGETS = [120, 150, 175, 200, 250];
 
+function daysAgo(iso: string): string {
+  const d = Math.floor((Date.now() - Date.parse(iso)) / 864e5);
+  if (d <= 0) return "today";
+  if (d === 1) return "yesterday";
+  return `${d} days ago`;
+}
+
 export function SettingsScreen() {
   const settings = useSettings();
   const toast = useToast();
   const fileRef = useRef<HTMLInputElement>(null);
   const [showDisclaimer, setShowDisclaimer] = useState(false);
+  const [lastBackup, setLastBackup] = useState<string | null>(() =>
+    readJSON<string | null>("lastBackup", null)
+  );
+  const [persisted, setPersisted] = useState<boolean | null>(null);
 
-  function doExport() {
-    const blob = new Blob([JSON.stringify(exportData(), null, 2)], { type: "application/json" });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = `carbtab-backup-${new Date().toISOString().slice(0, 10)}.json`;
-    a.click();
-    URL.revokeObjectURL(url);
+  useEffect(() => {
+    navigator.storage?.persisted?.().then(setPersisted).catch(() => setPersisted(null));
+  }, []);
+
+  async function doExport() {
+    const json = JSON.stringify(exportData(), null, 2);
+    const fname = `carbtab-backup-${new Date().toISOString().slice(0, 10)}.json`;
+    const file = new File([json], fname, { type: "application/json" });
+    // Web Share is the reliable path on iOS (Save to Files / AirDrop / Mail).
+    try {
+      if (navigator.canShare?.({ files: [file] })) {
+        await navigator.share({ files: [file], title: "CarbTab backup" });
+        markBackedUp();
+        return;
+      }
+    } catch {
+      /* user cancelled the share sheet, or it failed — fall through to download */
+    }
+    try {
+      const url = URL.createObjectURL(file);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = fname;
+      a.click();
+      URL.revokeObjectURL(url);
+      markBackedUp();
+    } catch {
+      toast("Could not create the backup file on this device");
+    }
+  }
+
+  function markBackedUp() {
+    const now = new Date().toISOString();
+    writeJSON("lastBackup", now);
+    setLastBackup(now);
+    toast("Backup created");
   }
 
   function doImport(file: File) {
@@ -30,6 +69,9 @@ export function SettingsScreen() {
       try {
         const data = JSON.parse(String(reader.result));
         importData(data);
+        const now = new Date().toISOString();
+        writeJSON("lastBackup", now);
+        setLastBackup(now);
         toast("Backup restored");
       } catch {
         toast("That file could not be read");
@@ -132,8 +174,24 @@ export function SettingsScreen() {
         </div>
         <p className="set-explain">
           {STORAGE_OK
-            ? "Your log, foods and settings live on this device only. Export regularly if the data matters to you."
+            ? "Your log, foods and settings live on this device only — there is no server copy."
             : "This browser is blocking local storage, so nothing is being saved between visits. Export after each session."}
+          {STORAGE_OK && lastBackup ? (
+            <>
+              {" "}Last backup {daysAgo(lastBackup)}.
+              {Date.now() - Date.parse(lastBackup) > 21 * 864e5 && (
+                <b style={{ color: "var(--caution)" }}> Time for a fresh one.</b>
+              )}
+            </>
+          ) : STORAGE_OK ? (
+            <b style={{ color: "var(--caution)" }}> No backup yet — make one now.</b>
+          ) : null}
+          {STORAGE_OK && persisted === false && (
+            <>
+              {" "}To keep the browser from clearing this data, add CarbTab to your Home Screen and
+              open it from there.
+            </>
+          )}
         </p>
       </section>
 

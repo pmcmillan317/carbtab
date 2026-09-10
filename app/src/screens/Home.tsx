@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { useLocation } from "wouter";
 import type { LogEntry, SearchHit } from "../types";
-import { addCustomFood, addLogEntry, getRecentNames, useCustomFoods, useSettings } from "../lib/store";
+import { addLogEntry, getRecentNames, useCustomFoods, useSettings } from "../lib/store";
 import { searchAll, FOODS, RESTAURANTS } from "../lib/search";
 import { useToast } from "../components/Toast";
 import { FoodRow } from "../components/FoodRow";
@@ -141,16 +141,7 @@ export function Home() {
         </p>
       )}
 
-      {showAdd && (
-        <AddFoodModal
-          onClose={() => setShowAdd(false)}
-          onSave={(food) => {
-            addCustomFood(food);
-            toast(`Added "${food.name}"`);
-            setShowAdd(false);
-          }}
-        />
-      )}
+      {showAdd && <AddFoodModal onClose={() => setShowAdd(false)} />}
 
       <WeighSheet hit={picked} onClose={() => setPicked(null)} onAdd={handleAdd} />
     </div>
