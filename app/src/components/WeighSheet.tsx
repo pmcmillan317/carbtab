@@ -197,8 +197,8 @@ export function WeighSheet({
 
         {!isRestaurant && hit.kind === "food" && (food as Food).confidence === "low" && (
           <p className="set-explain" style={{ color: "var(--caution)" }}>
-            Carry-over value from the old app, not yet checked against USDA FoodData Central. Treat it
-            as a rough estimate and verify before you dose from it.
+            {(food as Food).source?.note ??
+              "Unverified value. Treat it as a rough estimate and check it before you dose."}
           </p>
         )}
 

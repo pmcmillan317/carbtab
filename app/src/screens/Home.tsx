@@ -9,7 +9,8 @@ import { FoodRow } from "../components/FoodRow";
 import { WeighSheet } from "../components/WeighSheet";
 import { AddFoodModal } from "../components/AddFoodModal";
 import { MealTray } from "../components/MealTray";
-import { Plus, Search, Utensils, X } from "../components/icons";
+import { Scanner } from "../components/Scanner";
+import { Plus, ScanLine, Search, Utensils, X } from "../components/icons";
 
 const STAPLES = ["Banana", "White Rice, cooked", "White Bread Slice", "Oatmeal, cooked"];
 
@@ -22,6 +23,7 @@ export function Home() {
   const [q, setQ] = useState("");
   const [picked, setPicked] = useState<SearchHit | null>(null);
   const [showAdd, setShowAdd] = useState(false);
+  const [showScan, setShowScan] = useState(false);
 
   const results = useMemo(() => searchAll(q, customFoods, branded), [q, customFoods, branded]);
   const total =
@@ -59,7 +61,11 @@ export function Home() {
     <div className="screen">
       <MealTray compact={!!q} />
 
-      <div className="quicknav">
+      <div className="quicknav quicknav-3">
+        <button onClick={() => setShowScan(true)}>
+          <ScanLine />
+          <span>Scan</span>
+        </button>
         <button onClick={() => navigate("/foods?tab=restaurants")}>
           <Utensils />
           <span>Restaurants</span>
@@ -147,6 +153,22 @@ export function Home() {
       )}
 
       {showAdd && <AddFoodModal onClose={() => setShowAdd(false)} />}
+
+      {showScan && (
+        <Scanner
+          onResult={({ food, via }) => {
+            setShowScan(false);
+            setPicked({ kind: "food", food });
+            if (via === "openfoodfacts") toast("Found via Open Food Facts — check the package");
+          }}
+          onNotFound={() => {
+            setShowScan(false);
+            toast("Not in the database — add it from the label");
+            setShowAdd(true);
+          }}
+          onClose={() => setShowScan(false)}
+        />
+      )}
 
       <WeighSheet hit={picked} onClose={() => setPicked(null)} onAdd={handleAdd} />
     </div>

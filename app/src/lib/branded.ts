@@ -22,8 +22,15 @@ type Row = {
 
 let BRANDED: Food[] = [];
 let status: "idle" | "loading" | "ready" | "error" = "idle";
+let loadPromise: Promise<void> | null = null;
 const listeners = new Set<() => void>();
 const emit = () => listeners.forEach((l) => l());
+
+/** Force the one-time load and wait for it (used by the barcode lookup). */
+export function ensureBranded(): Promise<void> {
+  if (!loadPromise) loadPromise = load();
+  return loadPromise;
+}
 
 async function load() {
   if (status === "loading" || status === "ready") return;
@@ -60,7 +67,7 @@ export function useBranded(): Food[] {
   return useSyncExternalStore(
     (cb) => {
       listeners.add(cb);
-      void load();
+      void ensureBranded();
       return () => listeners.delete(cb);
     },
     () => BRANDED,
@@ -70,4 +77,22 @@ export function useBranded(): Food[] {
 
 export function findBranded(id: string): Food | undefined {
   return BRANDED.find((f) => f.id === id);
+}
+
+/** Match a scanned barcode against the bundled set. UPCs are stored with leading
+ *  zeros stripped; a scanned EAN-13 / UPC-A is compared the same way, and as a
+ *  suffix (GTIN-14 vs UPC-12 differ only by leading digits). */
+export function findBrandedByUpc(scanned: string): Food | undefined {
+  const n = scanned.replace(/\D/g, "").replace(/^0+/, "");
+  if (!n) return undefined;
+  return BRANDED.find((f) => {
+    const u = (f.source.gtinUpc || "").replace(/\D/g, "").replace(/^0+/, "");
+    if (!u) return false;
+    return u === n || u.endsWith(n) || n.endsWith(u);
+  });
+}
+
+/** true once the fetch has finished (whether it found data or not) */
+export function brandedLoaded() {
+  return status === "ready" || status === "error";
 }
