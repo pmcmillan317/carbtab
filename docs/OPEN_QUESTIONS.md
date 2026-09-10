@@ -22,7 +22,7 @@
 ### Feature scope for v1
 4. **Meal slots** (breakfast/lunch/dinner/snack on log entries) — keep, or flat daily list? *Recommend flat for v1.*
 5. **History depth** — how far back beyond today, and CSV export? *Recommend last 30 days visible, all exportable, no charts.*
-6. **Recipe / meal builder** (combine ingredients, save, divide by servings) — v1 or later? *Recommend later. Restaurant bundles/combos are in (they're just items).*
+6. **Recipe / meal builder** (combine ingredients, save, divide by servings) — the lightweight version shipped (2026-09-09): Home shows a "This meal" running subtotal that groups items added close together, so you can dose for a whole plate. A *saved, reusable* recipe (name it, divide by servings) is still later.
 7. **Photo estimate** — keep the AI photo carb estimate? It's the only feature needing a server + API key. *Recommend keep but optional, degrade cleanly with no key.*
 8. **Reverse calc** (enter a carb budget, get grams) — keep from the original app? *Recommend yes, as a mode in the weigh sheet.*
 
