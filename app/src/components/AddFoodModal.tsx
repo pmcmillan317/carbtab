@@ -203,7 +203,7 @@ export function AddFoodModal({ onClose }: { onClose: () => void }) {
         <div className="result" style={{ marginTop: 14 }}>
           <span className="result-k">Carbs</span>
           <span className="result-v">
-            {result == null ? "—" : result}
+            {result == null ? "-" : result}
             <small> g</small>
           </span>
         </div>

@@ -50,7 +50,7 @@ async function load() {
       source: {
         type: "manufacturer-label",
         gtinUpc: r.upc,
-        note: "USDA FoodData Central branded-food data (from the product label). Recipes and pack sizes change — check the package you have.",
+        note: "USDA FoodData Central branded-food data (from the product label). Recipes and pack sizes change, so check the package you have.",
       },
       confidence: "medium",
       updatedAt: "2026-09-10",

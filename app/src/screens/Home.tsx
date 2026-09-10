@@ -159,11 +159,11 @@ export function Home() {
           onResult={({ food, via }) => {
             setShowScan(false);
             setPicked({ kind: "food", food });
-            if (via === "openfoodfacts") toast("Found via Open Food Facts — check the package");
+            if (via === "openfoodfacts") toast("Found via Open Food Facts. Check the package.");
           }}
           onNotFound={() => {
             setShowScan(false);
-            toast("Not in the database — add it from the label");
+            toast("Not in the database. Add it from the label.");
             setShowAdd(true);
           }}
           onClose={() => setShowScan(false)}

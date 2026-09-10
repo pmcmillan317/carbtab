@@ -36,7 +36,7 @@ export async function lookupBarcode(code: string): Promise<BarcodeResult | null>
       }
     }
   } catch {
-    /* offline or blocked — fall through to "not found" */
+    /* offline or blocked: fall through to "not found" */
   }
   return null;
 }
@@ -65,7 +65,7 @@ function offToFood(code: string, p: any): Food | null {
     source: {
       type: "manufacturer-label",
       gtinUpc: code,
-      note: "From Open Food Facts, a community-maintained database. The value can be wrong or out of date — check it against the package before you dose.",
+      note: "From Open Food Facts, a community-maintained database. The value can be wrong or out of date, so check it against the package before you dose.",
     },
     confidence: "low",
     updatedAt: new Date().toISOString().slice(0, 10),

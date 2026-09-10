@@ -41,7 +41,7 @@ export function SettingsScreen() {
         return;
       }
     } catch {
-      /* user cancelled the share sheet, or it failed — fall through to download */
+      /* user cancelled the share sheet, or it failed: fall through to download */
     }
     try {
       const url = URL.createObjectURL(file);
@@ -174,7 +174,7 @@ export function SettingsScreen() {
         </div>
         <p className="set-explain">
           {STORAGE_OK
-            ? "Your log, foods and settings live on this device only — there is no server copy."
+            ? "Your log, foods and settings live on this device only. There is no server copy."
             : "This browser is blocking local storage, so nothing is being saved between visits. Export after each session."}
           {STORAGE_OK && lastBackup ? (
             <>
@@ -184,7 +184,7 @@ export function SettingsScreen() {
               )}
             </>
           ) : STORAGE_OK ? (
-            <b style={{ color: "var(--caution)" }}> No backup yet — make one now.</b>
+            <b style={{ color: "var(--caution)" }}> No backup yet. Make one now.</b>
           ) : null}
           {STORAGE_OK && persisted === false && (
             <>

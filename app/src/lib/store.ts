@@ -134,7 +134,7 @@ export function clearLogForDate(date: string) {
   emit();
 }
 
-/** "Done" on the meal tray — keeps the logged items, just stops grouping them. */
+/** "Done" on the meal tray: keeps the logged items, just stops grouping them. */
 export function endMeal() {
   state = { ...state, meal: emptyMeal() };
   removeKey(KEYS.meal);
