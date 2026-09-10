@@ -1,0 +1,8 @@
+{
+  "name": "carbtab",
+  "private": true,
+  "description": "CarbTab PWA - repo root. The app lives in app/; this just wires up the Cloudflare build.",
+  "scripts": {
+    "build": "npm --prefix app ci && npm --prefix app run build"
+  }
+}

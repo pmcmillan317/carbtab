@@ -17,3 +17,6 @@ pipeline/usda_review.json
 .DS_Store
 Thumbs.db
 *.log
+
+# wrangler
+.wrangler/

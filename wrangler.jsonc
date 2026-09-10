@@ -1,0 +1,11 @@
+{
+  // CarbTab is a static PWA. This deploys app/dist as a static-assets Worker.
+  // `npx wrangler deploy` (Cloudflare's build pipeline runs this after `npm run build`).
+  "name": "carbtab",
+  "compatibility_date": "2025-01-01",
+  "assets": {
+    "directory": "./app/dist",
+    // client-side routed (wouter): serve index.html for unknown paths
+    "not_found_handling": "single-page-application"
+  }
+}
