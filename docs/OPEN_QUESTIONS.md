@@ -24,7 +24,7 @@
 5. **History depth** — how far back beyond today, and CSV export? *Recommend last 30 days visible, all exportable, no charts.*
 6. **Recipe / meal builder** (combine ingredients, save, divide by servings) — the lightweight version shipped (2026-09-09): Home shows a "This meal" running subtotal that groups items added close together, so you can dose for a whole plate. A *saved, reusable* recipe (name it, divide by servings) is still later.
 7. **Photo estimate** — keep the AI photo carb estimate? It's the only feature needing a server + API key. *Recommend keep but optional, degrade cleanly with no key.*
-7b. **Barcode scanner** — not built. Data source decided: **Open Food Facts** API for live lookups; **USDA Branded** is now bundled (`app/public/branded.json`, ~2,800 common packaged foods, has GTIN/UPC for offline barcode matching). Still need: the camera scanner UI (`BarcodeDetector` API or `@zxing/library`).
+7b. **Barcode scanner** — DONE (2026-09-10). "Scan" on Home → camera (ZXing, dynamic-imported) → looks the code up in the bundled branded set (offline), then Open Food Facts, then falls back to Add-a-food. Manual barcode entry when the camera is unavailable.
 8. **Reverse calc** (enter a carb budget, get grams) — keep from the original app? *Recommend yes, as a mode in the weigh sheet.*
 
 ### Tech

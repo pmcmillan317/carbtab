@@ -17,6 +17,10 @@ CarbPal / CarbWise) are not in here - the old GramWise source was moved to
 | `design/` | Naming study and design-review HTML artifacts. |
 | `DEPLOY.md` | **Read this to publish the app.** What to build and what to upload. |
 
+The scanner uses the camera, which browsers only allow on **HTTPS or
+localhost** — it works on the deployed site and `npm run dev`, not from a
+`file://` page or a plain-IP dev URL.
+
 ## Run it locally
 
 ```
