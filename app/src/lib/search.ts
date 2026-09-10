@@ -84,9 +84,6 @@ export function findFood(id: string): Food | undefined {
 export function findRestaurantItem(id: string): RestaurantItem | undefined {
   return ALL_RESTAURANT_ITEMS.find((i) => i.id === id);
 }
-export function restaurantBySlug(slug: string): Restaurant | undefined {
-  return RESTAURANTS.find((r) => r.slug === slug);
-}
 
 export const CATEGORIES = ["Fruit", "Vegetable", "Grain", "Beans", "Nuts", "Dairy", "Protein", "Snack", "Other"] as const;
 

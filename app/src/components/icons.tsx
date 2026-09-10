@@ -44,9 +44,6 @@ export const Moon = (p: SVGProps<SVGSVGElement>) => (
 export const ScanLine = (p: SVGProps<SVGSVGElement>) => (
   <svg {...base(p)}><path d="M4 7V5a1 1 0 0 1 1-1h2M17 4h2a1 1 0 0 1 1 1v2M20 17v2a1 1 0 0 1-1 1h-2M7 20H5a1 1 0 0 1-1-1v-2" /><path d="M7 12h10" /></svg>
 );
-export const Camera = (p: SVGProps<SVGSVGElement>) => (
-  <svg {...base(p)}><path d="M3 8a2 2 0 0 1 2-2h1.5l1-1.5h5L16 6h3a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z" /><circle cx="12" cy="12" r="3.2" /></svg>
-);
 export const Utensils = (p: SVGProps<SVGSVGElement>) => (
   <svg {...base(p)}><path d="M5 3v18M5 8h4V3M9 3v5M19 3s-3 1-3 6 3 4 3 4v8" /></svg>
 );

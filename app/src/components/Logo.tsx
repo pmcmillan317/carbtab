@@ -26,22 +26,3 @@ export function Logo({ size = 32, rounded = true }: { size?: number; rounded?: b
     </svg>
   );
 }
-
-/** Mark plus wordmark, for headers and the install screen. */
-export function Wordmark({ size = 30 }: { size?: number }) {
-  return (
-    <span style={{ display: "inline-flex", alignItems: "center", gap: 9 }}>
-      <Logo size={size} />
-      <b
-        style={{
-          fontFamily: "var(--font-display)",
-          fontWeight: 700,
-          fontSize: size * 0.63,
-          letterSpacing: "-0.01em",
-        }}
-      >
-        Carb<span style={{ color: "var(--brand)" }}>Tab</span>
-      </b>
-    </span>
-  );
-}

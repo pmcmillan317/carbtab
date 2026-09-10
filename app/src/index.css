@@ -162,27 +162,6 @@ img { max-width: 100%; }
   padding: 28px 14px; border: 1px dashed var(--line); border-radius: 14px;
 }
 
-/* ---------- today band ---------- */
-.today {
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  padding: 16px 18px 18px;
-  box-shadow: var(--shadow);
-}
-.today-row { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
-.today-total {
-  font-family: var(--font-display);
-  font-weight: 700; font-size: 44px; line-height: 1;
-  letter-spacing: -0.02em;
-  font-variant-numeric: tabular-nums;
-  margin: 8px 0 2px;
-}
-.today-total .u { font-size: 17px; font-weight: 600; color: var(--ink-muted); font-family: var(--font-sans); }
-.today-sub { font-size: 13.5px; color: var(--ink-muted); }
-.today-sub b { color: var(--brand); font-weight: 700; }
-.today-sub.over b { color: var(--caution); }
-
 /* ---------- meal tray (running subtotal while adding a meal) ---------- */
 .mealtray {
   margin-top: 10px;
@@ -354,6 +333,13 @@ img { max-width: 100%; }
   display: flex; align-items: center; justify-content: space-between; gap: 10px; width: 100%;
 }
 .btn-row svg { width: 17px; height: 17px; color: var(--ink-muted); }
+
+/* small delete button (custom-food rows) */
+.del {
+  width: 34px; height: 34px; border-radius: 9px; border: 1px solid var(--line);
+  background: var(--surface); display: grid; place-items: center; color: var(--ink-muted); flex: none;
+}
+.del svg { width: 15px; height: 15px; }
 
 /* ---------- bottom nav ---------- */
 .nav {
@@ -589,13 +575,8 @@ img { max-width: 100%; }
   max-width: 90%; text-align: center;
 }
 
-/* ---------- loading ---------- */
-.boot {
-  min-height: 100vh; min-height: 100dvh;
-  display: flex; flex-direction: column; align-items: center; justify-content: center;
-  gap: 10px; color: var(--ink-muted);
-}
-.spin { width: 26px; height: 26px; border: 3px solid var(--surface-2); border-top-color: var(--brand-bright); border-radius: 50%; animation: spin 0.8s linear infinite; }
+/* ---------- loading spinner ---------- */
+.spin { width: 24px; height: 24px; border: 3px solid var(--surface-2); border-top-color: var(--brand-bright); border-radius: 50%; animation: spin 0.8s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
 
 /* ---------- wider screens: keep the column, don't sprawl ---------- */
