@@ -20,3 +20,6 @@ Thumbs.db
 
 # wrangler
 .wrangler/
+
+# stray local backups
+carbtab-backup-*.json
