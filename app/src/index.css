@@ -193,7 +193,21 @@ img { max-width: 100%; }
 .bar.over > i { background: var(--caution); }
 
 /* ---------- home: the ask ---------- */
-.ask { margin-top: 18px; }
+.quicknav {
+  margin-top: 10px;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
+}
+.quicknav button {
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  min-height: 46px; padding: 0 10px;
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius-sm); box-shadow: var(--shadow);
+  font-size: 13.5px; font-weight: 600; color: var(--ink);
+}
+.quicknav button svg { width: 18px; height: 18px; color: var(--brand); flex: none; }
+.quicknav button:active { background: var(--surface-2); }
+
+.ask { margin-top: 14px; }
 .ask h1 {
   font-family: var(--font-display); font-weight: 600; font-size: 21px;
   letter-spacing: -0.01em; margin: 0 0 10px; text-wrap: balance;
@@ -217,16 +231,6 @@ img { max-width: 100%; }
 }
 .search-input::placeholder { color: var(--ink-muted); }
 .search-input:focus { outline: none; border-color: var(--brand-bright); box-shadow: 0 0 0 4px var(--brand-wash); }
-
-.tiles { margin-top: 12px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
-.tile {
-  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-sm);
-  padding: 14px 8px 12px;
-  display: flex; flex-direction: column; align-items: center; gap: 7px;
-  text-align: center; min-height: 84px; justify-content: center;
-}
-.tile svg { width: 22px; height: 22px; color: var(--brand); }
-.tile span { font-size: 12.5px; font-weight: 600; color: var(--ink-muted); line-height: 1.2; }
 
 /* ---------- food rows ---------- */
 .list { display: flex; flex-direction: column; gap: 8px; }

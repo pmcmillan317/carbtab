@@ -7,7 +7,6 @@ import { useToast } from "../components/Toast";
 import { FoodRow } from "../components/FoodRow";
 import { WeighSheet } from "../components/WeighSheet";
 import { AddFoodModal } from "../components/AddFoodModal";
-import { TodayBand } from "../components/TodayBand";
 import { Plus, Search, Utensils, X } from "../components/icons";
 
 const STAPLES = ["Banana", "White Rice, cooked", "White Bread Slice", "Oatmeal, cooked"];
@@ -54,10 +53,19 @@ export function Home() {
 
   return (
     <div className="screen">
-      <TodayBand />
+      <div className="quicknav">
+        <button onClick={() => navigate("/foods?tab=restaurants")}>
+          <Utensils />
+          <span>Restaurants</span>
+        </button>
+        <button onClick={() => setShowAdd(true)}>
+          <Plus />
+          <span>Add a food</span>
+        </button>
+      </div>
 
       <section className="ask">
-        <h1>What are you eating?</h1>
+        {!q && <h1>What are you eating?</h1>}
         <div className="searchwrap">
           <Search className="s" />
           <input
@@ -76,17 +84,6 @@ export function Home() {
             </button>
           )}
         </div>
-
-        <div className="tiles">
-          <button className="tile" onClick={() => navigate("/foods?tab=restaurants")}>
-            <Utensils />
-            <span>Restaurants</span>
-          </button>
-          <button className="tile" onClick={() => setShowAdd(true)}>
-            <Plus />
-            <span>Add a food</span>
-          </button>
-        </div>
       </section>
 
       {hasResults ? (
@@ -104,13 +101,13 @@ export function Home() {
             {results.custom.map((h) => (
               <FoodRow key={(h as any).food.id} hit={h} basis={settings.basis} onPick={setPicked} />
             ))}
-            {results.restaurant.length > 0 && <div className="group-label">Restaurants</div>}
-            {results.restaurant.map((h) => (
-              <FoodRow key={(h as any).item.id} hit={h} basis={settings.basis} onPick={setPicked} />
-            ))}
             {results.food.length > 0 && <div className="group-label">Whole foods</div>}
             {results.food.map((h) => (
               <FoodRow key={(h as any).food.id} hit={h} basis={settings.basis} onPick={setPicked} />
+            ))}
+            {results.restaurant.length > 0 && <div className="group-label">Restaurants</div>}
+            {results.restaurant.map((h) => (
+              <FoodRow key={(h as any).item.id} hit={h} basis={settings.basis} onPick={setPicked} />
             ))}
           </div>
         </section>
@@ -133,11 +130,13 @@ export function Home() {
         </section>
       )}
 
-      <p className="note">
-        <b>How it works.</b> Whole foods use a carbohydrate factor from USDA data, multiplied by the
-        weight you enter. Restaurant items use the carbs for one published serving. Every value shows
-        its source. Counting <b>{settings.basis}</b> carbs (change in Settings).
-      </p>
+      {!q && (
+        <p className="note">
+          <b>How it works.</b> Whole foods use a carbohydrate factor from USDA data, multiplied by the
+          weight you enter. Restaurant items use the carbs for one published serving. Every value
+          shows its source. Counting <b>{settings.basis}</b> carbs (change in Settings).
+        </p>
+      )}
 
       {showAdd && (
         <AddFoodModal
