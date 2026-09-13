@@ -15,6 +15,18 @@ function daysAgo(iso: string): string {
   return `${d} days ago`;
 }
 
+// __APP_VERSION__ / __BUILD_TIME__ come from vite.config.ts's `define`, so
+// this always reflects the build actually running in the browser, not
+// whatever's newest in the repo - useful for telling a stale cached copy
+// apart from a fresh deploy after a refresh.
+function buildLabel(): string {
+  const built = new Date(__BUILD_TIME__).toLocaleString(undefined, {
+    dateStyle: "medium",
+    timeStyle: "short",
+  });
+  return __APP_VERSION__ ? `${__APP_VERSION__} · built ${built}` : `built ${built}`;
+}
+
 export function SettingsScreen() {
   const settings = useSettings();
   const toast = useToast();
@@ -203,6 +215,9 @@ export function SettingsScreen() {
           <span>Medical disclaimer</span>
           <Info />
         </button>
+        <p className="set-explain set-version">
+          Version {buildLabel()}
+        </p>
       </section>
 
       <p className="note">
