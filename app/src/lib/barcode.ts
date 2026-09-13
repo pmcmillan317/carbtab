@@ -1,5 +1,6 @@
-import type { Food } from "../types";
+import type { CustomFood, Food } from "../types";
 import { ensureBranded, findBrandedByUpc } from "./branded";
+import { getCustomFoods } from "./store";
 
 const digits = (s: string) => (s || "").replace(/\D/g, "");
 const num = (v: unknown): number | null => {
@@ -7,21 +8,37 @@ const num = (v: unknown): number | null => {
   return typeof n === "number" && isFinite(n) ? n : null;
 };
 
-export type BarcodeResult = { food: Food; via: "bundled" | "openfoodfacts" };
+/** Same normalization findBrandedByUpc uses: strip everything but digits,
+ *  strip leading zeros, then compare (equal or as a suffix, since a GTIN-14
+ *  and a UPC-12 differ only by leading digits). */
+function upcMatches(stored: string | undefined, scanned: string): boolean {
+  const u = (stored || "").replace(/\D/g, "").replace(/^0+/, "");
+  if (!u) return false;
+  return u === scanned || u.endsWith(scanned) || scanned.endsWith(u);
+}
+
+export type BarcodeResult =
+  | { kind: "food"; food: Food; via: "bundled" | "openfoodfacts" }
+  | { kind: "custom"; food: CustomFood; via: "custom" };
 
 /**
- * Resolve a scanned barcode to a Food.
- *  1. the bundled USDA branded set (offline, instant)
- *  2. Open Food Facts (community database; needs a connection)
- * Returns null if the code is in neither.
+ * Resolve a scanned barcode.
+ *  1. foods the user has already saved from a previous scan (offline, instant)
+ *  2. the bundled USDA branded set (offline, instant)
+ *  3. Open Food Facts (community database; needs a connection)
+ * Returns null if the code is in none of them - the caller's job is then to
+ * offer adding it, and to save the code on the result so this list grows.
  */
 export async function lookupBarcode(code: string): Promise<BarcodeResult | null> {
   const c = digits(code);
   if (c.length < 6) return null;
 
+  const custom = getCustomFoods().find((f) => upcMatches(f.gtinUpc, c));
+  if (custom) return { kind: "custom", food: custom, via: "custom" };
+
   await ensureBranded();
   const bundled = findBrandedByUpc(c);
-  if (bundled) return { food: bundled, via: "bundled" };
+  if (bundled) return { kind: "food", food: bundled, via: "bundled" };
 
   try {
     const url =
@@ -32,7 +49,7 @@ export async function lookupBarcode(code: string): Promise<BarcodeResult | null>
       const j = await r.json();
       if (j.status === 1 && j.product) {
         const f = offToFood(c, j.product);
-        if (f) return { food: f, via: "openfoodfacts" };
+        if (f) return { kind: "food", food: f, via: "openfoodfacts" };
       }
     }
   } catch {

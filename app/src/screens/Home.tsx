@@ -24,6 +24,7 @@ export function Home() {
   const [picked, setPicked] = useState<SearchHit | null>(null);
   const [showAdd, setShowAdd] = useState(false);
   const [showScan, setShowScan] = useState(false);
+  const [scannedUpc, setScannedUpc] = useState<string | null>(null);
 
   const results = useMemo(() => searchAll(q, customFoods, branded), [q, customFoods, branded]);
   const total =
@@ -152,18 +153,27 @@ export function Home() {
         </p>
       )}
 
-      {showAdd && <AddFoodModal onClose={() => setShowAdd(false)} />}
+      {showAdd && (
+        <AddFoodModal
+          initialUpc={scannedUpc ?? undefined}
+          onClose={() => {
+            setShowAdd(false);
+            setScannedUpc(null);
+          }}
+        />
+      )}
 
       {showScan && (
         <Scanner
-          onResult={({ food, via }) => {
+          onResult={(r) => {
             setShowScan(false);
-            setPicked({ kind: "food", food });
-            if (via === "openfoodfacts") toast("Found via Open Food Facts. Check the package.");
+            setPicked(r.kind === "custom" ? { kind: "custom", food: r.food } : { kind: "food", food: r.food });
+            if (r.via === "openfoodfacts") toast("Found via Open Food Facts. Check the package.");
           }}
-          onNotFound={() => {
+          onNotFound={(code) => {
             setShowScan(false);
-            toast("Not in the database. Add it from the label.");
+            toast("Not in the database. Add it once and the next scan will find it.");
+            setScannedUpc(code);
             setShowAdd(true);
           }}
           onClose={() => setShowScan(false)}

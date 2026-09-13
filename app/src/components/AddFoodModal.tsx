@@ -24,7 +24,15 @@ function fmtFrac(n: number): string {
  *   - "Add to meal": one-off, feeds the running meal total, saves no food.
  *   - "Save to my foods": stores a reusable custom food (and logs the portion).
  */
-export function AddFoodModal({ onClose }: { onClose: () => void }) {
+export function AddFoodModal({
+  onClose,
+  initialUpc,
+}: {
+  onClose: () => void;
+  /** Set when this modal was opened after a scan that matched nothing - saving
+   *  the food here attaches the code so the next scan of the same product finds it. */
+  initialUpc?: string;
+}) {
   const toast = useToast();
 
   const [name, setName] = useState("");
@@ -90,6 +98,7 @@ export function AddFoodModal({ onClose }: { onClose: () => void }) {
       name: name.trim(),
       carbFactorTotal: Math.round(factor * 1000) / 1000,
       serving: servLabel.trim() ? { label: servLabel.trim(), grams: sGrams } : { label: "1 serving", grams: sGrams },
+      gtinUpc: initialUpc,
       createdAt: new Date().toISOString(),
     });
     if (result != null) {
@@ -118,7 +127,9 @@ export function AddFoodModal({ onClose }: { onClose: () => void }) {
         </div>
 
         <p className="set-explain" style={{ marginTop: 2 }}>
-          Type in the nutrition label. CarbTab does the math.
+          {initialUpc
+            ? "That barcode isn't in the database yet. Type in the nutrition label and save it below, and the next scan will find it."
+            : "Type in the nutrition label. CarbTab does the math."}
         </p>
 
         <div className="af-grid" style={{ marginTop: 12 }}>

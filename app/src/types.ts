@@ -76,6 +76,9 @@ export interface CustomFood {
   carbFactorTotal: number;
   carbFactorNet?: number;
   serving?: { label: string; grams: number };
+  /** Set when this was saved from a scanned barcode that wasn't in the bundled
+   *  set or Open Food Facts, so scanning the same product again finds it. */
+  gtinUpc?: string;
   createdAt: string;
 }
 

@@ -157,6 +157,12 @@ export function getRecentNames(): string[] {
   return readJSON<string[]>(KEYS.recent, []);
 }
 
+/** Plain (non-hook) read of custom foods, for the barcode lookup which runs
+ *  outside a component. */
+export function getCustomFoods(): CustomFood[] {
+  return state.customFoods;
+}
+
 export function importData(data: { settings?: Settings; log?: LogEntry[]; customFoods?: CustomFood[] }) {
   state = {
     settings: { ...DEFAULT_SETTINGS, ...(data.settings || {}) },
