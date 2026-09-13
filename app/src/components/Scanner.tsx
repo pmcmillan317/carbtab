@@ -33,6 +33,9 @@ export function Scanner({
   const [errText, setErrText] = useState("");
   const doneRef = useRef(false);
   const controlsRef = useRef<ScanControls | null>(null);
+  const attemptsRef = useRef(0);
+  const lastErrRef = useRef("");
+  const [diag, setDiag] = useState("");
 
   useEffect(() => {
     let controls: ScanControls | undefined;
@@ -76,12 +79,14 @@ export function Scanner({
           },
           videoRef.current,
           (result, err) => {
+            attemptsRef.current++;
             if (result && !doneRef.current) {
               doneRef.current = true;
               controls?.stop();
               void resolve(result.getText());
               return;
             }
+            if (err) lastErrRef.current = err.name || String(err);
             // NotFound / Checksum / Format on a frame is normal - only surface
             // the unexpected ones.
             if (err && err.name && !/NotFound|Checksum|Format/.test(err.name)) {
@@ -114,7 +119,20 @@ export function Scanner({
         let zeroFrames = 0;
         watchdog = setInterval(() => {
           const v = videoRef.current;
-          if (doneRef.current || !v) return;
+          if (doneRef.current) return;
+
+          // Temporary on-screen diagnostics: turns "nothing happens" reports
+          // into concrete numbers (actual camera resolution vs what we asked
+          // for, whether decode attempts are firing at all, and the most
+          // recent per-frame result). Safe to remove once scanning is
+          // confirmed working on real devices.
+          const settings = (v?.srcObject as MediaStream | null)?.getVideoTracks?.()[0]?.getSettings?.();
+          setDiag(
+            `${settings?.width ?? "?"}x${settings?.height ?? "?"} (video ${v?.videoWidth ?? 0}x${v?.videoHeight ?? 0}) · ` +
+              `${settings?.facingMode ?? "facing?"} · attempts ${attemptsRef.current} · last: ${lastErrRef.current || "none yet"}`,
+          );
+
+          if (!v) return;
           if (v.videoWidth > 0) {
             zeroFrames = 0;
             return;
@@ -210,6 +228,7 @@ export function Scanner({
               </p>
             )}
           </div>
+          {diag && <p className="scanner-diag">{diag}</p>}
         </div>
       ) : (
         <div className="scanner-fallback">

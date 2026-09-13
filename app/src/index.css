@@ -616,6 +616,14 @@ img { max-width: 100%; }
   line-height: 1.5; color: rgba(255, 255, 255, 0.9);
   max-width: 300px; margin-left: auto !important; margin-right: auto !important;
 }
+/* Temporary diagnostics line - see the comment in Scanner.tsx. Remove the
+   element and this rule once real-device scanning is confirmed working. */
+.scanner-diag {
+  position: absolute; left: 8px; right: 8px; top: 8px;
+  font-family: var(--font-mono); font-size: 10px; text-align: center;
+  color: rgba(255, 255, 255, 0.85); background: rgba(0, 0, 0, 0.5);
+  border-radius: 6px; padding: 4px 6px; pointer-events: none;
+}
 .scanner-torch {
   position: absolute; right: 14px; top: 14px; z-index: 2;
   min-height: 36px; padding: 0 14px; border-radius: 999px;
