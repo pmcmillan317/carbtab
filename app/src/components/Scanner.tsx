@@ -1,19 +1,24 @@
 import { useEffect, useRef, useState } from "react";
+import type QuaggaStatic from "@ericblade/quagga2";
 import { lookupBarcode, type BarcodeResult } from "../lib/barcode";
 import { X } from "./icons";
 
 type Phase = "starting" | "scanning" | "looking-up" | "denied" | "error";
 
-type ScanControls = {
-  stop: () => void;
-  switchTorch?: (on: boolean) => Promise<void>;
-};
-
 /**
- * Barcode scanner. Opens the back camera, reads a UPC/EAN with ZXing (loaded on
- * demand so it isn't in the main bundle), then resolves it via lib/barcode.
+ * Barcode scanner. Opens the back camera and reads a UPC/EAN with Quagga2
+ * (loaded on demand so it isn't in the main bundle), then resolves it via
+ * lib/barcode.
  *  - found  -> onResult(food)
  *  - not found or camera unavailable -> onNotFound(code | null)
+ *
+ * Was ZXing (a QR-code library ported to JS) through 2026-09-12; swapped for
+ * Quagga2, which is built specifically for continuous 1D-barcode reading off
+ * a live camera feed (it locates barcode-shaped regions in the frame before
+ * trying to decode them, instead of blindly scanning fixed rows). ZXing's
+ * live decode kept returning zero results on a real phone even at 1080p with
+ * TRY_HARDER enabled and a barcode squarely in frame - see the on-screen
+ * diagnostics below if this needs debugging again.
  */
 export function Scanner({
   onResult,
@@ -24,6 +29,7 @@ export function Scanner({
   onNotFound: (code: string | null) => void;
   onClose: () => void;
 }) {
+  const containerRef = useRef<HTMLDivElement>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
   const [phase, setPhase] = useState<Phase>("starting");
   const [manual, setManual] = useState("");
@@ -31,121 +37,103 @@ export function Scanner({
   const [torchOn, setTorchOn] = useState(false);
   const [torchAvail, setTorchAvail] = useState(false);
   const [errText, setErrText] = useState("");
-  const doneRef = useRef(false);
-  const controlsRef = useRef<ScanControls | null>(null);
-  const attemptsRef = useRef(0);
-  const lastErrRef = useRef("");
   const [diag, setDiag] = useState("");
+  const doneRef = useRef(false);
+  const attemptsRef = useRef(0);
+  const locatedRef = useRef(0);
+  const quaggaRef = useRef<typeof QuaggaStatic | null>(null);
 
   useEffect(() => {
-    let controls: ScanControls | undefined;
     let hintTimer: ReturnType<typeof setTimeout>;
-    let watchdog: ReturnType<typeof setInterval>;
+    let diagTimer: ReturnType<typeof setInterval>;
+    let cancelled = false;
+    let Quagga: typeof QuaggaStatic | null = null;
+
+    // Fires for every frame Quagga looks at, success or not - this is what
+    // lets the diagnostics line below say "the scanner is genuinely trying
+    // and failing" instead of "nothing is happening at all". data.boxes are
+    // the barcode-shaped regions the locator found before attempting to
+    // decode them, so a rising "located" count with attempts stuck at 0
+    // decodes tells you it's SEEING the barcode but not reading it, which is
+    // a different bug than not seeing it at all.
+    const onProcessed = (data: { boxes?: unknown[] } | undefined) => {
+      attemptsRef.current++;
+      if (data?.boxes?.length) locatedRef.current++;
+    };
+    const onDetected = (data: { codeResult?: { code?: string | null } } | undefined) => {
+      const code = data?.codeResult?.code;
+      if (code && !doneRef.current) {
+        doneRef.current = true;
+        void resolve(code);
+      }
+    };
 
     (async () => {
       try {
-        const [{ BrowserMultiFormatReader }, { DecodeHintType, BarcodeFormat }] = await Promise.all([
-          import("@zxing/browser"),
-          import("@zxing/library"),
-        ]);
+        const mod = await import("@ericblade/quagga2");
+        Quagga = mod.default;
+        quaggaRef.current = Quagga;
+        if (cancelled || !containerRef.current) return;
 
-        const hints = new Map();
-        hints.set(DecodeHintType.POSSIBLE_FORMATS, [
-          BarcodeFormat.EAN_13,
-          BarcodeFormat.UPC_A,
-          BarcodeFormat.EAN_8,
-          BarcodeFormat.UPC_E,
-        ]);
-        // Scan more rows per frame and try rotations - the difference between
-        // "won't read unless perfectly level" and actually usable by hand.
-        hints.set(DecodeHintType.TRY_HARDER, true);
+        Quagga.onProcessed(onProcessed);
+        Quagga.onDetected(onDetected);
 
-        const reader = new BrowserMultiFormatReader(hints, {
-          delayBetweenScanAttempts: 120,
-          delayBetweenScanSuccess: 400,
-        });
-        if (!videoRef.current) return;
-        setPhase("scanning");
-
-        controls = (await reader.decodeFromConstraints(
-          {
-            video: {
+        await Quagga.init({
+          inputStream: {
+            type: "LiveStream",
+            target: containerRef.current,
+            constraints: {
               facingMode: { ideal: "environment" },
-              // iOS hands back 640x480 by default, too coarse to decode a UPC
-              // at arm's length. Ask for 1080p and let it settle lower.
-              width: { ideal: 1920 },
-              height: { ideal: 1080 },
+              width: { ideal: 1280 },
+              height: { ideal: 720 },
             },
           },
-          videoRef.current,
-          (result, err) => {
-            attemptsRef.current++;
-            if (result && !doneRef.current) {
-              doneRef.current = true;
-              controls?.stop();
-              void resolve(result.getText());
-              return;
-            }
-            if (err) lastErrRef.current = err.name || String(err);
-            // NotFound / Checksum / Format on a frame is normal - only surface
-            // the unexpected ones.
-            if (err && err.name && !/NotFound|Checksum|Format/.test(err.name)) {
-              setErrText(err.message || String(err));
-            }
-          },
-        )) as ScanControls;
-        controlsRef.current = controls;
-        if (typeof controls.switchTorch === "function") setTorchAvail(true);
-
-        // Best effort: nudge continuous autofocus on, ignore if unsupported.
-        try {
-          const v = videoRef.current;
-          const track = (v?.srcObject as MediaStream | null)?.getVideoTracks?.()[0];
-          const caps = track?.getCapabilities?.() as { focusMode?: string[] } | undefined;
-          if (track && caps?.focusMode?.includes("continuous")) {
-            await track.applyConstraints({ advanced: [{ focusMode: "continuous" } as unknown as MediaTrackConstraintSet] });
-          }
-        } catch {
-          /* not supported - carry on */
+          decoder: { readers: ["upc_reader", "upc_e_reader", "ean_reader", "ean_8_reader"] },
+          locate: true,
+          numOfWorkers: navigator.hardwareConcurrency ? Math.min(navigator.hardwareConcurrency, 4) : 2,
+          canvas: { createOverlay: false },
+        });
+        if (cancelled) {
+          void Quagga.stop();
+          return;
         }
 
-        // "Nothing is happening" help after a few seconds of no hit.
+        Quagga.start();
+        setPhase("scanning");
+        // "torch" is a real, widely-supported MediaTrackCapability but isn't
+        // in TypeScript's DOM lib types yet.
+        const caps = Quagga.CameraAccess.getActiveTrack()?.getCapabilities?.() as
+          | (MediaTrackCapabilities & { torch?: boolean })
+          | undefined;
+        setTorchAvail(!!caps?.torch);
+
         hintTimer = setTimeout(() => {
           if (!doneRef.current) setHint(true);
         }, 6000);
 
-        // If the video never produces frames, decoding can't work - say so
-        // instead of leaving the user pointing at a dead feed.
-        let zeroFrames = 0;
-        watchdog = setInterval(() => {
-          const v = videoRef.current;
+        // Diagnostics + a stall watchdog: if the frame-processed count never
+        // moves, the camera turned on but Quagga never got a frame to look
+        // at, which is a different (and worse) bug than "can't read this
+        // particular barcode".
+        let lastAttempts = 0;
+        let staleTicks = 0;
+        diagTimer = setInterval(() => {
           if (doneRef.current) return;
-
-          // Temporary on-screen diagnostics: turns "nothing happens" reports
-          // into concrete numbers (actual camera resolution vs what we asked
-          // for, whether decode attempts are firing at all, and the most
-          // recent per-frame result). Safe to remove once scanning is
-          // confirmed working on real devices.
-          const settings = (v?.srcObject as MediaStream | null)?.getVideoTracks?.()[0]?.getSettings?.();
+          const settings = Quagga?.CameraAccess.getActiveTrack()?.getSettings();
           setDiag(
-            `${settings?.width ?? "?"}x${settings?.height ?? "?"} (video ${v?.videoWidth ?? 0}x${v?.videoHeight ?? 0}) · ` +
-              `${settings?.facingMode ?? "facing?"} · attempts ${attemptsRef.current} · last: ${lastErrRef.current || "none yet"}`,
+            `${settings?.width ?? "?"}x${settings?.height ?? "?"} · ${settings?.facingMode ?? "facing?"} · ` +
+              `attempts ${attemptsRef.current} · located ${locatedRef.current}`,
           );
-
-          if (!v) return;
-          if (v.videoWidth > 0) {
-            zeroFrames = 0;
+          if (attemptsRef.current > lastAttempts) {
+            lastAttempts = attemptsRef.current;
+            staleTicks = 0;
             return;
           }
-          if (++zeroFrames >= 5) {
-            clearInterval(watchdog);
-            try {
-              controls?.stop();
-            } catch {
-              /* already stopped */
-            }
-            setErrText((t) => t || "The camera turned on but sent no video.");
+          if (++staleTicks >= 5) {
+            clearInterval(diagTimer);
+            setErrText((t) => t || "The camera turned on but never processed a frame.");
             setPhase("error");
+            if (Quagga) void Quagga.stop();
           }
         }, 800);
       } catch (e: unknown) {
@@ -155,13 +143,18 @@ export function Scanner({
     })();
 
     return () => {
+      cancelled = true;
       doneRef.current = true;
       clearTimeout(hintTimer);
-      clearInterval(watchdog);
-      try {
-        controls?.stop();
-      } catch {
-        /* nothing to stop */
+      clearInterval(diagTimer);
+      if (Quagga) {
+        try {
+          Quagga.offProcessed(onProcessed);
+          Quagga.offDetected(onDetected);
+          void Quagga.stop();
+        } catch {
+          /* already stopped */
+        }
       }
     };
   }, []);
@@ -174,10 +167,11 @@ export function Scanner({
   }
 
   async function toggleTorch() {
-    const c = controlsRef.current;
-    if (!c?.switchTorch) return;
+    const Quagga = quaggaRef.current;
+    if (!Quagga) return;
     try {
-      await c.switchTorch(!torchOn);
+      if (torchOn) await Quagga.CameraAccess.disableTorch();
+      else await Quagga.CameraAccess.enableTorch();
       setTorchOn((v) => !v);
     } catch {
       /* torch refused - leave the button, no state change */
@@ -204,7 +198,7 @@ export function Scanner({
       </div>
 
       {showCamera ? (
-        <div className="scanner-view">
+        <div className="scanner-view" ref={containerRef}>
           <video ref={videoRef} playsInline muted autoPlay className="scanner-video" />
           <div className="scanner-reticle" aria-hidden="true" />
           {torchAvail && phase === "scanning" && (
