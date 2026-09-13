@@ -28,7 +28,10 @@ const KEY = readFileSync(join(HERE, ".usda-key.local"), "utf8").trim();
 const TODAY = "2026-09-10";
 const PER_QUERY = 30; // results to consider per search
 const KEEP_PER_QUERY = 14; // survivors to keep per search after filtering
-const TOTAL_CAP = 3200;
+// Raised from 3200 to make room for the Wegmans batch below without risking
+// the alphabetical sort-then-slice cutting off "W" names, which is exactly
+// backwards for the brand we just added on purpose.
+const TOTAL_CAP = 4200;
 
 // [searchTerm, CarbTab category]
 const QUERIES = [
@@ -116,6 +119,30 @@ const QUERIES = [
   ["brownie mix", "Grain"], ["cake mix", "Grain"], ["chocolate chips", "Snack"],
   ["all purpose flour", "Grain"], ["granulated sugar", "Other"], ["breadcrumbs", "Grain"],
   ["croutons", "Grain"], ["stuffing mix", "Grain"], ["cornbread mix", "Grain"],
+  // Wegmans store brand — searched explicitly (not just left to fall out of
+  // generic queries) so it actually gets even coverage across categories,
+  // since FDC's relevance ranking for e.g. "granola bar" favors national
+  // brands and a store brand rarely lands in the top KEEP_PER_QUERY results.
+  ["wegmans bread", "Grain"], ["wegmans bagel", "Grain"], ["wegmans english muffin", "Grain"],
+  ["wegmans tortilla", "Grain"], ["wegmans pasta", "Grain"], ["wegmans rice", "Grain"],
+  ["wegmans cereal", "Grain"], ["wegmans granola", "Grain"], ["wegmans oatmeal", "Grain"],
+  ["wegmans waffles", "Grain"], ["wegmans pancake mix", "Grain"], ["wegmans crackers", "Snack"],
+  ["wegmans pretzels", "Snack"], ["wegmans popcorn", "Snack"], ["wegmans chips", "Snack"],
+  ["wegmans tortilla chips", "Snack"], ["wegmans cookies", "Snack"], ["wegmans granola bar", "Snack"],
+  ["wegmans trail mix", "Snack"], ["wegmans fruit snacks", "Snack"], ["wegmans crackers cheese", "Snack"],
+  ["wegmans chocolate", "Snack"], ["wegmans ice cream", "Dairy"], ["wegmans yogurt", "Dairy"],
+  ["wegmans greek yogurt", "Dairy"], ["wegmans milk", "Dairy"], ["wegmans cheese", "Dairy"],
+  ["wegmans shredded cheese", "Dairy"], ["wegmans cottage cheese", "Dairy"], ["wegmans cream cheese", "Dairy"],
+  ["wegmans sour cream", "Dairy"], ["wegmans butter", "Dairy"], ["wegmans string cheese", "Dairy"],
+  ["wegmans frozen pizza", "Grain"], ["wegmans chicken nuggets", "Protein"], ["wegmans frozen vegetables", "Vegetable"],
+  ["wegmans french fries", "Vegetable"], ["wegmans frozen meal", "Other"], ["wegmans burrito", "Grain"],
+  ["wegmans pasta sauce", "Other"], ["wegmans salsa", "Other"], ["wegmans hummus", "Beans"],
+  ["wegmans soup", "Other"], ["wegmans canned beans", "Beans"], ["wegmans peanut butter", "Nuts"],
+  ["wegmans almonds", "Nuts"], ["wegmans mixed nuts", "Nuts"], ["wegmans applesauce", "Fruit"],
+  ["wegmans dried fruit", "Fruit"], ["wegmans raisins", "Fruit"], ["wegmans juice", "Other"],
+  ["wegmans lemonade", "Other"], ["wegmans soda", "Other"], ["wegmans seltzer", "Other"],
+  ["wegmans coffee", "Other"], ["wegmans hot chocolate", "Other"], ["wegmans ketchup", "Other"],
+  ["wegmans bbq sauce", "Other"], ["wegmans dressing", "Other"], ["wegmans honey", "Other"],
 ];
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -154,9 +181,12 @@ const titleCase = (s) =>
     .replace(/^\w/, (c) => c.toUpperCase())
     .replace(/'S\b/g, "'s");
 
-// regional grocery house brands — low value, drop them
+// regional grocery house brands — low value for most users, drop them from
+// generic searches (they'd otherwise crowd out national brands with near-
+// duplicates). Wegmans is the deliberate exception: it has its own explicit
+// query batch below because the user actually shops there.
 const STORE_BRAND =
-  /\b(big y|harris teeter|best choice|best yet|first street|darrenkamp|weis|hy-?vee|meijer|wegmans|food lion|giant eagle|shoprite|stop ?& ?shop|price chopper|market pantry|good ?& ?gather|southern grove|clancy'?s|millville|l'?oven fresh|happy farms|friendly farms|specially selected|tuscan garden|golden crumb|clover valley|clearly|great value|essential everyday|our family|schnucks|ingles|piggly wiggly|winn-?dixie|acme|jewel|vons|ralphs|fred meyer|king soopers|smiths|heb central market|central market)\b/i;
+  /\b(big y|harris teeter|best choice|best yet|first street|darrenkamp|weis|hy-?vee|meijer|food lion|giant eagle|shoprite|stop ?& ?shop|price chopper|market pantry|good ?& ?gather|southern grove|clancy'?s|millville|l'?oven fresh|happy farms|friendly farms|specially selected|tuscan garden|golden crumb|clover valley|clearly|great value|essential everyday|our family|schnucks|ingles|piggly wiggly|winn-?dixie|acme|jewel|vons|ralphs|fred meyer|king soopers|smiths|heb central market|central market)\b/i;
 
 // tidy a SHOUTING brand ("GENERAL MILLS SALES INC.") into "General Mills"
 function cleanBrand(b) {
@@ -170,10 +200,24 @@ function cleanBrand(b) {
   return s;
 }
 
-// clean a product description: de-SHOUT, drop trailing ", <repeated flavor>",
-// strip package-size tails ("10 oz bag", "5.3oz", "12Z12PK", "1G/4")
-function cleanDesc(d) {
+// clean a product description: de-SHOUT, drop a redundant leading brand
+// mention, drop trailing ", <repeated flavor>", strip package-size tails
+// ("10 oz bag", "5.3oz", "12Z12PK", "1G/4")
+function cleanDesc(d, brand) {
   let s = d.replace(/\s+/g, " ").trim();
+  // FDC often prints the brand again at the very front of the description
+  // itself, separate from (and redundant with) the brandName/brandOwner
+  // field, sometimes with extra store-descriptor words ("WEGMANS FOOD MKTS,
+  // CRAQUELIN BRIOCHE BREAD") - left alone, that becomes "Wegmans Food
+  // Mkts, Craquelin..." once title-cased and re-prefixed below. Strip a
+  // leading comma-terminated segment whenever ITS first word is the brand's
+  // first word, whatever else that segment says, rather than requiring an
+  // exact match against the brand field.
+  const bWord0 = norm(brand || "").split(" ")[0];
+  if (bWord0 && bWord0.length >= 3) {
+    const lead = s.match(/^([^,]+),\s*/);
+    if (lead && norm(lead[1]).split(" ")[0] === bWord0) s = s.slice(lead[0].length);
+  }
   if (/[a-z]/.test(s) === false || s === s.toUpperCase()) s = titleCase(s);
   s = s.replace(/\bLow-\s+Fat\b/gi, "Low-Fat").replace(/\bNon-\s+Fat\b/gi, "Non-Fat");
   // FDC often appends ", <flavor already in the name>"
@@ -244,7 +288,7 @@ async function run() {
       if (STORE_BRAND.test(rawBrandSrc) || STORE_BRAND.test(f.description || "")) continue;
 
       const brand = cleanBrand(f.brandName || f.brandOwner);
-      const desc = cleanDesc(f.description || "");
+      const desc = cleanDesc(f.description || "", brand);
       if (!desc || desc.length < 3 || desc.length > 58) continue;
 
       // "Brand Description", but not if the description already contains the brand
