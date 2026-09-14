@@ -126,6 +126,10 @@ const QUERIES = [
   ["wegmans bread", "Grain"], ["wegmans bagel", "Grain"], ["wegmans english muffin", "Grain"],
   ["wegmans tortilla", "Grain"], ["wegmans pasta", "Grain"], ["wegmans rice", "Grain"],
   ["wegmans cereal", "Grain"], ["wegmans granola", "Grain"], ["wegmans oatmeal", "Grain"],
+  // Wegmans' own name for their toasted-oat-rings cereal (the Cheerios
+  // equivalent) is "OS", not a word a generic "cereal" search happens to
+  // surface - found by hand, worth its own query.
+  ["wegmans toasted os", "Grain"], ["wegmans raisin bran", "Grain"],
   ["wegmans waffles", "Grain"], ["wegmans pancake mix", "Grain"], ["wegmans crackers", "Snack"],
   ["wegmans pretzels", "Snack"], ["wegmans popcorn", "Snack"], ["wegmans chips", "Snack"],
   ["wegmans tortilla chips", "Snack"], ["wegmans cookies", "Snack"], ["wegmans granola bar", "Snack"],
