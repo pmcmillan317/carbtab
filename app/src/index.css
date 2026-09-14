@@ -336,6 +336,20 @@ img { max-width: 100%; }
   display: flex; align-items: center; justify-content: space-between; gap: 10px; width: 100%;
 }
 .btn-row svg { width: 17px; height: 17px; color: var(--ink-muted); }
+/* expandable rows (Restaurants tab): the chevron rotates open instead of
+   just pointing right, which otherwise reads as "goes to a new screen" -
+   when it actually just expands in place, that made it look like tapping
+   did nothing. The open row also loses its bottom radius and border so it
+   visually connects to the item list revealed underneath it. */
+.btn-row .chev { transition: transform 0.15s ease; }
+.btn-row.open .chev { transform: rotate(90deg); }
+.btn-row.open { border-color: var(--brand); border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+.restaurant-items {
+  border: 1px solid var(--brand); border-top: none;
+  border-bottom-left-radius: 12px; border-bottom-right-radius: 12px;
+  padding: 10px 10px 12px; margin-top: -1px; margin-bottom: 10px;
+  background: var(--surface);
+}
 
 /* small delete button (custom-food rows) */
 .del {

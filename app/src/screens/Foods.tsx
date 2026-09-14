@@ -84,34 +84,38 @@ export function Foods() {
 
       {tab === "restaurants" && (
         <div className="list" style={{ marginTop: 16 }}>
-          {RESTAURANTS.map((r) => (
-            <div key={r.slug}>
-              <button
-                className="btn-row"
-                onClick={() => setOpenRestaurant(openRestaurant === r.slug ? null : r.slug)}
-                style={{ minHeight: 56 }}
-              >
-                <span style={{ fontWeight: 700 }}>{r.name}</span>
-                <span style={{ display: "flex", alignItems: "center", gap: 8, color: "var(--ink-muted)", fontSize: 12 }}>
-                  {r.items.length} items
-                  <ChevronRight />
-                </span>
-              </button>
-              {openRestaurant === r.slug && (
-                <div className="list" style={{ marginTop: 8, marginBottom: 8 }}>
-                  {r.note && <div className="set-explain">{r.note}</div>}
-                  {r.items.map((item) => (
-                    <FoodRow
-                      key={item.id}
-                      hit={{ kind: "restaurant", item }}
-                      basis={settings.basis}
-                      onPick={setPicked}
-                    />
-                  ))}
-                </div>
-              )}
-            </div>
-          ))}
+          {RESTAURANTS.map((r) => {
+            const open = openRestaurant === r.slug;
+            return (
+              <div key={r.slug}>
+                <button
+                  className={`btn-row${open ? " open" : ""}`}
+                  aria-expanded={open}
+                  onClick={() => setOpenRestaurant(open ? null : r.slug)}
+                  style={{ minHeight: 56 }}
+                >
+                  <span style={{ fontWeight: 700 }}>{r.name}</span>
+                  <span style={{ display: "flex", alignItems: "center", gap: 8, color: "var(--ink-muted)", fontSize: 12 }}>
+                    {r.items.length} items
+                    <ChevronRight className={`chev${open ? " open" : ""}`} />
+                  </span>
+                </button>
+                {open && (
+                  <div className="list restaurant-items">
+                    {r.note && <div className="set-explain">{r.note}</div>}
+                    {r.items.map((item) => (
+                      <FoodRow
+                        key={item.id}
+                        hit={{ kind: "restaurant", item }}
+                        basis={settings.basis}
+                        onPick={setPicked}
+                      />
+                    ))}
+                  </div>
+                )}
+              </div>
+            );
+          })}
           <p className="note" style={{ marginTop: 12 }}>
             Common items for {RESTAURANTS.length} chains, from each chain's own published US nutrition
             and tagged <b>Menu</b>. Most are a fresh pull of the chain's official figures on
