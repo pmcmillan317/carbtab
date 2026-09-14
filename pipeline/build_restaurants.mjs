@@ -139,6 +139,22 @@ const NX = [
     note: "Whole sandwiches and salads; soups are the cup. A You Pick Two is half of each. A bread bowl adds about 87 g on its own.",
     capPerCat: 7,
   },
+  {
+    slug: "shake-shack",
+    name: "Shake Shack",
+    keepCats: ["Burgers", "Chicken", "Breakfast", "Flat-Top Dogs", "Fries", "Shakes", "Floats", "Cups & Sundaes", "Drinks"],
+    // Shake Shack's grid lists both assembled burgers (ShackBurger, Smokeshack,
+    // Cheeseburger...) and their individual toppings/parts as separate rows -
+    // drop the standalone parts, keep the assembled items (same convention as
+    // McDonald's/Burger King/Wendy's here, unlike Five Guys which only lists parts).
+    dropRe: /^(American Cheese|Avocado|Bacon \(2 Slices\)|Bbq Sauce|Bun|Burger Patty|Cherry Peppers|Crispy Onions|Egg|Egg White|Gluten Free Bun|Lettuce( Wrap)?|Martin'?s Potato Roll|Onion|Pickle|Pickled Jalapenos|Ranch|Sausage (Link|Patty)|Shacksauce|Tomato|Veggie Patty)$/i,
+    // Burgers has ~35 distinct names once parts are dropped (Single/Double/
+    // Triple aren't recognized size words, so they don't group and collapse
+    // like Large/Small does) - the default cap's shortest-name-first pick
+    // was dropping ShackBurger and Cheeseburger, their two most-ordered
+    // items, in favor of shorter-named ones like plain Hamburger.
+    capPerCat: 20,
+  },
 ];
 
 // Item names that are never useful in a carb counter (combos, catering, bulk,

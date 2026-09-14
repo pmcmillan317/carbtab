@@ -3,15 +3,15 @@
  "slug": "taco-bell",
  "source": "https://www.nutritionix.com/taco-bell/menu/premium",
  "platform": "nutritionix",
- "updated": "09/09/2026",
- "pulledAt": "2026-09-10",
+ "updated": "09/11/2026",
+ "pulledAt": "2026-09-14",
  "type": "grid",
  "columns": {
   "cal": 1,
   "carb": 7,
   "fiber": 8
  },
- "count": 535,
+ "count": 531,
  "items": [
   {
    "cat": "New",
@@ -173,34 +173,6 @@
    "carb": 13,
    "fiber": 0,
    "cal": 50
-  },
-  {
-   "cat": "New",
-   "name": "Tajín Cheesy Gordita Crunch",
-   "carb": 45,
-   "fiber": 6,
-   "cal": 460
-  },
-  {
-   "cat": "New",
-   "name": "Tajín Pineapple Strawberry Freeze (16 oz)",
-   "carb": 47,
-   "fiber": 0,
-   "cal": 180
-  },
-  {
-   "cat": "New",
-   "name": "Tajín Pineapple Strawberry Freeze (20 oz)",
-   "carb": 58,
-   "fiber": 0,
-   "cal": 220
-  },
-  {
-   "cat": "New",
-   "name": "TajínTaco",
-   "carb": 16,
-   "fiber": 4,
-   "cal": 210
   },
   {
    "cat": "Cantina Chicken Menu",

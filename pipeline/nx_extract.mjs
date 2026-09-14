@@ -40,6 +40,7 @@ const CHAINS = [
   { slug: "papa-johns", name: "Papa Johns", nx: "papa-johns" },
   { slug: "little-caesars", name: "Little Caesars", nx: "little-caesars-pizza" },
   { slug: "panera", name: "Panera Bread", nx: "panera-bread" },
+  { slug: "shake-shack", name: "Shake Shack", nx: "shake-shack" },
 ];
 
 const decode = (s) =>

@@ -1,0 +1,1529 @@
+{
+ "chain": "Shake Shack",
+ "slug": "shake-shack",
+ "source": "https://www.nutritionix.com/shake-shack/menu/premium",
+ "platform": "nutritionix",
+ "updated": "04/22/2025",
+ "pulledAt": "2026-09-14",
+ "type": "grid",
+ "columns": {
+  "cal": 1,
+  "carb": 7,
+  "fiber": 8
+ },
+ "count": 216,
+ "items": [
+  {
+   "cat": "Burgers",
+   "name": "American Cheese",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Burgers",
+   "name": "Avocado",
+   "carb": 3,
+   "fiber": 2,
+   "cal": 60
+  },
+  {
+   "cat": "Burgers",
+   "name": "Avocado Bacon Burger, Double",
+   "carb": 29,
+   "fiber": 2,
+   "cal": 870
+  },
+  {
+   "cat": "Burgers",
+   "name": "Avocado Bacon Burger, Single",
+   "carb": 28,
+   "fiber": 2,
+   "cal": 610
+  },
+  {
+   "cat": "Burgers",
+   "name": "Avocado Bacon Burger, Triple",
+   "carb": 31,
+   "fiber": 6,
+   "cal": 1160
+  },
+  {
+   "cat": "Burgers",
+   "name": "Bacon (2 Slices)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Burgers",
+   "name": "Bacon Cheeseburger, Double",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 760
+  },
+  {
+   "cat": "Burgers",
+   "name": "Bacon Cheeseburger, Single",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 500
+  },
+  {
+   "cat": "Burgers",
+   "name": "Bacon Cheeseburger, Triple",
+   "carb": 26,
+   "fiber": 2,
+   "cal": 1020
+  },
+  {
+   "cat": "Burgers",
+   "name": "Black Truffle Burger, Double",
+   "carb": 32,
+   "fiber": 3,
+   "cal": 970
+  },
+  {
+   "cat": "Burgers",
+   "name": "Black Truffle Burger, Single",
+   "carb": 32,
+   "fiber": 3,
+   "cal": 700
+  },
+  {
+   "cat": "Burgers",
+   "name": "Black Truffle ‘Shroom Burger",
+   "carb": 50,
+   "fiber": 5,
+   "cal": 600
+  },
+  {
+   "cat": "Burgers",
+   "name": "Black Truffle ‘Shroom Stack",
+   "carb": 50,
+   "fiber": 5,
+   "cal": 870
+  },
+  {
+   "cat": "Burgers",
+   "name": "BLT Double",
+   "carb": 28,
+   "fiber": 3,
+   "cal": 500
+  },
+  {
+   "cat": "Burgers",
+   "name": "Brat Burger, Double",
+   "carb": 34,
+   "fiber": 0,
+   "cal": 1050
+  },
+  {
+   "cat": "Burgers",
+   "name": "Brat Burger, Single",
+   "carb": 34,
+   "fiber": 0,
+   "cal": 860
+  },
+  {
+   "cat": "Burgers",
+   "name": "Burger Patty",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Burgers",
+   "name": "Cherry Peppers",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Burgers",
+   "name": "Crispy Onions",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Burgers",
+   "name": "Double Cheeseburger",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 700
+  },
+  {
+   "cat": "Burgers",
+   "name": "Double Hamburger",
+   "carb": 24,
+   "fiber": 0,
+   "cal": 560
+  },
+  {
+   "cat": "Burgers",
+   "name": "Double ShackBurger",
+   "carb": 27,
+   "fiber": 0,
+   "cal": 760
+  },
+  {
+   "cat": "Burgers",
+   "name": "Double Smokeshack",
+   "carb": 28,
+   "fiber": 0,
+   "cal": 830
+  },
+  {
+   "cat": "Burgers",
+   "name": "Fried Pickle Bacon Burger, Double",
+   "carb": 41,
+   "fiber": 4,
+   "cal": 1080
+  },
+  {
+   "cat": "Burgers",
+   "name": "Fried Pickle Bacon Burger, Single",
+   "carb": 40,
+   "fiber": 4,
+   "cal": 810
+  },
+  {
+   "cat": "Burgers",
+   "name": "Gluten Free Bun",
+   "carb": 31,
+   "fiber": 2,
+   "cal": 160
+  },
+  {
+   "cat": "Burgers",
+   "name": "Golden State Double",
+   "carb": 27,
+   "fiber": 0,
+   "cal": 840
+  },
+  {
+   "cat": "Burgers",
+   "name": "Golden State Single",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 560
+  },
+  {
+   "cat": "Burgers",
+   "name": "Grilled Cheese",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 320
+  },
+  {
+   "cat": "Burgers",
+   "name": "Lettuce",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Burgers",
+   "name": "Lettuce Wrap",
+   "carb": 1,
+   "fiber": 1,
+   "cal": 5
+  },
+  {
+   "cat": "Burgers",
+   "name": "Martin's Potato Roll",
+   "carb": 24,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Burgers",
+   "name": "Montlake Double Cut",
+   "carb": 36,
+   "fiber": 0,
+   "cal": 980
+  },
+  {
+   "cat": "Burgers",
+   "name": "Montlake Single Cut",
+   "carb": 36,
+   "fiber": 0,
+   "cal": 670
+  },
+  {
+   "cat": "Burgers",
+   "name": "Onion",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Burgers",
+   "name": "Pickle",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Burgers",
+   "name": "Pickled Jalapenos",
+   "carb": 1,
+   "fiber": 1,
+   "cal": 5
+  },
+  {
+   "cat": "Burgers",
+   "name": "Roadside Double Burger",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 770
+  },
+  {
+   "cat": "Burgers",
+   "name": "Shacksauce",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 60
+  },
+  {
+   "cat": "Burgers",
+   "name": "Shack Stack",
+   "carb": 50,
+   "fiber": 0,
+   "cal": 770
+  },
+  {
+   "cat": "Burgers",
+   "name": "Single Cheeseburger",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 440
+  },
+  {
+   "cat": "Burgers",
+   "name": "Single Hamburger",
+   "carb": 24,
+   "fiber": 0,
+   "cal": 370
+  },
+  {
+   "cat": "Burgers",
+   "name": "Single ShackBurger",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 500
+  },
+  {
+   "cat": "Burgers",
+   "name": "Single Smokeshack",
+   "carb": 28,
+   "fiber": 0,
+   "cal": 570
+  },
+  {
+   "cat": "Burgers",
+   "name": "Tomato",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Burgers",
+   "name": "Triple Cheeseburger",
+   "carb": 26,
+   "fiber": 2,
+   "cal": 950
+  },
+  {
+   "cat": "Burgers",
+   "name": "Triple Hamburger",
+   "carb": 24,
+   "fiber": 2,
+   "cal": 750
+  },
+  {
+   "cat": "Burgers",
+   "name": "Triple ShackBurger",
+   "carb": 27,
+   "fiber": 2,
+   "cal": 1020
+  },
+  {
+   "cat": "Burgers",
+   "name": "Triple Smokeshack",
+   "carb": 29,
+   "fiber": 2,
+   "cal": 1090
+  },
+  {
+   "cat": "Burgers",
+   "name": "Veggie Patty",
+   "carb": 20,
+   "fiber": 2,
+   "cal": 210
+  },
+  {
+   "cat": "Burgers",
+   "name": "Veggie Shack Double",
+   "carb": 73,
+   "fiber": 3,
+   "cal": 910
+  },
+  {
+   "cat": "Burgers",
+   "name": "Veggie Shack Single",
+   "carb": 53,
+   "fiber": 2,
+   "cal": 630
+  },
+  {
+   "cat": "Burgers",
+   "name": "‘Shroom Burger",
+   "carb": 49,
+   "fiber": 0,
+   "cal": 510
+  },
+  {
+   "cat": "Chicken",
+   "name": "Avocado Bacon Chicken",
+   "carb": 37,
+   "fiber": 2,
+   "cal": 680
+  },
+  {
+   "cat": "Chicken",
+   "name": "Bbq Sauce",
+   "carb": 16,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Chicken",
+   "name": "Chicken Bites (6 Piece)",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 300
+  },
+  {
+   "cat": "Chicken",
+   "name": "Chicken Bites (10 Piece)",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 510
+  },
+  {
+   "cat": "Chicken",
+   "name": "Chicken Shack",
+   "carb": 34,
+   "fiber": 0,
+   "cal": 550
+  },
+  {
+   "cat": "Chicken",
+   "name": "Herb Mayonnaise",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Chicken",
+   "name": "Honey Mustard",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Chicken",
+   "name": "Ranch",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Chicken",
+   "name": "Spicy Pickle Bacon Chicken Sandwich",
+   "carb": 37,
+   "fiber": 3,
+   "cal": 690
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Bacon Egg And Cheese Sandwich",
+   "carb": 25,
+   "fiber": 2,
+   "cal": 400
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Bacon Egg And Cheese Sandwich (Double Egg)",
+   "carb": 26,
+   "fiber": 2,
+   "cal": 490
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Blueberry Cheese Danish",
+   "carb": 37,
+   "fiber": 1,
+   "cal": 340
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Breakfast Sauce",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Chocolate Crossiant",
+   "carb": 38,
+   "fiber": 2,
+   "cal": 390
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Crossiant",
+   "carb": 39,
+   "fiber": 1,
+   "cal": 420
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Egg",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Egg And Cheese Sandwich",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 340
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Egg And Cheese Sandwich (Double Egg)",
+   "carb": 26,
+   "fiber": 2,
+   "cal": 430
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Egg White",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Egg White Light",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 320
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Egg White Light (Double Egg)",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 340
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hashbrowns",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Hashbrowns with Sauce",
+   "carb": 58,
+   "fiber": 5,
+   "cal": 740
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Monkey Bread",
+   "carb": 48,
+   "fiber": 2,
+   "cal": 380
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage Breakfast Sandwich",
+   "carb": 28,
+   "fiber": 0,
+   "cal": 530
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage Breakfast Sandwich (Double Egg)",
+   "carb": 28,
+   "fiber": 0,
+   "cal": 620
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Sausage Patty",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Wake Up Shack",
+   "carb": 36,
+   "fiber": 3,
+   "cal": 630
+  },
+  {
+   "cat": "Breakfast",
+   "name": "Wake Up Shack (Double Egg)",
+   "carb": 37,
+   "fiber": 3,
+   "cal": 720
+  },
+  {
+   "cat": "Flat-Top Dogs",
+   "name": "Add Cheese Sauce",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Flat-Top Dogs",
+   "name": "Garden Dog",
+   "carb": 27,
+   "fiber": 1,
+   "cal": 180
+  },
+  {
+   "cat": "Flat-Top Dogs",
+   "name": "Hot Dog",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 350
+  },
+  {
+   "cat": "Flat-Top Dogs",
+   "name": "Sausage Link",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Flat-Top Dogs",
+   "name": "Shack-Cago Dog",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 390
+  },
+  {
+   "cat": "Fries",
+   "name": "Bacon Cheese Fries",
+   "carb": 65,
+   "fiber": 7,
+   "cal": 840
+  },
+  {
+   "cat": "Fries",
+   "name": "Cheese Fries",
+   "carb": 64,
+   "fiber": 7,
+   "cal": 710
+  },
+  {
+   "cat": "Fries",
+   "name": "Double Down Fries",
+   "carb": 164,
+   "fiber": 16,
+   "cal": 1910
+  },
+  {
+   "cat": "Fries",
+   "name": "Parmesan Black Truffle Fries",
+   "carb": 65,
+   "fiber": 6,
+   "cal": 800
+  },
+  {
+   "cat": "Fries",
+   "name": "Regular Fries",
+   "carb": 63,
+   "fiber": 7,
+   "cal": 470
+  },
+  {
+   "cat": "Fries",
+   "name": "Spicy Cheese Fries with Ranch",
+   "carb": 66,
+   "fiber": 7,
+   "cal": 850
+  },
+  {
+   "cat": "Fries",
+   "name": "Spicy Fries with Ranch",
+   "carb": 65,
+   "fiber": 7,
+   "cal": 610
+  },
+  {
+   "cat": "Shakes",
+   "name": "Black & White Shake",
+   "carb": 80,
+   "fiber": 0,
+   "cal": 770
+  },
+  {
+   "cat": "Shakes",
+   "name": "Bourbon Salted Honey Shake",
+   "carb": 89,
+   "fiber": 0,
+   "cal": 890
+  },
+  {
+   "cat": "Shakes",
+   "name": "Chocolate Shake",
+   "carb": 76,
+   "fiber": 0,
+   "cal": 750
+  },
+  {
+   "cat": "Shakes",
+   "name": "Cookies & Cream Shake",
+   "carb": 98,
+   "fiber": 0,
+   "cal": 850
+  },
+  {
+   "cat": "Shakes",
+   "name": "Featured Browmie Batter Hot Cocoa Shake",
+   "carb": 98,
+   "fiber": 5,
+   "cal": 920
+  },
+  {
+   "cat": "Shakes",
+   "name": "Featured Cherry Blossom Shake",
+   "carb": 104,
+   "fiber": 0,
+   "cal": 880
+  },
+  {
+   "cat": "Shakes",
+   "name": "Featured Dubai Chocolate Shake",
+   "carb": 102,
+   "fiber": 4,
+   "cal": 1080
+  },
+  {
+   "cat": "Shakes",
+   "name": "Featured Thai Tea Shake",
+   "carb": 102,
+   "fiber": 0,
+   "cal": 860
+  },
+  {
+   "cat": "Shakes",
+   "name": "Loaded Chocolate Cookies & Cream Shake",
+   "carb": 126,
+   "fiber": 0,
+   "cal": 1160
+  },
+  {
+   "cat": "Shakes",
+   "name": "Malt",
+   "carb": 19,
+   "fiber": 0,
+   "cal": 90
+  },
+  {
+   "cat": "Shakes",
+   "name": "Orange County Dreamsicle Shake",
+   "carb": 86,
+   "fiber": 0,
+   "cal": 740
+  },
+  {
+   "cat": "Shakes",
+   "name": "Salted Caramel Shake",
+   "carb": 99,
+   "fiber": 0,
+   "cal": 840
+  },
+  {
+   "cat": "Shakes",
+   "name": "Strawberry Shake",
+   "carb": 77,
+   "fiber": 0,
+   "cal": 690
+  },
+  {
+   "cat": "Shakes",
+   "name": "Vanilla & Chocolate Shake",
+   "carb": 74,
+   "fiber": 2,
+   "cal": 720
+  },
+  {
+   "cat": "Shakes",
+   "name": "Vanilla Shake",
+   "carb": 72,
+   "fiber": 0,
+   "cal": 680
+  },
+  {
+   "cat": "Shakes",
+   "name": "Whipped Cream for Shakes",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 70
+  },
+  {
+   "cat": "Floats",
+   "name": "Creamsicle Float",
+   "carb": 75,
+   "fiber": 0,
+   "cal": 440
+  },
+  {
+   "cat": "Floats",
+   "name": "Root Beer Float",
+   "carb": 70,
+   "fiber": 0,
+   "cal": 430
+  },
+  {
+   "cat": "Cups & Sundaes",
+   "name": "Double Chocolate Cup",
+   "carb": 51,
+   "fiber": 0,
+   "cal": 490
+  },
+  {
+   "cat": "Cups & Sundaes",
+   "name": "Double Vanilla & Chocolate Cup",
+   "carb": 50,
+   "fiber": 0,
+   "cal": 470
+  },
+  {
+   "cat": "Cups & Sundaes",
+   "name": "Double Vanilla Cup",
+   "carb": 49,
+   "fiber": 0,
+   "cal": 450
+  },
+  {
+   "cat": "Cups & Sundaes",
+   "name": "Single Chocolate Cup",
+   "carb": 32,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Cups & Sundaes",
+   "name": "Single Vanilla & Chocolate Cup",
+   "carb": 31,
+   "fiber": 0,
+   "cal": 290
+  },
+  {
+   "cat": "Cups & Sundaes",
+   "name": "Single Vanilla Cup",
+   "carb": 30,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Cups & Sundaes",
+   "name": "Whipped Cream",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 35
+  },
+  {
+   "cat": "Drinks",
+   "name": "Coke, Large",
+   "carb": 58,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Drinks",
+   "name": "Coke, Small",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Drinks",
+   "name": "Coke Zero, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Coke Zero, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Crush, Large",
+   "carb": 65,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Drinks",
+   "name": "Crush, Small",
+   "carb": 43,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Coke, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Coke, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Dr. Pepper, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Dr. Pepper, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Mountain Dew, Large",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 10
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Mountain Dew, Small",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Pepsi, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Diet Pepsi, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Dr. Pepper, Large",
+   "carb": 59,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Drinks",
+   "name": "Dr. Pepper, Small",
+   "carb": 40,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Drinks",
+   "name": "Fanta Orange, Large",
+   "carb": 67,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Drinks",
+   "name": "Fanta Orange, Small",
+   "carb": 45,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks",
+   "name": "Featured Lemonade, Large",
+   "carb": 72,
+   "fiber": 1,
+   "cal": 290
+  },
+  {
+   "cat": "Drinks",
+   "name": "Featured Lemonade, Small",
+   "carb": 45,
+   "fiber": 1,
+   "cal": 190
+  },
+  {
+   "cat": "Drinks",
+   "name": "Fifty-Fifty Featured Lemonade, Large",
+   "carb": 30,
+   "fiber": 1,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks",
+   "name": "Fifty-Fifty Featured Lemonade, Small",
+   "carb": 25,
+   "fiber": 1,
+   "cal": 110
+  },
+  {
+   "cat": "Drinks",
+   "name": "Fifty-Fifty Shack Made Lemonade, Large",
+   "carb": 36,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Drinks",
+   "name": "Fifty-Fifty Shack Made Lemonade, Small",
+   "carb": 22,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Drinks",
+   "name": "Fresh Brewed Sweetened Iced (Gallon)",
+   "carb": 309,
+   "fiber": 0,
+   "cal": 1190
+  },
+  {
+   "cat": "Drinks",
+   "name": "Fresh Brewed Sweetened Iced Tea, Large",
+   "carb": 45,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Drinks",
+   "name": "Fresh Brewed Sweetened Iced Tea, Small",
+   "carb": 28,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Drinks",
+   "name": "Fresh Brewed Unsweetened Iced (Gallon)",
+   "carb": 11,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Drinks",
+   "name": "Fresh Brewed Unsweetened Iced Tea, Large",
+   "carb": 2,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Fresh Brewed Unsweetened Iced Tea, Small",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gingerale, Large",
+   "carb": 51,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Drinks",
+   "name": "Gingerale, Small",
+   "carb": 31,
+   "fiber": 0,
+   "cal": 120
+  },
+  {
+   "cat": "Drinks",
+   "name": "Honest Kids Apple Juice",
+   "carb": 10,
+   "fiber": 0,
+   "cal": 40
+  },
+  {
+   "cat": "Drinks",
+   "name": "Joe Coffee Cold Brew (7.5oz Can)",
+   "carb": 1,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Joe Coffee Honey Oat Latte (7.5oz Can)",
+   "carb": 16,
+   "fiber": 1,
+   "cal": 90
+  },
+  {
+   "cat": "Drinks",
+   "name": "Joe’S Coffee Cold Brew (16oz & 24oz)- Draft",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Joe’S Coffee Nitro Cold Brew (10oz & 16oz)- Draft",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mountain Dew, Large",
+   "carb": 69,
+   "fiber": 0,
+   "cal": 260
+  },
+  {
+   "cat": "Drinks",
+   "name": "Mountain Dew, Small",
+   "carb": 46,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Drinks",
+   "name": "Orange Juice (8 fl oz)",
+   "carb": 26,
+   "fiber": 0,
+   "cal": 110
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pepsi, Large",
+   "carb": 62,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pepsi, Small",
+   "carb": 41,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pepsimax, Large",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Pepsimax, Small",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Root Beer, Large",
+   "carb": 69,
+   "fiber": 0,
+   "cal": 280
+  },
+  {
+   "cat": "Drinks",
+   "name": "Root Beer, Small",
+   "carb": 42,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Drinks",
+   "name": "Root Beer Bottle or Can (12oz)",
+   "carb": 44,
+   "fiber": 0,
+   "cal": 180
+  },
+  {
+   "cat": "Drinks",
+   "name": "Shack-Made Lemonade (Gallon)",
+   "carb": 369,
+   "fiber": 0,
+   "cal": 1480
+  },
+  {
+   "cat": "Drinks",
+   "name": "Shack-Made Lemonade, Large",
+   "carb": 70,
+   "fiber": 0,
+   "cal": 270
+  },
+  {
+   "cat": "Drinks",
+   "name": "Shack-Made Lemonade, Small",
+   "carb": 43,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Drinks",
+   "name": "Shack2O Sparkling",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 0
+  },
+  {
+   "cat": "Drinks",
+   "name": "Shackblend Stumptown Drip Coffee (12oz or 16oz)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sprite, Large",
+   "carb": 60,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Drinks",
+   "name": "Sprite, Small",
+   "carb": 36,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Drinks",
+   "name": "Starry, Large",
+   "carb": 58,
+   "fiber": 0,
+   "cal": 220
+  },
+  {
+   "cat": "Drinks",
+   "name": "Starry, Small",
+   "carb": 39,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Drinks",
+   "name": "Strawberry Lemonade, Large",
+   "carb": 58,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Drinks",
+   "name": "Strawberry Lemonade, Small",
+   "carb": 36,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Drinks",
+   "name": "Stumptown Cold Brew Nitro (10.3 fl oz)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 5
+  },
+  {
+   "cat": "Beer, Wines & Cocktails",
+   "name": "Appico Spritz Can (250mL)",
+   "carb": 18,
+   "fiber": 0,
+   "cal": 240
+  },
+  {
+   "cat": "Beer, Wines & Cocktails",
+   "name": "Beer Float",
+   "carb": 52,
+   "fiber": 0,
+   "cal": 490
+  },
+  {
+   "cat": "Beer, Wines & Cocktails",
+   "name": "Brooklyn Brewery Shackmeister Ale (12oz. Draft)",
+   "carb": 17,
+   "fiber": 0,
+   "cal": 160
+  },
+  {
+   "cat": "Beer, Wines & Cocktails",
+   "name": "Brooklyn Brewery Shackmeister Ale (16oz. Draft)",
+   "carb": 17,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Beer, Wines & Cocktails",
+   "name": "Brooklyn Brewery Shackmeister Ale (24oz. Draft)",
+   "carb": 25,
+   "fiber": 0,
+   "cal": 310
+  },
+  {
+   "cat": "Beer, Wines & Cocktails",
+   "name": "Brooklyn Brewery Shackmeister Ale (32oz. Draft)",
+   "carb": 33,
+   "fiber": 0,
+   "cal": 420
+  },
+  {
+   "cat": "Beer, Wines & Cocktails",
+   "name": "Brooklyn Brewery Shackmeister Ale (60oz. Draft)",
+   "carb": 62,
+   "fiber": 0,
+   "cal": 780
+  },
+  {
+   "cat": "Beer, Wines & Cocktails",
+   "name": "Gotham Project Red Wine Can (8.4 oz)",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Beer, Wines & Cocktails",
+   "name": "Gotham Project Rose Wine Can (8.4 oz)",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Beer, Wines & Cocktails",
+   "name": "Gotham Project White Wine Can (8.4 oz)",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Beer, Wines & Cocktails",
+   "name": "Margarita Can (100mL)",
+   "carb": 15,
+   "fiber": 0,
+   "cal": 190
+  },
+  {
+   "cat": "Beer, Wines & Cocktails",
+   "name": "Negroni Can (100mL)",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Beer, Wines & Cocktails",
+   "name": "Old Fashioned Can (100mL)",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 230
+  },
+  {
+   "cat": "Beer, Wines & Cocktails",
+   "name": "Paloma Can (250mL)",
+   "carb": 7,
+   "fiber": 0,
+   "cal": 170
+  },
+  {
+   "cat": "Beer, Wines & Cocktails",
+   "name": "Shack Red (6 oz)",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 150
+  },
+  {
+   "cat": "Beer, Wines & Cocktails",
+   "name": "Shack Red Can (8.4 oz)",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Beer, Wines & Cocktails",
+   "name": "Shack Rose Can (8.4 oz)",
+   "carb": 9,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Beer, Wines & Cocktails",
+   "name": "Shack Sparkling Can (8.4 oz)",
+   "carb": 6,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Beer, Wines & Cocktails",
+   "name": "Shack White (6 oz)",
+   "carb": 4,
+   "fiber": 0,
+   "cal": 140
+  },
+  {
+   "cat": "Beer, Wines & Cocktails",
+   "name": "Shack White Can (8.4 oz)",
+   "carb": 5,
+   "fiber": 0,
+   "cal": 200
+  },
+  {
+   "cat": "Beer, Wines & Cocktails",
+   "name": "Truly Can (24 oz)",
+   "carb": 3,
+   "fiber": 0,
+   "cal": 210
+  },
+  {
+   "cat": "Beer, Wines & Cocktails",
+   "name": "Vodka White Tea Soda Can (250mL)",
+   "carb": 0,
+   "fiber": 0,
+   "cal": 80
+  },
+  {
+   "cat": "Combo Meals",
+   "name": "Avocado Bacon Burger, Double, Combo Meal (High Range)",
+   "carb": 158,
+   "fiber": 12,
+   "cal": 1660
+  },
+  {
+   "cat": "Combo Meals",
+   "name": "Avocado Bacon Burger, Single, Combo Meal (High Range)",
+   "carb": 157,
+   "fiber": 12,
+   "cal": 1400
+  },
+  {
+   "cat": "Combo Meals",
+   "name": "Bacon Cheeseburger, Double, Combo Meal (High Range)",
+   "carb": 153,
+   "fiber": 8,
+   "cal": 1530
+  },
+  {
+   "cat": "Combo Meals",
+   "name": "Bacon Cheeseburger, Single, Combo Meal (High Range)",
+   "carb": 153,
+   "fiber": 8,
+   "cal": 1270
+  },
+  {
+   "cat": "Combo Meals",
+   "name": "Black Truffle Burger, Double, Combo Meal (High Range)",
+   "carb": 160,
+   "fiber": 9,
+   "cal": 1710
+  },
+  {
+   "cat": "Combo Meals",
+   "name": "Black Truffle Burger, Single, Combo Meal (High Range)",
+   "carb": 160,
+   "fiber": 9,
+   "cal": 1440
+  },
+  {
+   "cat": "Combo Meals",
+   "name": "Cheeseburger, Double, Combo Meal (High Range)",
+   "carb": 153,
+   "fiber": 8,
+   "cal": 1430
+  },
+  {
+   "cat": "Combo Meals",
+   "name": "Cheeseburger, Single, Combo Meal (High Range)",
+   "carb": 152,
+   "fiber": 8,
+   "cal": 1180
+  },
+  {
+   "cat": "Combo Meals",
+   "name": "Chicken Bites (6 Piece) with BBQ Sauce, Honey Mustard & Ranch, Combo Meal (High Range)",
+   "carb": 146,
+   "fiber": 7,
+   "cal": 1190
+  },
+  {
+   "cat": "Combo Meals",
+   "name": "Chicken Bites (10 Piece) with BBQ Sauce, Honey Mustard & Ranch, Combo Meal (High Range)",
+   "carb": 157,
+   "fiber": 7,
+   "cal": 1390
+  },
+  {
+   "cat": "Combo Meals",
+   "name": "Chicken Shack, Combo Meal (High Range)",
+   "carb": 162,
+   "fiber": 9,
+   "cal": 1290
+  },
+  {
+   "cat": "Combo Meals",
+   "name": "Hot Dog, Combo Meal (High Range)",
+   "carb": 152,
+   "fiber": 9,
+   "cal": 1090
+  },
+  {
+   "cat": "Combo Meals",
+   "name": "ShackBurger, Double, Combo Meal (High Range)",
+   "carb": 154,
+   "fiber": 9,
+   "cal": 1490
+  },
+  {
+   "cat": "Combo Meals",
+   "name": "ShackBurger, Single, Combo Meal (High Range)",
+   "carb": 153,
+   "fiber": 9,
+   "cal": 1240
+  },
+  {
+   "cat": "Combo Meals",
+   "name": "Smokeshack, Double, Combo Meal (High Range)",
+   "carb": 156,
+   "fiber": 9,
+   "cal": 1600
+  },
+  {
+   "cat": "Combo Meals",
+   "name": "Smokeshack, Single, Combo Meal (High Range)",
+   "carb": 155,
+   "fiber": 9,
+   "cal": 1340
+  }
+ ]
+}
