@@ -4,7 +4,7 @@ import restaurantsData from "../data/restaurants.json";
 import type { Restaurant } from "../types";
 
 export const FOODS = foodsData as Food[];
-export const RESTAURANTS = restaurantsData as Restaurant[];
+export const RESTAURANTS = [...(restaurantsData as Restaurant[])].sort((a, b) => a.name.localeCompare(b.name));
 
 const ALL_RESTAURANT_ITEMS: RestaurantItem[] = RESTAURANTS.flatMap((r) => r.items);
 

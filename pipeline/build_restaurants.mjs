@@ -556,6 +556,12 @@ for (const r of out) {
   }
 }
 
+// alphabetical, so the Restaurants tab doesn't depend on the app re-sorting
+// (it does too, as a safety net, but the source file should read cleanly on
+// its own) and doesn't reflect pipeline/pull order, which is meaningless to
+// a reader.
+out.sort((a, b) => a.name.localeCompare(b.name));
+
 // compact: this file is fully generated (source of truth is the pipeline + raw
 // pulls) and it ships inlined in the bundle, so skip the pretty-print whitespace
 writeFileSync(join(root, "app/src/data/restaurants.json"), JSON.stringify(out) + "\n");
