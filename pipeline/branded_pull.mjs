@@ -28,10 +28,13 @@ const KEY = readFileSync(join(HERE, ".usda-key.local"), "utf8").trim();
 const TODAY = "2026-09-10";
 const PER_QUERY = 30; // results to consider per search
 const KEEP_PER_QUERY = 14; // survivors to keep per search after filtering
-// Raised from 3200 to make room for the Wegmans batch below without risking
-// the alphabetical sort-then-slice cutting off "W" names, which is exactly
-// backwards for the brand we just added on purpose.
-const TOTAL_CAP = 4200;
+// Generous headroom above the current real total (~5,900 as of the full
+// Wegmans catalog pull) rather than a tight number that has to be raised
+// again every time coverage grows - a silent truncation here is worse than
+// a bigger file, since the alphabetical sort-then-slice cuts off "W" names
+// first, which is exactly backwards for a brand added on purpose. run()
+// logs a warning if this is ever too small again.
+const TOTAL_CAP = 7500;
 
 // [searchTerm, CarbTab category]
 const QUERIES = [
@@ -119,36 +122,14 @@ const QUERIES = [
   ["brownie mix", "Grain"], ["cake mix", "Grain"], ["chocolate chips", "Snack"],
   ["all purpose flour", "Grain"], ["granulated sugar", "Other"], ["breadcrumbs", "Grain"],
   ["croutons", "Grain"], ["stuffing mix", "Grain"], ["cornbread mix", "Grain"],
-  // Wegmans store brand — searched explicitly (not just left to fall out of
-  // generic queries) so it actually gets even coverage across categories,
-  // since FDC's relevance ranking for e.g. "granola bar" favors national
-  // brands and a store brand rarely lands in the top KEEP_PER_QUERY results.
-  ["wegmans bread", "Grain"], ["wegmans bagel", "Grain"], ["wegmans english muffin", "Grain"],
-  ["wegmans tortilla", "Grain"], ["wegmans pasta", "Grain"], ["wegmans rice", "Grain"],
-  ["wegmans cereal", "Grain"], ["wegmans granola", "Grain"], ["wegmans oatmeal", "Grain"],
-  // Wegmans' toasted-oat-rings cereal (the Cheerios equivalent) shows up
-  // under two different names depending on the flavor - "Os" for chocolate,
-  // "Toasted Oats" for the rest - neither of which a generic "cereal" search
-  // happens to surface. Found by hand, each needs its own query.
-  ["wegmans toasted os", "Grain"], ["wegmans apple cinnamon toasted oats", "Grain"],
-  ["wegmans honey nut toasted oats", "Grain"], ["wegmans raisin bran", "Grain"],
-  ["wegmans waffles", "Grain"], ["wegmans pancake mix", "Grain"], ["wegmans crackers", "Snack"],
-  ["wegmans pretzels", "Snack"], ["wegmans popcorn", "Snack"], ["wegmans chips", "Snack"],
-  ["wegmans tortilla chips", "Snack"], ["wegmans cookies", "Snack"], ["wegmans granola bar", "Snack"],
-  ["wegmans trail mix", "Snack"], ["wegmans fruit snacks", "Snack"], ["wegmans crackers cheese", "Snack"],
-  ["wegmans chocolate", "Snack"], ["wegmans ice cream", "Dairy"], ["wegmans yogurt", "Dairy"],
-  ["wegmans greek yogurt", "Dairy"], ["wegmans milk", "Dairy"], ["wegmans cheese", "Dairy"],
-  ["wegmans shredded cheese", "Dairy"], ["wegmans cottage cheese", "Dairy"], ["wegmans cream cheese", "Dairy"],
-  ["wegmans sour cream", "Dairy"], ["wegmans butter", "Dairy"], ["wegmans string cheese", "Dairy"],
-  ["wegmans frozen pizza", "Grain"], ["wegmans chicken nuggets", "Protein"], ["wegmans frozen vegetables", "Vegetable"],
-  ["wegmans french fries", "Vegetable"], ["wegmans frozen meal", "Other"], ["wegmans burrito", "Grain"],
-  ["wegmans pasta sauce", "Other"], ["wegmans salsa", "Other"], ["wegmans hummus", "Beans"],
-  ["wegmans soup", "Other"], ["wegmans canned beans", "Beans"], ["wegmans peanut butter", "Nuts"],
-  ["wegmans almonds", "Nuts"], ["wegmans mixed nuts", "Nuts"], ["wegmans applesauce", "Fruit"],
-  ["wegmans dried fruit", "Fruit"], ["wegmans raisins", "Fruit"], ["wegmans juice", "Other"],
-  ["wegmans lemonade", "Other"], ["wegmans soda", "Other"], ["wegmans seltzer", "Other"],
-  ["wegmans coffee", "Other"], ["wegmans hot chocolate", "Other"], ["wegmans ketchup", "Other"],
-  ["wegmans bbq sauce", "Other"], ["wegmans dressing", "Other"], ["wegmans honey", "Other"],
+  // Wegmans is NOT handled by guessed queries here - see pullBrandExhaustive()
+  // below, called from run(). Guessing individual "wegmans <category>" terms
+  // (the previous approach) only ever finds what you think to search for -
+  // it took three separate manual digs to find that their Cheerios-style
+  // cereal is "Os" for chocolate but "Toasted Oats" for two other flavors,
+  // and that's not a pattern worth trying to anticipate one term at a time.
+  // Paging through the entire brand catalog instead makes that whole class
+  // of gap impossible, not just smaller.
 ];
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -266,6 +247,129 @@ function norm(s) {
   return s.toLowerCase().replace(/[^a-z0-9]+/g, " ").replace(/\s+/g, " ").trim();
 }
 
+// Rough keyword categorizer for items pulled without a query-assigned
+// category (the exhaustive brand pull below) - order matters, first match
+// wins. Not meant to be perfect, just closer than dumping everything from
+// one brand into a single bucket regardless of what it actually is.
+function classify(name) {
+  // Padding both ends means a plain " " + word + " " check works as a real
+  // word-boundary match for single words AND multi-word phrases alike, so
+  // "milk" matches "whole milk" but not "buttermilk" or "milkshake".
+  const n = " " + norm(name) + " ";
+  const has = (...phrases) => phrases.some((p) => n.includes(" " + p + " "));
+  if (has("chicken", "beef", "pork", "turkey", "sausage", "bacon", "ham", "meatball", "salmon", "tuna", "shrimp", "tofu", "quiche", "egg", "eggs"))
+    return "Protein";
+  if (has("milk", "yogurt", "cheese", "sour cream", "butter", "ice cream", "creamer", "custard", "half and half"))
+    return "Dairy";
+  if (has("almond", "almonds", "walnut", "walnuts", "peanut", "peanuts", "cashew", "cashews", "pecan", "pecans", "pistachio", "pistachios", "hazelnut", "macadamia", "nut butter", "trail mix", "mixed nuts"))
+    return "Nuts";
+  if (has("bean", "beans", "lentil", "lentils", "chickpea", "chickpeas", "garbanzo", "hummus"))
+    return "Beans";
+  if (has("apple", "orange", "banana", "berry", "berries", "grape", "grapes", "melon", "mango", "peach", "pear", "raisin", "raisins", "craisin", "craisins", "cranberry", "cranberries", "dried fruit", "applesauce", "fruit cup", "fruit slice", "fruit snack", "fruit roll"))
+    return "Fruit";
+  if (has("bread", "bagel", "bun", "buns", "roll", "rolls", "muffin", "croissant", "tortilla", "naan", "pita", "pasta", "spaghetti", "macaroni", "noodle", "noodles", "rice", "cereal", "oat", "oats", "oatmeal", "granola", "pancake", "pancakes", "waffle", "waffles", "biscuit", "biscuits", "pizza", "stuffing", "pie crust", "cornbread"))
+    return "Grain";
+  if (has("broccoli", "carrot", "carrots", "peas", "corn", "spinach", "guacamole", "vegetable", "vegetables", "tater tot", "tater tots", "french fries", "mashed potato", "baked potato"))
+    return "Vegetable";
+  if (has("cookie", "cookies", "cracker", "crackers", "chip", "chips", "pretzel", "pretzels", "popcorn", "candy", "chocolate", "gummy", "gummi", "cake", "brownie", "brownies", "donut", "donuts", "macaron", "macarons", "mint", "mints", "toffee", "bar", "bars", "wafer", "wafers", "marshmallow", "marshmallows", "fudge"))
+    return "Snack";
+  return "Other";
+}
+
+// Turn one FDC search-result food into a branded.json row and push it to
+// out[], applying the same quality bar everywhere (both the per-query loop
+// and the exhaustive brand pull below call this). Returns whether it was
+// kept, so callers can track counts without duplicating any of this logic.
+function tryAddItem(f, category, seen, out) {
+  const carb100 = nutr(f.foodNutrients, "205");
+  if (carb100 == null || carb100 < 0 || carb100 > 105) return false;
+
+  const rawBrandSrc = f.brandName || f.brandOwner || "";
+  if (STORE_BRAND.test(rawBrandSrc) || STORE_BRAND.test(f.description || "")) return false;
+
+  const brand = cleanBrand(f.brandName || f.brandOwner);
+  const desc = cleanDesc(f.description || "", brand);
+  if (!desc || desc.length < 3 || desc.length > 58) return false;
+
+  // "Brand Description", but not if the description already contains the brand
+  let name = desc;
+  const bWord = norm(brand).split(" ")[0];
+  if (brand && bWord && bWord.length >= 3 && !norm(desc).includes(bWord)) name = `${brand} ${desc}`;
+  name = name.replace(/\s+/g, " ").trim();
+  if (name.length > 58) return false;
+
+  // aggressive dedup: same brand + same carb density + same product gist is
+  // the same thing for a carb counter, even if the label text differs
+  // ("Goldfish Cheddar Crackers" vs "Goldfish Crackers Cheddar" vs ...)
+  const grams = servingGrams(f);
+  const gist = norm(name)
+    .replace(
+      /\b(crackers?|snacks?|cereal|original|cheese|flavou?red?|the|with|made|real|mini|bites|pieces?|count|family|size|value|multi|pack|natural|all|whole|grain|style|classic|new|now|now with|per serving)\b/g,
+      " ",
+    )
+    .replace(/\s+/g, " ")
+    .trim();
+  const key = `${category}|${Math.round(carb100)}|${gist}`;
+  if (seen.has(key) || seen.has(norm(name))) return false;
+  seen.add(key);
+  seen.add(norm(name));
+
+  const fiber100 = nutr(f.foodNutrients, "291");
+  const item = {
+    id: `br-${f.fdcId}`,
+    name,
+    cat: category,
+    c: Math.round((carb100 / 100) * 1000) / 1000,
+  };
+  if (fiber100 != null && fiber100 >= 0 && fiber100 <= carb100) {
+    item.n = Math.round((Math.max(0, carb100 - fiber100) / 100) * 1000) / 1000;
+    item.fi = Math.round((fiber100 / 100) * 1000) / 1000;
+  }
+  if (grams && grams >= 3 && grams <= 1200) {
+    item.s = servingLabel(f, grams);
+    item.sg = Math.round(grams);
+  }
+  if (f.gtinUpc) item.upc = String(f.gtinUpc).replace(/^0+(?=\d{8,})/, "");
+  out.push(item);
+  return true;
+}
+
+// Page through EVERY product FDC has under a brand, rather than hoping a
+// list of guessed search terms happens to surface each one. A bare brand
+// name as the query is, in practice, a full catalog listing for that brand
+// (verified: zero off-brand results across 26 pages for "wegmans") - so
+// this is both more complete and simpler than the per-category query list
+// it replaces.
+async function pullBrandExhaustive(brandTerm, seen, out) {
+  const PAGE_SIZE = 200;
+  let page = 1;
+  let totalHits = Infinity;
+  let kept = 0;
+  while ((page - 1) * PAGE_SIZE < totalHits) {
+    process.stdout.write(`\r  ${brandTerm} (full catalog) page ${page}...`.padEnd(50));
+    let j;
+    try {
+      j = await cachedFetch(
+        `https://api.nal.usda.gov/fdc/v1/foods/search?api_key=${KEY}&query=${encodeURIComponent(
+          brandTerm
+        )}&dataType=Branded&pageSize=${PAGE_SIZE}&pageNumber=${page}`
+      );
+    } catch (e) {
+      console.log(`\n  ! ${brandTerm} page ${page}: ${e}`);
+      break;
+    }
+    totalHits = j.totalHits ?? 0;
+    const foods = j.foods || [];
+    if (foods.length === 0) break;
+    for (const f of foods) {
+      if (tryAddItem(f, classify(f.description || ""), seen, out)) kept++;
+    }
+    page++;
+    await sleep(120);
+  }
+  return kept;
+}
+
 async function run() {
   const seen = new Set();
   const out = [];
@@ -287,60 +391,13 @@ async function run() {
     let kept = 0;
     for (const f of j.foods || []) {
       if (kept >= KEEP_PER_QUERY) break;
-      const carb100 = nutr(f.foodNutrients, "205");
-      if (carb100 == null || carb100 < 0 || carb100 > 105) continue;
-
-      const rawBrandSrc = f.brandName || f.brandOwner || "";
-      if (STORE_BRAND.test(rawBrandSrc) || STORE_BRAND.test(f.description || "")) continue;
-
-      const brand = cleanBrand(f.brandName || f.brandOwner);
-      const desc = cleanDesc(f.description || "", brand);
-      if (!desc || desc.length < 3 || desc.length > 58) continue;
-
-      // "Brand Description", but not if the description already contains the brand
-      let name = desc;
-      const bWord = norm(brand).split(" ")[0];
-      if (brand && bWord && bWord.length >= 3 && !norm(desc).includes(bWord)) name = `${brand} ${desc}`;
-      name = name.replace(/\s+/g, " ").trim();
-      if (name.length > 58) continue;
-
-      // aggressive dedup: same brand + same carb density + same product gist is
-      // the same thing for a carb counter, even if the label text differs
-      // ("Goldfish Cheddar Crackers" vs "Goldfish Crackers Cheddar" vs ...)
-      const grams = servingGrams(f);
-      const gist = norm(name)
-        .replace(
-          /\b(crackers?|snacks?|cereal|original|cheese|flavou?red?|the|with|made|real|mini|bites|pieces?|count|family|size|value|multi|pack|natural|all|whole|grain|style|classic|new|now|now with|per serving)\b/g,
-          " ",
-        )
-        .replace(/\s+/g, " ")
-        .trim();
-      const key = `${category}|${Math.round(carb100)}|${gist}`;
-      if (seen.has(key) || seen.has(norm(name))) continue;
-      seen.add(key);
-      seen.add(norm(name));
-
-      const fiber100 = nutr(f.foodNutrients, "291");
-      const item = {
-        id: `br-${f.fdcId}`,
-        name,
-        cat: category,
-        c: Math.round((carb100 / 100) * 1000) / 1000,
-      };
-      if (fiber100 != null && fiber100 >= 0 && fiber100 <= carb100) {
-        item.n = Math.round((Math.max(0, carb100 - fiber100) / 100) * 1000) / 1000;
-        item.fi = Math.round((fiber100 / 100) * 1000) / 1000;
-      }
-      if (grams && grams >= 3 && grams <= 1200) {
-        item.s = servingLabel(f, grams);
-        item.sg = Math.round(grams);
-      }
-      if (f.gtinUpc) item.upc = String(f.gtinUpc).replace(/^0+(?=\d{8,})/, "");
-      out.push(item);
-      kept++;
+      if (tryAddItem(f, category, seen, out)) kept++;
     }
   }
   process.stdout.write("\r" + " ".repeat(50) + "\r");
+
+  const wegmansKept = await pullBrandExhaustive("wegmans", seen, out);
+  console.log(`\rWegmans: ${wegmansKept} items from the full catalog` + " ".repeat(20));
 
   // cap near-identical variants: at most 4 rows per "brand + first product word"
   const STEM_CAP = 4;
@@ -354,6 +411,9 @@ async function run() {
   }
 
   deduped.sort((a, b) => a.name.localeCompare(b.name));
+  if (deduped.length > TOTAL_CAP) {
+    console.log(`! ${deduped.length} items survive filtering, TOTAL_CAP=${TOTAL_CAP} is truncating ${deduped.length - TOTAL_CAP} of them`);
+  }
   const final = deduped.slice(0, TOTAL_CAP);
   writeFileSync(join(ROOT, "app/public/branded.json"), JSON.stringify(final));
   const size = (JSON.stringify(final).length / 1024).toFixed(0);
